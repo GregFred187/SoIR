@@ -43,6 +43,12 @@
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_OGHUZ</Type>
+			<Button>Art/Interface/Buttons/Civilizations/Gokturks.dds</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_wolfhead.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>		
+		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_OMAN</Type>
 			<Button>,Art/Interface/Buttons/Civilizations/Oman.dds,Art/Interface/Buttons/mem_civilizations_atlas.dds,4,3</Button>
 			<Path>Art/Interface/TeamColor/FlagDECAL_Oman.dds</Path>
@@ -60,6 +66,36 @@
 			<Path>Art/Interface/TeamColor/FlagDECAL_Delhi.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KHANIDS</Type>
+			<Button>Art/Interface/Buttons/Dip.dds</Button>
+			<Path>Art/Interface/TeamColor/flagdecal_karakhanids.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KHITAI</Type>
+			<Button>Art/Interface/Buttons/Dip3.dds</Button>
+			<Path>Art/Interface/TeamColor/khit.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_CHAG</Type>
+			<Button>,Art/Interface/Buttons/Civilizations/Ilkhanate.dds,Art/Interface/Buttons/mem_civilizations_atlas.dds,8,4</Button>
+			<Path>Art/Interface/TeamColor/chag.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_MOGH</Type>
+			<Button>Art/Interface/Buttons/mogh.dds</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_moghu.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>	
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KARA</Type>
+			<Button>Art/Interface/Buttons/ButtonKara.dds</Button>
+			<Path>Art/Interface/TeamColor/Karaflag.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>		
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_SINDH</Type>
 			<Button>,Art/Interface/Buttons/Civilizations/Sindh.dds,Art/Interface/Buttons/mem_civilizations_atlas.dds,4,4</Button>
@@ -175,6 +211,18 @@
 			<bWhiteFlag>0</bWhiteFlag>
 		</CivilizationArtInfo>
 		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KARTIDS</Type>
+			<Button>,Art/Interface/Buttons/Civilizations/Mongolia.dds,Art/Interface/Buttons/Warlords_Atlas_2.dds,7,1</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_TURK-Uigher.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_MUZZ</Type>
+			<Button>,Art/Interface/Buttons/Civilizations/Mongolia.dds,Art/Interface/Buttons/Warlords_Atlas_2.dds,2,5</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_Arabic.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>		
+		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_BUYIDS</Type>
 			<Button>,Art/Interface/Buttons/Civilizations/Buyids.dds,Art/Interface/Buttons/mem_buildings_atlas.dds,8,14</Button>
 			<Path>Art/Interface/TeamColor/FlagDECAL_Buyids.dds</Path>
@@ -241,10 +289,88 @@
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_CHALUKYA</Type>
+			<Button>Art/Interface/Buttons/ASS3.dds</Button>
+			<Path>Art/Interface/TeamColor/Chal.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_SERBIA</Type>
 			<Button>Art/Interface/Buttons/Serbia.dds</Button>
 			<Path>Art/Interface/TeamColor/flagDECAL_Serbia.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KYPCHAKS</Type>
+			<Button>Art/Interface/Buttons/ASS2.dds</Button>
+			<Path>Art/Interface/TeamColor/Kyp.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_GOLDEN</Type>
+			<Button>Art/Interface/Buttons/ASS.dds</Button>
+			<Path>Art/Interface/TeamColor/golden.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_CRIMEA</Type>
+			<Button>Art/Interface/Buttons/crimea.dds</Button>
+			<Path>Art/Interface/TeamColor/crimean.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KIEV</Type>
+			<Button>Art/Interface/Buttons/button_kiev.dds</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_Ukraine.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KHAZARS</Type>
+			<Button>Art/Interface/Buttons/Khazar.dds</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_Khazar.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>		
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KAZAK</Type>
+			<Button>Art/Interface/Buttons/kazakk.dds</Button>
+			<Path>Art/Interface/TeamColor/kazak.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_ALANIA</Type>
+			<Button>Art/Interface/Buttons/alan.dds</Button>
+			<Path>Art/Interface/TeamColor/alan1.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_JAL</Type>
+			<Button>Art/Interface/Buttons/Dip2.dds</Button>
+			<Path>Art/Interface/TeamColor/FlagDECAL_Ilkhanate.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_CIRCASSIA</Type>
+			<Button>Art/Interface/Buttons/circassia.dds</Button>
+			<Path>Art/Interface/TeamColor/circassian.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_NOGAI</Type>
+			<Button>Art/Interface/Buttons/nogai.dds</Button>
+			<Path>Art/Interface/TeamColor/nogai.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_KALMYK</Type>
+			<Button>Art/Interface/Buttons/kalmyk.dds</Button>
+			<Path>Art/Interface/TeamColor/kalmyk.dds</Path>
+			<bWhiteFlag>1</bWhiteFlag>			
+		</CivilizationArtInfo>
+		<CivilizationArtInfo>
+			<Type>ART_DEF_CIVILIZATION_ZUNGHAR</Type>
+			<Button>Art/Interface/Buttons/zhungar.dds</Button>
+			<Path>Art/Interface/TeamColor/zhungar.dds</Path>
+			<bWhiteFlag>0</bWhiteFlag>
+		</CivilizationArtInfo>			
 	</CivilizationArtInfos>
 </Civ4ArtDefines>

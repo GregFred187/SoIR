@@ -154,6 +154,31 @@
 		<Italian>Gain control of at least 8 provinces before 1140 AD</Italian>
 		<Spanish>Gain control of at least 8 provinces before 1140 AD</Spanish>
 	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA1</Tag>
+		<English>Ensure Sunni Islam is present in all of your cities in 1137 AD</English>
+		<French>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</French>
+		<German>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</German>
+		<Italian>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</Italian>
+		<Spanish>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA2</Tag>
+		<English>Destroy or secure the destruction of the Samanids by 1029 AD</English>
+		<French>Settle 5 different Great People in your capital by 1300 AD</French>
+		<German>Settle 5 different Great People in your capital by 1300 AD</German>
+		<Italian>Settle 5 different Great People in your capital by 1300 AD</Italian>
+		<Spanish>Settle 5 different Great People in your capital by 1300 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA3</Tag>
+		<English>Control Farghana, Mavarannahr, and the Tarim Basin in 1132 AD</English>
+		<French>Have at least one city with legendary culture by 1300 AD</French>
+		<German>Have at least one city with legendary culture by 1300 AD</German>
+		<Italian>Have at least one city with legendary culture by 1300 AD</Italian>
+		<Spanish>Have at least one city with legendary culture by 1300 AD</Spanish>
+	</TEXT>	
 
 	<TEXT>
 		<Tag>TXT_KEY_UHV_ARM1</Tag>
@@ -557,9 +582,109 @@
 		<Tag>TXT_KEY_UHV_AYY3</Tag>
 		<English>Have the highest score in 1500 AD</English>
 		<French>Have the highest score in 1500 AD</French>
-		<German>Habt 1500 n. Chr. die meisten Punkte</German>
+		<German>Have the highest score in 1500 AD</German>
 		<Italian>Have the highest score in 1500 AD</Italian>
 		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON1</Tag>
+		<English>Control the Ilkhanate at its greatest extent in 1335 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON2</Tag>
+		<English>Have 20 Marketplaces and 20 Fairgrounds by 1316 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON3</Tag>
+		<English>Have at least four vassal states in 1335 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHG1</Tag>
+		<English>Control the Chagatai Khanate at its greatest extent in 1360 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHG2</Tag>
+		<English>Capture the city of Delhi by 1370 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHG3</Tag>
+		<English>Never lose a city to the Timurids before 1450 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>	
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR1</Tag>
+		<English>Control at least one gold, sugar, spices, ivory, and gems resource by 1600 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR2</Tag>
+		<English>Sink 25 ships owned by Muslim powers</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR3</Tag>
+		<English>Control at least 12 Harbors in 1620 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Have the highest score in 1500 AD</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOL1</Tag>
+		<English>Ensure Sunni Islam is present in all of your cities in 1341 AD</English>
+		<French>Control all of Egypt, Levant and Hejaz in 1160 AD</French>
+		<German>Control all of Egypt, Levant and Hejaz in 1160 AD</German>
+		<Italian>Control all of Egypt, Levant and Hejaz in 1160 AD</Italian>
+		<Spanish>Control all of Egypt, Levant and Hejaz in 1160 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOL2</Tag>
+		<English>Control your ancestral lands in Azerbaijan and the Caucasus in 1360 AD</English>
+		<French>Spread Shia Islam to 30% by 1250 AD</French>
+		<German>Spread Shia Islam to 30% by 1250 AD</German>
+		<Italian>Spread Shia Islam to 30% by 1250 AD</Italian>
+		<Spanish>Spread Shia Islam to 30% by 1250 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOL3</Tag>
+		<English>Have four or more Genoan Quarters by 1380 AD</English>
+		<French>Become the Commander of the Faithful by 1250 AD</French>
+		<German>Become the Commander of the Faithful by 1250 AD</German>
+		<Italian>Become the Commander of the Faithful by 1250 AD</Italian>
+		<Spanish>Become the Commander of the Faithful by 1250 AD</Spanish>
 	</TEXT>
 
 	<TEXT>

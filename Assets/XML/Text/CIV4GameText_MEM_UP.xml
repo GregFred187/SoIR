@@ -109,6 +109,86 @@
 		<Spanish>Double Production Speed of National Wonders</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UP_MON</Tag>
+		<English>The Power of Meritocracy:</English>
+		<French>The Power of Engineering:</French>
+		<German>The Power of Engineering:</German>
+		<Italian>The Power of Engineering:</Italian>
+		<Spanish>The Power of Engineering:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MON2</Tag>
+		<English>+25% Great General Emergence and +25% National Wonder Production</English>
+		<French>The Power of Engineering</French>
+		<German>The Power of Engineering</German>
+		<Italian>The Power of Engineering</Italian>
+		<Spanish>The Power of Engineering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOL</Tag>
+		<English>The Power of Tribute:</English>
+		<French>The Power of Engineering:</French>
+		<German>The Power of Engineering:</German>
+		<Italian>The Power of Engineering:</Italian>
+		<Spanish>The Power of Engineering:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GOL2</Tag>
+		<English>Vassal States Provide Regular Payments of Gold</English>
+		<French>The Power of Engineering</French>
+		<German>The Power of Engineering</German>
+		<Italian>The Power of Engineering</Italian>
+		<Spanish>The Power of Engineering</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_CHG</Tag>
+		<English>The Power of the Silk Road:</English>
+		<French>The Power of Engineering:</French>
+		<German>The Power of Engineering:</German>
+		<Italian>The Power of Engineering:</Italian>
+		<Spanish>The Power of Engineering:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CHG2</Tag>
+		<English>Cheaper Caravans and +20% Bonus in Commerce in All Cities</English>
+		<French>The Power of Engineering</French>
+		<German>The Power of Engineering</German>
+		<Italian>The Power of Engineering</Italian>
+		<Spanish>The Power of Engineering</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHA</Tag>
+		<English>The Power of Productivity:</English>
+		<French>The Power of Engineering:</French>
+		<German>The Power of Engineering:</German>
+		<Italian>The Power of Engineering:</Italian>
+		<Spanish>The Power of Engineering:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHA2</Tag>
+		<English>Increase in Generation of Culture and Production</English>
+		<French>The Power of Engineering</French>
+		<German>The Power of Engineering</German>
+		<Italian>The Power of Engineering</Italian>
+		<Spanish>The Power of Engineering</Spanish>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_UP_POR</Tag>
+		<English>The Power of Maritime Empire:</English>
+		<French>The Power of Engineering:</French>
+		<German>The Power of Engineering:</German>
+		<Italian>The Power of Engineering:</Italian>
+		<Spanish>The Power of Engineering:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_POR2</Tag>
+		<English>Bonus in Trade, Colonial Happiness, and Naval Capabilities</English>
+		<French>The Power of Engineering</French>
+		<German>The Power of Engineering</German>
+		<Italian>The Power of Engineering</Italian>
+		<Spanish>The Power of Engineering</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UP_SAM</Tag>
 		<English>The Power of Legitimacy:</English>
 		<French>The Power of Legitimacy:</French>

@@ -115,6 +115,10 @@
 			<Path>Art/Movies/Wonders/StatueOfLiberty.bik</Path>
 		</MovieArtInfo>
 		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_GOL_GUMBAZ</Type>
+			<Path>Art/Movies/Wonders/Gol_Gumbaz.dds</Path>
+		</MovieArtInfo>		
+		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_STONEHENGE</Type>
 			<Path>Art/Movies/Wonders/Stonehenge.bik</Path>
 		</MovieArtInfo>

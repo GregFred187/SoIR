@@ -206,6 +206,14 @@
 		<Spanish>Venetian Quarters: %d1 / %d2</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HARBOR</Tag>
+		<English>Harbors: %d1 / %d2</English>
+		<French>Venetian Quarters: %d1 / %d2</French>
+		<German>Venetian Quarters: %d1 / %d2</German>
+		<Italian>Venetian Quarters: %d1 / %d2</Italian>
+		<Spanish>Venetian Quarters: %d1 / %d2</Spanish>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_VICTORY_SUCCESSFUL_CONVERSIONS</Tag>
 		<English>Successful conversions: %d1 / %d2</English>
 		<French>Successful conversions: %d1 / %d2</French>
@@ -345,10 +353,42 @@
 		<Tag>TXT_KEY_VICTORY_CASTLES</Tag>
 		<English>Castles: %d1 / %d2</English>
 		<French>Castles: %d1 / %d2</French>
-		<German>Schlösser: %d1 / %d2</German>
+		<German>Castles: %d1 / %d2</German>
 		<Italian>Castles: %d1 / %d2</Italian>
 		<Spanish>Castles: %d1 / %d2</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FAIR</Tag>
+		<English>Fairgrounds: %d1 / %d2</English>
+		<French>Churches: %d1 / %d2</French>
+		<German>Churches: %d1 / %d2</German>
+		<Italian>Churches: %d1 / %d2</Italian>
+		<Spanish>Churches: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MARKET</Tag>
+		<English>Markets: %d1 / %d2</English>
+		<French>Castles: %d1 / %d2</French>
+		<German>Castles: %d1 / %d2</German>
+		<Italian>Castles: %d1 / %d2</Italian>
+		<Spanish>Castles: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_VENICEE</Tag>
+		<English>Venetian Quarters: %d1 / %d2</English>
+		<French>Castles: %d1 / %d2</French>
+		<German>Castles: %d1 / %d2</German>
+		<Italian>Castles: %d1 / %d2</Italian>
+		<Spanish>Castles: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GENOOO</Tag>
+		<English>Genoan Quarters: %d1 / %d2</English>
+		<French>Castles: %d1 / %d2</French>
+		<German>Castles: %d1 / %d2</German>
+		<Italian>Castles: %d1 / %d2</Italian>
+		<Spanish>Castles: %d1 / %d2</Spanish>
+	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CHURCHES</Tag>
 		<English>Churches: %d1 / %d2</English>
@@ -565,6 +605,14 @@
 		<Italian>Portuguese ships sunk: %d1 / %d2</Italian>
 		<Spanish>Portuguese ships sunk: %d1 / %d2</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_OTTOMAN_SHIPS_SUNK</Tag>
+		<English>Ships sunk: %d1 / %d2</English>
+		<French>Portuguese ships sunk: %d1 / %d2</French>
+		<German>Portuguese ships sunk: %d1 / %d2</German>
+		<Italian>Portuguese ships sunk: %d1 / %d2</Italian>
+		<Spanish>Portuguese ships sunk: %d1 / %d2</Spanish>
+	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_RELIGION_SPREAD_TO</Tag>
 		<English>%s1_religion spread to %s2%% / %d3%%</English>

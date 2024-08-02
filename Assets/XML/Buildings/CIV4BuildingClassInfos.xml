@@ -1100,6 +1100,30 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURANA</Type>
+			<Description>TXT_KEY_BUILDING_BURANA</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_BURANA</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_SSOPHIA</Type>
+			<Description>TXT_KEY_BUILDING_SAINT_SOPHIA</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_SSOPHIA</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOMB_KHAL</Type>
 			<Description>TXT_KEY_BUILDING_TOMB_KHAL</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -1267,6 +1291,30 @@
 			<DefaultBuilding>BUILDING_ESFAHAN_BRIDGE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_GOL_GUMBAZ</Type>
+			<Description>TXT_KEY_BUILDING_GOL_GUMBAZ</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_GOL_GUMBAZ</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_MARG_OBSERVATORY</Type>
+			<Description>TXT_KEY_BUILDING_MARG_OBSERVATORY</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_MARG_OBSERVATORY</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>		
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_IMAGE_OF_EDESSA</Type>
 			<Description>TXT_KEY_RELIC_IMAGE_OF_EDESSA</Description>

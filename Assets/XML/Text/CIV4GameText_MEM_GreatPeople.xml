@@ -1567,6 +1567,38 @@
 		<Spanish>Niccol&#242; de' Conti</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CRISGAMMA</Tag>
+		<English>Crist&#243;v&#227;o da Gama</English>
+		<French>Crist&#243;v&#227;o da Gama</French>
+		<German>Crist&#243;v&#227;o da Gama</German>
+		<Italian>Crist&#243;v&#227;o da Gama</Italian>
+		<Spanish>Crist&#243;v&#227;o da Gama</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALVARO</Tag>
+		<English>&#193;lvaro de Castro</English>
+		<French>&#193;lvaro de Castro</French>
+		<German>&#193;lvaro de Castro</German>
+		<Italian>&#193;lvaro de Castro</Italian>
+		<Spanish>&#193;lvaro de Castro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANTONIO</Tag>
+		<English>Ant&#243;nio de Noronha</English>
+		<French>Ant&#243;nio de Noronha</French>
+		<German>Ant&#243;nio de Noronha</German>
+		<Italian>Ant&#243;nio de Noronha</Italian>
+		<Spanish>Ant&#243;nio de Noronha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDRE</Tag>
+		<English>Andr&#233; Furtado de Mendon&#231;a</English>
+		<French>Andr&#233; Furtado de Mendon&#231;a</French>
+		<German>Andr&#233; Furtado de Mendon&#231;a</German>
+		<Italian>Andr&#233; Furtado de Mendon&#231;a</Italian>
+		<Spanish>Andr&#233; Furtado de Mendon&#231;a</Spanish>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ODORIC</Tag>
 		<English>Odoric of Pordenone</English>
 		<French>Odoric de Pordenone</French>

@@ -96,6 +96,8 @@ BeginTeam
 EndTeam
 BeginTeam
 EndTeam
+BeginTeam
+EndTeam
 BeginPlayer
 	Team=0
 	LeaderType=LEADER_JUSTINIAN
@@ -168,6 +170,20 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=5
+	LeaderType=LEADER_SIMEON
+	CivType=CIVILIZATION_BULGARIA
+	PlayableCiv=1
+	StateReligion=RELIGION_ORTHODOXY
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=6
 	LeaderType=LEADER_SAMAN
 	CivType=CIVILIZATION_SAMANIDS
 	PlayableCiv=1
@@ -181,7 +197,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=6
+	Team=7
 	LeaderType=LEADER_ASHOT
 	CivType=CIVILIZATION_ARMENIA
 	WhiteFlag=1
@@ -196,7 +212,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=7
+	Team=8
 	LeaderType=LEADER_YAHYA
 	CivType=CIVILIZATION_YEMEN
 	PlayableCiv=1
@@ -210,7 +226,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=8
+	Team=9
 	LeaderType=LEADER_AL_DAWLA
 	CivType=CIVILIZATION_BUYIDS
 	PlayableCiv=1
@@ -224,7 +240,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=9
+	Team=10
 	LeaderType=LEADER_SIDDHRAJ
 	CivType=CIVILIZATION_GUJARAT
 	PlayableCiv=1
@@ -238,7 +254,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=10
+	Team=11
 	LeaderType=LEADER_SABUKTIGIN
 	CivType=CIVILIZATION_GHAZNAVIDS
 	PlayableCiv=1
@@ -252,7 +268,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=11
+	Team=12
 	LeaderType=LEADER_AL_MUIZZ
 	CivType=CIVILIZATION_FATIMIDS
 	PlayableCiv=1
@@ -266,7 +282,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=12
+	Team=13
 	LeaderType=LEADER_TAMAR
 	CivType=CIVILIZATION_GEORGIA
 	PlayableCiv=1
@@ -280,7 +296,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=13
+	Team=14
 	LeaderType=LEADER_DODO
 	CivType=CIVILIZATION_SINDH
 	PlayableCiv=1
@@ -294,7 +310,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=14
+	Team=15
 	LeaderType=LEADER_ALP_ARSLAN
 	CivType=CIVILIZATION_SELJUKS
 	PlayableCiv=1
@@ -308,7 +324,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=15
+	Team=16
 	LeaderType=LEADER_KILIJ
 	CivType=CIVILIZATION_TURKS
 	WhiteFlag=1
@@ -323,7 +339,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=16
+	Team=17
 	LeaderType=LEADER_ALA_AD_DIN
 	CivType=CIVILIZATION_KHWAREZM
 	WhiteFlag=1
@@ -338,7 +354,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=17
+	Team=18
 	LeaderType=LEADER_BOHEMOND
 	CivType=CIVILIZATION_ANTIOCH
 	PlayableCiv=1
@@ -352,7 +368,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=18
+	Team=19
 	LeaderType=LEADER_BALDWIN
 	CivType=CIVILIZATION_OUTREMER
 	PlayableCiv=1
@@ -366,7 +382,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=19
+	Team=20
 	LeaderType=LEADER_ZENGI
 	CivType=CIVILIZATION_ZENGIDS
 	PlayableCiv=1
@@ -380,7 +396,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=20
+	Team=21
 	LeaderType=LEADER_MUHAMMAD_GHORI
 	CivType=CIVILIZATION_GHORIDS
 	WhiteFlag=1
@@ -395,7 +411,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=21
+	Team=22
 	LeaderType=LEADER_AL_HAMAL
 	CivType=CIVILIZATION_OMAN
 	PlayableCiv=1
@@ -409,7 +425,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=22
+	Team=23
 	LeaderType=LEADER_SALADIN
 	CivType=CIVILIZATION_AYYUBIDS
 	PlayableCiv=1
@@ -423,7 +439,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=23
+	Team=24
 	LeaderType=LEADER_BAIBARS
 	CivType=CIVILIZATION_MAMLUKS
 	PlayableCiv=1
@@ -437,7 +453,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=24
+	Team=25
 	LeaderType=LEADER_SULEIMAN
 	CivType=CIVILIZATION_OTTOMAN
 	PlayableCiv=1
@@ -451,7 +467,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=25
+	Team=26
 	LeaderType=LEADER_BAHMAN
 	CivType=CIVILIZATION_BAHMANIDS
 	PlayableCiv=1
@@ -465,7 +481,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=26
+	Team=27
 	LeaderType=LEADER_TAMERLANE
 	CivType=CIVILIZATION_TIMURIDS
 	PlayableCiv=1
@@ -479,7 +495,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=27
+	Team=28
 	LeaderType=LEADER_UZUN_HASSAN
 	CivType=CIVILIZATION_AKKOYUNLU
 	PlayableCiv=1
@@ -493,7 +509,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=28
+	Team=29
 	LeaderType=LEADER_ABBAS
 	CivType=CIVILIZATION_SAFAVIDS
 	PlayableCiv=1
@@ -507,7 +523,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=29
+	Team=30
 	LeaderType=LEADER_JOAO
 	CivType=CIVILIZATION_PORTUGAL
 	PlayableCiv=1
@@ -521,7 +537,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=30
+	Team=31
 	LeaderType=LEADER_AKBAR
 	CivType=CIVILIZATION_MUGHALS
 	PlayableCiv=1
@@ -535,7 +551,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=31
+	Team=32
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK2
@@ -545,7 +561,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=32
+	Team=33
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK3
@@ -555,7 +571,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=33
+	Team=34
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK4
@@ -565,7 +581,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=34
+	Team=35
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK5
@@ -1386,20 +1402,20 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=32
+		UnitType=UNIT_ARCHER_SYRIAN, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Skadar
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_ORTHODOX_TEMPLE
 		ReligionType=RELIGION_ORTHODOXY
-		Player32Culture=5
+		Player33Culture=5
 	EndCity
 32,
 EndPlot
@@ -2078,14 +2094,14 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Bengazi
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
@@ -4098,20 +4114,20 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=31
+		UnitType=UNIT_ARCHER_SYRIAN, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Skopie
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_ORTHODOX_TEMPLE
 		ReligionType=RELIGION_ORTHODOXY
-		Player31Culture=5
+		Player32Culture=5
 	EndCity
 31,
 EndPlot
@@ -5757,14 +5773,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Tobruk
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
@@ -6419,20 +6435,20 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=31
+		UnitType=UNIT_ARCHER_SYRIAN, unitOwner=32
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Plovdivy
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_ORTHODOX_TEMPLE
 		ReligionType=RELIGION_ORTHODOXY
-		Player31Culture=5
+		Player32Culture=5
 	EndCity
 31,
 EndPlot
@@ -8470,14 +8486,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Paretonium
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
@@ -10398,14 +10414,14 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Alexandria
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
@@ -12844,14 +12860,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Soba
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
@@ -16088,14 +16104,14 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, unitOwner=34
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		cityOwner=34
 		CityName=Tarsos
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
@@ -16454,14 +16470,14 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Al-Quds
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
@@ -16532,14 +16548,14 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, unitOwner=32
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Sur
 		CityPopulation=2
 		BuildingType=BUILDING_HARBOR
@@ -18054,14 +18070,14 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Antioch
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
@@ -18260,14 +18276,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Aksum
 		CityPopulation=1
 		ReligionType=RELIGION_CATHOLICISM
@@ -18518,14 +18534,14 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Dimashq
 		CityPopulation=2
 		BuildingType=BUILDING_SUNNI_TEMPLE
@@ -18899,14 +18915,14 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, unitOwner=32
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Madinah
 		CityPopulation=1
 		BuildingType=BUILDING_MOSQUE_OF_THE_PROPHET
@@ -20030,14 +20046,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, unitOwner=34
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		cityOwner=34
 		CityName=Edessa
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
@@ -20273,14 +20289,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, unitOwner=32
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Makkah
 		CityPopulation=1
 		BuildingType=BUILDING_SUNNI_TEMPLE
@@ -23570,14 +23586,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, unitOwner=32
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Al-Mosul
 		CityPopulation=2
 		BuildingType=BUILDING_AQUEDUCT
@@ -23585,7 +23601,7 @@ BeginPlot
 		ReligionType=RELIGION_SUNNI
 		ReligionType=RELIGION_SHIA
 		Player2Culture=9
-		Player31Culture=3
+		Player32Culture=3
 	EndCity
 
 EndPlot
@@ -24022,14 +24038,14 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Samarra
 		CityPopulation=1
 		ReligionType=RELIGION_SUNNI
@@ -24430,14 +24446,14 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Al-Kufah
 		CityPopulation=3
 		BuildingType=BUILDING_AQUEDUCT
@@ -26268,14 +26284,14 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, unitOwner=34
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		cityOwner=34
 		CityName=Wasit
 		CityPopulation=3
 		ReligionType=RELIGION_SUNNI
@@ -28629,14 +28645,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Derbent
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
@@ -28955,14 +28971,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, unitOwner=34
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		cityOwner=34
 		CityName=Qazvin
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -30548,14 +30564,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Esfahan
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -34841,14 +34857,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, unitOwner=34
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		cityOwner=34
 		CityName=Kerman
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -42525,14 +42541,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Bamiyan
 		CityPopulation=1
 		BuildingType=BUILDING_BAMYAN_BUDDHA
@@ -42622,14 +42638,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, unitOwner=32
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Samarkand
 		CityPopulation=1
 		ReligionType=RELIGION_SUNNI
@@ -43253,14 +43269,14 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, unitOwner=32
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		cityOwner=32
 		CityName=Dwarka
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM
@@ -46433,14 +46449,14 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, unitOwner=34
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		cityOwner=34
 		CityName=Multan
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM
@@ -47732,14 +47748,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SWORDSMAN, UnitOwner=34
+		UnitType=UNIT_SWORDSMAN, UnitOwner=35
 		Damage=0
 		Level=1, Experience=2
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Chittor
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
@@ -47855,14 +47871,14 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, unitOwner=33
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		cityOwner=33
 		CityName=Lavapuri
 		CityPopulation=2
 		ReligionType=RELIGION_HINDUISM
@@ -50082,14 +50098,14 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=35
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		cityOwner=35
 		CityName=Dhillika
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM
@@ -50472,14 +50488,14 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, unitOwner=34
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		cityOwner=34
 		CityName=Gwalior
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM

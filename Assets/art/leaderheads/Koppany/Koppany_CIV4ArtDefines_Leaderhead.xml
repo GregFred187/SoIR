@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Leaderhead art path information -->
+<Civ4ArtDefines xmlns="x-schema:Koppany_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MAGYAR_Koppany</Type>
+			<Button>Modules/Custom Civilizations/Hungary/leaderheads/Koppany/Btn_LH_Magyar_Koppany.dds</Button>
+			<NIF>Modules/Custom Civilizations/Hungary/leaderheads/Koppany/shaka.nif</NIF>
+			<KFM>Modules/Custom Civilizations/Hungary/leaderheads/Koppany/shaka.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Civilizations/Hungary/leaderheads/Koppany/shaka_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Civilizations/Hungary/leaderheads/Koppany/shaka_BG.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>
