@@ -27,6 +27,22 @@
 		<Spanish>Maratha Cavalry</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANNONIER</Tag>
+		<English>Cannonier</English>
+		<French>Maratha Warrior</French>
+		<German>Maratha Warrior</German>
+		<Italian>Maratha Warrior</Italian>
+		<Spanish>Maratha Warrior</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSE_ARCHERCHIG</Tag>
+		<English>Chigil Horse Archer</English>
+		<French>Maratha Cavalry</French>
+		<German>Maratha Cavalry</German>
+		<Italian>Maratha Cavalry</Italian>
+		<Spanish>Maratha Cavalry</Spanish>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_MARATHA_PEDIA</Tag>
 		<English>[TAB]The Maratha are an Indian warrior caste native to Maharashtra. Prior to the rise of Shivaji Maharaj and the Maratha Empire (17th c.), members of the caste served primarily as mercenaries to Muslim rulers of the Deccan plateau and Gujarat. Maratha warriors are famed for their use of pata, a sword with a gauntlet integrated as a handguard.</English>
 		<French>[TAB]The Maratha are an Indian warrior caste native to Maharashtra. Prior to the rise of Shivaji Maharaj and the Maratha Empire (17th c.), members of the caste served primarily as mercenaries to Muslim rulers of the Deccan plateau and Gujarat. Maratha warriors are famed for their use of pata, a sword with a gauntlet integrated as a handguard.</French>
@@ -932,6 +948,14 @@
 		<Italian>Hospitaller Canon</Italian>
 		<Spanish>Hospitaller Canon</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TEUTONIC</Tag>
+		<English>Teutonic Knight</English>
+		<French>Hospitaller Canon</French>
+		<German>Hospitaller Canon</German>
+		<Italian>Hospitaller Canon</Italian>
+		<Spanish>Hospitaller Canon</Spanish>
+	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HOSPITALLER_KNIGHT</Tag>
 		<English>Hospitaller Knight</English>

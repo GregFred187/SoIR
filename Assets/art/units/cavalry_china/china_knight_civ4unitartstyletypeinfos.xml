@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+		<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_CHINA</Type>
+			<AndDependencyTypes>
+				<DependencyType>UNIT_KNIGHT</DependencyType>
+				<DependencyType>ART_DEF_UNIT_KNIGHT_CHINA</DependencyType>
+			</AndDependencyTypes>
+			<StyleUnits>
+				<StyleUnit>
+					<UnitType>UNIT_KNIGHT</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_KNIGHT_CHINA</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_KNIGHT_CHINA</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_KNIGHT_CHINA</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+			</StyleUnits>
+		</UnitArtStyleTypeInfo>
+	</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

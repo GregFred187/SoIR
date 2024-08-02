@@ -45,6 +45,14 @@
 	<Spanish>Tsar Simeon</Spanish>
   </TEXT>
   <TEXT>
+    <Tag>TXT_KEY_BARB_KALOYAN</Tag>
+    <English>Tsar Kaloyan</English>
+	<French>Tsar Simeon</French>
+	<German>Tsar Simeon</German>
+	<Italian>Tsar Simeon</Italian>
+	<Spanish>Tsar Simeon</Spanish>
+  </TEXT>  
+  <TEXT>
     <Tag>TXT_KEY_BARB_BULGARIAN</Tag>
     <English>Bulgarian</English>
 	<French>Bulgarian</French>
@@ -93,6 +101,14 @@
 	<Spanish>Saffarid</Spanish>
   </TEXT>
   <TEXT>
+    <Tag>TXT_KEY_BARB_KYR</Tag>
+    <English>Kyrgyz</English>
+	<French>Saffarid</French>
+	<German>Saffarid</German>
+	<Italian>Saffarid</Italian>
+	<Spanish>Saffarid</Spanish>
+  </TEXT>  
+  <TEXT>
     <Tag>TXT_KEY_BARB_QARMATIAN</Tag>
     <English>Qarmatian</English>
 	<French>Qarmatian</French>
@@ -108,6 +124,14 @@
 	<Italian>Ziyarid</Italian>
 	<Spanish>Ziyarid</Spanish>
   </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARB_POLISH</Tag>
+    <English>Polish Lithuanian</English>
+	<French>Ziyarid</French>
+	<German>Ziyarid</German>
+	<Italian>Ziyarid</Italian>
+	<Spanish>Ziyarid</Spanish>
+  </TEXT>  
   <TEXT>
     <Tag>TXT_KEY_BARB_QARAKHANID</Tag>
     <English>Qarakhanid</English>
@@ -188,6 +212,14 @@
 	<Italian>Subutai</Italian>
 	<Spanish>Subutai</Spanish>
   </TEXT>
+   <TEXT>
+    <Tag>TXT_KEY_BARB_JEBE</Tag>
+    <English>Jebe</English>
+	<French>Subutai</French>
+	<German>Subutai</German>
+	<Italian>Subutai</Italian>
+	<Spanish>Subutai</Spanish>
+  </TEXT> 
   <TEXT>
     <Tag>TXT_KEY_BARB_BAIJU</Tag>
     <English>Baiju</English>
@@ -261,6 +293,14 @@
 	<Spanish>Uzbek</Spanish>
   </TEXT>
   <TEXT>
+    <Tag>TXT_KEY_BARB_KAZAKH</Tag>
+    <English>Kazakh</English>
+	<French>Uzbek</French>
+	<German>Uzbek</German>
+	<Italian>Uzbek</Italian>
+	<Spanish>Uzbek</Spanish>
+  </TEXT>  
+  <TEXT>
     <Tag>TXT_KEY_BARB_MUHAMMAD_SHAYBANI</Tag>
     <English>Muhammad Shaybani</English>
 	<French>Muhammad Shaybani</French>
@@ -268,6 +308,14 @@
 	<Italian>Muhammad Shaybani</Italian>
 	<Spanish>Muhammad Shaybani</Spanish>
   </TEXT>
+   <TEXT>
+    <Tag>TXT_KEY_BARB_JANIBEKKHAN</Tag>
+    <English>Janibek Khan</English>
+	<French>Muhammad Shaybani</French>
+	<German>Muhammad Shaybani</German>
+	<Italian>Muhammad Shaybani</Italian>
+	<Spanish>Muhammad Shaybani</Spanish>
+  </TEXT> 
   <TEXT>
     <Tag>TXT_KEY_BARB_AFGHAN</Tag>
     <English>Afghan</English>
@@ -308,6 +356,14 @@
 	<Italian>Maratha</Italian>
 	<Spanish>Maratha</Spanish>
   </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARB_COSSACK</Tag>
+    <English>Cossack</English>
+	<French>Maratha</French>
+	<German>Maratha</German>
+	<Italian>Maratha</Italian>
+	<Spanish>Maratha</Spanish>
+  </TEXT>  
   <TEXT>
     <Tag>TXT_KEY_BARB_PIRATE</Tag>
     <English>Pirate</English>
@@ -571,7 +627,23 @@
     <German>Aloden</German>
     <Italian>Alodian</Italian>
     <Spanish>Alodian</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARB_ZAPOROZHIANCOSSACK</Tag>
+    <English>Zaporozhian Cossack</English>
+    <French>Alodian</French>
+    <German>Alodian</German>
+    <Italian>Alodian</Italian>
+    <Spanish>Alodian</Spanish>
   </TEXT> 
+  <TEXT>
+    <Tag>TXT_KEY_BARB_DONCOSSACK</Tag>
+    <English>Don Cossack</English>
+    <French>Alodian</French>
+    <German>Alodian</German>
+    <Italian>Alodian</Italian>
+    <Spanish>Alodian</Spanish>
+  </TEXT>   
   <TEXT>
     <Tag>TXT_KEY_BARB_ALWA</Tag>
     <English>Alwa</English>
@@ -2091,7 +2163,55 @@
     <German>Moesier</German>
     <Italian>Moesian</Italian>
     <Spanish>Moesian</Spanish>
+  </TEXT>
+   <TEXT>
+    <Tag>TXT_KEY_BARB_CHINESE</Tag>
+    <English>Chinese</English>
+    <French>Moesian</French>
+    <German>Moesian</German>
+    <Italian>Moesian</Italian>
+    <Spanish>Moesian</Spanish>
   </TEXT> 
+  <TEXT>
+    <Tag>TXT_KEY_BARB_JURCHEN</Tag>
+    <English>Jurchen</English>
+    <French>Moesian</French>
+    <German>Moesian</German>
+    <Italian>Moesian</Italian>
+    <Spanish>Moesian</Spanish>
+  </TEXT> 
+  <TEXT>
+    <Tag>TXT_KEY_BARB_TANGUT</Tag>
+    <English>Tangut</English>
+    <French>Moesian</French>
+    <German>Moesian</German>
+    <Italian>Moesian</Italian>
+    <Spanish>Moesian</Spanish>
+  </TEXT> 
+  <TEXT>
+    <Tag>TXT_KEY_BARB_UYGHUR</Tag>
+    <English>Uyghur</English>
+    <French>Moesian</French>
+    <German>Moesian</German>
+    <Italian>Moesian</Italian>
+    <Spanish>Moesian</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARB_OIRAT</Tag>
+    <English>Oirat</English>
+    <French>Moesian</French>
+    <German>Moesian</German>
+    <Italian>Moesian</Italian>
+    <Spanish>Moesian</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARB_DUGHLAT</Tag>
+    <English>Dughlat</English>
+    <French>Moesian</French>
+    <German>Moesian</German>
+    <Italian>Moesian</Italian>
+    <Spanish>Moesian</Spanish>
+  </TEXT>  
   <TEXT>
     <Tag>TXT_KEY_BARB_MOHMAND</Tag>
     <English>Mohmand</English>
@@ -2989,18 +3109,74 @@
     <Spanish>Turkish</Spanish>
   </TEXT> 
   <TEXT>
-    <Tag>TXT_KEY_BARB_TURKOMAN</Tag>
-    <English>Turkoman</English>
+    <Tag>TXT_KEY_BARB_TORKIL</Tag>
+    <English>Torkil</English>
     <French>Turkoman</French>
     <German>Turkmenen</German>
     <Italian>Turkoman</Italian>
     <Spanish>Turkoman</Spanish>
-  </TEXT> 
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARB_BERENDEI</Tag>
+    <English>Berendei</English>
+    <French>Turkoman</French>
+    <German>Turkoman</German>
+    <Italian>Turkoman</Italian>
+    <Spanish>Turkoman</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BARB_JASZ</Tag>
+    <English>Jasz</English>
+    <French>Turkoman</French>
+    <German>Turkoman</German>
+    <Italian>Turkoman</Italian>
+    <Spanish>Turkoman</Spanish>
+  </TEXT>  
   <TEXT>
     <Tag>TXT_KEY_BARB_TURKO_MONGOL</Tag>
     <English>Turko-Mongol</English>
     <French>Turko-Mongol</French>
-    <German>Turk-Mongolen</German>
+    <German>Turko-Mongol</German>
+    <Italian>Turko-Mongol</Italian>
+    <Spanish>Turko-Mongol</Spanish>
+  </TEXT> 
+    <TEXT>
+    <Tag>TXT_KEY_BARB_MANGHUD</Tag>
+    <English>Manghud</English>
+    <French>Turko-Mongol</French>
+    <German>Turko-Mongol</German>
+    <Italian>Turko-Mongol</Italian>
+    <Spanish>Turko-Mongol</Spanish>
+  </TEXT> 
+    <TEXT>
+    <Tag>TXT_KEY_BARB_SHAYBANID</Tag>
+    <English>Shaybanid</English>
+    <French>Turko-Mongol</French>
+    <German>Turko-Mongol</German>
+    <Italian>Turko-Mongol</Italian>
+    <Spanish>Turko-Mongol</Spanish>
+  </TEXT> 
+    <TEXT>
+    <Tag>TXT_KEY_BARB_BARLAS</Tag>
+    <English>Barlas</English>
+    <French>Turko-Mongol</French>
+    <German>Turko-Mongol</German>
+    <Italian>Turko-Mongol</Italian>
+    <Spanish>Turko-Mongol</Spanish>
+  </TEXT> 
+    <TEXT>
+    <Tag>TXT_KEY_BARB_QARAUNA</Tag>
+    <English>Qarauna</English>
+    <French>Turko-Mongol</French>
+    <German>Turko-Mongol</German>
+    <Italian>Turko-Mongol</Italian>
+    <Spanish>Turko-Mongol</Spanish>
+  </TEXT> 
+    <TEXT>
+    <Tag>TXT_KEY_BARB_JALAYIR</Tag>
+    <English>Jalayir</English>
+    <French>Turko-Mongol</French>
+    <German>Turko-Mongol</German>
     <Italian>Turko-Mongol</Italian>
     <Spanish>Turko-Mongol</Spanish>
   </TEXT> 

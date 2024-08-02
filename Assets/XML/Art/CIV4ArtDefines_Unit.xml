@@ -32,6 +32,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_VANDAL_MOUNTED_WARRIOR</Type>
+			<Button>,-,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,1</Button>
+			<fScale>0.43</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Indian Ancient Tamil Cavalry (Roman Mercenary)/IndianAncientTamilRomanCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_LightCavalry/LightCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/Indian Ancient Tamil Cavalry (Roman Mercenary)/IndianAncientTamilRomanCavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_INDIAN_FAST_WORKER</Type>
 			<Button>,Art/Interface/Buttons/Units/FastWorker.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,4</Button>
 			<fScale>0.44</fScale>
@@ -787,6 +811,30 @@
 			<NIF>Art/units/Zengid_Iqta'dar/horsearcher.nif</NIF>
 			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
 			<SHADERNIF>Art/units/Zengid_Iqta'dar/horsearcher_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HORSE_ARCHERALAN</Type>
+			<Button>,Art/Interface/Buttons/Units/HorseArcher.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,7</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Vladimir-Suzdal Light Cavalry (Helmet, no Coif)/VladimirSuzdalLightCavalrywSaberHelmetnoCoif.nif</NIF>
+			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
+			<SHADERNIF>Art/Units/Vladimir-Suzdal Light Cavalry (Helmet, no Coif)/VladimirSuzdalLightCavalrywSaberHelmetnoCoif.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -2364,6 +2412,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_XIAHOU_DUN</Type>
+			<Button>,Art/Interface/Buttons/Units/GreatEngineer.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,6,10</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Yue_Jin/YueJin.nif</NIF>
+			<KFM>Art/Units/Warlord_Ancient/Warlord_Ancient.kfm</KFM>
+			<SHADERNIF>Art/Units/Yue_Jin/YueJin.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>Bip01 Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_WARLORD_MEHMED_II</Type>
 			<Button>,Art/Interface/Buttons/Units/GreatEngineer.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,6,10</Button>
 			<fScale>0.5</fScale>
@@ -2387,6 +2459,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WARLORD_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/GreatEngineer.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,6,10</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Svyatoslav/Svyatoslav.nif</NIF>
+			<KFM>Art/Units/Animations/Warlord_Ancient/Warlord_Ancient.kfm</KFM>
+			<SHADERNIF>Art/Units/Svyatoslav/Svyatoslav.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>Bip01 Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_WARLORD_ALP_ARSLAN</Type>
 			<Button>,Art/Interface/Buttons/Units/GreatEngineer.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,6,10</Button>
@@ -2531,6 +2627,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WARLORD_DUKE_OLIVARES_SPANISH</Type>
+			<Button>,Art/Interface/Buttons/Units/GreatEngineer.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,6,10</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/iberian general (medieval)/count_duke_of_olivares.nif</NIF>
+			<KFM>Art/Units/Warlord_Ancient/Warlord_Ancient.kfm</KFM>
+			<SHADERNIF>Art/Units/iberian general (medieval)/count_duke_of_olivares.nif</SHADERNIF>
+			<ShadowDef>
+			<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+			<ShadowAttachNode>Bip01 Pelvis</ShadowAttachNode>
+			<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+			<AudioRunTypeLoop/>
+			<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_CELTIC_BARBARIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Swordsman.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,1,10</Button>
@@ -3202,6 +3322,54 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PIKEMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Pikeman.dds,Art/Interface/Buttons/mem_units_atlas.dds,6,7</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Pre-Petrine Pikeman/PrePetrinePikeman.nif</NIF>
+			<KFM>Art/Units/Animations/Pikeman/Pikeman.kfm</KFM>
+			<SHADERNIF>Art/Units/Pre-Petrine Pikeman/PrePetrinePikeman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PIKEMAN_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Pikeman.dds,Art/Interface/Buttons/mem_units_atlas.dds,6,7</Button>
+			<fScale>0.43</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Chinese Pikeman/chinesepikeman.nif</NIF>
+			<KFM>Art/Units/Animations/Pikeman/Pikeman.kfm</KFM>
+			<SHADERNIF>Art/Units/Chinese Pikeman/chinesepikeman_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_SETTLER_CHILD_ASIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Settler.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,2,5</Button>
 			<fScale>0.47</fScale>
@@ -3639,6 +3807,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WORKER_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,3,5</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Rus Post-Mongolian Worker/RusPostMongolianWorker.nif</NIF>
+			<KFM>Art/Units/Animations/Worker/Worker.kfm</KFM>
+			<SHADERNIF>Art/Units/Rus Post-Mongolian Worker/RusPostMongolianWorker.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_WORKER_MEDITERRANEAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,3,5</Button>
@@ -4354,6 +4546,54 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPEARMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,5,1</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Pikeman (Militia)/KievanRusPikemanMilitia.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavySpearman/HeavySpearman.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Pikeman (Militia)/KievanRusPikemanMilitia.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_SPEARMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,6,1</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Golden Age Pikeman/KievanRusGAPikeman.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavySpearman/HeavySpearman.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Golden Age Pikeman/KievanRusGAPikeman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>			
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_CAVALRY</Type>
 			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
 			<fScale>0.42</fScale>
@@ -4378,6 +4618,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_TEUTONIC_KNIGHT</Type>
+			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Teutonic Knight/HeavyCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavyCavalry/HeavyCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/Teutonic Knight/HeavyCavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_BYZANTINE_CAVALRY</Type>
 			<Button>,Art/Interface/Buttons/Units/Conquistador.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,3,1</Button>
 			<fScale>0.42</fScale>
@@ -4401,6 +4665,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_LANCER_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Conquistador.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,3,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Golden Age Heavy Cavalry/KievanRusGAHeavyCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavyCavalry/HeavyCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Golden Age Heavy Cavalry/KievanRusGAHeavyCavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_GHULAM_LANCER</Type>
 			<Button>,Art/Interface/Buttons/Units/GhulamLancer.dds,Art/Interface/Buttons/mem_units_atlas.dds,8,5</Button>
@@ -4679,6 +4967,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_LANCER_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Immortal.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Heavy Cavalry/KievanRusHeavyCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavyCavalry/HeavyCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Heavy Cavalry/KievanRusHeavyCavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_KNIGHT_OF_EDESSA</Type>
 			<Button>,Art/Interface/Buttons/Units/Edessa_Knight.dds,Art/Interface/Buttons/mem_units_atlas.dds,5,2</Button>
@@ -5688,6 +6000,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_HORSE_ARCHERALAN</Type>
+			<Button>,Art/Interface/Buttons/Units/HeavyHorseArcher.dds,Art/Interface/Buttons/mem_units_atlas.dds,8,6</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Vladimir-Suzdal Light Cavalry (Chainmail Coif)/VladimirSuzdalLightCavalrywSaberChainmailCoif.nif</NIF>
+			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
+			<SHADERNIF>Art/Units/Vladimir-Suzdal Light Cavalry (Chainmail Coif)/VladimirSuzdalLightCavalrywSaberChainmailCoif.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_MONGOL_HORSE_ARCHER</Type>
 			<Button>,Art/Interface/Buttons/Units/HeavyHorseArcher.dds,Art/Interface/Buttons/mem_units_atlas.dds,5,12</Button>
 			<fScale>0.42</fScale>
@@ -5734,7 +6070,79 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
-		</UnitArtInfo>	
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TURKMERC</Type>
+			<Button>,Art/Interface/Buttons/Units/HeavyHorseArcher.dds,Art/Interface/Buttons/mem_units_atlas.dds,8,6</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Chernye Klobuki Horsearcher (Green Coat)/ChernyeKlobukiHorsearcherGreenCoat.nif</NIF>
+			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
+			<SHADERNIF>Art/Units/Chernye Klobuki Horsearcher (Green Coat)/ChernyeKlobukiHorsearcherGreenCoat.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_KYPMERC</Type>
+			<Button>,Art/Interface/Buttons/Units/HeavyHorseArcher.dds,Art/Interface/Buttons/mem_units_atlas.dds,8,6</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Chernye Klobuki Horsearcher (Metal Mask)/ChernyeKlobukiHorsearcherMetalMask.nif</NIF>
+			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
+			<SHADERNIF>Art/Units/Chernye Klobuki Horsearcher (Metal Mask)/ChernyeKlobukiHorsearcherMetalMask.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_KYPKHANID</Type>
+			<Button>,Art/Interface/Buttons/Units/HeavyHorseArcher.dds,Art/Interface/Buttons/mem_units_atlas.dds,8,6</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Chernye Klobuki Horsearcher (Red Coat)/ChernyeKlobukiHorsearcherRedCoat.nif</NIF>
+			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
+			<SHADERNIF>Art/Units/Chernye Klobuki Horsearcher (Red Coat)/ChernyeKlobukiHorsearcherRedCoat.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PILGRIM</Type>
 			<Button>,Art/Interface/Buttons/Units/Missionary_Christian.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,8,9</Button>
@@ -5807,6 +6215,126 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CROSSBOWMAN_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Crossbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,8</Button>
+			<fScale>0.45</fScale>
+			<fInterfaceScale>1.1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Three Kingdoms Crossbowman Lv3/ThreeKingdomsCrossbowmanLv3Final.nif</NIF>
+			<KFM>Art/Units/Unique/China/Chokonu/ChoKuNu.kfm</KFM>
+			<SHADERNIF>Art/Units/Three Kingdoms Crossbowman Lv3/ThreeKingdomsCrossbowmanLv3Final.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CROSSBOWMAN_KIP</Type>
+			<Button>,Art/Interface/Buttons/Units/Crossbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,8</Button>
+			<fScale>0.45</fScale>
+			<fInterfaceScale>1.1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kipchak Crossbowman/KipchakCrossbowman.nif</NIF>
+			<KFM>Art/Units/Animations/Crossbowman/Crossbowman.kfm</KFM>
+			<SHADERNIF>Art/Units/Kipchak Crossbowman/KipchakCrossbowman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_LONGBOW_MONGOL</Type>
+			<Button>,Art/Interface/Buttons/Units/Longbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,7</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Mongol Longbowman/MongolLongbowmanfinal.nif</NIF>
+			<KFM>Art/Units/Animations/Longbowman/Longbowman_2.kfm</KFM>
+			<SHADERNIF>Art/Units/Mongol Longbowman/MongolLongbowmanfinal.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_LONGBOW_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Longbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,7</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Longbowman_China/Longbowman.nif</NIF>
+			<KFM>Art/Units/Animations/Longbowman/Longbowman.kfm</KFM>
+			<SHADERNIF>Art/Units/Longbowman_China/Longbowman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPEAR_MONGOL</Type>
+			<Button>,Art/Interface/Buttons/Units/Spearman.dds,Art/Interface/Buttons/mem_units_atlas.dds,5,13</Button>
+			<fScale>0.45</fScale>
+			<fInterfaceScale>1.1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Mongol Spearman/NewMongol_SpearmanFinalx.nif</NIF>
+			<KFM>Art/Units/Spearman_Chinese/Spearman_Chinese.kfm</KFM>
+			<SHADERNIF>Art/Units/Mongol Spearman/NewMongol_SpearmanFinalx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_FOOTMAN_MONGOLIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Maceman.dds,Art/Interface/Buttons/mem_units_atlas.dds,3,14</Button>
@@ -5928,6 +6456,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_LANCER_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Immortal.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,1</Button>
+			<fScale>0.43</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Chinese Horseman/chinahorse.nif</NIF>
+			<KFM>Art/Units/Animations/Unique/Mongol/Keshik/MongelKeshik.kfm</KFM>
+			<SHADERNIF>Art/Units/Chinese Horseman/chinahorse_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_MOUNTED_SWORDSMAN_MONGOLIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
 			<fScale>0.42</fScale>
@@ -6024,6 +6576,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SWORDSMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,2</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Druzhina (Swordsman)/KievanRusDruzhinaSwordsman.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavySwordsman/HeavySwordsman.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Druzhina (Swordsman)/KievanRusDruzhinaSwordsman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_MACEMAN_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/Maceman.dds,Art/Interface/Buttons/mem_units_atlas.dds,3,14</Button>
 			<fScale>0.44</fScale>
@@ -6072,6 +6648,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_AXEMAN_RUSSIAN2</Type>
+			<Button>,Art/Interface/Buttons/Units/Warrior.dds,Art/Interface/Buttons/mem_units_atlas.dds,4,13</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Axeman (Militia)/KievanRusAxemanMilitia.nif</NIF>
+			<KFM>Art/Units/Animations/Unique/Inca/Quechua/IncanQuechua.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Axeman (Militia)/KievanRusAxemanMilitia.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_LONGBOWMAN_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/Longbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,7</Button>
 			<fScale>0.44</fScale>
@@ -6096,6 +6696,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_LONGBOWMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Longbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,7</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Golden Age Bowman/KievanRusGABowman.nif</NIF>
+			<KFM>Art/Units/Animations/Longbowman/Longbowman_2.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Golden Age Bowman/KievanRusGABowman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.85</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_CROSSBOWMAN_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/Crossbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,8</Button>
 			<fScale>0.44</fScale>
@@ -6119,6 +6743,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CROSSBOWMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Crossbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,8</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Golden Age Crossbowman/KievanRusGACrossbowman.nif</NIF>
+			<KFM>Art/Units/Animations/Crossbowman/Crossbowman.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Golden Age Crossbowman/KievanRusGACrossbowman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PIKEMAN_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/Pikeman.dds,Art/Interface/Buttons/mem_units_atlas.dds,6,7</Button>
@@ -6168,6 +6816,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ARQUEBUSIER_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Arquebusier.dds,Art/Interface/Buttons/mem_units_atlas.dds,3,9</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Pre-Petrine Hand Gunner (Armored)/PrePetrineHandgunnerArmored.nif</NIF>
+			<KFM>Art/Units/Animations/Unique_Ethiopia_OromoWarrior/Ethiopian_OromoWarrior.kfm</KFM>
+			<SHADERNIF>Art/Units/Pre-Petrine Hand Gunner (Armored)/PrePetrineHandgunnerArmored.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.05</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_MUSKETMAN_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/Musketman.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,2,10</Button>
 			<fScale>0.44</fScale>
@@ -6191,6 +6863,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_MUSKETMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Musketman.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,2,10</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Pre-Petrine Streltsy (Late)/StreltsyLateHelmet.nif</NIF>
+			<KFM>Art/Units/Animations/Janissary/Janissary.kfm</KFM>
+			<SHADERNIF>Art/Units/Pre-Petrine Streltsy (Late)/StreltsyLateHelmet.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.05</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_SWORDSMAN_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,2</Button>
@@ -6216,6 +6912,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_SWORDSMAN_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,2</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kievan Rus Golden Age Druzhina (Swordsman Large Shield)/KievanRusGADruzhinaSwordsmanLargeShieldwCape.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavySwordsman/HeavySwordsman.kfm</KFM>
+			<SHADERNIF>Art/Units/Kievan Rus Golden Age Druzhina (Swordsman Large Shield)/KievanRusGADruzhinaSwordsmanLargeShieldwCape.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HORSEMAN_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/HorseArcher.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,3,9</Button>
 			<fScale>0.42</fScale>
@@ -6240,6 +6960,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_LANCER_KHAZ</Type>
+			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Khazar Heavy Cavalry/KhazarHeavyCavalryFinal.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_LightCavalry/LightCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/Khazar Heavy Cavalry/KhazarHeavyCavalryFinal.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_CUIRASSIER_BYZANTINE</Type>
 			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,3,11</Button>
 			<fScale>0.42</fScale>
@@ -6263,6 +7007,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CUIRASSIER_RUSSIAN</Type>
+			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,3,11</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Pre-Petrine Cuirassier/PrePetrineCuirassier.nif</NIF>
+			<KFM>Art/Units/Animations/Cuirassier/Cuirassier.kfm</KFM>
+			<SHADERNIF>Art/Units/Pre-Petrine Cuirassier/PrePetrineCuirassier.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PRONOIAR</Type>
 			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
@@ -6633,6 +7401,30 @@
 			<ActionSound>AS3D_FRANCE_ORDER</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_KNIGHT_POLAND</Type>
+			<Button>,Art/Interface/Buttons/Units/Knight.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/KnightPoland/lightcavalry.nif</NIF>
+			<KFM>Art/Units/Charlemagne_LightCavalry/LightCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/KnightPoland/lightcavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_TEMPLAR_CAVALRY</Type>
 			<Button>,Art/Interface/Buttons/Units/Crusader.dds,Art/Interface/Buttons/mem_units_atlas.dds,8,16</Button>
 			<fScale>0.42</fScale>
@@ -6964,6 +7756,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN2</Type>
+			<Button>,Art/Interface/Buttons/Units/Immortal.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,1</Button>
+			<fScale>0.43</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Tibetan Knight/MediumCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavyCavalry/HeavyCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/Tibetan Knight/MediumCavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HORSE_ARCHER_INDIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/HorseArcher.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,7</Button>
@@ -7537,6 +8353,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPEARMAN_KYP</Type>
+			<Button>,Art/Interface/Buttons/Units/Spearman.dds,Art/Interface/Buttons/mem_units_atlas.dds,5,13</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kipchak Spearman/KipchakSpearman.nif</NIF>
+			<KFM>Art/Units/Animations/Unique_Maya_Holkan/Unique_Mayan_Holkan.kfm</KFM>
+			<SHADERNIF>Art/Units/Kipchak Spearman/KipchakSpearman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>		
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_CARRACK</Type>
 			<Button>,Art/Interface/Buttons/Units/Carrack.dds,Art/Interface/Buttons/mem_units_atlas.dds,2,12</Button>
 			<fScale>0.23</fScale>
@@ -7768,6 +8608,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CAVALRYCHINESEMERC</Type>
+			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/cavalry_china/lightcavalry.nif</NIF>
+			<KFM>Art/Units/Charlemagne_lightcavalry/lightcavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/cavalry_china/lightcavalry_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_SWORDSMAN_ANDALUSIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,13</Button>
 			<fScale>0.44</fScale>
@@ -7839,6 +8703,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_AXEMAN_KYP</Type>
+			<Button>,Art/Interface/Buttons/Units/Warrior.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,2</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kipchak Axeman/KipchakAxeman.nif</NIF>
+			<KFM>Art/Units/Animations/Unique_NativeAmerica_DogSoldier/Dogsoldier.kfm</KFM>
+			<SHADERNIF>Art/Units/Kipchak Axeman/KipchakAxeman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>		
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PIKEMAN_BERBER</Type>
 			<Button>,Art/Interface/Buttons/Units/Pikeman.dds,Art/Interface/Buttons/mem_units_atlas.dds,6,7</Button>
@@ -9223,6 +10111,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CUIRASSIER_COSSACK</Type>
+			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,3,11</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Cossack Zaporozhian (Black Coat)/CossackZaporozhianBlackCoat.nif</NIF>
+			<KFM>Art/Units/Animations/Cuirassier/Cuirassier.kfm</KFM>
+			<SHADERNIF>Art/Units/Cossack Zaporozhian (Black Coat)/CossackZaporozhianBlackCoat.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_LONGBOWMAN_ETHIOPIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/NubianLongbowman.dds,Art/Interface/Buttons/mem_units_atlas.dds,6,3</Button>
 			<fScale>0.44</fScale>
@@ -10254,6 +11166,30 @@
 			<ActionSound>AS3D_OTTOMAN_ORDER</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ARCHER_KIP</Type>
+			<Button>,Art/Interface/Buttons/Units/Archer.dds,Art/Interface/Buttons/mem_units_atlas.dds,6,13</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Kipchak Archer/KipchakArcher.nif</NIF>
+			<KFM>Art/Units/Animations/Archer_Eurasian/Archer_Eurasian.kfm</KFM>
+			<SHADERNIF>Art/Units/Kipchak Archer/KipchakArcher.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.85</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PIKEMAN_OTTOMAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Pikeman.dds,Art/Interface/Buttons/mem_units_atlas.dds,6,7</Button>
 			<fScale>0.44</fScale>
@@ -10498,6 +11434,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SWORDSMAN_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,2,14</Button>
+			<fScale>0.47</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Chinese Heavy Footman/chinesefootman.nif</NIF>
+			<KFM>Art/Units/Animations/Unique/Roman/Praetorian/Praetorian.kfm</KFM>
+			<SHADERNIF>Art/Units/Chinese Heavy Footman/chinesefootman_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_FOOTMAN_SELJUK</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,13</Button>
 			<fScale>0.44</fScale>
@@ -10521,6 +11481,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_FOOTMAN_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,13</Button>
+			<fScale>0.45</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Maceman_China/Maceman.nif</NIF>
+			<KFM>Art/Units/Animations/Unique/Japan/Samurai/JapaneseSamurai.kfm</KFM>
+			<SHADERNIF>Art/Units/Maceman_China/Maceman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.4</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_FOOTMAN_OTTOMAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,13</Button>
@@ -10593,6 +11577,54 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_CAVALRY_MIDEAST</Type>
+			<Button>,Art/Interface/Buttons/Units/Knight.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,1</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Ottoman Heavy Cavalry Second/OttomanHeavyCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Knight/Knight.kfm</KFM>
+			<SHADERNIF>Art/Units/Ottoman Heavy Cavalry Second/OttomanHeavyCavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_CAVALRY_EASTA</Type>
+			<Button>,Art/Interface/Buttons/Units/Knight.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,1</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Knight_China/Knight.nif</NIF>
+			<KFM>Art/Units/Animations/Knight/Knight.kfm</KFM>
+			<SHADERNIF>Art/Units/Knight_China/Knight.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_LANCER_SELJUK</Type>
 			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
@@ -11600,6 +12632,32 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ARQU_MONGOLIAN</Type>
+			<Button>,-,Art/Interface/Buttons/Warlords_Atlas_1.dds,4,8</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Cannon Ancient Chinese/Cannon_Ancient_Chinese.nif</NIF>
+			<KFM>Art/Units/Cannon Ancient Chinese/Cannon_Ancient_Chinese.kfm</KFM>
+			<SHADERNIF>Art/Units/Cannon Ancient Chinese/Cannon_Ancient_Chinese_FX.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.95</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.05</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_CHINA_SELECT</SelectionSound>
+			<ActionSound>AS3D_CHINA_ORDER</ActionSound>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_MUSKETMAN_INDIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/India_Handgunner.dds,Art/Interface/Buttons/mem_units_atlas.dds,1,5</Button>
 			<fScale>0.44</fScale>
@@ -12328,6 +13386,32 @@
 			<ActionSound>AS3D_PERSIA_ORDER</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVY_LANCER_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Chinese Heavy Cavalry/ChinaHeavyCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_HeavyCavalry/HeavyCavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/Chinese Heavy Cavalry/ChinaHeavyCavalry_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_PERSIA_SELECT</SelectionSound>
+			<ActionSound>AS3D_PERSIA_ORDER</ActionSound>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HORSEMAN_PERSIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/HorseArcher.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,3,9</Button>
 			<fScale>0.42</fScale>
@@ -12404,6 +13488,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPEAR_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Spearman.dds,Art/Interface/Buttons/mem_units_atlas.dds,5,13</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Three Kingdoms Spearman Lv2/ThreeKingdomsSpearmanLv2.nif</NIF>
+			<KFM>Art/Units/Charlemagne_HeavySpearman/HeavySpearman.kfm</KFM>
+			<SHADERNIF>Art/Units/Three Kingdoms Spearman Lv2/ThreeKingdomsSpearmanLv2.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_SPEARMAN_PERSIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,1,14</Button>
 			<fScale>0.44</fScale>
@@ -12427,6 +13535,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HEAVSPEAR_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,1,14</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Pikeman_China/Pikeman.nif</NIF>
+			<KFM>Art/Units/Spearman_Chinese/Spearman_Chinese.kfm</KFM>
+			<SHADERNIF>Art/Units/Pikeman_China/Pikeman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_SWORDSMAN_PERSIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,2,14</Button>
@@ -12475,6 +13607,54 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_AXEMAN_KHITAI</Type>
+			<Button>,Art/Interface/Buttons/Units/Warrior.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,2</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Three Kingdoms Axeman Lv2/ThreeKingdomsAxemanLv2.nif</NIF>
+			<KFM>Art/Units/Animations/Unique_Sumeria_Vulture/Unique_Sumerian_Vulture.kfm</KFM>
+			<SHADERNIF>Art/Units/Three Kingdoms Axeman Lv2/ThreeKingdomsAxemanLv2.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_AXEMAN_HAL</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,13</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Three Kingdoms Axeman Lv4/ThreeKingdomsAxemanLv4.nif</NIF>
+			<KFM>Art/Units/Charlemagne_HeavySwordsman/HeavySwordsman.kfm</KFM>
+			<SHADERNIF>Art/Units/Three Kingdoms Axeman Lv4/ThreeKingdomsAxemanLv4.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_MACEMAN_PERSIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,13</Button>
@@ -12742,6 +13922,30 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CUIRASSIER_MONG</Type>
+			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,3,11</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/mongolian Cavalry/cavalry.nif</NIF>
+			<KFM>Art/Units/Cavalry/Cavalry.kfm</KFM>
+			<SHADERNIF>Art/Units/mongolian Cavalry/cavalry.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ARQUEBUSIER_PERSIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/PersianArquebusier.dds,Art/Interface/Buttons/mem_units_atlas.dds,3,3</Button>
 			<fScale>0.44</fScale>
@@ -12765,6 +13969,30 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ARQUEBUSIER_MONG</Type>
+			<Button>,Art/Interface/Buttons/Units/PersianArquebusier.dds,Art/Interface/Buttons/mem_units_atlas.dds,3,3</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/arquebusier_china/asian_musketman.nif</NIF>
+			<KFM>Art/Units/Animations/Musketman/Musketman.kfm</KFM>
+			<SHADERNIF>Art/Units/arquebusier_china/asian_musketman.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.05</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_AXEMAN_TIMURID</Type>
 			<Button>,Art/Interface/Buttons/Units/Warrior.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,2</Button>
@@ -14220,6 +15448,56 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_FIRELANCE</Type>
+			<Button>,-,Art/Interface/Buttons/Warlords_Atlas_1.dds,4,8</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/firelance/Paratrooper.nif</NIF>
+			<KFM>Art/Units/firelance/Paratrooper.kfm</KFM>
+			<SHADERNIF>Art/Units/firelance/Paratrooper.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.05</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SWORDSMAN_19</Type>
+			<Button>,Art/Interface/Buttons/Units/Worker.dds,Art/Interface/Buttons/mem_units_atlas.dds,2,14</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Three Kingdoms Swordsman Lv 2/ThreeKingdomsSwordsmanLv2.nif</NIF>
+          <KFM>Art/Units/Unique_Sumeria_Vulture/Unique_Sumerian_Vulture.kfm</KFM>
+          <SHADERNIF>Art/Units/Three Kingdoms Swordsman Lv 2/ThreeKingdomsSwordsmanLv2.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_CHINA_SELECT</SelectionSound>
+			<ActionSound>AS3D_CHINA_ORDER</ActionSound>			
+		</UnitArtInfo>		
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_CARAVAN_MIDDLE_EAST</Type>
 			<Button>,Art/Interface/Buttons/Units/Caravan.dds,Art/Interface/Buttons/mem_units_atlas.dds,8,9</Button>
 			<fScale>0.46</fScale>
@@ -14450,6 +15728,54 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HORSE_ARCHER_KIPCHAKLI</Type>
+			<Button>,Art/Interface/Buttons/Units/HorseArcher.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,7</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Cuman Horsearcher (Blue Coat)/CumanHorsearcherBlueCoat.nif</NIF>
+			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
+			<SHADERNIF>Art/Units/Cuman Horsearcher (Blue Coat)/CumanHorsearcherBlueCoat.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HORSE_ARCHER_KIPCHAKGEN</Type>
+			<Button>,Art/Interface/Buttons/Units/HorseArcher.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,7</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Cuman Horseacher (Chainmail Coif)/CumanHorsearcherChainmailCoif.nif</NIF>
+			<KFM>Art/Units/Animations/HorseArcher/HorseArcher.kfm</KFM>
+			<SHADERNIF>Art/Units/Cuman Horseacher (Chainmail Coif)/CumanHorsearcherChainmailCoif.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HORSE_ARCHER_PECHENEG</Type>
 			<Button>,Art/Interface/Buttons/Units/HorseArcher.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,7</Button>
 			<fScale>0.42</fScale>
@@ -14545,7 +15871,7 @@
 			<AudioRunSounds>
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
-			</AudioRunSounds>
+			</AudioRunSounds>		
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_SWORDSMAN_KIPCHAK</Type>

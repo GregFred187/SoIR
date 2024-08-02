@@ -121,6 +121,42 @@
 			<TextColorType>COLOR_PLAYER_DARK_YELLOW_TEXT</TextColorType>
 		</PlayerColorInfo>
 		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_CHAG</Type>
+			<ColorTypePrimary>COLOR_PLAYER_BROWN</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_BROWN_TEXT</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_MOGH</Type>
+			<ColorTypePrimary>COLOR_PLAYER_BROWN</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_BROWN_TEXT</TextColorType>
+		</PlayerColorInfo>		
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_HORDE</Type>
+			<ColorTypePrimary>COLOR_GHORDERED</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_GHORDERED</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KYP</Type>
+			<ColorTypePrimary>COLOR_PLAYER_KYPCHAKS</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_GOLDENKYP</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_KYPCHAKS</TextColorType>
+		</PlayerColorInfo>	
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_CHAL</Type>
+			<ColorTypePrimary>COLOR_PLAYER_CHALU</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_CHALU</TextColorType>
+		</PlayerColorInfo>		
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KHI</Type>
+			<ColorTypePrimary>COLOR_PLAYER_GRAY</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_WHITE</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_GRAY_TEXT</TextColorType>
+		</PlayerColorInfo>		
+		<PlayerColorInfo>
 			<Type>PLAYERCOLOR_GRAY</Type>
 			<ColorTypePrimary>COLOR_PLAYER_GRAY</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_PLAYER_BLACK</ColorTypeSecondary>
@@ -175,6 +211,12 @@
 			<TextColorType>COLOR_PLAYER_WHITE_TEXT</TextColorType>
 		</PlayerColorInfo>
 		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_SKIES</Type>
+			<ColorTypePrimary>COLOR_PLAYER_SKIES</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_GREEN</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_SKIES</TextColorType>
+		</PlayerColorInfo>		
+		<PlayerColorInfo>
 			<Type>PLAYERCOLOR_LIGHT_GREY</Type>
 			<ColorTypePrimary>COLOR_PLAYER_LIGHT_GREY</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_PLAYER_BLACK</ColorTypeSecondary>
@@ -186,6 +228,12 @@
 			<ColorTypeSecondary>COLOR_PLAYER_BLACK</ColorTypeSecondary>
 			<TextColorType>COLOR_PLAYER_YELLOW_TEXT</TextColorType>
 		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KHAN</Type>
+			<ColorTypePrimary>COLOR_PLAYER_YELLOWKHAN</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_WHITE</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_YELLOW_TEXT</TextColorType>
+		</PlayerColorInfo>		
 		<PlayerColorInfo>
 			<Type>PLAYERCOLOR_LIGHT_GREEN</Type>
 			<ColorTypePrimary>COLOR_PLAYER_LIGHT_GREEN</ColorTypePrimary>
@@ -385,6 +433,18 @@
 			<TextColorType>COLOR_PLAYER_MEDIUM_ROT_GREEN_TEXT</TextColorType>
 		</PlayerColorInfo>
 		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KART</Type>
+			<ColorTypePrimary>COLOR_PLAYER_DARK_ORANGE</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_GOLDENROD</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_DARK_ORANGE_TEXT</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_MUZZ</Type>
+			<ColorTypePrimary>COLOR_PLAYER_WHITE2</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_RED</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_LIGHT_GREY_TEXT</TextColorType>
+		</PlayerColorInfo>		
+		<PlayerColorInfo>
 			<Type>PLAYERCOLOR_GRAY_GREEN</Type>
 			<ColorTypePrimary>COLOR_PLAYER_GRAY_GREEN</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_PLAYER_BLACK</ColorTypeSecondary>
@@ -401,6 +461,72 @@
 			<ColorTypePrimary>COLOR_DARKER_YELLOW</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_PLAYER_RED</ColorTypeSecondary>
 			<TextColorType>COLOR_DARKER_YELLOW</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_DELHI</Type>
+			<ColorTypePrimary>COLOR_PLAYER_DELHI</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_BLACK</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_DELHI</TextColorType>
+		</PlayerColorInfo>	
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KARA</Type>
+			<ColorTypePrimary>COLOR_PLAYER_KARA</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_BLACK</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_KARA</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_CRIMEA</Type>
+			<ColorTypePrimary>COLOR_PLAYER_CRIMBLUE</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_CRIMBLUE</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KAZAK</Type>
+			<ColorTypePrimary>COLOR_PLAYER_KAZAK</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_WHITE</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_KAZAK</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KIEV</Type>
+			<ColorTypePrimary>COLOR_PLAYER_LIGHT_SKY_BLUE</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_LIGHT_SKY_BLUE</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KHAZARS</Type>
+			<ColorTypePrimary>COLOR_PLAYER_BLUISH_WHITE</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_BLUISH_WHITE</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_ALANS</Type>
+			<ColorTypePrimary>COLOR_PLAYER_ALAN</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_ALAN</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_CIRCASSIA</Type>
+			<ColorTypePrimary>COLOR_PLAYER_CIRC</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_CIRC</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_NOGAI</Type>
+			<ColorTypePrimary>COLOR_PLAYER_NOGAI</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_NOGAI</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_KALMYK</Type>
+			<ColorTypePrimary>COLOR_PLAYER_KALM</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_RED</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_KALM</TextColorType>
+		</PlayerColorInfo>
+		<PlayerColorInfo>
+			<Type>PLAYERCOLOR_ZUNGHAR</Type>
+			<ColorTypePrimary>COLOR_PLAYER_ZUNG</ColorTypePrimary>
+			<ColorTypeSecondary>COLOR_PLAYER_DARK_YELLOW</ColorTypeSecondary>
+			<TextColorType>COLOR_PLAYER_ZUNG</TextColorType>
 		</PlayerColorInfo>
 	</PlayerColorInfos>
 </Civ4PlayerColorInfos>

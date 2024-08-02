@@ -669,6 +669,38 @@
 		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_SEUNA</Tag>
+		<English>The Seuna dynasty takes control of former Chalukya lands!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_MOGHULS</Tag>
+		<English>The Moghuls establish a state in the former Ulus of Chagatai!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_CRIMEAN</Tag>
+		<English>The Crimean Khanate succeeds the empire of the Golden Horde!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_KAZAK</Tag>
+		<English>A breakaway group of Uzbeks establish the Kazakh Khanate!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
 		<English>THE SWORD OF ISLAM</English>
 		<French>THE SWORD OF ISLAM</French>
@@ -702,6 +734,14 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_3</Tag>
+		<English>Khazars.</English>
+		<French>Mongols.</French>
+		<German>Mongols.</German>
+		<Italian>Mongols.</Italian>
+		<Spanish>Mongols.</Spanish>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_4</Tag>
 		<English>It is the year 750 AD. The long-time masters of the Chauhan, the Gurjara-Pratihara Empire, is in decline. It is time for the Chauhan to expand from their home in Ajmer, but with no Pratiharas on your side, your clan is the only major force that can defend Hindustan from Muslim assaults.</English>
 		<French>It is the year 750 AD. The long-time masters of the Chauhan, the Gurjara-Pratihara Empire, is in decline. It is time for the Chauhan to expand from their home in Ajmer, but with no Pratiharas on your side, your clan is the only major force that can defend Hindustan from Muslim assaults.</French>
 		<German>Es ist das Jahr 750 n. Chr. Der langjährige Herrscher des Chauhan, das Gurjara-Pratihara-Reich, befindet sich im Niedergang. Es ist an der Zeit, dass die Chauhan von ihrer Heimat in Ajmer aus expandieren, aber ohne Pratiharas auf Ihrer Seite ist Ihr Clan die einzige große Kraft, die Hindustan vor muslimischen Angriffen verteidigen kann.</German>
@@ -717,7 +757,15 @@
 		<Spanish>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_5</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_6</Tag>
+		<English>Oghuz.</English>
+		<French>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</French>
+		<German>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</German>
+		<Italian>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</Italian>
+		<Spanish>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_7</Tag>
 		<English>It is the year 819 AD. The Sassanian Persian Empire is gone. Despite coming from a Zoroastrian theocratic nobility, you decide to convert to Islam and serve as a governor for the Abbasid caliph. For your faithful service, you and your family have been granted Greater Khorasan virtually all for yourselves...</English>
 		<French>It is the year 819 AD. The Sassanian Persian Empire is gone. Despite coming from a Zoroastrian theocratic nobility, you decide to convert to Islam and serve as a governor for the Abbasid caliph. For your faithful service, you and your family have been granted Greater Khorasan virtually all for yourselves...</French>
 		<German>Es ist das Jahr 819 n. Chr. Das sassanidische Perserreich ist verschwunden. Obwohl Ihr einem zoroastrischen theokratischen Adel entstammt, beschließt Ihr, zum Islam zu konvertieren und als Gouverneur für den abbasidischen Kalifen zu dienen. Für Ihren treuen Dienst wurde Ihnen und Ihrer Familie der Großraum Khorasan praktisch ganz für sich allein zugeteilt ...</German>
@@ -725,7 +773,15 @@
 		<Spanish>It is the year 819 AD. The Sassanian Persian Empire is gone. Despite coming from a Zoroastrian theocratic nobility, you decide to convert to Islam and serve as a governor for the Abbasid caliph. For your faithful service, you and your family have been granted Greater Khorasan virtually all for yourselves...</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_6</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_8</Tag>
+		<English>Khanids.</English>
+		<French>Mongols.</French>
+		<German>Mongols.</German>
+		<Italian>Mongols.</Italian>
+		<Spanish>Mongols.</Spanish>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_9</Tag>
 		<English>It is the year 861 AD. Armenia has been under foreign rule for centuries. But now your family, the Bagratids, have gained enough power to exploit the unstable political situation of the Greek and Muslim neighbors and force them to recognize you as a king. The Armenian people believe the time is right to restore the ancient kingdom to its former glory!</English>
 		<French>It is the year 861 AD. Armenia has been under foreign rule for centuries. But now your family, the Bagratids, have gained enough power to exploit the unstable political situation of the Greek and Muslim neighbors and force them to recognize you as a king. The Armenian people believe the time is right to restore the ancient kingdom to its former glory!</French>
 		<German>Es ist das Jahr 861 n. Chr. Armenien steht seit Jahrhunderten unter Fremdherrschaft. Aber jetzt hat Ihre Familie, die Bagratiden, genug Macht erlangt, um die instabile politische Situation der griechischen und muslimischen Nachbarn auszunutzen und sie zu zwingen, Euch als König anzuerkennen. Das armenische Volk glaubt, dass es an der Zeit ist, dem alten Königreich seinen früheren Glanz zurückzugeben!</German>
@@ -733,7 +789,23 @@
 		<Spanish>It is the year 861 AD. Armenia has been under foreign rule for centuries. But now your family, the Bagratids, have gained enough power to exploit the unstable political situation of the Greek and Muslim neighbors and force them to recognize you as a king. The Armenian people believe the time is right to restore the ancient kingdom to its former glory!</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_7</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_10</Tag>
+		<English>Kiev.</English>
+		<French>Mongols.</French>
+		<German>Mongols.</German>
+		<Italian>Mongols.</Italian>
+		<Spanish>Mongols.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_11</Tag>
+		<English>Alans.</English>
+		<French>Mongols.</French>
+		<German>Mongols.</German>
+		<Italian>Mongols.</Italian>
+		<Spanish>Mongols.</Spanish>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_12</Tag>
 		<English>It is the year 898 AD. You have been sent to Yemen from Medina to settle disputes between local Bedouin tribes. The mission was a success, and fruited in the establishment of a theocratic state based on Zaidi branch of Shia Islam. The Arab world is still predominantly Sunni, but here in isolation, you shall be safe, at least for now.</English>
 		<French>It is the year 898 AD. You have been sent to Yemen from Medina to settle disputes between local Bedouin tribes. The mission was a success, and fruited in the establishment of a theocratic state based on Zaidi branch of Shia Islam. The Arab world is still predominantly Sunni, but here in isolation, you shall be safe, at least for now.</French>
 		<German>Es ist das Jahr 898 n. Chr. Iht wurdet von Medina in den Jemen geschickt, um Streitigkeiten zwischen lokalen Beduinenstämmen beizulegen. Die Mission war ein Erfolg und führte zur Gründung eines theokratischen Staates auf der Grundlage des zaiditischen Zweigs des schiitischen Islam. Die arabische Welt ist immer noch überwiegend sunnitisch, aber hier in der Isolation sied Ihr zumindest vorerst in Sicherheit.</German>
@@ -773,7 +845,15 @@
 		<Spanish>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_12</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_17</Tag>
+		<English>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</English>
+		<French>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</French>
+		<German>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</German>
+		<Italian>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</Italian>
+		<Spanish>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_18</Tag>
 		<English>It is the year 1008 AD. Through conquest and diplomacy, the realms of Abkhazia and Kartli have been united for the first time into a unified Georgian monarchy. Now it is time to secure the borders of your kingdom, as its marchlands are claimed by all your neighbors, from Byzantium in the West to Arabs and Turks in the Southeast.</English>
 		<French>It is the year 1008 AD. Through conquest and diplomacy, the realms of Abkhazia and Kartli have been united for the first time into a unified Georgian monarchy. Now it is time to secure the borders of your kingdom, as its marchlands are claimed by all your neighbors, from Byzantium in the West to Arabs and Turks in the Southeast.</French>
 		<German>Es ist das Jahr 1008 n. Chr. Durch Eroberung und Diplomatie wurden die Reiche Abchasien und Kartlien erstmals zu einer einheitlichen georgischen Monarchie vereint. Jetzt ist es an der Zeit, die Grenzen Ihres Königreichs zu sichern, da seine Marschgebiete von allen Ihren Nachbarn beansprucht werden, von Byzanz im Westen bis zu Arabern und Türken im Südosten.</German>
@@ -789,7 +869,15 @@
 		<Spanish>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_13</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_21</Tag>
+		<English>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</English>
+		<French>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</French>
+		<German>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</German>
+		<Italian>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</Italian>
+		<Spanish>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_19</Tag>
 		<English>It is the year 1011 AD. Long time ago, Arab invaders brought Islam to Sindh, then the easternmost province of the Umayyad Caliphate. But three centuries later, Sindh is ruled by native Shia Sindhis, and maintains only a remote relationship with the dwindling Abbasid Caliphate.</English>
 		<French>It is the year 1011 AD. Long time ago, Arab invaders brought Islam to Sindh, then the easternmost province of the Umayyad Caliphate. But three centuries later, Sindh is ruled by native Shia Sindhis, and maintains only a remote relationship with the dwindling Abbasid Caliphate.</French>
 		<German>Es ist das Jahr 1011 n. Chr. Vor langer Zeit brachten arabische Eindringlinge den Islam nach Sindh, der damals östlichsten Provinz des Umayyaden-Kalifats. Doch drei Jahrhunderte später wird Sindh von einheimischen schiitischen Sindhis regiert und unterhält nur entfernte Beziehungen zum schwindenden abbasidischen Kalifat.</German>
@@ -837,7 +925,15 @@
 		<Spanish>It is the year 1127 AD. Your became the Seljuk atabeg of Mosul. Now it is in your hands, Nur ad-Din Zengi, to repulse the crusaders from the Levante, establish a new Emirate and become the greatest hero in the Muslim world...</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_20</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_27</Tag>
+		<English>Khitai</English>
+		<French>Zengids</French>
+		<German>Zengids</German>
+		<Italian>Zengids</Italian>
+		<Spanish>Zengids</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_28</Tag>
 		<English>It is the year 1148 AD. The people of Ghor are only recent converts to Islam, yet showed amazing zeal and ferocity while serving the Ghaznavids and Seljuks. But now, under the Shansabani family, Ghor has grown powerful enough to turn their former lords into vassals, and proceed with the long-planned conquest of India.</English>
 		<French>It is the year 1148 AD. The people of Ghor are only recent converts to Islam, yet showed amazing zeal and ferocity while serving the Ghaznavids and Seljuks. But now, under the Shansabani family, Ghor has grown powerful enough to turn their former lords into vassals, and proceed with the long-planned conquest of India.</French>
 		<German>Es ist das Jahr 1148 n. Chr. Die Menschen in Ghor sind erst kürzlich zum Islam konvertiert, zeigten jedoch erstaunlichen Eifer und Wildheit, als sie den Ghaznaviden und Seldschuken dienten. Aber jetzt ist Ghor unter der Familie Shansabani mächtig genug geworden, um ihre ehemaligen Herren zu Vasallen zu machen und die seit langem geplante Eroberung Indiens fortzusetzen.</German>
@@ -861,7 +957,23 @@
 		<Spanish>It is the year 1174 AD. You have conquered Egypt on behalf of the Zengid emir of Aleppo, but asserted independence soon after. Now you have enemies in both the Crusaders and the Zengids, but you also have the economic base needed to raise an adequate army.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_23</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_31</Tag>
+		<English>Mongols.</English>
+		<French>Mongols.</French>
+		<German>Mongols.</German>
+		<Italian>Mongols.</Italian>
+		<Spanish>Mongols.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_32</Tag>
+		<English>Mongols.</English>
+		<French>Mongols.</French>
+		<German>Mongols.</German>
+		<Italian>Mongols.</Italian>
+		<Spanish>Mongols.</Spanish>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_33</Tag>
 		<English>It is the year 1250 AD. For more than two centuries, mamluks served as slave soldiers under caliphs and sultans of Egypt, gaining more and more power and influence. With the passing of the last Ayyubid sultan, Egypt came under the rule of his wife. She in turn, had no choice but to marry you, a mamluk general...</English>
 		<French>It is the year 1250 AD. For more than two centuries, mamluks served as slave soldiers under caliphs and sultans of Egypt, gaining more and more power and influence. With the passing of the last Ayyubid sultan, Egypt came under the rule of his wife. She in turn, had no choice but to marry you, a mamluk general...</French>
 		<German>Es ist das Jahr 1250 n. Chr. Mehr als zwei Jahrhunderte lang dienten Mamluken als Sklavensoldaten unter den Kalifen und Sultanen Ägyptens und erlangten immer mehr Macht und Einfluss. Mit dem Tod des letzten Ayyubiden-Sultans kam Ägypten unter die Herrschaft seiner Frau. Sie wiederum hatte keine andere Wahl, als Euch zu heiraten, einen Mamluken-General ...</German>
@@ -869,7 +981,15 @@
 		<Spanish>It is the year 1250 AD. For more than two centuries, mamluks served as slave soldiers under caliphs and sultans of Egypt, gaining more and more power and influence. With the passing of the last Ayyubid sultan, Egypt came under the rule of his wife. She in turn, had no choice but to marry you, a mamluk general...</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_24</Tag>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_34</Tag>
+		<English>Chagatai.</English>
+		<French>Mongols.</French>
+		<German>Mongols.</German>
+		<Italian>Mongols.</Italian>
+		<Spanish>Mongols.</Spanish>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_35</Tag>
 		<English>It is the year 1299 AD. Since the collapse of the Seljuk Sultanate in Anatolia, there was no beylik powerful enough to challenge other ghazi emirates, reunite them, and march for the rich Roman cities in Bithynia and Thrace. Until now.</English>
 		<French>It is the year 1299 AD. Since the collapse of the Seljuk Sultanate in Anatolia, there was no beylik powerful enough to challenge other ghazi emirates, reunite them, and march for the rich Roman cities in Bithynia and Thrace. Until now.</French>
 		<German>Es ist das Jahr 1299 n. Chr. Seit dem Zusammenbruch des seldschukischen Sultanats in Anatolien gab es keinen Beylik, der stark genug war, um andere Ghazi-Emirate herauszufordern, sie wieder zu vereinen und in die reichen römischen Städte in Bithynien und Thrakien zu marschieren. Bis jetzt.</German>

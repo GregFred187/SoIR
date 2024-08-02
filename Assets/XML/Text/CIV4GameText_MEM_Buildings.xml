@@ -461,6 +461,18 @@
 		<Spanish>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TATAR_ORDA</Tag>
+		<English>Orda</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TATAR_ORDA_STRATEGY</Tag>
+		<English>Orda</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TATAR_ORDA_PEDIA</Tag>
+		<English>[TAB]An orda (also orda, ordu, ordo, ordon) or horde was an historical sociopolitical and military structure found on the Eurasian Steppe, usually associated with the Turkic raiders and Mongols. This entity can be seen as regional equivalent of a clan or a tribe. Some successful ordas gave rise to khanates. Ordu or Ordo also means the Mongolian court. In Mongolian language, the Government Palace (Mongolia) is literally called Zasgiin gazriin ordon.</English>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RACING_TRACK</Tag>
 		<English>Racing Track</English>
 		<French>Racing Track</French>
@@ -916,6 +928,22 @@
 		<Italian>[TAB]Many Mamluks were trained as cavalry soldiers, capable of fighting both ranged and close engagements. It is the Mamluk heavy cavalry that brought the previously undefeated Mongol horse archers to their knees. Compared to Mongols' resilent ponies, Mamluk horses were large, strong, fast and well-fed. Therefore it is not surprising than quality steeds were an important commodity in the Sultanate of Egypt, with its limited pasture-land.</Italian>
 		<Spanish>[TAB]Many Mamluks were trained as cavalry soldiers, capable of fighting both ranged and close engagements. It is the Mamluk heavy cavalry that brought the previously undefeated Mongol horse archers to their knees. Compared to Mongols' resilent ponies, Mamluk horses were large, strong, fast and well-fed. Therefore it is not surprising than quality steeds were an important commodity in the Sultanate of Egypt, with its limited pasture-land.</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GER</Tag>
+		<English>Ger</English>
+		<French>Horse Breeder</French>
+		<German>Horse Breeder</German>
+		<Italian>Horse Breeder</Italian>
+		<Spanish>Horse Breeder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GER_PEDIA</Tag>
+		<English>As nomadic tribesmen (and later as cavalry-based conquerors), the Mongolians' survival was dependent upon the quality of their horses and the skill of their riders.  A warhorse must be extensively trained if it is to be successfully used in battle. In their natural state, most horses quite sensibly seek to run away from dangerous situations - say, when surrounded by screaming men armed with sharp objects. A cavalryman's horse, on the other hand, needs to be able to suppress this instinct and instead instantly carry out any order given it by its rider - no matter how suicidal. Such training takes time and skill - for both mount and rider. Mongolian stables - built in the ubiquitous Mongolian yurt (or "ger") tents - provide such training.</English>
+		<French>Horse Breeder</French>
+		<German>Horse Breeder</German>
+		<Italian>Horse Breeder</Italian>
+		<Spanish>Horse Breeder</Spanish>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ORTHODOX_TEMPLE</Tag>
 		<English>Orthodox Church</English>

@@ -37,6 +37,16 @@
 			<Button>,Art/Interface/Buttons/Buildings/Versailles.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,7</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_TATAR_ORDA</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0.88</fScale>
+			<fInterfaceScale>0.75</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Yert_ger/Yurt_Ger.nif</NIF>
+			<KFM/>
+			<Button>Art/Structures/Buildings/tatarorda/tatarorda.dds</Button>
+		</BuildingArtInfo>		
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WALLS</Type>
 			<LSystem>LSYSTEM_WALLS</LSystem>
 			<bAnimated>0</bAnimated>
@@ -56,6 +66,16 @@
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/Wall.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,8,3</Button>
 		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_BURANA</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>8.5</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Wonders/IronPillar/Kutlug-Timur.nif</NIF>
+			<KFM/>
+			<Button>Art/Structures/Wonders/IronPillar/iron_pillar.dds</Button>
+		</BuildingArtInfo>		
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CASTLE</Type>
 			<LSystem>LSYSTEM_3x3</LSystem>
@@ -696,6 +716,16 @@
 			<NIF>Art/Structures/Buildings/OxfordUniversity/OxfordUniversity.nif</NIF>
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/OxfordUniversity.dds,Art/Interface/Buttons/Buildings_Atlas.dds,5,5</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_SAINT_SOPHIA</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0.065</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Wonders/SaintSophia/st_sophia.nif</NIF>
+			<KFM/>
+			<Button>Art/Structures/Wonders/SaintSophia/Saint_Sophia.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GREAT_LIBRARY</Type>
@@ -1828,6 +1858,16 @@
 			<Button>,Art/Interface/Buttons/Buildings/Rihla.dds,Art/Interface/Buttons/mem_buildings_atlas.dds,4,13</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_MARG_OBSERVATORY</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/structures/wonders/Margareh/Margareh.nif</NIF>
+			<KFM/>
+			<Button>Art/structures/wonders/Margareh/Margareh_button.dds</Button>
+		</BuildingArtInfo>		
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BRIDGE</Type>
 			<LSystem>LSYSTEM_RIVER</LSystem>
 			<bAnimated>0</bAnimated>
@@ -1837,6 +1877,16 @@
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/Bridge.dds,Art/Interface/Buttons/mem_buildings_atlas.dds,1,14</Button>
 		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_GOL_GUMBAZ</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>0.69</fInterfaceScale>
+			<NIF>Art/Structures/Wonders/Gol Gumbaz/Gol_Gumbaz.nif</NIF>
+			<KFM/>
+			<Button>,-,Art/Interface/Buttons/RFCA_Buildings_Projects_Atlas.dds,8,5</Button>
+		</BuildingArtInfo>		
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_THEODOSIAN_WALLS</Type>
 			<LSystem>LSYSTEM_THEODOSIAN_WALLS</LSystem>
