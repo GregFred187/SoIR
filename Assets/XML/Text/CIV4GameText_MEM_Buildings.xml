@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MISC_STABILITY_BONUS_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability</English>
+		<French>[ICON_BULLET]+1 Stabilite</French>
+		<German>[ICON_BULLET]+1 Stabilität</German>
+		<Italian>[ICON_BULLET]+1 Stabilit&#192;</Italian>
+		<Spanish>[ICON_BULLET]+1 Estabilidad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_TEMPLE_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability if [ICON_CATHOLICISM] is State [ICON_RELIGION]</English>
+		<French>[ICON_BULLET]+1 Stability if [ICON_CATHOLICISM] is State [ICON_RELIGION]</French>
+		<German>[ICON_BULLET]+1 Stabilität bei [ICON_CATHOLICISM]</German>
+		<Italian>[ICON_BULLET]+1 Stability if [ICON_CATHOLICISM] is State [ICON_RELIGION]</Italian>
+		<Spanish>[ICON_BULLET]+1 Stability if [ICON_CATHOLICISM] is State [ICON_RELIGION]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORTHODOX_TEMPLE_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability if [ICON_ORTHODOXY] is State [ICON_RELIGION]</English>
+		<French>[ICON_BULLET]+1 Stability if [ICON_ORTHODOXY] is State [ICON_RELIGION]</French>
+		<German>[ICON_BULLET]+1 Stabilität bei [ICON_ORTHODOXY]</German>
+		<Italian>[ICON_BULLET]+1 Stability if [ICON_ORTHODOXY] is State [ICON_RELIGION]</Italian>
+		<Spanish>[ICON_BULLET]+1 Stability if [ICON_ORTHODOXY] is State [ICON_RELIGION]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNNI_TEMPLE_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability if [ICON_SUNNI] is State [ICON_RELIGION]</English>
+		<French>[ICON_BULLET]+1 Stability if [ICON_SUNNI] is State [ICON_RELIGION]</French>
+		<German>[ICON_BULLET]+1 Stabilität bei [ICON_SUNNI]</German>
+		<Italian>[ICON_BULLET]+1 Stability if [ICON_SUNNI] is State [ICON_RELIGION]</Italian>
+		<Spanish>[ICON_BULLET]+1 Stability if [ICON_SUNNI] is State [ICON_RELIGION]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIA_TEMPLE_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability if [ICON_SHIA] is State [ICON_RELIGION]</English>
+		<French>[ICON_BULLET]+1 Stability if [ICON_SHIA] is State [ICON_RELIGION]</French>
+		<German>[ICON_BULLET]+1 Stabilität bei [ICON_SHIA]</German>
+		<Italian>[ICON_BULLET]+1 Stability if [ICON_SHIA] is State [ICON_RELIGION]</Italian>
+		<Spanish>[ICON_BULLET]+1 Stability if [ICON_SHIA] is State [ICON_RELIGION]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_TEMPLE_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability if [ICON_HINDUISM] is State [ICON_RELIGION]</English>
+		<French>[ICON_BULLET]+1 Stability if [ICON_HINDUISM] is State [ICON_RELIGION]</French>
+		<German>[ICON_BULLET]+1 Stabilität bei [ICON_HINDUISM]</German>
+		<Italian>[ICON_BULLET]+1 Stability if [ICON_HINDUISM] is State [ICON_RELIGION]</Italian>
+		<Spanish>[ICON_BULLET]+1 Stability if [ICON_HINDUISM] is State [ICON_RELIGION]</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_PALACE_HELP</Tag>
+		<English>[ICON_BULLET]+5 Stability</English>
+		<French>[ICON_BULLET]+5 Stabilite</French>
+		<German>[ICON_BULLET]+5 Stabilität</German>
+		<Italian>[ICON_BULLET]+5 Stabilit&#192;</Italian>
+		<Spanish>[ICON_BULLET]+5 Estabilidad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SANSKRIT_COLLEGE</Tag>
+		<English>Sanskrit College</English>
+		<French>Sanskrit College</French>
+		<German>Sanskrit-Hochschule</German>
+		<Italian>Sanskrit College</Italian>
+		<Spanish>Sanskrit College</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SANSKRIT_COLLEGE_PEDIA</Tag>
+		<English>[TAB]A Sanskrit college (sadas) is a centre of Sanskrit studies. The Paramara philosopher king Bhoja is famous for producing major works of Sanskrit literature and for building several temples and Sanskrit colleges, such as the Bhojasala (Hall of Bhoja) in Dhar.</English>
+		<French>[TAB]A Sanskrit college (sadas) is a centre of Sanskrit studies. The Paramara philosopher king Bhoja is famous for producing major works of Sanskrit literature and for building several temples and Sanskrit colleges, such as the Bhojasala (Hall of Bhoja) in Dhar.</French>
+		<German>[TAB]Ein Sanskrit-College (Sadas) ist ein Zentrum für Sanskrit-Studien. Der Paramara-Philosophenkönig Bhoja ist berühmt für seine bedeutenden Werke der Sanskrit-Literatur und für den Bau mehrerer Tempel und Sanskrit-Colleges, wie der Bhojasala (Halle von Bhoja) in Dhar.</German>
+		<Italian>[TAB]A Sanskrit college (sadas) is a centre of Sanskrit studies. The Paramara philosopher king Bhoja is famous for producing major works of Sanskrit literature and for building several temples and Sanskrit colleges, such as the Bhojasala (Hall of Bhoja) in Dhar.</Italian>
+		<Spanish>[TAB]A Sanskrit college (sadas) is a centre of Sanskrit studies. The Paramara philosopher king Bhoja is famous for producing major works of Sanskrit literature and for building several temples and Sanskrit colleges, such as the Bhojasala (Hall of Bhoja) in Dhar.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KARIMI_FUNDUQ</Tag>
+		<English>Karimi Funduq</English>
+		<French>Karimi Funduq</French>
+		<German>Karimi Funduq</German>
+		<Italian>Karimi Funduq</Italian>
+		<Spanish>Karimi Funduq</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KARIMI_FUNDUQ_PEDIA</Tag>
+		<English>[TAB]In the medieval Arab world, the funduq was a commercial building found in many trading hubs. It functioned as a caravan house, but often also as a specialized shopping center. The Karimi Family of Egypt constructed numerous private funduqs, where they used to store and trade wares imported from all over North Africa and Middle East. [PARAGRAPH:1]In modern Arabic funduq refers to a hotel.</English>
+		<French>[TAB]In the medieval Arab world, the funduq was a commercial building found in many trading hubs. It functioned as a caravan house, but often also as a specialized shopping center. The Karimi Family of Egypt constructed numerous private funduqs, where they used to store and trade wares imported from all over North Africa and Middle East. [PARAGRAPH:1]In modern Arabic funduq refers to a hotel.</French>
+		<German>[TAB]In der mittelalterlichen arabischen Welt war der Funduq ein Geschäftsgebäude, das in vielen Handelszentren zu finden war. Es diente als Wohnwagenhaus, oft aber auch als spezialisiertes Einkaufszentrum. Die ägyptische Familie Karimi errichtete zahlreiche private Funduqs, in denen sie aus ganz Nordafrika und dem Nahen Osten importierte Waren lagerte und handelte. [PARAGRAPH:1]Im modernen Arabisch bezieht sich funduq auf ein Hotel.</German>
+		<Italian>[TAB]In the medieval Arab world, the funduq was a commercial building found in many trading hubs. It functioned as a caravan house, but often also as a specialized shopping center. The Karimi Family of Egypt constructed numerous private funduqs, where they used to store and trade wares imported from all over North Africa and Middle East. [PARAGRAPH:1]In modern Arabic funduq refers to a hotel.</Italian>
+		<Spanish>[TAB]In the medieval Arab world, the funduq was a commercial building found in many trading hubs. It functioned as a caravan house, but often also as a specialized shopping center. The Karimi Family of Egypt constructed numerous private funduqs, where they used to store and trade wares imported from all over North Africa and Middle East. [PARAGRAPH:1]In modern Arabic funduq refers to a hotel.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_MONASTERY</Tag>
+		<English>Buddhist Monastery</English>
+		<French>Buddhist Monastery</French>
+		<German>Buddhistisches Kloster</German>
+		<Italian>Buddhist Monastery</Italian>
+		<Spanish>Buddhist Monastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_MONASTERY_HELP</Tag>
+		<English>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</English>
+		<French>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</French>
+		<German>[ICON_BULLET]+1 Stabilität[NEWLINE][ICON_BULLET]Erfordert [ICON_HINDUISM]</German>
+		<Italian>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</Italian>
+		<Spanish>[ICON_BULLET]+1 Stability[NEWLINE][ICON_BULLET]Requires [ICON_HINDUISM] State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFECTIONER</Tag>
+		<English>Confectioner</English>
+		<French>Confectioner</French>
+		<German>Konditorei</German>
+		<Italian>Confectioner</Italian>
+		<Spanish>Confectioner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFECTIONER_PEDIA</Tag>
+		<English>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</English>
+		<French>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</French>
+		<German>[TAB]Konditoren verkauft Süßwaren oder verschiedene Lebensmittel, die im Allgemeinen reich an Zucker sind. Die spezialisierte Süßwarenindustrie entstand im mittelalterlichen Nahen Osten aufgrund der hohen Zuckerproduktion und der Erfindung der Zuckerraffinerie. Das englische Wort "Candy" kommt vom arabischen qandi, was "aus Zucker hergestellt" bedeutet.</German>
+		<Italian>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</Italian>
+		<Spanish>[TAB]Confectioner sells confections, or various foods generally rich in sugar. Specialized confectionery industry originated in the medieval Middle East due to high sugar production and the invention of sugar refinery. The English word "candy" comes from the Arabic qandi, which means "made of sugar."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MINT</Tag>
+		<English>Mint</English>
+		<French>Mint</French>
+		<German>Münzanstalt</German>
+		<Italian>Mint</Italian>
+		<Spanish>Mint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MINT_PEDIA</Tag>
+		<English>[TAB]In addition to the wealth accumulated through raiding Indian cities, and exacting tribute from Indian Rajas, the Ghaznavids also benefited from their position as an intermediary along the trade routes between China and the Mediterranean. The wealth of Ghaznavid rulers is reflected by many coins from mints in Ghazna, Herat, Farwan or Lahore.</English>
+		<French>[TAB]In addition to the wealth accumulated through raiding Indian cities, and exacting tribute from Indian Rajas, the Ghaznavids also benefited from their position as an intermediary along the trade routes between China and the Mediterranean. The wealth of Ghaznavid rulers is reflected by many coins from mints in Ghazna, Herat, Farwan or Lahore.</French>
+		<German>[TAB]Zusätzlich zu dem Reichtum, den sie durch die Plünderung indischer Städte und die Forderung nach Tribut von indischen Rajas anhäuften, profitierten die Ghaznaviden auch von ihrer Position als Vermittler entlang der Handelsrouten zwischen China und dem Mittelmeerraum. Der Reichtum der ghaznavidischen Herrscher spiegelt sich in vielen Münzen aus Münzstätten in Ghazna, Herat, Farwan oder Lahore wider.</German>
+		<Italian>[TAB]In addition to the wealth accumulated through raiding Indian cities, and exacting tribute from Indian Rajas, the Ghaznavids also benefited from their position as an intermediary along the trade routes between China and the Mediterranean. The wealth of Ghaznavid rulers is reflected by many coins from mints in Ghazna, Herat, Farwan or Lahore.</Italian>
+		<Spanish>[TAB]In addition to the wealth accumulated through raiding Indian cities, and exacting tribute from Indian Rajas, the Ghaznavids also benefited from their position as an intermediary along the trade routes between China and the Mediterranean. The wealth of Ghaznavid rulers is reflected by many coins from mints in Ghazna, Herat, Farwan or Lahore.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAN</Tag>
+		<English>Han</English>
+		<French>Han</French>
+		<German>Han</German>
+		<Italian>Han</Italian>
+		<Spanish>Han</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAN_PEDIA</Tag>
+		<English>[TAB]A han is an Anatolian Seljuk inn (caravanserai). About a hundreds hans were built in Turkey during the Anatolian Seljuk period. </English>
+		<French>[TAB]A han is an Anatolian Seljuk inn (caravanserai). About a hundreds hans were built in Turkey during the Anatolian Seljuk period. </French>
+		<German>[TAB]Ein Han ist ein anatolisches seldschukisches Gasthaus (Karawanserei). Während der anatolischen Seldschukenzeit wurden in der Türkei etwa hundert Hans gebaut.</German>
+		<Italian>[TAB]A han is an Anatolian Seljuk inn (caravanserai). About a hundreds hans were built in Turkey during the Anatolian Seljuk period. </Italian>
+		<Spanish>[TAB]A han is an Anatolian Seljuk inn (caravanserai). About a hundreds hans were built in Turkey during the Anatolian Seljuk period. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAN_HELP</Tag>
+		<English>[ICON_BULLET]Increases the chance to attract Sufi orders</English>
+		<French>[ICON_BULLET]Increases the chance to attract Sufi orders</French>
+		<German>[ICON_BULLET]Increases the chance to attract Sufi orders</German>
+		<Italian>[ICON_BULLET]Increases the chance to attract Sufi orders</Italian>
+		<Spanish>[ICON_BULLET]Increases the chance to attract Sufi orders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NORMAN_CHAPEL</Tag>
+		<English>Norman Chapel</English>
+		<French>Norman Chapel</French>
+		<German>Normannische Kapelle</German>
+		<Italian>Norman Chapel</Italian>
+		<Spanish>Norman Chapel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NORMAN_CHAPEL_PEDIA</Tag>
+		<English>[TAB]The people of the Principality of Antioch were predominantly Armenians and Greek Orthodox Christians, with a few Muslims outside the city itself. Most of the crusaders who settled there were of Norman origin and/or from southern Italy, as were the first rulers of the principality who surrounded themselves with their own loyal subjects. There were few Roman Catholics apart from the Crusaders who set up the Principality, even though the city was turned into a Latin Patriarchate in 1100.</English>
+		<French>[TAB]The people of the Principality of Antioch were predominantly Armenians and Greek Orthodox Christians, with a few Muslims outside the city itself. Most of the crusaders who settled there were of Norman origin and/or from southern Italy, as were the first rulers of the principality who surrounded themselves with their own loyal subjects. There were few Roman Catholics apart from the Crusaders who set up the Principality, even though the city was turned into a Latin Patriarchate in 1100.</French>
+		<German>[TAB]Die Bevölkerung des Fürstentums Antiochia bestand überwiegend aus Armeniern und griechisch-orthodoxen Christen, mit einigen Muslimen außerhalb der Stadt. Die meisten Kreuzfahrer, die sich dort niederließen, waren normannischer Herkunft und/oder aus Süditalien, ebenso wie die ersten Herrscher des Fürstentums, die sich mit ihren eigenen treuen Untertanen umgaben. Außer den Kreuzfahrern, die das Fürstentum gründeten, gab es nur wenige Katholiken, obwohl die Stadt im Jahr 1100 in ein Lateinisches Patriarchat umgewandelt wurde.</German>
+		<Italian>[TAB]The people of the Principality of Antioch were predominantly Armenians and Greek Orthodox Christians, with a few Muslims outside the city itself. Most of the crusaders who settled there were of Norman origin and/or from southern Italy, as were the first rulers of the principality who surrounded themselves with their own loyal subjects. There were few Roman Catholics apart from the Crusaders who set up the Principality, even though the city was turned into a Latin Patriarchate in 1100.</Italian>
+		<Spanish>[TAB]The people of the Principality of Antioch were predominantly Armenians and Greek Orthodox Christians, with a few Muslims outside the city itself. Most of the crusaders who settled there were of Norman origin and/or from southern Italy, as were the first rulers of the principality who surrounded themselves with their own loyal subjects. There were few Roman Catholics apart from the Crusaders who set up the Principality, even though the city was turned into a Latin Patriarchate in 1100.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NORMAN_CHAPEL_HELP</Tag>
+		<English>[ICON_BULLET]No Stability penalty for lack of [ICON_CATHOLICISM][NEWLINE][ICON_BULLET]No Stability penalty for [ICON_ORTHODOXY]</English>
+		<French>[ICON_BULLET]No Stability penalty for lack of [ICON_CATHOLICISM][NEWLINE][ICON_BULLET]No Stability penalty for [ICON_ORTHODOXY]</French>
+		<German>[ICON_BULLET]Keine Stabilitätsstrafe wegen Mangel an [ICON_CATHOLICISM][NEWLINE][ICON_BULLET]Keine Stabilitätsstrafe für[ICON_ORTHODOXY]</German>
+		<Italian>[ICON_BULLET]No Stability penalty for lack of [ICON_CATHOLICISM][NEWLINE][ICON_BULLET]No Stability penalty for [ICON_ORTHODOXY]</Italian>
+		<Spanish>[ICON_BULLET]No Stability penalty for lack of [ICON_CATHOLICISM][NEWLINE][ICON_BULLET]No Stability penalty for [ICON_ORTHODOXY]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DIVAN</Tag>
+		<English>Divan</English>
+		<French>Divan</French>
+		<German>Divan</German>
+		<Italian>Divan</Italian>
+		<Spanish>Divan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DIVAN_PEDIA</Tag>
+		<English>[TAB]Divan or diwan was a high governmental body in a number of Islamic states, or its chief official. The tribal Ak Koyunlu behaved like statesmen more than warlords, and with conquest of Iran they adopted the preexisting administrative system along with its officials, whose families had in some cases served under different dynasties for several generations.</English>
+		<French>[TAB]Divan or diwan was a high governmental body in a number of Islamic states, or its chief official. The tribal Ak Koyunlu behaved like statesmen more than warlords, and with conquest of Iran they adopted the preexisting administrative system along with its officials, whose families had in some cases served under different dynasties for several generations.</French>
+		<German>[TAB]Divan oder Diwan war in einer Reihe islamischer Staaten eine hohe Regierungsbehörde oder deren oberster Beamter. Die Stammesmitglieder der Ak Koyunlu verhielten sich eher wie Staatsmänner als wie Kriegsherren, und mit der Eroberung des Iran übernahmen sie das bereits bestehende Verwaltungssystem zusammen mit seinen Beamten, deren Familien in einigen Fällen über mehrere Generationen hinweg unter verschiedenen Dynastien gedient hatten.</German>
+		<Italian>[TAB]Divan or diwan was a high governmental body in a number of Islamic states, or its chief official. The tribal Ak Koyunlu behaved like statesmen more than warlords, and with conquest of Iran they adopted the preexisting administrative system along with its officials, whose families had in some cases served under different dynasties for several generations.</Italian>
+		<Spanish>[TAB]Divan or diwan was a high governmental body in a number of Islamic states, or its chief official. The tribal Ak Koyunlu behaved like statesmen more than warlords, and with conquest of Iran they adopted the preexisting administrative system along with its officials, whose families had in some cases served under different dynasties for several generations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SILK_WEAVER</Tag>
+		<English>Silk Weaver</English>
+		<French>Silk Weaver</French>
+		<German>Seidenweberei</German>
+		<Italian>Silk Weaver</Italian>
+		<Spanish>Silk Weaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SILK_WEAVER_PEDIA</Tag>
+		<English>[TAB]Khwarezm's wealth came primarily from silk and other products traded through the Silk Road. Khwarezmshahs controlled all the important Silk Road cities in Transoxiana, Khorasan and later, all of Iran.</English>
+		<French>[TAB]Khwarezm's wealth came primarily from silk and other products traded through the Silk Road. Khwarezmshahs controlled all the important Silk Road cities in Transoxiana, Khorasan and later, all of Iran.</French>
+		<German>[TAB]Choresms Reichtum stammte hauptsächlich aus Seide und anderen Produkten, die über die Seidenstraße gehandelt wurden. Choresmshahs kontrollierten alle wichtigen Seidenstraßenstädte in Transoxiana, Khorasan und später im gesamten Iran.</German>
+		<Italian>[TAB]Khwarezm's wealth came primarily from silk and other products traded through the Silk Road. Khwarezmshahs controlled all the important Silk Road cities in Transoxiana, Khorasan and later, all of Iran.</Italian>
+		<Spanish>[TAB]Khwarezm's wealth came primarily from silk and other products traded through the Silk Road. Khwarezmshahs controlled all the important Silk Road cities in Transoxiana, Khorasan and later, all of Iran.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POTTERY_SHOP</Tag>
+		<English>Pottery Workshop</English>
+		<French>Pottery Workshop</French>
+		<German>Töpferei</German>
+		<Italian>Pottery Workshop</Italian>
+		<Spanish>Pottery Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POTTERY_SHOP_PEDIA</Tag>
+		<English>[TAB]One of the lasting contributions of the Samanids to the history of Islamic art is the pottery known as Samanid Epigraphic Ware: plates, bowls, and pitchers fired in a white slip and decorated only with calligraphy, often elegantly and rhythmically written.</English>
+		<French>[TAB]One of the lasting contributions of the Samanids to the history of Islamic art is the pottery known as Samanid Epigraphic Ware: plates, bowls, and pitchers fired in a white slip and decorated only with calligraphy, often elegantly and rhythmically written.</French>
+		<German>[TAB]Einer der bleibenden Beiträge der Samaniden zur Geschichte der islamischen Kunst ist die als Samanid Epigraphic Ware bekannte Keramik: Teller, Schalen und Krüge, die in einem weißen Schlicker gebrannt und nur mit Kalligraphie verziert sind, oft elegant und rhythmisch geschrieben.</German>
+		<Italian>[TAB]One of the lasting contributions of the Samanids to the history of Islamic art is the pottery known as Samanid Epigraphic Ware: plates, bowls, and pitchers fired in a white slip and decorated only with calligraphy, often elegantly and rhythmically written.</Italian>
+		<Spanish>[TAB]One of the lasting contributions of the Samanids to the history of Islamic art is the pottery known as Samanid Epigraphic Ware: plates, bowls, and pitchers fired in a white slip and decorated only with calligraphy, often elegantly and rhythmically written.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUFI_SHRINE</Tag>
+		<English>Sufi Shrine</English>
+		<French>Sufi Shrine</French>
+		<German>Sufi-Schrein</German>
+		<Italian>Sufi Shrine</Italian>
+		<Spanish>Sufi Shrine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUFI_SHRINE_PEDIA</Tag>
+		<English>[TAB]Sufi shrines (dargah) are built over graves of revered religious figures i.e. Sufi saints. Dargahs are often associated with Sufi meeting rooms and hostels, known as khanqah. They often include a mosque, meeting rooms, schools (Madrassas), residences for a teacher or caretaker, hospitals, and other buildings for community purposes.</English>
+		<French>[TAB]Sufi shrines (dargah) are built over graves of revered religious figures i.e. Sufi saints. Dargahs are often associated with Sufi meeting rooms and hostels, known as khanqah. They often include a mosque, meeting rooms, schools (Madrassas), residences for a teacher or caretaker, hospitals, and other buildings for community purposes.</French>
+		<German>[TAB]Sufi-Schreine (Dargah) werden über Gräbern verehrter religiöser Persönlichkeiten, d. h. Sufi-Heiliger, errichtet. Dargahs werden oft mit Sufi-Tagungsräumen und -Herbergen, bekannt als Khanqah, in Verbindung gebracht. Dazu gehören häufig eine Moschee, Versammlungsräume, Schulen (Madrassas), Wohnungen für einen Lehrer oder Hausmeister, Krankenhäuser und andere Gebäude für gemeinschaftliche Zwecke.</German>
+		<Italian>[TAB]Sufi shrines (dargah) are built over graves of revered religious figures i.e. Sufi saints. Dargahs are often associated with Sufi meeting rooms and hostels, known as khanqah. They often include a mosque, meeting rooms, schools (Madrassas), residences for a teacher or caretaker, hospitals, and other buildings for community purposes.</Italian>
+		<Spanish>[TAB]Sufi shrines (dargah) are built over graves of revered religious figures i.e. Sufi saints. Dargahs are often associated with Sufi meeting rooms and hostels, known as khanqah. They often include a mosque, meeting rooms, schools (Madrassas), residences for a teacher or caretaker, hospitals, and other buildings for community purposes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YAM</Tag>
+		<English>Yam</English>
+		<French>Yam</French>
+		<German>Yam</German>
+		<Italian>Yam</Italian>
+		<Spanish>Yam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YAM_PEDIA</Tag>
+		<English>[TAB]Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by his descendants, including the Timurids. [PARAGRAPH:1]Relay stations were used to give food, shelter and spare horses for Mongol armies messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200–300 km per day. It was used to speed up the process of information and intelligence.</English>
+		<French>[TAB]Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by his descendants, including the Timurids. [PARAGRAPH:1]Relay stations were used to give food, shelter and spare horses for Mongol armies messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200–300 km per day. It was used to speed up the process of information and intelligence.</French>
+		<German>[TAB]Yam ist ein Botensystem für Versorgungspunkte, das von Dschingis Khan und seinen Nachkommen, einschließlich der Timuriden, ausgiebig genutzt und erweitert wurde. [PARAGRAPH:1]Relaisstationen dienten dazu, den Boten der mongolischen Armee Nahrung, Unterkunft und Ersatzpferde zu bieten. Dschingis Khan widmete Yam besondere Aufmerksamkeit, da die mongolischen Armeen sehr schnell reisten und ihre Boten daher noch schneller sein mussten und 200-300 km pro Tag zurücklegten. Es wurde verwendet, um den Informations- und Intelligenzprozess zu beschleunigen.</German>
+		<Italian>[TAB]Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by his descendants, including the Timurids. [PARAGRAPH:1]Relay stations were used to give food, shelter and spare horses for Mongol armies messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200–300 km per day. It was used to speed up the process of information and intelligence.</Italian>
+		<Spanish>[TAB]Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by his descendants, including the Timurids. [PARAGRAPH:1]Relay stations were used to give food, shelter and spare horses for Mongol armies messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200–300 km per day. It was used to speed up the process of information and intelligence.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWER_HOUSE</Tag>
+		<English>Tower House</English>
+		<French>Tower House</French>
+		<German>Turmhaus</German>
+		<Italian>Tower House</Italian>
+		<Spanish>Tower House</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWER_HOUSE_PEDIA</Tag>
+		<English>[TAB]A tower house is structure built both for habitation and defensive purposes. The Yemeni city of Shibam had hundreds of tower houses built to protect the inhabitants from Bedouin raids.</English>
+		<French>[TAB]A tower house is structure built both for habitation and defensive purposes. The Yemeni city of Shibam had hundreds of tower houses built to protect the inhabitants from Bedouin raids.</French>
+		<German>[TAB]Ein Turmhaus ist ein Bauwerk, das sowohl zu Wohn- als auch zu Verteidigungszwecken errichtet wurde. In der jemenitischen Stadt Shibam wurden Hunderte von Turmhäusern gebaut, um die Einwohner vor Überfällen der Beduinen zu schützen.</German>
+		<Italian>[TAB]A tower house is structure built both for habitation and defensive purposes. The Yemeni city of Shibam had hundreds of tower houses built to protect the inhabitants from Bedouin raids.</Italian>
+		<Spanish>[TAB]A tower house is structure built both for habitation and defensive purposes. The Yemeni city of Shibam had hundreds of tower houses built to protect the inhabitants from Bedouin raids.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHANCERY</Tag>
+		<English>Chancery</English>
+		<French>Chancery</French>
+		<German>Kanzlei</German>
+		<Italian>Chancery</Italian>
+		<Spanish>Chancery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHANCERY_PEDIA</Tag>
+		<English>[TAB]Chancery is a general term for a medieval writing office, responsible for the production of official documents. The crusaders brought this institution to the Levant. In the Principality of Antioch, the office was responsible for producing all documents pertaining to the administration of the principality. One office holder in the Antiochene chancery was Walter the Chancellor, who wrote the only early history of the state. [PARAGRAPH:1]In the Kingdom of Jerusalem, the chancery produced hundreds of documents. The chancellor of Jerusalem was one of the highest posts in the kingdom. One famous chancellor was the chronicler William of Tyre.</English>
+		<French>[TAB]Chancery is a general term for a medieval writing office, responsible for the production of official documents. The crusaders brought this institution to the Levant. In the Principality of Antioch, the office was responsible for producing all documents pertaining to the administration of the principality. One office holder in the Antiochene chancery was Walter the Chancellor, who wrote the only early history of the state. [PARAGRAPH:1]In the Kingdom of Jerusalem, the chancery produced hundreds of documents. The chancellor of Jerusalem was one of the highest posts in the kingdom. One famous chancellor was the chronicler William of Tyre.</French>
+		<German>[TAB]Die Kanzlei ist eine allgemeine Bezeichnung für ein mittelalterliches Schreibbüro, das für die Erstellung offizieller Dokumente verantwortlich ist. Die Kreuzfahrer brachten diese Institution in die Levante. Im Fürstentum Antiochia war das Amt für die Erstellung aller Dokumente im Zusammenhang mit der Verwaltung des Fürstentums verantwortlich. Einer der Amtsinhaber in der Kanzlei von Antiochen war der Kanzler Walter, der die einzige Frühgeschichte des Staates verfasste. [PARAGRAPH:1]Im Königreich Jerusalem erstellte die Kanzlei Hunderte von Dokumenten. Der Kanzler von Jerusalem war einer der höchsten Posten im Königreich. Ein berühmter Kanzler war der Chronist Wilhelm von Tyrus.</German>
+		<Italian>[TAB]Chancery is a general term for a medieval writing office, responsible for the production of official documents. The crusaders brought this institution to the Levant. In the Principality of Antioch, the office was responsible for producing all documents pertaining to the administration of the principality. One office holder in the Antiochene chancery was Walter the Chancellor, who wrote the only early history of the state. [PARAGRAPH:1]In the Kingdom of Jerusalem, the chancery produced hundreds of documents. The chancellor of Jerusalem was one of the highest posts in the kingdom. One famous chancellor was the chronicler William of Tyre.</Italian>
+		<Spanish>[TAB]Chancery is a general term for a medieval writing office, responsible for the production of official documents. The crusaders brought this institution to the Levant. In the Principality of Antioch, the office was responsible for producing all documents pertaining to the administration of the principality. One office holder in the Antiochene chancery was Walter the Chancellor, who wrote the only early history of the state. [PARAGRAPH:1]In the Kingdom of Jerusalem, the chancery produced hundreds of documents. The chancellor of Jerusalem was one of the highest posts in the kingdom. One famous chancellor was the chronicler William of Tyre.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARAVANSERAI</Tag>
+		<English>Caravanserai</English>
+		<French>Caravanserai</French>
+		<German>Karawanserei</German>
+		<Italian>Caravanserai</Italian>
+		<Spanish>Caravanserai</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARAVANSERAI_PEDIA</Tag>
+		<English>[TAB]A caravanserai was a roadside inn where travelers could rest and recover from the day's journey. Caravanserais supported the flow of commerce, information, and people across the network of trade routes covering Asia, North Africa, and South-Eastern Europe. [PARAGRAPH:1]Most typically a caravanserai was a building with a square or rectangular walled exterior, with a single portal wide enough to permit large or heavily laden beasts such as camels to enter. The courtyard was almost always open to the sky, and the inside walls of the enclosure were outfitted with a number of identical stalls, bays, niches, or chambers to accommodate merchants and their servants, animals, and merchandise. [PARAGRAPH:1]Caravanserais provided water for human and animal consumption, washing, and ritual ablutions. Sometimes they even had elaborate baths. They also kept fodder for animals and had shops for travellers where they could acquire new supplies. In addition, there could be shops where merchants could dispose of some of their goods.</English>
+		<French>[TAB]A caravanserai was a roadside inn where travelers could rest and recover from the day's journey. Caravanserais supported the flow of commerce, information, and people across the network of trade routes covering Asia, North Africa, and South-Eastern Europe. [PARAGRAPH:1]Most typically a caravanserai was a building with a square or rectangular walled exterior, with a single portal wide enough to permit large or heavily laden beasts such as camels to enter. The courtyard was almost always open to the sky, and the inside walls of the enclosure were outfitted with a number of identical stalls, bays, niches, or chambers to accommodate merchants and their servants, animals, and merchandise. [PARAGRAPH:1]Caravanserais provided water for human and animal consumption, washing, and ritual ablutions. Sometimes they even had elaborate baths. They also kept fodder for animals and had shops for travellers where they could acquire new supplies. In addition, there could be shops where merchants could dispose of some of their goods.</French>
+		<German>[TAB]Eine Karawanserei war ein Gasthaus am Straßenrand, in dem Reisende sich ausruhen und von der Tagesreise erholen konnten. Karawansereien unterstützten den Handels-, Informations- und Menschenfluss über das Netzwerk von Handelsrouten, das Asien, Nordafrika und Südosteuropa abdeckte. [PARAGRAPH:1]Am typischsten war eine Karawanserei ein Gebäude mit einer quadratischen oder rechteckigen Außenwand und einem einzigen Portal, das breit genug war, um großen oder schwer beladenen Tieren wie Kamelen den Zutritt zu ermöglichen. Der Hof war fast immer zum Himmel hin offen und die Innenwände der Umzäunung waren mit einer Reihe identischer Stände, Erker, Nischen oder Kammern ausgestattet, um Händler und ihre Diener, Tiere und Waren unterzubringen. [PARAGRAPH:1]Karawansereien stellten Wasser für den menschlichen und tierischen Verzehr, zum Waschen und für rituelle Waschungen bereit. Manchmal gab es sogar aufwendige Bäder. Sie hielten auch Futter für Tiere und verfügten über Geschäfte für Reisende, in denen sie neue Vorräte erwerben konnten. Darüber hinaus könnte es Geschäfte geben, in denen Händler einen Teil ihrer Waren abgeben könnten.</German>
+		<Italian>[TAB]A caravanserai was a roadside inn where travelers could rest and recover from the day's journey. Caravanserais supported the flow of commerce, information, and people across the network of trade routes covering Asia, North Africa, and South-Eastern Europe. [PARAGRAPH:1]Most typically a caravanserai was a building with a square or rectangular walled exterior, with a single portal wide enough to permit large or heavily laden beasts such as camels to enter. The courtyard was almost always open to the sky, and the inside walls of the enclosure were outfitted with a number of identical stalls, bays, niches, or chambers to accommodate merchants and their servants, animals, and merchandise. [PARAGRAPH:1]Caravanserais provided water for human and animal consumption, washing, and ritual ablutions. Sometimes they even had elaborate baths. They also kept fodder for animals and had shops for travellers where they could acquire new supplies. In addition, there could be shops where merchants could dispose of some of their goods.</Italian>
+		<Spanish>[TAB]A caravanserai was a roadside inn where travelers could rest and recover from the day's journey. Caravanserais supported the flow of commerce, information, and people across the network of trade routes covering Asia, North Africa, and South-Eastern Europe. [PARAGRAPH:1]Most typically a caravanserai was a building with a square or rectangular walled exterior, with a single portal wide enough to permit large or heavily laden beasts such as camels to enter. The courtyard was almost always open to the sky, and the inside walls of the enclosure were outfitted with a number of identical stalls, bays, niches, or chambers to accommodate merchants and their servants, animals, and merchandise. [PARAGRAPH:1]Caravanserais provided water for human and animal consumption, washing, and ritual ablutions. Sometimes they even had elaborate baths. They also kept fodder for animals and had shops for travellers where they could acquire new supplies. In addition, there could be shops where merchants could dispose of some of their goods.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAVER</Tag>
+		<English>Weaver</English>
+		<French>Weaver</French>
+		<German>Weberei</German>
+		<Italian>Weaver</Italian>
+		<Spanish>Weaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAVER_PEDIA</Tag>
+		<English>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</English>
+		<French>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</French>
+		<German>[TAB]Das Handweben persischer Teppiche und Kelims war ein wichtiger Bestandteil des Stammeshandwerks in vielen Subregionen Persiens. Beispiele für Teppichtypen sind der Lavar-Kerman-Teppich aus Kerman und der Seraband-Teppich aus Arak.[PARAGRAPH:1]Eine wichtige Innovation in der Weberei, die in der muslimischen Welt während des islamischen Goldenen Zeitalters entwickelt wurde, war die Einführung von Fußpedalen zur Bedienung eines Webstuhls . Die ersten Geräte dieser Art tauchten in Syrien, im Iran und in islamischen Teilen Ostafrikas auf, wo "der Bediener mit seinen Füßen in einer Grube unter einem ziemlich niedrig angebrachten Webstuhl saß". Bis 1177 wurde es in Al-Andalus weiterentwickelt, wo der Mechanismus "auf einem massiveren Rahmen höher über den Boden gehoben" wurde. Dieser Webstuhltyp verbreitete sich in den christlichen Teilen Spaniens und erfreute sich bald im gesamten mittelalterlichen Europa großer Beliebtheit.</German>
+		<Italian>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</Italian>
+		<Spanish>[TAB]Hand weaving of Persian carpets and kilims has been an important element of the tribal crafts of many of the subregions of Persia. Examples of carpet types are the Lavar Kerman carpet from Kerman and the Seraband rug from Arak.[PARAGRAPH:1]An important innovation in weaving that was developed in the Muslim world during the Islamic Golden Age was the introduction of foot pedals to operate a loom. The first such devices appeared in Syria, Iran and Islamic parts of East Africa, where "the operator sat with his feet in a pit below a fairly low-slung loom." By 1177, it was further developed in Al-Andalus, where having the mechanism was "raised higher above the ground on a more substantial frame." This type of loom spread to the Christian parts of Spain and soon became popular all over medieval Europe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SLAVE_MARKET</Tag>
+		<English>Slave Market</English>
+		<French>Slave Market</French>
+		<German>Sklavenmarkt</German>
+		<Italian>Slave Market</Italian>
+		<Spanish>Slave Market</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SLAVE_MARKET_HELP</Tag>
+		<English>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK]</English>
+		<French>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK]</French>
+		<German>[ICON_BULLET]Erfordert [LINK=literal]Sklaverei[\LINK]</German>
+		<Italian>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SLAVE_MARKET_PEDIA</Tag>
+		<English>A slave market is a place where slaves are bought and sold. These markets became a key phenomenon in the history of slavery.</English>
+		<French>A slave market is a place where slaves are bought and sold. These markets became a key phenomenon in the history of slavery. </French>
+		<German>Ein Sklavenmarkt ist ein Ort, an dem Sklaven gekauft und verkauft werden. Diese Märkte wurden zu einem Schlüsselphänomen in der Geschichte der Sklaverei.</German>
+		<Italian>A slave market is a place where slaves are bought and sold. These markets became a key phenomenon in the history of slavery. </Italian>
+		<Spanish>A slave market is a place where slaves are bought and sold. These markets became a key phenomenon in the history of slavery. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SLAVE_BARRACKS</Tag>
+		<English>Slave Barracks</English>
+		<French>Slave Barracks</French>
+		<German>Sklavenkaserne</German>
+		<Italian>Slave Barracks</Italian>
+		<Spanish>Slave Barracks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SLAVE_BARRACKS_PEDIA</Tag>
+		<English>[TAB]Shahabuddin Muhammad Ghori had no offspring, but he treated his Turkic slaves as his sons, who were trained both as soldiers and administrators and provided with the best possible education. Many of his competent and loyal slaves rose to positions of importance in Shahabuddin Ghori's army and government.[PARAGRAPH:1]When a courtier lamented that the Sultan had no male heirs, Shahabuddin Ghori retorted:[PARAGRAPH:1]"Other monarchs may have one son, or two sons; I have thousands of sons, my Turkish slaves who will be the heirs of my dominions, and who, after me, will take care to preserve my name in the Khutbah throughout these territories."[PARAGRAPH:1]Shahabuddin Ghori's prediction proved true. After his assassination, his Empire was divided amongst his slaves. It was one of those slaves, Qutbuddin Aibak, who founded the Delhi-based dynasty that would rule India for the next 300 years.</English>
+		<French>[TAB]Shahabuddin Muhammad Ghori had no offspring, but he treated his Turkic slaves as his sons, who were trained both as soldiers and administrators and provided with the best possible education. Many of his competent and loyal slaves rose to positions of importance in Shahabuddin Ghori's army and government.[PARAGRAPH:1]When a courtier lamented that the Sultan had no male heirs, Shahabuddin Ghori retorted:[PARAGRAPH:1]"Other monarchs may have one son, or two sons; I have thousands of sons, my Turkish slaves who will be the heirs of my dominions, and who, after me, will take care to preserve my name in the Khutbah throughout these territories."[PARAGRAPH:1]Shahabuddin Ghori's prediction proved true. After his assassination, his Empire was divided amongst his slaves. It was one of those slaves, Qutbuddin Aibak, who founded the Delhi-based dynasty that would rule India for the next 300 years.</French>
+		<German>[TAB]Shahabuddin Muhammad Ghori hatte keine Nachkommen, aber er behandelte seine türkischen Sklaven wie seine Söhne, die sowohl als Soldaten als auch als Administratoren ausgebildet wurden und die bestmögliche Ausbildung erhielten. Viele seiner kompetenten und loyalen Sklaven stiegen in wichtige Positionen in der Armee und Regierung von Shahabuddin Ghori auf.[PARAGRAPH:1]Als ein Höfling sich darüber beklagte, dass der Sultan keine männlichen Erben hatte, erwiderte Shahabuddin Ghori:[PARAGRAPH:1]"Andere Monarchen könnten das getan haben." einen Sohn oder zwei Söhne; ich habe Tausende von Söhnen, meine türkischen Sklaven, die die Erben meiner Herrschaft sein werden und die nach mir dafür sorgen werden, meinen Namen in der Khutbah in diesen Gebieten zu bewahren."[ABSATZ:1 ]Shahabuddin Ghoris Vorhersage erwies sich als wahr. Nach seiner Ermordung wurde sein Reich unter seinen Sklaven aufgeteilt. Es war einer dieser Sklaven, Qutbuddin Aibak, der die in Delhi ansässige Dynastie gründete, die Indien für die nächsten 300 Jahre regieren sollte.</German>
+		<Italian>[TAB]Shahabuddin Muhammad Ghori had no offspring, but he treated his Turkic slaves as his sons, who were trained both as soldiers and administrators and provided with the best possible education. Many of his competent and loyal slaves rose to positions of importance in Shahabuddin Ghori's army and government.[PARAGRAPH:1]When a courtier lamented that the Sultan had no male heirs, Shahabuddin Ghori retorted:[PARAGRAPH:1]"Other monarchs may have one son, or two sons; I have thousands of sons, my Turkish slaves who will be the heirs of my dominions, and who, after me, will take care to preserve my name in the Khutbah throughout these territories."[PARAGRAPH:1]Shahabuddin Ghori's prediction proved true. After his assassination, his Empire was divided amongst his slaves. It was one of those slaves, Qutbuddin Aibak, who founded the Delhi-based dynasty that would rule India for the next 300 years.</Italian>
+		<Spanish>[TAB]Shahabuddin Muhammad Ghori had no offspring, but he treated his Turkic slaves as his sons, who were trained both as soldiers and administrators and provided with the best possible education. Many of his competent and loyal slaves rose to positions of importance in Shahabuddin Ghori's army and government.[PARAGRAPH:1]When a courtier lamented that the Sultan had no male heirs, Shahabuddin Ghori retorted:[PARAGRAPH:1]"Other monarchs may have one son, or two sons; I have thousands of sons, my Turkish slaves who will be the heirs of my dominions, and who, after me, will take care to preserve my name in the Khutbah throughout these territories."[PARAGRAPH:1]Shahabuddin Ghori's prediction proved true. After his assassination, his Empire was divided amongst his slaves. It was one of those slaves, Qutbuddin Aibak, who founded the Delhi-based dynasty that would rule India for the next 300 years.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SLAVE_BARRACKS_HELP</Tag>
+		<English>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK][NEWLINE][ICON_BULLET]+4 XP for Ghulam units</English>
+		<French>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK][NEWLINE][ICON_BULLET]+4 XP for Ghulam units</French>
+		<German>[ICON_BULLET]Erfordert [LINK=literal]Sklaverei[\LINK][NEWLINE][ICON_BULLET]+4 XP für Ghilman</German>
+		<Italian>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK][NEWLINE][ICON_BULLET]+4 XP for Ghulam units</Italian>
+		<Spanish>[ICON_BULLET]Requires [LINK=literal]Slavery[\LINK][NEWLINE][ICON_BULLET]+4 XP for Ghulam units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRAFTSMENS_QUARTER</Tag>
+		<English>Craftmen's Quarter</English>
+		<French>Craftmen's Quarter</French>
+		<German>Handwerkerviertel</German>
+		<Italian>Craftmen's Quarter</Italian>
+		<Spanish>Craftmen's Quarter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRAFTSMENS_QUARTER_PEDIA</Tag>
+		<English>[TAB]The traditions of Sindhi craftwork reflect the cumulative influence of 5000 years of invaders and settlers, whose various modes of art were eventually assimilated into the culture. The elegant floral and geometrical designs that decorate everyday objects—whether of clay, metal, wood, stone or fabric—can be traced to Muslim influence.[PARAGRAPH:2]Though chiefly an agricultural and pastoral province, Sindh has a reputation for ajraks, pottery, leatherwork, carpets, textiles, and silk cloths which, in design and finish, are matchless. The chief articles produced are blankets, coarse cotton cloth (soosi), camel fittings, metalwork, lacquered work, enamel, gold and silver embroidery. Hala is famous for pottery and tiles; Boobak for carpets; Nasirpur, Gambat and Thatta for cotton lungees and khes. Other popular crafts include the earthenware of Johi, the metal vessels of Shikarpur, the relli, embroidery and leather articles of Tharparkar, and the lacquered work of Kandhkot.</English>
+		<French>[TAB]The traditions of Sindhi craftwork reflect the cumulative influence of 5000 years of invaders and settlers, whose various modes of art were eventually assimilated into the culture. The elegant floral and geometrical designs that decorate everyday objects—whether of clay, metal, wood, stone or fabric—can be traced to Muslim influence.[PARAGRAPH:2]Though chiefly an agricultural and pastoral province, Sindh has a reputation for ajraks, pottery, leatherwork, carpets, textiles, and silk cloths which, in design and finish, are matchless. The chief articles produced are blankets, coarse cotton cloth (soosi), camel fittings, metalwork, lacquered work, enamel, gold and silver embroidery. Hala is famous for pottery and tiles; Boobak for carpets; Nasirpur, Gambat and Thatta for cotton lungees and khes. Other popular crafts include the earthenware of Johi, the metal vessels of Shikarpur, the relli, embroidery and leather articles of Tharparkar, and the lacquered work of Kandhkot.</French>
+		<German>[TAB]Die Traditionen des Sindhi-Kunsthandwerks spiegeln den kumulativen Einfluss von Eindringlingen und Siedlern über 5000 Jahre wider, deren verschiedene Kunstformen schließlich in die Kultur integriert wurden. Die eleganten floralen und geometrischen Muster, die Alltagsgegenstände (ob aus Ton, Metall, Holz, Stein oder Stoff) schmücken, können auf muslimischen Einfluss zurückgeführt werden.[PARAGRAPH:2]Obwohl Sindh hauptsächlich eine landwirtschaftlich geprägte und pastorale Provinz ist, ist es für seine Ajraks bekannt. Töpferwaren, Lederarbeiten, Teppiche, Textilien und Seidenstoffe, die in Design und Verarbeitung unübertroffen sind. Die wichtigsten hergestellten Artikel sind Decken, grober Baumwollstoff (Soosi), Kamelbeschläge, Metallarbeiten, Lackarbeiten, Emaille sowie Gold- und Silberstickereien. Hala ist berühmt für Töpferwaren und Fliesen; Boobak für Teppiche; Nasirpur, Gambat und Thatta für Baumwolllongees und Khes. Weitere beliebte Kunsthandwerke sind Steingut aus Johi, Metallgefäße aus Shikarpur, Relli, Stickereien und Lederartikel aus Tharparkar sowie Lackarbeiten aus Kandhkot.</German>
+		<Italian>[TAB]The traditions of Sindhi craftwork reflect the cumulative influence of 5000 years of invaders and settlers, whose various modes of art were eventually assimilated into the culture. The elegant floral and geometrical designs that decorate everyday objects—whether of clay, metal, wood, stone or fabric—can be traced to Muslim influence.[PARAGRAPH:2]Though chiefly an agricultural and pastoral province, Sindh has a reputation for ajraks, pottery, leatherwork, carpets, textiles, and silk cloths which, in design and finish, are matchless. The chief articles produced are blankets, coarse cotton cloth (soosi), camel fittings, metalwork, lacquered work, enamel, gold and silver embroidery. Hala is famous for pottery and tiles; Boobak for carpets; Nasirpur, Gambat and Thatta for cotton lungees and khes. Other popular crafts include the earthenware of Johi, the metal vessels of Shikarpur, the relli, embroidery and leather articles of Tharparkar, and the lacquered work of Kandhkot.</Italian>
+		<Spanish>[TAB]The traditions of Sindhi craftwork reflect the cumulative influence of 5000 years of invaders and settlers, whose various modes of art were eventually assimilated into the culture. The elegant floral and geometrical designs that decorate everyday objects—whether of clay, metal, wood, stone or fabric—can be traced to Muslim influence.[PARAGRAPH:2]Though chiefly an agricultural and pastoral province, Sindh has a reputation for ajraks, pottery, leatherwork, carpets, textiles, and silk cloths which, in design and finish, are matchless. The chief articles produced are blankets, coarse cotton cloth (soosi), camel fittings, metalwork, lacquered work, enamel, gold and silver embroidery. Hala is famous for pottery and tiles; Boobak for carpets; Nasirpur, Gambat and Thatta for cotton lungees and khes. Other popular crafts include the earthenware of Johi, the metal vessels of Shikarpur, the relli, embroidery and leather articles of Tharparkar, and the lacquered work of Kandhkot.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NIZAMIYYA</Tag>
+		<English>Nizamiyya</English>
+		<French>Nizamiyya</French>
+		<German>Nizamiya</German>
+		<Italian>Nizamiyya</Italian>
+		<Spanish>Nizamiyya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NIZAMIYYA_PEDIA</Tag>
+		<English>[TAB]A nizamiyya is one of the medieval institutions of higher education established by Khwaja Nizam al-Mulk in the eleventh century in Iran. The name nizamiyyah derives from his name. Founded at the beginning of the Seljuk empire, they are considered to be the model of madrassas, or Islamic religious schools.</English>
+		<French>[TAB]A nizamiyya is one of the medieval institutions of higher education established by Khwaja Nizam al-Mulk in the eleventh century in Iran. The name nizamiyyah derives from his name. Founded at the beginning of the Seljuk empire, they are considered to be the model of madrassas, or Islamic religious schools.</French>
+		<German>[TAB]Eine Nizamiya ist eine der mittelalterlichen Hochschulen, die im 11. Jahrhundert von Khwaja Nizam al-Mulk im Iran gegründet wurde. Der Name Nizamiyyah leitet sich von seinem Namen ab. Sie wurden zu Beginn des Seldschukenreiches gegründet und gelten als Vorbild für Madrassas oder islamische Religionsschulen.</German>
+		<Italian>[TAB]A nizamiyya is one of the medieval institutions of higher education established by Khwaja Nizam al-Mulk in the eleventh century in Iran. The name nizamiyyah derives from his name. Founded at the beginning of the Seljuk empire, they are considered to be the model of madrassas, or Islamic religious schools.</Italian>
+		<Spanish>[TAB]A nizamiyya is one of the medieval institutions of higher education established by Khwaja Nizam al-Mulk in the eleventh century in Iran. The name nizamiyyah derives from his name. Founded at the beginning of the Seljuk empire, they are considered to be the model of madrassas, or Islamic religious schools.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALCHEMISTS_LAB</Tag>
+		<English>Alchemist's Lab</English>
+		<French>Alchemist's Lab</French>
+		<German>Alchemistenlabor</German>
+		<Italian>Alchemist's Lab</Italian>
+		<Spanish>Alchemist's Lab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALCHEMISTS_LAB_PEDIA</Tag>
+		<English>[TAB]After the fall of the Roman Empire, the focus of alchemical development moved to the Arab Empire and the Islamic civilization. Much more is known about Islamic  alchemy as it was better documented; indeed, most of the earlier writings that have come down through the years were preserved as Arabic translations.[PARAGRAPH:1]The study of alchemy and chemistry often overlapped in the early Islamic world, but later there were disputes between the traditional alchemists and the practical chemists who discredited alchemy. Muslim chemists and alchemists were the first to employ the experimental scientific method (as practised in modern chemistry), while Muslim alchemists also developed theories on the transmutation of metals, the philosopher's stone and the Takwin (artificial creation of life in the laboratory), like in later medieval European alchemy, though these alchemical theories were rejected by practical Muslim chemists from the 9th century onwards.[PARAGRAPH:1]Early Islamic chemists such as Jabir ibn Hayyan, Al-Kindi and Al-Razi contributed key chemical discoveries, including: distillation apparatus (such as the alembic, still, and retort), the hydrochloric, sulfuric, nitric and acetic acids, soda and potash, purified distilled alcohol, aqua regia, perfumery and many more chemical substances and apparatus.</English>
+		<French>[TAB]After the fall of the Roman Empire, the focus of alchemical development moved to the Arab Empire and the Islamic civilization. Much more is known about Islamic  alchemy as it was better documented; indeed, most of the earlier writings that have come down through the years were preserved as Arabic translations.[PARAGRAPH:1]The study of alchemy and chemistry often overlapped in the early Islamic world, but later there were disputes between the traditional alchemists and the practical chemists who discredited alchemy. Muslim chemists and alchemists were the first to employ the experimental scientific method (as practised in modern chemistry), while Muslim alchemists also developed theories on the transmutation of metals, the philosopher's stone and the Takwin (artificial creation of life in the laboratory), like in later medieval European alchemy, though these alchemical theories were rejected by practical Muslim chemists from the 9th century onwards.[PARAGRAPH:1]Early Islamic chemists such as Jabir ibn Hayyan, Al-Kindi and Al-Razi contributed key chemical discoveries, including: distillation apparatus (such as the alembic, still, and retort), the hydrochloric, sulfuric, nitric and acetic acids, soda and potash, purified distilled alcohol, aqua regia, perfumery and many more chemical substances and apparatus.</French>
+		<German>[TAB]Nach dem Untergang des Römischen Reiches verlagerte sich der Schwerpunkt der alchemistischen Entwicklung auf das Arabische Reich und die islamische Zivilisation. Über die islamische Alchemie ist viel mehr bekannt, da sie besser dokumentiert wurde; tatsächlich sind die meisten der früheren Schriften, die im Laufe der Jahre überliefert sind, als arabische Übersetzungen erhalten geblieben.[PARAGRAPH:1]Das Studium der Alchemie und Chemie überschnitt sich oft in der frühen islamischen Welt, aber später kam es zu Streitigkeiten zwischen den traditionellen Alchemisten und den praktische Chemiker, die die Alchemie diskreditierten. Muslimische Chemiker und Alchemisten waren die ersten, die die experimentelle wissenschaftliche Methode anwandten (wie sie in der modernen Chemie praktiziert wird), während muslimische Alchemisten auch Theorien über die Transmutation von Metallen, den Stein der Weisen und den Takwin (künstliche Erschaffung von Leben im Labor) entwickelten in der späteren mittelalterlichen europäischen Alchemie, obwohl diese alchemistischen Theorien ab dem 9. Jahrhundert von praktischen muslimischen Chemikern abgelehnt wurden.[PARAGRAPH:1]Frühislamische Chemiker wie Jabir ibn Hayyan, Al-Kindi und Al-Razi trugen zu wichtigen chemischen Entdeckungen bei, darunter: Destillationsgeräte (wie Destillierkolben, Destillierapparat und Retorte), Salz-, Schwefel-, Salpeter- und Essigsäure, Soda und Kali, gereinigter destillierter Alkohol, Königswasser, Parfümerie und viele weitere chemische Substanzen und Geräte.</German>
+		<Italian>[TAB]After the fall of the Roman Empire, the focus of alchemical development moved to the Arab Empire and the Islamic civilization. Much more is known about Islamic  alchemy as it was better documented; indeed, most of the earlier writings that have come down through the years were preserved as Arabic translations.[PARAGRAPH:1]The study of alchemy and chemistry often overlapped in the early Islamic world, but later there were disputes between the traditional alchemists and the practical chemists who discredited alchemy. Muslim chemists and alchemists were the first to employ the experimental scientific method (as practised in modern chemistry), while Muslim alchemists also developed theories on the transmutation of metals, the philosopher's stone and the Takwin (artificial creation of life in the laboratory), like in later medieval European alchemy, though these alchemical theories were rejected by practical Muslim chemists from the 9th century onwards.[PARAGRAPH:1]Early Islamic chemists such as Jabir ibn Hayyan, Al-Kindi and Al-Razi contributed key chemical discoveries, including: distillation apparatus (such as the alembic, still, and retort), the hydrochloric, sulfuric, nitric and acetic acids, soda and potash, purified distilled alcohol, aqua regia, perfumery and many more chemical substances and apparatus.</Italian>
+		<Spanish>[TAB]After the fall of the Roman Empire, the focus of alchemical development moved to the Arab Empire and the Islamic civilization. Much more is known about Islamic  alchemy as it was better documented; indeed, most of the earlier writings that have come down through the years were preserved as Arabic translations.[PARAGRAPH:1]The study of alchemy and chemistry often overlapped in the early Islamic world, but later there were disputes between the traditional alchemists and the practical chemists who discredited alchemy. Muslim chemists and alchemists were the first to employ the experimental scientific method (as practised in modern chemistry), while Muslim alchemists also developed theories on the transmutation of metals, the philosopher's stone and the Takwin (artificial creation of life in the laboratory), like in later medieval European alchemy, though these alchemical theories were rejected by practical Muslim chemists from the 9th century onwards.[PARAGRAPH:1]Early Islamic chemists such as Jabir ibn Hayyan, Al-Kindi and Al-Razi contributed key chemical discoveries, including: distillation apparatus (such as the alembic, still, and retort), the hydrochloric, sulfuric, nitric and acetic acids, soda and potash, purified distilled alcohol, aqua regia, perfumery and many more chemical substances and apparatus.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENETIAN_QUARTER</Tag>
+		<English>Venetian Quarter</English>
+		<French>Venetian Quarter</French>
+		<German>Venezianisches Viertel</German>
+		<Italian>Venetian Quarter</Italian>
+		<Spanish>Venetian Quarter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENETIAN_QUARTER_PEDIA</Tag>
+		<English>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</English>
+		<French>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</French>
+		<German>[TAB]Mittelalterliche Städte in der Levante waren häufig nach Religion, Beruf und/oder ethnischer Zugehörigkeit in Viertel unterteilt. Separate Quartiere für Venezianer oder Genueser waren in Städten entlang der Küsten Anatoliens und Syriens durchaus üblich. Hierzu zählen sowohl Gewerbebetriebe als auch Dauerwohnsitze.</German>
+		<Italian>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</Italian>
+		<Spanish>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GENOAN_QUARTER</Tag>
+		<English>Genoan Quarter</English>
+		<French>Genoan Quarter</French>
+		<German>Genuesisches Viertel</German>
+		<Italian>Genoan Quarter</Italian>
+		<Spanish>Genoan Quarter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GENOAN_QUARTER_PEDIA</Tag>
+		<English>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</English>
+		<French>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</French>
+		<German>[TAB]Mittelalterliche Städte in der Levante waren häufig nach Religion, Beruf und/oder ethnischer Zugehörigkeit in Viertel unterteilt. Separate Quartiere für Venezianer oder Genueser waren in Städten entlang der Küsten Anatoliens und Syriens durchaus üblich. Hierzu zählen sowohl Gewerbebetriebe als auch Dauerwohnsitze.</German>
+		<Italian>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</Italian>
+		<Spanish>[TAB]Medieval cities in the Levant were frequently divided into quarters by religion, occupation and/or ethnicity. Seperate quarters for Venetians or Genoans were quite common in cities along the coasts of Anatolia and Syria. These would include trade establishments as well as permanent residences.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RACING_TRACK</Tag>
+		<English>Racing Track</English>
+		<French>Racing Track</French>
+		<German>Rennstrecke</German>
+		<Italian>Racing Track</Italian>
+		<Spanish>Racing Track</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RACING_TRACK_PEDIA</Tag>
+		<English>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</English>
+		<French>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</French>
+		<German>[TAB]Pferde- und Kamelrennen sind im Nahen Osten, von Ägypten bis Indien, zumindest seit frühislamischen Zeiten ein beliebter Sport.</German>
+		<Italian>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</Italian>
+		<Spanish>[TAB]Horse and camel racing has been a popular sport in the Middle East, from Egypt to India, at least since early Islamic times.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS</Tag>
+		<English>Public Baths</English>
+		<French>Public Baths</French>
+		<German>Öffentliche Bäder</German>
+		<Italian>Public Baths</Italian>
+		<Spanish>Public Baths</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_PEDIA</Tag>
+		<English>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</English>
+		<French>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</French>
+		<German>[TAB]Öffentliche Bäder entstanden aus einem gemeinschaftlichen Bedürfnis nach Sauberkeit. Als sich die Gesellschaft veränderte, wurden öffentliche Bäder ersetzt, da private Badeeinrichtungen immer häufiger zur Verfügung standen. Öffentliche Bäder sind auch als Treffpunkte in das soziale System integriert worden.[PARAGRAPH:1]Sauberkeit ist ein wichtiger Teil des Islam, einschließlich Koranversen, die lehren, wie man rituelle Sauberkeit erreicht. Die Aufrechterhaltung der Mundhygiene durch das Reinigen der Zähne mit einer Zahnbürste namens Miswak gilt als Sunnah, der Weg des Propheten Mohammed. Auch die rituelle Waschung ist sehr wichtig, wie die Praktiken Wudu (teilweise Waschung), Ghusl (vollständige Waschung) und Tayammum (wasserfreie Alternative mit Sand) zeigen.</German>
+		<Italian>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</Italian>
+		<Spanish>[TAB]Public baths originated from a communal need for cleanliness. As societies have changed, public baths have been replaced as private bathing facilities became more commonly available. Public baths have also become incorporated into the social system as meeting places.[PARAGRAPH:1]Cleanliness is an important part of Islam, including Qur'anic verses that teach how to achieve ritual cleanliness. Keeping Oral hygiene through cleaning the teeth with the use of a form of toothbrush called miswak is considered Sunnah, the way of Prophet Muhammad. Ritual ablution is also very important, as observed by the practices of wudu (partial ablution), ghusl (full ablution), and tayammum (water-free alternative with sand).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STEPWELL</Tag>
+		<English>Stepwell</English>
+		<French>Stepwell</French>
+		<German>Stufenbrunnen</German>
+		<Italian>Stepwell</Italian>
+		<Spanish>Stepwell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STEPWELL_PEDIA</Tag>
+		<English>[TAB]Stepwells are wells in which the water can be reached by descending a set of steps. They are most common in the west of India. The main purpose of a stepwell is utilitarian, but many are elaborate architectural achievements. Many such constructions are found in Gujarat, e.g. the Rani Ki Vav built in Anhilwara (Patan) by the Solanki dynasty.</English>
+		<French>[TAB]Stepwells are wells in which the water can be reached by descending a set of steps. They are most common in the west of India. The main purpose of a stepwell is utilitarian, but many are elaborate architectural achievements. Many such constructions are found in Gujarat, e.g. the Rani Ki Vav built in Anhilwara (Patan) by the Solanki dynasty.</French>
+		<German>[TAB]Stufenbrunnen sind Brunnen, in denen das Wasser über eine Reihe von Stufen erreicht werden kann. Am häufigsten kommen sie im Westen Indiens vor. Der Hauptzweck eines Stufenbrunnens ist nützlicher Natur, bei vielen handelt es sich jedoch um aufwändige architektonische Errungenschaften. Viele solcher Konstruktionen gibt es in Gujarat, z. das Rani Ki Vav, das von der Solanki-Dynastie in Anhilwara (Patan) erbaut wurde.</German>
+		<Italian>[TAB]Stepwells are wells in which the water can be reached by descending a set of steps. They are most common in the west of India. The main purpose of a stepwell is utilitarian, but many are elaborate architectural achievements. Many such constructions are found in Gujarat, e.g. the Rani Ki Vav built in Anhilwara (Patan) by the Solanki dynasty.</Italian>
+		<Spanish>[TAB]Stepwells are wells in which the water can be reached by descending a set of steps. They are most common in the west of India. The main purpose of a stepwell is utilitarian, but many are elaborate architectural achievements. Many such constructions are found in Gujarat, e.g. the Rani Ki Vav built in Anhilwara (Patan) by the Solanki dynasty.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_SHRINE</Tag>
+		<English>Dwarakadheesh</English>
+		<French>Dwarakadheesh</French>
+		<German>Dwarkadhish</German>
+		<Italian>Dwarakadheesh</Italian>
+		<Spanish>Dwarakadheesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_SHRINE_PEDIA</Tag>
+		<English>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</English>
+		<French>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</French>
+		<German>[TAB]Der Dwarkadhish-Tempel ist ein hinduistischer Tempel, der Krishna gewidmet ist, der hier unter dem Namen Dwarkadhish oder "König von Dwarka" verehrt wird. Es befindet sich in Dwarka, Gujarat, das vermutlich nach der historischen Stadt Dvarka, dem Königreich Krishnas selbst, erbaut wurde, das nach dem Mahabharata-Krieg im Meer versank. Der Hauptschrein des 5-stöckigen Gebäudes, das von 72 Säulen getragen wird, ist als Jagat Mandir oder Nija Mandir bekannt und soll 2500 Jahre alt sein. Der Dwarkadhish-Tempel ist der Pushti-Marg-Tempel und folgt daher den Richtlinien und Ritualen von Shree Vallabacharya und Shree Vitheleshnathji.</German>
+		<Italian>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</Italian>
+		<Spanish>[TAB]The Dwarakadheesh temple is a Hindu temple dedicated to Lord Krishna, who is worshipped here by the name Dwarkadhish, or 'King of Dwarka'. It is situated at Dwarka, Gujarat, which is believed to have been built after the historic Dvarka city, the Kingdom of Krishna himself which submerged in to the ocean after the Mahabharata war. The main shrine of the 5-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir, and is believed to be 2500 years old. The Dwarkadhish Temple is Pushti Marg Temple hence it follows the guidelines and rituals created by Shree Vallabacharya and Shree Vitheleshnathji.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_TEMPLE</Tag>
+		<English>Hindu Mandir</English>
+		<French>Hindu Mandir</French>
+		<German>Hinduistisches Mandir</German>
+		<Italian>Hindu Mandir</Italian>
+		<Spanish>Hindu Mandir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_MONASTERY</Tag>
+		<English>Hindu Ashram</English>
+		<French>Hindu Ashram</French>
+		<German>Hinduistisches Aschram</German>
+		<Italian>Hindu Ashram</Italian>
+		<Spanish>Hindu Ashram</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_CATHEDRAL</Tag>
+		<English>Hindu Bannab</English>
+		<French>Hindu Bannab</French>
+		<German>Hinduistisches Bannab</German>
+		<Italian>Hindu Bannab</Italian>
+		<Spanish>Hindu Bannab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_RELIQUARY</Tag>
+		<English>Hindu Reliquary</English>
+		<French>Hindu Reliquary</French>
+		<German>Hinduistischer Reliquienschrein</German>
+		<Italian>Hindu Reliquary</Italian>
+		<Spanish>Hindu Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AYYUBID_QALAT</Tag>
+		<English>Qalaat</English>
+		<French>Qalaat</French>
+		<German>Qalaat</German>
+		<Italian>Qalaat</Italian>
+		<Spanish>Qalaat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AYYUBID_QALAT_PEDIA</Tag>
+		<English>[TAB]The Arabic qalaat (from Persian qalat) means "fortress." During the Middle Ages, many fortresses were built or reinforced in Syria both by the Crusaders and Ayyubids under Saladin.</English>
+		<French>[TAB]The Arabic qalaat (from Persian qalat) means "fortress." During the Middle Ages, many fortresses were built or reinforced in Syria both by the Crusaders and Ayyubids under Saladin.</French>
+		<German>[TAB] Das arabische Qalaat (aus dem Persischen Qalat) bedeutet "Festung". Im Mittelalter wurden in Syrien sowohl von den Kreuzfahrern als auch von den Ayyubiden unter Saladin viele Festungen gebaut oder verstärkt.</German>
+		<Italian>[TAB]The Arabic qalaat (from Persian qalat) means "fortress." During the Middle Ages, many fortresses were built or reinforced in Syria both by the Crusaders and Ayyubids under Saladin.</Italian>
+		<Spanish>[TAB]The Arabic qalaat (from Persian qalat) means "fortress." During the Middle Ages, many fortresses were built or reinforced in Syria both by the Crusaders and Ayyubids under Saladin.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAKURIAN_BOWYER</Tag>
+		<English>Bowyer</English>
+		<French>Bowyer</French>
+		<German>Bogenmacher</German>
+		<Italian>Bowyer</Italian>
+		<Spanish>Bowyer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAKURIAN_BOWYER_PEDIA</Tag>
+		<English>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</English>
+		<French>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</French>
+		<German>[TAB]Die Araber hatten Ägypten im Jahr 641 eingenommen und der Dschihad wandte sich bald nach Süden. Makuria war einer der wenigen Staaten der Welt, der der muslimischen Eroberung wirksam Widerstand leistete. Die Makurianer besiegten 642 in der ersten Schlacht von Dongola eine arabische Armee. Dieses Kunststück wiederholten sie 652 in der zweiten Schlacht von Dongola erneut. In beiden Schlachten bemerkten arabische Schriftsteller die Geschicklichkeit der Makurianer im Umgang mit dem Bogen.</German>
+		<Italian>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</Italian>
+		<Spanish>[TAB]The Arabs had taken Egypt in 641, and the jihad soon turned south. Makuria was one of the few states in the world to effectively resist Muslim conquest. Makurians defeated an Arab army at the First Battle of Dongola in in 642. They repeated this feat again in 652 at the Second Battle of Dongola. In both battles, Arab writers noted the Makurians skill with the bow.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMENIAN_KHACHKAR</Tag>
+		<English>Khachkar</English>
+		<French>Khachkar</French>
+		<German>Chatschkar</German>
+		<Italian>Khachkar</Italian>
+		<Spanish>Khachkar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMENIAN_KHACHKAR_PEDIA</Tag>
+		<English>[TAB]A khachkar is a cross-bearing carved memorial stele covered with rosettes and botanical motifs, characteristic of Armenian art and found in Armenia. The most common reason for erecting a khachkar was for votive reasons - for the salvation of the soul of either a living or a deceased person. They were also erected for other reasons, such as to commemorate a military victory, construction of a church, or as a form of protection from natural disasters. [PARAGRAPH:1]The first true khachkars appeared in the 9th century, during the time of Armenian revival after liberation from Arab rule. The oldest khachkar with a known date was carved in 879. Erected in Garni, it is dedicated to queen Katranide, the wife of king Ashot I Bagratuni. The peak of the khachkar carving art was between the 12th and the 14th centuries. The art declined during the Mongol  invasion at the end of the 14th century.</English>
+		<French>[TAB]A khachkar is a cross-bearing carved memorial stele covered with rosettes and botanical motifs, characteristic of Armenian art and found in Armenia. The most common reason for erecting a khachkar was for votive reasons - for the salvation of the soul of either a living or a deceased person. They were also erected for other reasons, such as to commemorate a military victory, construction of a church, or as a form of protection from natural disasters. [PARAGRAPH:1]The first true khachkars appeared in the 9th century, during the time of Armenian revival after liberation from Arab rule. The oldest khachkar with a known date was carved in 879. Erected in Garni, it is dedicated to queen Katranide, the wife of king Ashot I Bagratuni. The peak of the khachkar carving art was between the 12th and the 14th centuries. The art declined during the Mongol  invasion at the end of the 14th century.</French>
+		<German>[TAB]Ein Chatschkar ist eine kreuztragende, geschnitzte Gedenkstele, die mit Rosetten und botanischen Motiven bedeckt ist, charakteristisch für die armenische Kunst und in Armenien gefunden wird. Der häufigste Grund für die Errichtung eines Chatschkars waren Votivgründe - die Rettung der Seele einer lebenden oder verstorbenen Person. Sie wurden auch aus anderen Gründen errichtet, beispielsweise zum Gedenken an einen militärischen Sieg, zum Bau einer Kirche oder als Schutz vor Naturkatastrophen. [PARAGRAPH:1]Die ersten echten Khachkars erschienen im 9. Jahrhundert, zur Zeit der Wiederbelebung Armeniens nach der Befreiung von der arabischen Herrschaft. Der älteste Khachkar mit bekanntem Datum wurde im Jahr 879 geschnitzt. Er wurde in Garni errichtet und ist Königin Katranide, der Frau von König Aschot I. Bagratuni, gewidmet. Der Höhepunkt der Chatschkar-Schnitzkunst war zwischen dem 12. und 14. Jahrhundert. Während der Mongoleninvasion Ende des 14. Jahrhunderts kam es zu einem Niedergang der Kunst.</German>
+		<Italian>[TAB]A khachkar is a cross-bearing carved memorial stele covered with rosettes and botanical motifs, characteristic of Armenian art and found in Armenia. The most common reason for erecting a khachkar was for votive reasons - for the salvation of the soul of either a living or a deceased person. They were also erected for other reasons, such as to commemorate a military victory, construction of a church, or as a form of protection from natural disasters. [PARAGRAPH:1]The first true khachkars appeared in the 9th century, during the time of Armenian revival after liberation from Arab rule. The oldest khachkar with a known date was carved in 879. Erected in Garni, it is dedicated to queen Katranide, the wife of king Ashot I Bagratuni. The peak of the khachkar carving art was between the 12th and the 14th centuries. The art declined during the Mongol  invasion at the end of the 14th century.</Italian>
+		<Spanish>[TAB]A khachkar is a cross-bearing carved memorial stele covered with rosettes and botanical motifs, characteristic of Armenian art and found in Armenia. The most common reason for erecting a khachkar was for votive reasons - for the salvation of the soul of either a living or a deceased person. They were also erected for other reasons, such as to commemorate a military victory, construction of a church, or as a form of protection from natural disasters. [PARAGRAPH:1]The first true khachkars appeared in the 9th century, during the time of Armenian revival after liberation from Arab rule. The oldest khachkar with a known date was carved in 879. Erected in Garni, it is dedicated to queen Katranide, the wife of king Ashot I Bagratuni. The peak of the khachkar carving art was between the 12th and the 14th centuries. The art declined during the Mongol  invasion at the end of the 14th century.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_LIBRARY</Tag>
+		<English>Islamic Library</English>
+		<French>Islamic Library</French>
+		<German>Islamische Bibliothek</German>
+		<Italian>Islamic Library</Italian>
+		<Spanish>Islamic Library</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IKONERS_STUDIO</Tag>
+		<English>Ikoner's Studio</English>
+		<French>Ikoner's Studio</French>
+		<German>Ikonenstudio</German>
+		<Italian>Ikoner's Studio</Italian>
+		<Spanish>Ikoner's Studio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IKONERS_STUDIO_PEDIA</Tag>
+		<English>[TAB]Georgia's medieval culture was greatly influenced by Eastern Orthodox Christianity and the Georgian Orthodox and Apostolic Church, which promoted and often sponsored the creation of many works of religious devotion. These included churches and monasteries, works of art such as icons, and hagiographies of Georgian saints.</English>
+		<French>[TAB]Georgia's medieval culture was greatly influenced by Eastern Orthodox Christianity and the Georgian Orthodox and Apostolic Church, which promoted and often sponsored the creation of many works of religious devotion. These included churches and monasteries, works of art such as icons, and hagiographies of Georgian saints.</French>
+		<German>[TAB]Georgiens mittelalterliche Kultur wurde stark vom östlich-orthodoxen Christentum und der Georgisch-Orthodoxen und Apostolischen Kirche beeinflusst, die die Schaffung vieler Werke religiöser Andacht förderte und oft sponserte. Dazu gehörten Kirchen und Klöster, Kunstwerke wie Ikonen und Hagiographien georgischer Heiliger.</German>
+		<Italian>[TAB]Georgia's medieval culture was greatly influenced by Eastern Orthodox Christianity and the Georgian Orthodox and Apostolic Church, which promoted and often sponsored the creation of many works of religious devotion. These included churches and monasteries, works of art such as icons, and hagiographies of Georgian saints.</Italian>
+		<Spanish>[TAB]Georgia's medieval culture was greatly influenced by Eastern Orthodox Christianity and the Georgian Orthodox and Apostolic Church, which promoted and often sponsored the creation of many works of religious devotion. These included churches and monasteries, works of art such as icons, and hagiographies of Georgian saints.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCRIPTORIUM</Tag>
+		<English>Catholic Scriptorium</English>
+		<French>Catholic Scriptorium</French>
+		<German>Katholisches Skriptorium</German>
+		<Italian>Catholic Scriptorium</Italian>
+		<Spanish>Catholic Scriptorium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OXFORD_UNIVERSITY</Tag>
+		<English>Royal Archives</English>
+		<French>Royal Archives</French>
+		<German>Königliches Archiv</German>
+		<Italian>Royal Archives</Italian>
+		<Spanish>Royal Archives</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_PEDIA</Tag>
+		<English>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</English>
+		<French>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</French>
+		<German>[TAB]Königliche Archive sind Sammlungen von Büchern, Manuskripten und anderen Werken, die für die Bewahrung von Wissen und Kultur wichtig sind - im Wesentlichen eine große, staatlich finanzierte Bibliothek.</German>
+		<Italian>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</Italian>
+		<Spanish>[TAB]Royal Archives are collections of books, manuscripts and other works important for the preservation of knowledge and culture - essentially a large, state-funded library.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_RELIQUARY</Tag>
+		<English>Reliquary</English>
+		<French>Reliquary</French>
+		<German>Reliquienschrein</German>
+		<Italian>Reliquary</Italian>
+		<Spanish>Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_RELIQUARY</Tag>
+		<English>Catholic Reliquary</English>
+		<French>Catholic Reliquary</French>
+		<German>Katholischer Reliquienschrein</German>
+		<Italian>Catholic Reliquary</Italian>
+		<Spanish>Catholic Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORTHODOX_RELIQUARY</Tag>
+		<English>Orthodox Reliquary</English>
+		<French>Orthodox Reliquary</French>
+		<German>Orthodoxer Reliquienschrein</German>
+		<Italian>Orthodox Reliquary</Italian>
+		<Spanish>Orthodox Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_RELIQUARY</Tag>
+		<English>Islamic Reliquary</English>
+		<French>Islamic Reliquary</French>
+		<German>Islamischer Reliquienschrein</German>
+		<Italian>Islamic Reliquary</Italian>
+		<Spanish>Islamic Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNNI_RELIQUARY</Tag>
+		<English>Sunni Reliquary</English>
+		<French>Sunni Reliquary</French>
+		<German>Sunni Reliquienschrein</German>
+		<Italian>Sunni Reliquary</Italian>
+		<Spanish>Sunni Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RELIQUARY_PEDIA</Tag>
+		<English>[TAB]A reliquary is a container for relics. These may be the physical remains of saints, such as bones, pieces of clothing, or some object associated with saints or other religious figures. The use of reliquaries became an important part of Christian  ritual from at least the 4th century. Relics are venerated in the Oriental Orthodox, Eastern Orthodox, Roman Catholic and some Anglican Churches. Reliquaries provide a means of protecting and displaying relics, which many believe are endowed by God with the grace of miraculous powers. Relics were also important for Muslims, especially the Ottomans. The most important relics of Islam, known as "the Sacred Trusts", are displayed in the Topkapi Palace.</English>
+		<French>[TAB]A reliquary is a container for relics. These may be the physical remains of saints, such as bones, pieces of clothing, or some object associated with saints or other religious figures. The use of reliquaries became an important part of Christian  ritual from at least the 4th century. Relics are venerated in the Oriental Orthodox, Eastern Orthodox, Roman Catholic and some Anglican Churches. Reliquaries provide a means of protecting and displaying relics, which many believe are endowed by God with the grace of miraculous powers. Relics were also important for Muslims, especially the Ottomans. The most important relics of Islam, known as "the Sacred Trusts", are displayed in the Topkapi Palace.</French>
+		<German>[TAB]Ein Reliquienschrein ist ein Behälter für Reliquien. Dabei kann es sich um physische Überreste von Heiligen handeln, etwa Knochen, Kleidungsstücke oder Gegenstände, die mit Heiligen oder anderen religiösen Figuren in Verbindung gebracht werden. Die Verwendung von Reliquien wurde mindestens ab dem 4. Jahrhundert zu einem wichtigen Bestandteil christlicher Rituale. Reliquien werden in der orientalisch-orthodoxen, der östlich-orthodoxen, der römisch-katholischen und einigen anglikanischen Kirchen verehrt. Reliquien stellen eine Möglichkeit zum Schutz und zur Präsentation von Reliquien dar, von denen viele glauben, dass sie von Gott mit der Gnade wundersamer Kräfte ausgestattet sind. Auch für Muslime, insbesondere für die Osmanen, waren Reliquien wichtig. Im Topkapi-Palast sind die wichtigsten Relikte des Islam ausgestellt, die sogenannten "Heiligen Trusts".</German>
+		<Italian>[TAB]A reliquary is a container for relics. These may be the physical remains of saints, such as bones, pieces of clothing, or some object associated with saints or other religious figures. The use of reliquaries became an important part of Christian  ritual from at least the 4th century. Relics are venerated in the Oriental Orthodox, Eastern Orthodox, Roman Catholic and some Anglican Churches. Reliquaries provide a means of protecting and displaying relics, which many believe are endowed by God with the grace of miraculous powers. Relics were also important for Muslims, especially the Ottomans. The most important relics of Islam, known as "the Sacred Trusts", are displayed in the Topkapi Palace.</Italian>
+		<Spanish>[TAB]A reliquary is a container for relics. These may be the physical remains of saints, such as bones, pieces of clothing, or some object associated with saints or other religious figures. The use of reliquaries became an important part of Christian  ritual from at least the 4th century. Relics are venerated in the Oriental Orthodox, Eastern Orthodox, Roman Catholic and some Anglican Churches. Reliquaries provide a means of protecting and displaying relics, which many believe are endowed by God with the grace of miraculous powers. Relics were also important for Muslims, especially the Ottomans. The most important relics of Islam, known as "the Sacred Trusts", are displayed in the Topkapi Palace.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ABBASID_BIMARISTAN</Tag>
+		<English>Bimaristan</English>
+		<French>Bimaristan</French>
+		<German>Bimaristan</German>
+		<Italian>Bimaristan</Italian>
+		<Spanish>Bimaristan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ABBASID_BIMARISTAN_PEDIA</Tag>
+		<English>[TAB]In the medieval Islamic world, the word "Bimaristan" was used to indicate a hospital in the modern sense, an establishment where the ill were welcomed and cared for by qualified staff. In this way, Muslim physicians were the first to make a distinction between a hospital and other different forms of healing temples, sleep temples, hospices, asylums, lazarets and leper-houses, all of which in ancient times were more concerned with isolating the sick and the mad  from society "rather than to offer them any way to a true cure." The medieval Bimaristan hospitals are thus considered "the first hospitals" in the modern sense of the word. The first public hospitals, psychiatric hospitals and medical universities were also introduced by medieval Muslim physicians.</English>
+		<French>[TAB]In the medieval Islamic world, the word "Bimaristan" was used to indicate a hospital in the modern sense, an establishment where the ill were welcomed and cared for by qualified staff. In this way, Muslim physicians were the first to make a distinction between a hospital and other different forms of healing temples, sleep temples, hospices, asylums, lazarets and leper-houses, all of which in ancient times were more concerned with isolating the sick and the mad  from society "rather than to offer them any way to a true cure." The medieval Bimaristan hospitals are thus considered "the first hospitals" in the modern sense of the word. The first public hospitals, psychiatric hospitals and medical universities were also introduced by medieval Muslim physicians.</French>
+		<German>[TAB]In der mittelalterlichen islamischen Welt wurde das Wort "Bimaristan" verwendet, um ein Krankenhaus im modernen Sinne zu bezeichnen, eine Einrichtung, in der Kranke von qualifiziertem Personal aufgenommen und gepflegt wurden. Auf diese Weise unterschieden muslimische Ärzte als erste zwischen einem Krankenhaus und anderen Formen von Heiltempeln, Schlaftempeln, Hospizen, Anstalten, Lazaretten und Lepraheimen, bei denen es in der Antike allesamt eher um die Isolierung der Kranken ging und die Verrückten aus der Gesellschaft zu entfernen, "anstatt ihnen einen Weg zu einer echten Heilung anzubieten." Die mittelalterlichen Krankenhäuser Bimaristans gelten daher als "die ersten Krankenhäuser" im modernen Sinne des Wortes. Auch die ersten öffentlichen Krankenhäuser, psychiatrischen Krankenhäuser und medizinischen Universitäten wurden von mittelalterlichen muslimischen Ärzten gegründet.</German>
+		<Italian>[TAB]In the medieval Islamic world, the word "Bimaristan" was used to indicate a hospital in the modern sense, an establishment where the ill were welcomed and cared for by qualified staff. In this way, Muslim physicians were the first to make a distinction between a hospital and other different forms of healing temples, sleep temples, hospices, asylums, lazarets and leper-houses, all of which in ancient times were more concerned with isolating the sick and the mad  from society "rather than to offer them any way to a true cure." The medieval Bimaristan hospitals are thus considered "the first hospitals" in the modern sense of the word. The first public hospitals, psychiatric hospitals and medical universities were also introduced by medieval Muslim physicians.</Italian>
+		<Spanish>[TAB]In the medieval Islamic world, the word "Bimaristan" was used to indicate a hospital in the modern sense, an establishment where the ill were welcomed and cared for by qualified staff. In this way, Muslim physicians were the first to make a distinction between a hospital and other different forms of healing temples, sleep temples, hospices, asylums, lazarets and leper-houses, all of which in ancient times were more concerned with isolating the sick and the mad  from society "rather than to offer them any way to a true cure." The medieval Bimaristan hospitals are thus considered "the first hospitals" in the modern sense of the word. The first public hospitals, psychiatric hospitals and medical universities were also introduced by medieval Muslim physicians.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_PALACE</Tag>
+		<English>Summer Palace</English>
+		<French>Summer Palace</French>
+		<German>Sommerpalast</German>
+		<Italian>Summer Palace</Italian>
+		<Spanish>Summer Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_PALACE_PEDIA</Tag>
+		<English>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</English>
+		<French>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</French>
+		<German>[TAB]Ein Sommerpalast ist die Residenz eines Monarchen während der Sommerperioden. Beispielsweise zogen die ghaznavidischen Sultane, die normalerweise von ihrer Hauptstadt Ghazna aus regierten, im Sommer oft nach Bost (heute Lashkar Gah).</German>
+		<Italian>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</Italian>
+		<Spanish>[TAB]A summer palace is the residence of a monarch during summer periods. For instance, the Ghaznavid sultans, normally ruling from their capital at Ghazna, would often move to Bost (modern Lashkar Gah) during summer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KINGS_SAGA</Tag>
+		<English>King's Saga</English>
+		<French>Saga du roi</French>
+		<German>Königssaga</German>
+		<Italian>Saga dei Re</Italian>
+		<Spanish>Saga Real:Sagas Reales</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KINGS_SAGA_PEDIA</Tag>
+		<English>[TAB]The Norse sagas are stories about Scandinavian history and folklore. The oldest were preserved for ages through an oral tradition before finally being written down towards the end of the medieval period. Sometimes the tales are realistic; sometimes they are clearly legendary and fantastic. Sagas served as both the formal history of the Viking kings and also the mythical stories of famous heroes. The world of the sagas is strongly pagan. Fate - a dominant concept in the pre-Christian Norse religion - often plays a central role in these tales. [PARAGRAPH:1]Sagas are epic tales in prose, often with stanzas or whole poems in alliterative verse embedded within them. The style tends to be impersonal, providing only terse details with no explanation of "why" - things simply happen, and no one questions Fate. Characters are only briefly introduced, with a few simple adjectives serving to show their personality ("brave warrior", "powerful king", etc.) Relationships between characters are complex. Heroes often have to overcome seemingly impossible tasks; life is generally short and cruel; and the only thing worth pursuing is honor and glory, gained through feats of arms. Any slight or insult to someone's honor has to be avenged, in blood or money. Often the world of the supernatural played a role in the sagas, and figures from the Norse religion could figure prominently. [PARAGRAPH:1]The Kings' Sagas are a group of specific Norse sagas that describe the lives of Scandinavian kings. They were written down between the twelfth and fourteenth centuries after the Vikings had converted to Christianity. These writings are the closest thing that exists to a history of the Scandinavians during the pre-Christian Viking Age, and they have been of inestimable value to historians who study the period. [PARAGRAPH:1]The saga is not strictly a Norse literary technique, and other cultures have produced works similar in form and tone. The epics of Homer, the samurai legends of Japan, and even the cowboy tales of the American West are examples of such works. [PARAGRAPH:1]</English>
+		<French>[TAB]Les sagas nordiques sont des r&#233;cits historiques ou mythologiques de la litt&#233;rature scandinave. Transmises oralement, elles ont travers&#233; le temps et n'ont &#233;t&#233; transcrites que vers la fin du Moyen-&#226;ge. Certaines d'entre elles rel&#232;vent de la chronique, mais le plus souvent, elles rev&#234;tent une teneur &#233;pique ou l&#233;gendaire. Elles nous relatent l'histoire et les hauts faits des rois et des h&#233;ros vikings. L'univers des sagas est clairement pa&#239;en. Le Destin, notion dominante dans la religion nordique pr&#233;chr&#233;tienne, joue souvent un r&#244;le d&#233;terminant dans ce type de r&#233;cits.[PARAGRAPH:1]Les sagas sont des &#233;pop&#233;es en prose, structur&#233;es en strophes o&#249; se m&#234;lent de longs po&#232;mes en vers. Le style est impersonnel, les d&#233;tails sont donn&#233;s succinctement, le principe de causalit&#233; est n&#233;glig&#233;, les &#233;v&#233;nements surgissent spontan&#233;ment et les diff&#233;rents protagonistes ne doutent jamais de leur Destin. Les personnages sont bross&#233;s l&#233;g&#232;rement, seuls quelques adjectifs suffisent &#224; d&#233;finir leur personnalit&#233; ("guerrier courageux", "puissant roi"). Les relations entre les personnages sont n&#233;anmoins complexes. Les h&#233;ros ont souvent &#224; surmonter des &#233;preuves apparemment impossibles. C'est un univers barbare o&#249; la vie ne tient qu'&#224; un fil. Les seules valeurs qui importent vraiment sont l'honneur et la gloire, gagn&#233;s sur le champ de bataille. La moindre offense, la plus petite insulte se doivent d'&#234;tre compens&#233;es p&#233;cuniairement ou lav&#233;es dans le sang. Dans les sagas, le surnaturel joue un r&#244;le important et les dieux du panth&#233;on nordique font souvent leur apparition. [PARAGRAPH:1]Les sagas royales forment un genre particulier. Elles d&#233;crivent la vie des rois scandinaves. Elles ont &#233;t&#233; &#233;crites entre le douzi&#232;me et le quatorzi&#232;me si&#232;cle, apr&#232;s que les Vikings se soient convertis au christianisme. Ces textes sont ce qui se rapproche le plus d'une histoire de la Scandinavie &#224; l'&#233;poque pr&#233;chr&#233;tienne des Vikings, ce qui leur conf&#232;re une valeur inestimable pour les historiens. [PARAGRAPH:1]La saga n'est pas un genre litt&#233;raire purement scandinave. D'autres cultures ont produit des oeuvres au ton et &#224; la forme similaires. Les &#233;pop&#233;es d'Hom&#232;re, les l&#233;gendes des samoura&#239;s japonais, et m&#234;me les histoires de cow-boys de l'Ouest am&#233;ricain en sont des exemples. [PARAGRAPH:1]</French>
+		<German>[TAB]In den nordischen Sagas spiegelt sich die geschichtliche und volkst&#252;mliche Entwicklung Skandinaviens wider. Die &#228;ltesten dieser Legenden, von denen manche auf wahren Begebenheiten beruhen, andere dagegen eindeutig im Reich der Fabeln anzusiedeln sind, wurden viele Jahrhunderte lang durch m&#252;ndliche &#220;berlieferung bewahrt, bevor sie gegen Ende des Mittelalters in Schriftform dokumentiert wurden. Sagas dienten sowohl der historischen Dokumentation der Wikingerk&#246;nige und ihrer Taten als auch der Darstellung mythischer Geschichten von ber&#252;hmten Helden. Die Welt der Sagas ist stark heidnisch gepr&#228;gt, wobei das Schicksal, ein vorherrschendes Element im vorchristlichen nordischen Glauben, oft eine zentrale Rolle spielt. [PARAGRAPH:1]Solche Sagas sind epische Prosaerz&#228;hlungen, in die oft Strophen oder Gedichte in alliterativer Versform eingearbeitet sind. Stilistisch sind sie eher unpers&#246;nlich gehalten und liefern nur wenige Details zum "Warum" - die Dinge passieren einfach und niemand stellt das Schicksal in Frage. Es erfolgt lediglich eine kurze Vorstellung der dargestellten Charaktere mit simplen Adjektiven ("tapferer Krieger", "m&#228;chtiger K&#246;nig" etc.). Die Beziehungen, in denen die Charaktere zueinander stehen, sind komplex. Die Helden m&#252;ssen sich oft scheinbar unl&#246;sbaren Aufgaben stellen, das Leben ist grunds&#228;tzlich kurz und grausam und die einzig erstrebenswerten Ziele sind Ehre und Ruhm, die stets durch k&#228;mpferische Glanzleistungen errungen werden. Wenn jemand die Ehre eines anderen auch nur im Mindesten kr&#228;nkt, muss dieser Frevel ges&#252;hnt werden, mit dem Schwert oder mithilfe des Geldbeutels. Abgesehen von dem &#220;bernat&#252;rlichen, das h&#228;ufig in den nordischen Sagas thematisiert wird, werden auch die Figuren der nordischen Religion besonders hervorgehoben. [PARAGRAPH:1]Die K&#246;nigssagas, eine spezielle Gattung der nordischen Erz&#228;hlungen, berichten aus dem Leben bekannter skandinavischer K&#246;nige. Sie wurden zwischen dem 12. und 14. Jahrhundert niedergeschrieben, nachdem die Wikinger zum Christentum &#252;bergetreten waren. Diese Aufzeichnungen gelten als die zuverl&#228;ssigsten geschichtlichen Quellen zum Thema Skandinavien w&#228;hrend der vorchristlichen Wikingerperiode und sind bis heute von unsch&#228;tzbarem Wert f&#252;r Historiker, die sich mit dieser Epoche besch&#228;ftigen. [PARAGRAPH:1]Sagas sind keine rein nordische Literaturgattung, denn auch andere Kulturen brachten &#228;hnlich geartete Werke hervor. Beispiele daf&#252;r sind unter anderem die Erz&#228;hlungen des Homer, die japanischen Samurai-Legenden und sogar die Cowboy-Geschichten aus dem Westen der Vereinigten Staaten. [PARAGRAPH:1]</German>
+		<Italian>[TAB]Le saghe nordiche si rifanno alla storia e al folklore scandinavo. Le pi&#249; antiche sono state a lungo tramandate per tradizione orale prima di essere infine trascritte nel periodo medievale. Alcuni racconti sono realistici; altri sono chiaramente leggendari e fantastici. Le saghe, che comprendevano le gesta di eroi famosi, fungevano anche da storia ufficiale per i re vichinghi. Il mondo delle saghe &#232; fortemente pagano. Il destino (un concetto dominante nella religione nordica pre-cristiana) gioca spesso un ruolo centrale in esse. [PARAGRAPH:1]Le saghe sono storie epiche in prosa, spesso integrate da strofe o poemi interi in versi allitteranti. Lo stile tende a essere impersonale e vengono forniti solo dettagli succinti senza alcuna spiegazione del perch&#233; le cose accadano: il Destino non viene semplicemente messo in discussione. I personaggi vengono descritti molto brevemente, con pochi semplici aggettivi che servono a indicarne la personalit&#224; ("coraggioso guerriero", "potente sovrano", ecc.). I rapporti tra i protagonisti sono complessi. Gli eroi devono spesso superare prove apparentemente impossibili, la vita &#232; generalmente breve e crudele e le uniche cose che vale la pena inseguire sono la gloria e l'onore, da conquistare con le armi. Ogni affronto o offesa all'onore di qualcuno dev'essere pagato, col sangue o col denaro. Spesso interviene anche il mondo soprannaturale e le divinit&#224; della religione nordica possono avere anche ruoli importanti. [PARAGRAPH:1]le Saghe dei Re sono un gruppo di saghe nordiche che descrivono la vita dei re scandinavi. Scritte tra il XII e il XIV secolo, dopo la conversione dei Vichinghi al cristianesimo, esse rappresentano la cosa pi&#249; simile a una storia vichinga dell'era pre-cristiana e sono state di valore inestimabile per gli studiosi specializzati in quel periodo. [PARAGRAPH:1]La saga non &#232;, strettamente parlando, una tecnica letteraria nordica: altre culture hanno prodotto opere simili nella forma e nel tono. I poemi epici di Omero, le leggende dei samurai giapponesi e persino i racconti dei cowboy del Far West appartengono allo stesso genere di opera. [PARAGRAPH:1]</Italian>
+		<Spanish>[TAB]Las sagas normandas tratan sobre la historia y el folclore de Escandinavia. Las m&#225;s antiguas se preservaron por medio de la tradici&#243;n oral hasta el final de la era medieval, cuando se pusieron por escrito. Algunos de los relatos son realistas; otros son claramente legendarios y fant&#225;sticos. Las sagas eran tanto la historia real de los reyes vikingos como las historias m&#237;ticas de h&#233;roes famosos. Se trata de un mundo profundamente pagano. El destino, un concepto dominante en las religiones escandinavas precristianas, suele desempe&#241;ar un papel central en estos relatos. [PARAGRAPH:1]Las sagas son cuentos &#233;picos en prosa, con algunos versos o poemas enteros en versos aliterados entremezclados. El estilo suele ser impersonal y solo ofrece detalles sucintos, sin explicaciones ni "porqu&#233;s": las cosas ocurren sin m&#225;s y nadie cuestiona el destino. Los personajes se presentan con pocas palabras, con algunos adjetivos que definen su personalidad ("valiente guerrero", "poderoso rey", etc.). Las relaciones entre ellos suelen ser muy complejas. Los h&#233;roes suelen enfrentarse a misiones aparentemente imposibles; la vida es muchas veces corta y cruel y lo &#250;nico que merece la pena conseguir es el honor y la gloria, que se obtienen con hechos de armas. Cualquier insulto contra el honor ha de ser vengado, en sangre o dinero. A menudo el mundo de lo sobrenatural desempe&#241;a un importante papel en las sagas, as&#237; como las figuras de la religi&#243;n escandinava.  [PARAGRAPH:1]La Saga de los Reyes es un conjunto de sagas escandinavas que describen espec&#237;ficamente la vida de los reyes escandinavos. Se escribieron durante los ss. XII y XIV, despu&#233;s de que los vikingos se convirtieran al cristianismo. Estos escritos son lo m&#225;s parecidos que los escandinavos tienen a una historia de la era vikinga precristriana y tienen un valor incalculable para los historiadores que estudian ese periodo. [PARAGRAPH:1]La saga en s&#237; no es propia de la t&#233;cnica literaria escandinava, pues muchas culturas m&#225;s han producido obras de forma y tono similares. La &#233;pica de Homero, las leyendas de los samur&#225;is del Jap&#243;n y hasta las historias de vaqueros del Oeste Americano son ejemplos de ello. [PARAGRAPH:1]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KINGS_SAGA_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]King's Saga[COLOR_REVERT] increases your production of Great People.</English>
+		<French>La [COLOR_BUILDING_TEXT]Saga du Roi[COLOR_REVERT] am&#233;liore votre production de personnages illustres.</French>
+		<German>Die [COLOR_BUILDING_TEXT]K&#246;nigssage[COLOR_REVERT] steigert die Produktion Gro&#223;er Pers&#246;nlichkeiten.</German>
+		<Italian>La [COLOR_BUILDING_TEXT]Saga dei Re[COLOR_REVERT] aumenta la produzione di Grandi Personaggi.</Italian>
+		<Spanish>La [COLOR_BUILDING_TEXT]Saga real[COLOR_REVERT] aumenta la generaci&#243;n de grandes personajes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LEGENDARY_SAGA</Tag>
+		<English>Legendary Saga</English>
+		<French>Saga l&#233;gendaire</French>
+		<German>Vorzeitsaga</German>
+		<Italian>Saga leggendaria</Italian>
+		<Spanish>Saga Legendaria:Sagas Legendarias</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LEGENDARY_SAGA_PEDIA</Tag>
+		<English>The Norse sagas are stories about Scandinavian history and folklore. The oldest were preserved for ages through an oral tradition before finally being written down towards the end of the medieval period. Sometimes the tales are realistic; sometimes they are clearly legendary and fantastic. Sagas served as both the formal history of the Viking kings and also the mythical stories of famous heroes. The world of the sagas is strongly pagan. Fate - a dominant concept in the pre-Christian Norse religion - often plays a central role in these tales. [PARAGRAPH:1]Sagas are epic tales in prose, often with stanzas or whole poems in alliterative verse embedded within them. The style tends to be impersonal, providing only terse details with no explanation of "why" - things simply happen, and no one questions Fate. Characters are only briefly introduced, with a few simple adjectives serving to show their personality ("brave warrior", "powerful king", etc.) Relationships between characters are complex. Heroes often have to overcome seemingly impossible tasks; life is generally short and cruel; and the only thing worth pursuing is honor and glory, gained through feats of arms. Any slight or insult to someone's honor has to be avenged, in blood or money. Often the world of the supernatural played a role in the sagas, and figures from the Norse religion could figure prominently. [PARAGRAPH:1]The Legendary Saga, or "Fornaldarsaga" (literally "a tale of times past"), is a Norse saga that takes place in the semi-mythical pre-Christian era of the Vikings. Unlike the Kings' Saga, which is a description of established Viking rulers, the Legendary Saga tells the supernatural and fantastic stories of the Viking heroes. The saga includes mythical creatures such as elves, dwarves, and giants as major characters. Legendary Sagas are believed to have been based on actual historical events, which were later elaborated and made fantastical as they were told and retold through the oral tradition. [PARAGRAPH:1]The Legendary Saga is an enormously valuable source for conveying to us the myths and legends of the ancient Scandinavians prior to their conversion to Christianity. The Legendary Saga also was a huge influence on Tolkien's "Lord of the Rings" fantasy series, and as a result a number of terms which would otherwise be extremely obscure (such as elves and dwarves) have passed into common usage. [PARAGRAPH:1]</English>
+		<French>Les sagas nordiques sont des r&#233;cits historiques ou mythologiques de la litt&#233;rature m&#233;di&#233;vale scandinave. Transmises oralement, elles ont travers&#233; le temps et n'ont &#233;t&#233; transcrites que vers la fin du Moyen-Age. Certaines d'entre elles rel&#232;vent de la chronique, mais le plus souvent, elles rev&#234;tent une teneur &#233;pique ou l&#233;gendaire. Elles nous relatent l'histoire et les hauts faits des rois et des h&#233;ros vikings. L'univers des sagas est clairement pa&#239;en. Le Destin, notion dominante dans la religion nordique pr&#233;chr&#233;tienne, joue souvent un r&#244;le d&#233;terminant dans ce type de r&#233;cits.[PARAGRAPH:1]Les sagas sont des &#233;pop&#233;es en prose, structur&#233;es en strophes o&#249; se m&#234;lent de longs po&#232;mes en vers. Le style est impersonnel, les d&#233;tails sont donn&#233;s succinctement, le principe de causalit&#233; est n&#233;glig&#233;, les &#233;v&#233;nements surgissent spontan&#233;ment et les diff&#233;rents protagonistes ne doutent jamais de leur Destin. Les personnages sont bross&#233;s l&#233;g&#232;rement, seuls quelques adjectifs suffisent &#224; d&#233;finir leur personnalit&#233; ("guerrier courageux", "puissant roi"). Les relations entre les personnages sont n&#233;anmoins complexes. Les h&#233;ros ont souvent &#224; surmonter des &#233;preuves apparemment impossibles. C'est un univers barbare o&#249; la vie ne tient qu'&#224; un fil. Les seules valeurs qui importent vraiment sont l'honneur et la gloire, gagn&#233;s sur le champ de bataille. La moindre offense, la plus petite insulte se doivent d'&#234;tre compens&#233;es p&#233;cuniairement ou lav&#233;es dans le sang. Dans les sagas, le surnaturel joue un r&#244;le important et les dieux du panth&#233;on nordique font souvent leur apparition.[PARAGRAPH:1]La "Saga l&#233;gendaire" ou "Fornaldarsaga" (litt&#233;ralement "r&#233;cit des temps anciens") est une saga nordique qui se d&#233;roule &#224; l'&#233;poque pr&#233;chr&#233;tienne et quasi mythique des Vikings. Contrairement aux sagas royales qui relatent la vie des chefs vikings, la"Saga l&#233;gendaire" nous rapporte la geste fabuleuse des h&#233;ros mythiques de ce peuple. L'on y croise des cr&#233;atures fantastiques tels que les Elfes, les Nains ou les G&#233;ants. La "Saga l&#233;gendaire" repose sur des &#233;v&#233;nements historiques qui ont &#233;t&#233; ensuite, au fil du temps, enjoliv&#233;s par la tradition orale charg&#233;e de les raconter.[PARAGRAPH:1]La "Saga l&#233;gendaire" est une source inestimable pour acc&#233;der &#224; la connaissance des mythes et l&#233;gendes des anciens peuples scandinaves avant leur conversion au Christianisme. Elle a aussi eu une incontestable influence sur des oeuvres telle que "Le Seigneur des Anneaux" de l'&#233;crivain Tolkien. Gr&#226;ce &#224; elle enfin, des cr&#233;atures merveilleuses comme les Nains et les Elfes peuplent d&#233;sormais notre imaginaire fantastique. [PARAGRAPH:1]</French>
+		<German>In den nordischen Sagas spiegelt sich die geschichtliche und volkstümliche Entwicklung Skandinaviens wider. Die ältesten dieser Legenden, von denen manche auf wahren Begebenheiten beruhen, andere dagegen eindeutig im Reich der Fabeln anzusiedeln sind, wurden viele Jahrhunderte lang durch mündliche Überlieferung bewahrt, bevor sie gegen Ende des Mittelalters in Schriftform dokumentiert wurden. Sagas dienten sowohl der historischen Dokumentation der Wikingerkönige und ihrer Taten als auch der Darstellung mythischer Geschichten von berühmten Helden. Die Welt der Sagas ist stark heidnisch geprägt, wobei das Schicksal, ein vorherrschendes Element im vorchristlichen nordischen Glauben, oft eine zentrale Rolle spielt. [PARAGRAPH:1]Sagas sind epische Prosaerzählungen, in die oft Strophen oder Gedichte in alliterativer Versform eingearbeitet sind. Stilistisch sind sie eher unpersönlich gehalten und liefern nur wenige Details zum "Warum" - die Dinge passieren einfach und niemand stellt das Schicksal in Frage. Es erfolgt lediglich eine kurze Vorstellung der dargestellten Charaktere mit simplen Adjektiven ("tapferer Krieger", "mächtiger König" etc.). Die Beziehungen, in denen die Charaktere zueinander stehen, sind komplex. Die Helden müssen sich oft scheinbar unlösbaren Aufgaben stellen, das Leben ist grundsätzlich kurz und grausam und die einzig erstrebenswerten Ziele sind Ehre und Ruhm, die stets durch kämpferische Glanzleistungen errungen werden. Wenn jemand die Ehre eines anderen auch nur im Mindesten kränkt, muss dieser Frevel gesühnt werden, mit dem Schwert oder mit Geld. Abgesehen von dem Übernatürlichen, das häufig in den nordischen Sagas thematisiert wird, werden auch die Figuren der nordischen Religion besonders hervorgehoben. [PARAGRAPH:1]Die "Vorzeitsagas" oder "Fornaldarsögur" (übersetzt etwa "Erzählung aus vergangener Zeit") sind nordische Sagenerzählungen, die in der halbmythischen vorchristlichen Wikingerzeit spielen. Anders als die Königssagas, die über bekannte Wikingerherrscher berichten, erzählen die Vorzeitsagas fantastische Geschichten von übermenschlichen, heldenhaften Wikingern. Zu den wichtigsten Elementen der Sagas gehören vor allem mythische Kreaturen wie Elfen, Zwerge und Riesen. Heute nimmt man an, dass die Vorzeitsagas auf historischen Ereignissen basieren und im Laufe der mündlichen Überlieferung von Generation zu Generation immer weiter ausgeschmückt und ins Fantastische verändert wurden. [PARAGRAPH:1]Die Vorzeitsagas gelten als wertvolle Informationsquellen für die Mythen und Legenden der alten Skandinavier vor ihrem Übertritt zum Christentum. Diese Art Sagas hatte übrigens auch einen enormen Einfluss auf Tolkiens "Herr der Ringe"-Fantasy-Trilogie, was dazu führte, dass eine Reihe von Begriffen, die ansonsten sehr nebulös und fremdartig gewirkt hätten (wie zum Beispiel Elfen und Zwerge), in den allgemeinen Sprachgebrauch aufgenommen wurden. [PARAGRAPH:1]</German>
+		<Italian>Le storie delle saghe nordiche si rifanno alla storia e al folklore scandinavo. Le più antiche sono state a lungo tramandate per tradizione orale prima di essere infine trascritte nel periodo medievale. Alcuni racconti sono realistici; altri sono chiaramente leggendari e fantastici. Le saghe, che comprendevano le gesta di eroi famosi, fungevano anche da storia ufficiale per i re vichinghi. Il mondo delle saghe è fortemente pagano. Il destino (un concetto dominante nella religione nordica pre-cristiana) gioca spesso un ruolo centrale in esse. [PARAGRAPH:1]Le saghe sono storie epiche in prosa, spesso integrate da strofe o poemi interi in versi allitteranti. Lo stile tende a essere impersonale e vengono forniti solo dettagli succinti senza alcuna spiegazione del perch&#233; le cose accadano: il Destino non viene semplicemente messo in discussione. I personaggi vengono descritti molto brevemente, con pochi semplici aggettivi che servono a indicarne la personalità (&quot;coraggioso guerriero&quot;, &quot;potente sovrano&quot;, ecc.). I rapporti tra i protagonisti sono complessi. Gli eroi devono spesso superare prove apparentemente impossibili, la vita è generalmente breve e crudele e le uniche cose che vale la pena inseguire sono la gloria e l'onore, da conquistare con le armi. Ogni affronto o offesa all'onore di qualcuno dev'essere pagato, col sangue o col denaro. Spesso interviene anche il mondo soprannaturale e le divinità della religione nordica possono avere anche ruoli importanti. [PARAGRAPH:1]La Saga leggendaria, o &quot;Fornaldarsaga&quot; (letteralmente &quot;racconto dal passato&quot;), è una saga nordica che ha luogo nella quasi mitica era pre-cristiana dei Vichinghi. A differenza della Saga dei Re, che descrive i regni di sovrani realmente vissuti, la Saga leggendaria narra le storie fantastiche e sovrannaturali degli eroi vichinghi. Nella saga compaiono creature mitiche come elfi, nani e giganti, anche tra i protagonisti. Si ritiene che le storie si basino su eventi storici reali, in seguito rielaborati e resi fantastici man mano che passavano di bocca in bocca nella tradizione orale. [PARAGRAPH:1]La Saga leggendaria è una fonte preziosissima di miti e leggende scandinavi antecedenti alla conversione al cristianesimo di queste popolazioni. Essa inoltre ha avuto una enorme influenza sul ciclo fantasy di Tolkien, &quot;Il Signore degli Anelli&quot; e così una serie di termini o concetti che altrimenti ci sarebbero rimasti oscuri (elfi e nani, per esempio) sono entrati a far parte dell'uso comune. [PARAGRAPH:1]</Italian>
+		<Spanish>Las sagas normandas tratan sobre la historia y el folclore de Escandinavia. Las más antiguas se preservaron por medio de la tradición oral hasta el final de la era medieval, cuando se pusieron por escrito. Algunos de los relatos son realistas; otros son claramente legendarios y fantásticos. Las sagas eran tanto la historia real de los reyes vikingos como las historias míticas de h&#233;roes famosos. Se trata de un mundo profundamente pagano. El destino, un concepto dominante en las religiones escandinavas precristianas, suele desempeñar un papel central en estos relatos. [PARAGRAPH:1]Las sagas son cuentos &#233;picos en prosa, con algunos versos o poemas enteros en versos aliterados entremezclados. El estilo suele ser impersonal y solo ofrece detalles sucintos, sin explicaciones ni &quot;porqu&#233;s&quot;: las cosas ocurren sin más y nadie cuestiona el destino. Los personajes se presentan con pocas palabras, con algunos adjetivos que definen su personalidad (&quot;valiente guerrero&quot;, &quot;poderoso rey&quot;, etc.). Las relaciones entre ellos suelen ser muy complejas. Los h&#233;roes suelen enfrentarse a misiones aparentemente imposibles; la vida es muchas veces corta y cruel y lo único que merece la pena conseguir es el honor y la gloria, que se obtienen con hechos de armas. Cualquier insulto contra el honor ha de ser vengado, en sangre o dinero. A menudo el mundo de lo sobrenatural desempeña un importante papel en las sagas, así como las figuras de la religión escandinava.  [PARAGRAPH:1]La Saga Legendaria, o &quot;Fornaldarsaga&quot; (literalmente, &quot;un relato de tiempos pasados&quot;) es una saga nórdica que tiene lugar en la era semimítica anterior a la adopción del cristianismo. A diferencia de la Saga de los Reyes, que es una relación de reyes vikingos reales, la Saga Legendaria cuenta las historias sobrenaturales y fantásticas de los h&#233;roes vikingos. La saga incluye entre sus personajes principales a criaturas como elfos, enanos y gigantes. Se cree que las Sagas Legendarias se basan en hechos históricos reales, elaborados y recubiertos de elementos fantásticos posteriormente a medida que se transmitían por tradición oral. [PARAGRAPH:1]La Saga Legendaria es una fuente de enorme valor para conocer los mitos y leyendas escandinavas anteriores a su conversión al cristianismo. Tambi&#233;n tuvo una inmensa influencia en la serie fantástica de Tolkien &quot;El señor de los anillos&quot;, responsable de que muchos t&#233;rminos, que de otro modo serían extremadamente oscuros (como los elfos y los enanos), se hayan popularizado. [PARAGRAPH:1]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LEGENDARY_SAGA_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Legendary Saga[COLOR_REVERT] increases your production of military units.</English>
+		<French>La [COLOR_BUILDING_TEXT]Saga l&#233;gendaire[COLOR_REVERT] am&#233;liore votre production d'unit&#233;s militaires.</French>
+		<German>Die [COLOR_BUILDING_TEXT]Vorzeitsaga[COLOR_REVERT] steigert die Produktion von Milit&#228;reinheiten.</German>
+		<Italian>La [COLOR_BUILDING_TEXT]Saga Leggendaria[COLOR_REVERT] aumenta la produzione di unit&#224; militari.</Italian>
+		<Spanish>La [COLOR_BUILDING_TEXT]Saga legendaria[COLOR_REVERT]aumenta la producci&#243;n de unidades militares.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_SHRINE</Tag>
+		<English>The Temple Mount</English>
+		<French>The Temple Mount</French>
+		<German>Der Tempelberg</German>
+		<Italian>The Temple Mount</Italian>
+		<Spanish>The Temple Mount</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MASJID_AL_HARAM</Tag>
+		<English>Masjid al-Haram</English>
+		<French>Masjid al-Haram</French>
+		<German>Masjid al-Haram</German>
+		<Italian>Masjid al-Haram</Italian>
+		<Spanish>Masjid al-Haram</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNNI_SHRINE</Tag>
+		<English>Kaaba</English>
+		<French>Kaaba</French>
+		<German>Kaaba</German>
+		<Italian>Kaaba</Italian>
+		<Spanish>Kaaba</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNNI_SHRINE_PEDIA</Tag>
+		<English>[TAB]The Kaaba is a cube-shaped building in Mecca, and is the most sacred site in Islam. The building predates Islam, and, according to Islamic tradition, the first building at the site was built by Abraham. The building has a mosque built around it, the Masjid al-Haram. All Muslims around the world face the Kaaba during prayers, no matter where they are.[PARAGRAPH:1]One of the Five Pillars of Islam requires every Muslim to perform the Hajj pilgrimage at least once in his or her lifetime if they are able to do so. Multiple parts of the Hajj require pilgrims to walk seven times around the Kaaba in a counter-clockwise direction (as viewed from above). This circumambulation, the Tawaf, is also performed by pilgrims during the Umrah (lesser pilgrimage).</English>
+		<French>[TAB]The Kaaba is a cube-shaped building in Mecca, and is the most sacred site in Islam. The building predates Islam, and, according to Islamic tradition, the first building at the site was built by Abraham. The building has a mosque built around it, the Masjid al-Haram. All Muslims around the world face the Kaaba during prayers, no matter where they are.[PARAGRAPH:1]One of the Five Pillars of Islam requires every Muslim to perform the Hajj pilgrimage at least once in his or her lifetime if they are able to do so. Multiple parts of the Hajj require pilgrims to walk seven times around the Kaaba in a counter-clockwise direction (as viewed from above). This circumambulation, the Tawaf, is also performed by pilgrims during the Umrah (lesser pilgrimage).</French>
+		<German>[TAB]Die Kaaba ist ein würfelförmiges Gebäude in Mekka und die heiligste Stätte im Islam. Das Gebäude stammt aus der Zeit vor dem Islam und der islamischen Tradition zufolge wurde das erste Gebäude an dieser Stelle von Abraham erbaut. Um das Gebäude herum ist eine Moschee errichtet, die Masjid al-Haram. Alle Muslime auf der ganzen Welt blicken während des Gebets auf die Kaaba, egal wo sie sich befinden.[PARAGRAPH:1] Eine der fünf Säulen des Islam verlangt von jedem Muslim, mindestens einmal in seinem Leben die Hadsch-Pilgerreise zu unternehmen, wenn er dazu in der Lage ist tun Sie dies. An mehreren Stellen des Haddsch müssen Pilger sieben Mal die Kaaba im Gegenuhrzeigersinn umrunden (von oben gesehen). Diese Umrundung, der Tawaf, wird auch von Pilgern während der Umrah (kleinere Pilgerfahrt) durchgeführt.</German>
+		<Italian>[TAB]The Kaaba is a cube-shaped building in Mecca, and is the most sacred site in Islam. The building predates Islam, and, according to Islamic tradition, the first building at the site was built by Abraham. The building has a mosque built around it, the Masjid al-Haram. All Muslims around the world face the Kaaba during prayers, no matter where they are.[PARAGRAPH:1]One of the Five Pillars of Islam requires every Muslim to perform the Hajj pilgrimage at least once in his or her lifetime if they are able to do so. Multiple parts of the Hajj require pilgrims to walk seven times around the Kaaba in a counter-clockwise direction (as viewed from above). This circumambulation, the Tawaf, is also performed by pilgrims during the Umrah (lesser pilgrimage).</Italian>
+		<Spanish>[TAB]The Kaaba is a cube-shaped building in Mecca, and is the most sacred site in Islam. The building predates Islam, and, according to Islamic tradition, the first building at the site was built by Abraham. The building has a mosque built around it, the Masjid al-Haram. All Muslims around the world face the Kaaba during prayers, no matter where they are.[PARAGRAPH:1]One of the Five Pillars of Islam requires every Muslim to perform the Hajj pilgrimage at least once in his or her lifetime if they are able to do so. Multiple parts of the Hajj require pilgrims to walk seven times around the Kaaba in a counter-clockwise direction (as viewed from above). This circumambulation, the Tawaf, is also performed by pilgrims during the Umrah (lesser pilgrimage).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIA_SHRINE</Tag>
+		<English>Imam Ali Mosque</English>
+		<French>Imam Ali Mosque</French>
+		<German>Imam-Ali-Moschee</German>
+		<Italian>Imam Ali Mosque</Italian>
+		<Spanish>Imam Ali Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIA_SHRINE_PEDIA</Tag>
+		<English>[TAB]The Imam Ali Holy Shrine, also known as Masjid Ali or the Mosque of Ali, located in Najaf, Iraq, is the third holiest site for some of the estimated 200 million followers of the Shia branch of Islam. Ali ibn Abi Talib, the cousin of Muhammad, the fourth caliph is buried here. Buried next to Ali within this mosque are the remains of Adam and Noah according to Shi'a belief.</English>
+		<French>[TAB]The Imam Ali Holy Shrine, also known as Masjid Ali or the Mosque of Ali, located in Najaf, Iraq, is the third holiest site for some of the estimated 200 million followers of the Shia branch of Islam. Ali ibn Abi Talib, the cousin of Muhammad, the fourth caliph is buried here. Buried next to Ali within this mosque are the remains of Adam and Noah according to Shi'a belief.</French>
+		<German>[TAB]Der heilige Imam-Ali-Schrein, auch bekannt als Masjid Ali oder Ali-Moschee, befindet sich in Nadschaf, Irak, und ist für einige der geschätzten 200 Millionen Anhänger des schiitischen Zweigs des Islam die drittheiligste Stätte. Ali ibn Abi Talib, der Cousin von Muhammad, dem vierten Kalifen, ist hier begraben. Nach schiitischem Glauben sind in dieser Moschee neben Ali die Überreste von Adam und Noah begraben.</German>
+		<Italian>[TAB]The Imam Ali Holy Shrine, also known as Masjid Ali or the Mosque of Ali, located in Najaf, Iraq, is the third holiest site for some of the estimated 200 million followers of the Shia branch of Islam. Ali ibn Abi Talib, the cousin of Muhammad, the fourth caliph is buried here. Buried next to Ali within this mosque are the remains of Adam and Noah according to Shi'a belief.</Italian>
+		<Spanish>[TAB]The Imam Ali Holy Shrine, also known as Masjid Ali or the Mosque of Ali, located in Najaf, Iraq, is the third holiest site for some of the estimated 200 million followers of the Shia branch of Islam. Ali ibn Abi Talib, the cousin of Muhammad, the fourth caliph is buried here. Buried next to Ali within this mosque are the remains of Adam and Noah according to Shi'a belief.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CUSTOM_HOUSE</Tag>
+		<English>Counting House</English>
+		<French>Counting House</French>
+		<German>Kontor</German>
+		<Italian>Counting House</Italian>
+		<Spanish>Counting House</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TANNER</Tag>
+		<English>Tannery</English>
+		<French>Tannery</French>
+		<German>Gerberei</German>
+		<Italian>Tannery</Italian>
+		<Spanish>Tannery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TANNER_PEDIA</Tag>
+		<English>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </English>
+		<French>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </French>
+		<German>[TAB]Gerberei ist eine Einrichtung, in der der Gerbprozess auf Häute zur Herstellung von Leder angewendet wird. Aus Leder wurden Wasserschläuche, Taschen, Geschirre, Boote, Rüstungen, Köcher, Scheiden, Stiefel und Sandalen hergestellt. Aufgrund des üblen Geruchs galt das Gerben als schädlicher oder "geruchsintensiver Beruf" und wurde in die Randbezirke der Stadt verbannt, wo die Armen lebten.</German>
+		<Italian>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </Italian>
+		<Spanish>[TAB]Tannery is a facility where the tanning process is applied to hide to produce leather. Leather was used to make waterskins, bags, harnesses, boats, armor, quivers, scabbards, boots and sandals. Due to foul smell, tanning was considered a noxious or "odiferous trade" and relegated to the outskirts of town, amongst the poor. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
+		<English>Textile Factory</English>
+		<French>Textile Factory</French>
+		<German>Textilfabrik</German>
+		<Italian>Textile Factory</Italian>
+		<Spanish>Textile Factory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TEXTILE_MILL_PEDIA</Tag>
+		<English>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</English>
+		<French>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</French>
+		<German>[TAB]Die Textilfabrik ist eine große Werkstatt, in der Textilien von Facharbeitern unter Verwendung spezieller Geräte, z. B. das Spinnrad. Lange bevor sie in Europa auftauchten, waren fortschrittliche Textilfabriken im mittelalterlichen Irak und Iran weit verbreitet und beschäftigten jeweils Tausende von Menschen.</German>
+		<Italian>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</Italian>
+		<Spanish>[TAB]Textile Factory is a large workshop where textiles are produced by specialized laborers, with the use of special equipment e.g. the spinning wheel. Long before they appeared in Europe, advanced textile factories were common in medieval Iraq and Iran, employing thousands of people each.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BAZAAR</Tag>
+		<English>Bazaar</English>
+		<French>Bazaar</French>
+		<German>Basar</German>
+		<Italian>Bazaar</Italian>
+		<Spanish>Bazaar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FOUNDRY</Tag>
+		<English>Foundry</English>
+		<French>Foundry</French>
+		<German>Gießerei</German>
+		<Italian>Foundry</Italian>
+		<Spanish>Foundry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FOUNDRY_PEDIA</Tag>
+		<English>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </English>
+		<French>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </French>
+		<German>[TAB]Eine Gießerei ist ein Gebäude zur Herstellung von Metallgussteilen. Metalle werden in Teile umgewandelt, indem man sie zu einer Flüssigkeit schmilzt, das Metall in eine Form gießt und das Formmaterial oder den Guss entfernt, nachdem das Metall beim Abkühlen erstarrt ist.</German>
+		<Italian>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </Italian>
+		<Spanish>[TAB]A foundry is a building used for production of metal castings. Metals are turned into parts by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INFIRMARY_PEDIA</Tag>
+		<English>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</English>
+		<French>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</French>
+		<German>[TAB]Krankenstation ist ein Ort für die Pflege gebrechlicher, kranker oder verletzter Menschen. Im Mittelalter waren Krankenstationen oft an Klöster angeschlossen und wurden von Mönchen und Nonnen betreut. Darüber hinaus könnten sie auch als Armenhäuser oder Zufluchtsorte für Pilger dienen.</German>
+		<Italian>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</Italian>
+		<Spanish>[TAB]Infirmary is a place for the care of the infirm, sick, or injured. In the Middle Ages, infirmaries were often attached to monasteries, with care provided by monks and nuns. Additionally, they could also serve as almhouses or refuges for pilgrims.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HORSE_BREEDER</Tag>
+		<English>Horse Breeder</English>
+		<French>Horse Breeder</French>
+		<German>Pferdezüchter</German>
+		<Italian>Horse Breeder</Italian>
+		<Spanish>Horse Breeder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HORSE_BREEDER_PEDIA</Tag>
+		<English>[TAB]Many Mamluks were trained as cavalry soldiers, capable of fighting both ranged and close engagements. It is the Mamluk heavy cavalry that brought the previously undefeated Mongol horse archers to their knees. Compared to Mongols' resilent ponies, Mamluk horses were large, strong, fast and well-fed. Therefore it is not surprising than quality steeds were an important commodity in the Sultanate of Egypt, with its limited pasture-land.</English>
+		<French>[TAB]Many Mamluks were trained as cavalry soldiers, capable of fighting both ranged and close engagements. It is the Mamluk heavy cavalry that brought the previously undefeated Mongol horse archers to their knees. Compared to Mongols' resilent ponies, Mamluk horses were large, strong, fast and well-fed. Therefore it is not surprising than quality steeds were an important commodity in the Sultanate of Egypt, with its limited pasture-land.</French>
+		<German>[TAB]Viele Mamluken wurden als Kavalleriesoldaten ausgebildet und waren in der Lage, sowohl Fernkämpfe als auch Nahkämpfe zu führen. Es war die schwere Mamluk-Kavallerie, die die zuvor unbesiegten mongolischen berittenen Bogenschützen in die Knie zwang. Im Vergleich zu den widerstandsfähigen Ponys der Mongolen waren Mamlukenpferde groß, stark, schnell und wohlgenährt. Daher ist es nicht verwunderlich, dass Qualitätspferde im Sultanat Ägypten mit seinem begrenzten Weideland ein wichtiges Handelsgut waren.</German>
+		<Italian>[TAB]Many Mamluks were trained as cavalry soldiers, capable of fighting both ranged and close engagements. It is the Mamluk heavy cavalry that brought the previously undefeated Mongol horse archers to their knees. Compared to Mongols' resilent ponies, Mamluk horses were large, strong, fast and well-fed. Therefore it is not surprising than quality steeds were an important commodity in the Sultanate of Egypt, with its limited pasture-land.</Italian>
+		<Spanish>[TAB]Many Mamluks were trained as cavalry soldiers, capable of fighting both ranged and close engagements. It is the Mamluk heavy cavalry that brought the previously undefeated Mongol horse archers to their knees. Compared to Mongols' resilent ponies, Mamluk horses were large, strong, fast and well-fed. Therefore it is not surprising than quality steeds were an important commodity in the Sultanate of Egypt, with its limited pasture-land.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORTHODOX_TEMPLE</Tag>
+		<English>Orthodox Church</English>
+		<French>Orthodox Church</French>
+		<German>Orthodoxe Kirche</German>
+		<Italian>Orthodox Church</Italian>
+		<Spanish>Orthodox Church</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORTHODOX_CATHEDRAL</Tag>
+		<English>Orthodox Cathedral</English>
+		<French>Orthodox Cathedral</French>
+		<German>Orthodoxe Kathedrale</German>
+		<Italian>Orthodox Cathedral</Italian>
+		<Spanish>Orthodox Cathedral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORTHODOX_MONASTERY</Tag>
+		<English>Orthodox Monastery</English>
+		<French>Orthodox Monastery</French>
+		<German>Orthodoxes Kloster</German>
+		<Italian>Orthodox Monastery</Italian>
+		<Spanish>Orthodox Monastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORTHODOX_SCRIPTORIUM</Tag>
+		<English>Orthodox Scriptorium</English>
+		<French>Orthodox Scriptorium</French>
+		<German>Orthodoxes Skriptorium</German>
+		<Italian>Orthodox Scriptorium</Italian>
+		<Spanish>Orthodox Scriptorium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_SHRINE</Tag>
+		<English>The Holy Sepulchre</English>
+		<French>The Holy Sepulchre</French>
+		<German>Das Heilige Grab</German>
+		<Italian>The Holy Sepulchre</Italian>
+		<Spanish>The Holy Sepulchre</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_SHRINE_PEDIA</Tag>
+		<English>[TAB]The Church of the Holy Sepulchre, also called the Church of the Resurrection by Eastern Christians, is a Christian church within the walled Old City of Jerusalem. The site is venerated by many Christians as Golgotha, where the New Testament says that Jesus was crucified, and is said to also contain the place where Jesus was buried (the sepulchre). The church has been an important pilgrimage destination since at least the 4th century, as the purported site of the death and resurrection of Jesus. Today it also serves as the headquarters of the Greek Orthodox Patriarch of Jerusalem, while control of the building is shared between several Christian churches and secular entities in complicated arrangements essentially unchanged for centuries.</English>
+		<French>[TAB]The Church of the Holy Sepulchre, also called the Church of the Resurrection by Eastern Christians, is a Christian church within the walled Old City of Jerusalem. The site is venerated by many Christians as Golgotha, where the New Testament says that Jesus was crucified, and is said to also contain the place where Jesus was buried (the sepulchre). The church has been an important pilgrimage destination since at least the 4th century, as the purported site of the death and resurrection of Jesus. Today it also serves as the headquarters of the Greek Orthodox Patriarch of Jerusalem, while control of the building is shared between several Christian churches and secular entities in complicated arrangements essentially unchanged for centuries.</French>
+		<German>[TAB]Die Grabeskirche, von östlichen Christen auch Auferstehungskirche genannt, ist eine christliche Kirche in der ummauerten Altstadt von Jerusalem. Der Ort wird von vielen Christen als Golgatha verehrt, wo das Neue Testament sagt, dass Jesus gekreuzigt wurde, und an dem sich angeblich auch der Ort befindet, an dem Jesus begraben wurde (das Grab). Die Kirche ist seit mindestens dem 4. Jahrhundert ein wichtiger Wallfahrtsort, da sie angeblich der Ort des Todes und der Auferstehung Jesu war. Heute dient es auch als Hauptquartier des griechisch-orthodoxen Patriarchen von Jerusalem, während die Kontrolle über das Gebäude in komplizierten Vereinbarungen, die seit Jahrhunderten im Wesentlichen unverändert sind, zwischen mehreren christlichen Kirchen und weltlichen Einrichtungen geteilt wird.</German>
+		<Italian>[TAB]The Church of the Holy Sepulchre, also called the Church of the Resurrection by Eastern Christians, is a Christian church within the walled Old City of Jerusalem. The site is venerated by many Christians as Golgotha, where the New Testament says that Jesus was crucified, and is said to also contain the place where Jesus was buried (the sepulchre). The church has been an important pilgrimage destination since at least the 4th century, as the purported site of the death and resurrection of Jesus. Today it also serves as the headquarters of the Greek Orthodox Patriarch of Jerusalem, while control of the building is shared between several Christian churches and secular entities in complicated arrangements essentially unchanged for centuries.</Italian>
+		<Spanish>[TAB]The Church of the Holy Sepulchre, also called the Church of the Resurrection by Eastern Christians, is a Christian church within the walled Old City of Jerusalem. The site is venerated by many Christians as Golgotha, where the New Testament says that Jesus was crucified, and is said to also contain the place where Jesus was buried (the sepulchre). The church has been an important pilgrimage destination since at least the 4th century, as the purported site of the death and resurrection of Jesus. Today it also serves as the headquarters of the Greek Orthodox Patriarch of Jerusalem, while control of the building is shared between several Christian churches and secular entities in complicated arrangements essentially unchanged for centuries.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_TEMPLE</Tag>
+		<English>Catholic Church</English>
+		<French>Catholic Church</French>
+		<German>Katholische Kirche</German>
+		<Italian>Catholic Church</Italian>
+		<Spanish>Catholic Church</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_CATHEDRAL</Tag>
+		<English>Catholic Cathedral</English>
+		<French>Catholic Cathedral</French>
+		<German>Katholische Kathedrale</German>
+		<Italian>Catholic Cathedral</Italian>
+		<Spanish>Catholic Cathedral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_MONASTERY</Tag>
+		<English>Catholic Monastery</English>
+		<French>Catholic Monastery</French>
+		<German>Katholisches Kloster</German>
+		<Italian>Catholic Monastery</Italian>
+		<Spanish>Catholic Monastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHOLIC_SCRIPTORIUM</Tag>
+		<English>Catholic Scriptorium</English>
+		<French>Catholic Scriptorium</French>
+		<German>Katholisches Skriptorium</German>
+		<Italian>Catholic Scriptorium</Italian>
+		<Spanish>Catholic Scriptorium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_TEMPLE</Tag>
+		<English>Islamic Mosque</English>
+		<French>Islamic Mosque</French>
+		<German>Islamische Moschee</German>
+		<Italian>Islamic Mosque</Italian>
+		<Spanish>Islamic Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_CATHEDRAL</Tag>
+		<English>Islamic Great Mosque</English>
+		<French>Islamic Great Mosque</French>
+		<German>Islamische Großmoschee</German>
+		<Italian>Islamic Great Mosque</Italian>
+		<Spanish>Islamic Great Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_MINARET</Tag>
+		<English>Islamic Minaret</English>
+		<French>Islamic Minaret</French>
+		<German>Islamisches Minarett</German>
+		<Italian>Islamic Minaret</Italian>
+		<Spanish>Islamic Minaret</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_MONASTERY</Tag>
+		<English>Islamic Madrasah</English>
+		<French>Islamic Madrasah</French>
+		<German>Islamische Madrasa</German>
+		<Italian>Islamic Madrasah</Italian>
+		<Spanish>Islamic Madrasah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_LIBRARY</Tag>
+		<English>Islamic Library</English>
+		<French>Islamic Library</French>
+		<German>Islamische Bibliothek</German>
+		<Italian>Islamic Library</Italian>
+		<Spanish>Islamic Library</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNNI_TEMPLE</Tag>
+		<English>Sunni Mosque</English>
+		<French>Sunni Mosque</French>
+		<German>Sunni Moschee</German>
+		<Italian>Sunni Mosque</Italian>
+		<Spanish>Sunni Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNNI_CATHEDRAL</Tag>
+		<English>Sunni Great Mosque</English>
+		<French>Sunni Great Mosque</French>
+		<German>Sunni Großmoschee</German>
+		<Italian>Sunni Great Mosque</Italian>
+		<Spanish>Sunni Great Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNNI_MONASTERY</Tag>
+		<English>Sunni Madrasah</English>
+		<French>Sunni Madrasah</French>
+		<German>Sunni Madrasa</German>
+		<Italian>Sunni Madrasah</Italian>
+		<Spanish>Sunni Madrasah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIA_TEMPLE</Tag>
+		<English>Shia Mosque</English>
+		<French>Shia Mosque</French>
+		<German>Shia Moschee</German>
+		<Italian>Shia Mosque</Italian>
+		<Spanish>Shia Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIA_CATHEDRAL</Tag>
+		<English>Shia Great Mosque</English>
+		<French>Shia Great Mosque</French>
+		<German>Shia Großmoschee</German>
+		<Italian>Shia Great Mosque</Italian>
+		<Spanish>Shia Great Mosque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIA_MONASTERY</Tag>
+		<English>Shia Madrasah</English>
+		<French>Shia Madrasah</French>
+		<German>Shia Madrasa</German>
+		<Italian>Shia Madrasah</Italian>
+		<Spanish>Shia Madrasah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIA_RELIQUARY</Tag>
+		<English>Shia Reliquary</English>
+		<French>Shia Reliquary</French>
+		<German>Shia Reliquienschrein</German>
+		<Italian>Shia Reliquary</Italian>
+		<Spanish>Shia Reliquary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEN_OF_SPIES</Tag>
+		<English>Den of Spies</English>
+		<French>Den of Spies</French>
+		<German>Agentenversteck</German>
+		<Italian>Den of Spies</Italian>
+		<Spanish>Den of Spies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEN_OF_SPIES_PEDIA</Tag>
+		<English>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</English>
+		<French>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</French>
+		<German>[TAB]Das Agentenversteck ist eine Einrichtung, die für die Anwesenheit vieler Agenten, Informanten und anderer Unruhestifter bekannt ist.</German>
+		<Italian>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</Italian>
+		<Spanish>[TAB]The Den of Spies is an establishment reputed for the presence of many agents, informants and other troublemakers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCHERY_RANGE</Tag>
+		<English>Archery Range</English>
+		<French>Archery Range</French>
+		<German>Schießstand</German>
+		<Italian>Archery Range</Italian>
+		<Spanish>Archery Range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCHERY_RANGE_PEDIA</Tag>
+		<English>[TAB]Archery Range is a facility required to effectively train archery units.</English>
+		<French>[TAB]Archery Range is a facility required to effectively train archery units.</French>
+		<German>[TAB]Der Schießstand ist eine Einrichtung, die zur effektiven Ausbildung von Bogenschützeneinheiten erforderlich ist.</German>
+		<Italian>[TAB]Archery Range is a facility required to effectively train archery units.</Italian>
+		<Spanish>[TAB]Archery Range is a facility required to effectively train archery units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MARKSMANS_RANGE</Tag>
+		<English>Marksman's Range</English>
+		<French>Marksman's Range</French>
+		<German>Schützenschießstand</German>
+		<Italian>Marksman's Range</Italian>
+		<Spanish>Marksman's Range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAPONSMITH</Tag>
+		<English>Weaponsmith</English>
+		<French>Weaponsmith</French>
+		<German>Waffenschmiede</German>
+		<Italian>Weaponsmith</Italian>
+		<Spanish>Weaponsmith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAPONSMITH_PEDIA</Tag>
+		<English>[TAB]Perhaps as early as 300 BC, although certainly by AD 200, high quality steel was being produced in southern India by the crucible technique. In this system, high-purity wrought iron, charcoal, and glass were mixed in a crucible and heated until the iron melted and absorbed the carbon. High-quality steel called Wootz, used in Indian and later Arabian swordmaking, also originates from India.</English>
+		<French>[TAB]Perhaps as early as 300 BC, although certainly by AD 200, high quality steel was being produced in southern India by the crucible technique. In this system, high-purity wrought iron, charcoal, and glass were mixed in a crucible and heated until the iron melted and absorbed the carbon. High-quality steel called Wootz, used in Indian and later Arabian swordmaking, also originates from India.</French>
+		<German>[TAB]Vielleicht bereits 300 v. Chr., sicherlich aber schon 200 n. Chr., wurde in Südindien hochwertiger Stahl mit der Tiegeltechnik hergestellt. Bei diesem System wurden hochreines Schmiedeeisen, Holzkohle und Glas in einem Tiegel gemischt und erhitzt, bis das Eisen schmolz und den Kohlenstoff absorbierte. Auch der hochwertige Stahl namens Wootz, der in der indischen und später arabischen Schwertherstellung verwendet wurde, stammt aus Indien.</German>
+		<Italian>[TAB]Perhaps as early as 300 BC, although certainly by AD 200, high quality steel was being produced in southern India by the crucible technique. In this system, high-purity wrought iron, charcoal, and glass were mixed in a crucible and heated until the iron melted and absorbed the carbon. High-quality steel called Wootz, used in Indian and later Arabian swordmaking, also originates from India.</Italian>
+		<Spanish>[TAB]Perhaps as early as 300 BC, although certainly by AD 200, high quality steel was being produced in southern India by the crucible technique. In this system, high-purity wrought iron, charcoal, and glass were mixed in a crucible and heated until the iron melted and absorbed the carbon. High-quality steel called Wootz, used in Indian and later Arabian swordmaking, also originates from India.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORGE</Tag>
+		<English>Blacksmith</English>
+		<French>Blacksmith</French>
+		<German>Schmiede</German>
+		<Italian>Blacksmith</Italian>
+		<Spanish>Blacksmith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_TEMPLE</Tag>
+		<English>Jewish Quarter</English>
+		<French>Jewish Quarter</French>
+		<German>Jüdisches Viertel</German>
+		<Italian>Jewish Quarter</Italian>
+		<Spanish>Jewish Quarter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INN</Tag>
+		<English>Inn</English>
+		<French>Inn</French>
+		<German>Gasthaus</German>
+		<Italian>Inn</Italian>
+		<Spanish>Inn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INN_PEDIA</Tag>
+		<English>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </English>
+		<French>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </French>
+		<German>[TAB]Ein Gasthaus ist eine Einrichtung, die der Öffentlichkeit, insbesondere Reisenden, Unterkunft und Verpflegung bietet.</German>
+		<Italian>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </Italian>
+		<Spanish>[TAB]Inn is an establishment that provides lodging and food for the public, especially travellers. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BROTHEL</Tag>
+		<English>Brothel</English>
+		<French>Brothel</French>
+		<German>Bordell</German>
+		<Italian>Brothel</Italian>
+		<Spanish>Brothel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BROTHEL_PEDIA</Tag>
+		<English>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</English>
+		<French>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</French>
+		<German>[TAB]Prostitution gab es in vielen Kulturen und Zivilisationen, mit Ausnahme des mittelalterlichen Nahen Ostens. Obwohl die frommeren islamischen Herrscher Weintrinken, Glücksspiel und Prostitution verbieten würden, würden Tavernen und Bordelle an anderen, nicht so streng kontrollierten Orten entstehen.</German>
+		<Italian>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</Italian>
+		<Spanish>[TAB]Prostitution existed across many cultures and civilizations, medieval Middle East being on exception. Although the more pious Islamic rulers would ban wine-drinking, gambling and prostitution, taverns and brothels would sprung up in other, not so strictly controlled places.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUTCHER</Tag>
+		<English>Butchery</English>
+		<French>Butchery</French>
+		<German>Metzgerei</German>
+		<Italian>Butchery</Italian>
+		<Spanish>Butchery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUTCHER_PEDIA</Tag>
+		<English>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</English>
+		<French>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</French>
+		<German>[TAB]Metzger ist ein traditioneller Beruf. Die primäre Schlachtung besteht aus der Auswahl von Schlachtkörpern, Teilen oder Vierteln, aus denen Primärteile mit minimalem Abfall hergestellt werden können, dem Trennen der Primärteile von den Schlachtkörpern unter Verwendung geeigneter Werkzeuge und Geräte gemäß den Verfahren des Unternehmens, dem Zuschneiden der Primärteile und der Vorbereitung für die Sekundärschlachtung Verkaufen und lagern Sie geschnittenes Fleisch hygienisch und sicher. Bei der Sekundärmetzgerei werden die ursprünglichen Teilstücke entbeint und für den Verkauf vorbereitet. Historisch gesehen wurden Primär- und Sekundärschlachtung im selben Betrieb durchgeführt, aber das Aufkommen von Konservierungsmethoden und kostengünstigen Transporten hat sie weitgehend getrennt.</German>
+		<Italian>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</Italian>
+		<Spanish>[TAB]Butchery is a traditional work. Primary butchery consists of selecting carcasses, sides, or quarters from which primal cuts can be produced with the minimum of wastage, separate the primal cuts from the carcasses using the appropriate tools and equipment following company procedures, trim primal cuts and prepare for secondary butchery or sale, and store cut meats hygienically and safely. Secondary butchery involves boning and trimming primal cuts in preparation for sale. Historically, primary and secondary butchery were performed in the same establishment but the advent of methods of preservation and low cost transportation has largely separated them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUTCHER_HELP</Tag>
+		<English>[ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Pig[\LINK] (not applicable if [ICON_SUNNI] or [ICON_SHIA] is State [ICON_RELIGION])[NEWLINE][ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Cow[\LINK] (not applicable if [ICON_HINDUISM] is State [ICON_RELIGION])</English>
+		<French>[ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Pig[\LINK] (not applicable if [ICON_SUNNI] or [ICON_SHIA] is State [ICON_RELIGION])[NEWLINE][ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Cow[\LINK] (not applicable if [ICON_HINDUISM] is State [ICON_RELIGION])</French>
+		<German>[ICON_BULLET]+1[ICON_HEALTHY] durch [LINK=literal]Schwein[\LINK] (außer wenn [ICON_SUNNI] oder [ICON_SHIA] ist Staats-[ICON_RELIGION])[NEWLINE][ICON_BULLET]+1[ICON_HEALTHY] durch [LINK=literal]Cow[\LINK] (außer wenn [ICON_HINDUISM] ist Staats-[ICON_RELIGION])</German>
+		<Italian>[ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Pig[\LINK] (not applicable if [ICON_SUNNI] or [ICON_SHIA] is State [ICON_RELIGION])[NEWLINE][ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Cow[\LINK] (not applicable if [ICON_HINDUISM] is State [ICON_RELIGION])</Italian>
+		<Spanish>[ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Pig[\LINK] (not applicable if [ICON_SUNNI] or [ICON_SHIA] is State [ICON_RELIGION])[NEWLINE][ICON_BULLET]+1[ICON_HEALTHY] from [LINK=literal]Cow[\LINK] (not applicable if [ICON_HINDUISM] is State [ICON_RELIGION])</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_HALL</Tag>
+		<English>Guild Hall</English>
+		<French>Guild Hall</French>
+		<German>Zunfthaus</German>
+		<Italian>Guild Hall</Italian>
+		<Spanish>Guild Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_HALL_PEDIA</Tag>
+		<English>[TAB]A Guildhall is a building used by guilds for meetings. The town authorities were represented in the guild meetings and thus had a means of controlling the handicraft activities. This was important since towns very often depended on a good reputation for export of a narrow range of products, on which not only the guild's, but the town's, reputation depended.</English>
+		<French>[TAB]A Guildhall is a building used by guilds for meetings. The town authorities were represented in the guild meetings and thus had a means of controlling the handicraft activities. This was important since towns very often depended on a good reputation for export of a narrow range of products, on which not only the guild's, but the town's, reputation depended.</French>
+		<German>[TAB]Ein Zunfthaus ist ein Gebäude, das von Gilden für Treffen genutzt wird. Die städtischen Behörden waren in den Zunftversammlungen vertreten und hatten so die Möglichkeit, die handwerklichen Aktivitäten zu kontrollieren. Dies war wichtig, da Städte sehr oft auf einen guten Ruf beim Export einer begrenzten Produktpalette angewiesen waren, von dem nicht nur der Ruf der Zunft, sondern auch der Stadt abhing.</German>
+		<Italian>[TAB]A Guildhall is a building used by guilds for meetings. The town authorities were represented in the guild meetings and thus had a means of controlling the handicraft activities. This was important since towns very often depended on a good reputation for export of a narrow range of products, on which not only the guild's, but the town's, reputation depended.</Italian>
+		<Spanish>[TAB]A Guildhall is a building used by guilds for meetings. The town authorities were represented in the guild meetings and thus had a means of controlling the handicraft activities. This was important since towns very often depended on a good reputation for export of a narrow range of products, on which not only the guild's, but the town's, reputation depended.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SOUK</Tag>
+		<English>Souk</English>
+		<French>Souk</French>
+		<German>Souk</German>
+		<Italian>Souk</Italian>
+		<Spanish>Souk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SOUK_PEDIA</Tag>
+		<English>[TAB]A souq or souk is a commercial quarter in an Arab or Berber city. Historically, souqs were held outside of cities in the location where a caravan loaded with goods would stop and merchants would display their goods for sale. Souqs were held when there was a caravan or more available. At that time, souqs were more than just a market to buy and sell goods; they were also major festivals and many cultural and social activities took place in them.</English>
+		<French>[TAB]A souq or souk is a commercial quarter in an Arab or Berber city. Historically, souqs were held outside of cities in the location where a caravan loaded with goods would stop and merchants would display their goods for sale. Souqs were held when there was a caravan or more available. At that time, souqs were more than just a market to buy and sell goods; they were also major festivals and many cultural and social activities took place in them.</French>
+		<German>[TAB]Ein Souq oder Souk ist ein Geschäftsviertel in einer arabischen oder Berberstadt. Historisch gesehen wurden Souks außerhalb von Städten an Orten abgehalten, an denen eine mit Waren beladene Karawane anhielt und Händler ihre Waren zum Verkauf ausstellten. Souks wurden abgehalten, wenn mindestens eine Karawane verfügbar war. Damals waren Souks mehr als nur ein Markt zum Kauf und Verkauf von Waren; Es waren auch große Feste, auf denen zahlreiche kulturelle und gesellschaftliche Aktivitäten stattfanden.</German>
+		<Italian>[TAB]A souq or souk is a commercial quarter in an Arab or Berber city. Historically, souqs were held outside of cities in the location where a caravan loaded with goods would stop and merchants would display their goods for sale. Souqs were held when there was a caravan or more available. At that time, souqs were more than just a market to buy and sell goods; they were also major festivals and many cultural and social activities took place in them.</Italian>
+		<Spanish>[TAB]A souq or souk is a commercial quarter in an Arab or Berber city. Historically, souqs were held outside of cities in the location where a caravan loaded with goods would stop and merchants would display their goods for sale. Souqs were held when there was a caravan or more available. At that time, souqs were more than just a market to buy and sell goods; they were also major festivals and many cultural and social activities took place in them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FAIRGROUND</Tag>
+		<English>Fairground</English>
+		<French>Fairground</French>
+		<German>Messe</German>
+		<Italian>Fairground</Italian>
+		<Spanish>Fairground</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FAIRGROUND_PEDIA</Tag>
+		<English>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</English>
+		<French>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</French>
+		<German>[TAB]Eine Messe ist eine Zusammenkunft von Menschen, um Produkte oder andere Waren auszustellen oder zu handeln, Tiere vorzuführen oder zur Schau zu stellen und häufig auch die damit verbundene Karnevals- oder Kirmesunterhaltung zu genießen. Der Jahrmarkt ist eine alte Tradition und viele Gemeinden verfügen seit langem über eigene Jahrmarktplätze. andere halten sie an verschiedenen öffentlichen Orten ab, darunter auf Straßen und Plätzen, oder sogar in großen privaten Gärten. Messen werden oft in Verbindung mit einem bedeutenden Ereignis abgehalten, beispielsweise dem Jahrestag eines lokalen historischen Ereignisses, einem saisonalen Ereignis wie der Erntezeit oder einem Feiertag.</German>
+		<Italian>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</Italian>
+		<Spanish>[TAB]A fair is a gathering of people to display or trade produce or other goods, to parade or display animals and often to enjoy associated carnival or funfair entertainment. The fair is an ancient tradition, and many communities have long had dedicated fairgrounds; others hold them in a variety of public places, including streets and town squares, or even in large private gardens. Fairs are often held in conjunction with a significant event, such as the anniversary of a local historical event, a seasonal event such as harvest time, or with a holiday.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIL</Tag>
+		<English>Debtor's Prison</English>
+		<French>Debtor's Prison</French>
+		<German>Schuldnergefängnis</German>
+		<Italian>Debtor's Prison</Italian>
+		<Spanish>Debtor's Prison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIL_PEDIA</Tag>
+		<English>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</English>
+		<French>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</French>
+		<German>[TAB]Ein Schuldnergefängnis ist ein Gefängnis für diejenigen, die nicht in der Lage sind, eine Schuld zu begleichen. Die Schuldner wurden eingesperrt, bis ihre Familien in der Lage waren, die Schulden durch Arbeit zu begleichen.</German>
+		<Italian>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</Italian>
+		<Spanish>[TAB]A debtor's prison is a prison for those who are unable to pay a debt. Debtors were locked up until they families were able to pay off the debt in labor.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIKING_TRADING_POST_PEDIA</Tag>
+		<English>[TAB]Oman has a rich trading history dating back to ancient times. Secluded but strategically located between Mesopotamia and India, Oman extensively traded with both. The kingdom's most important trade goods were frankincense, marble and copper. Pliny the Elder wrote that control of the incese route had made the South Arabians one of the richest people in the world.</English>
+		<French>[TAB]Oman has a rich trading history dating back to ancient times. Secluded but strategically located between Mesopotamia and India, Oman extensively traded with both. The kingdom's most important trade goods were frankincense, marble and copper. Pliny the Elder wrote that control of the incese route had made the South Arabians one of the richest people in the world.</French>
+		<German>[TAB]Oman hat eine reiche Handelsgeschichte, die bis in die Antike zurückreicht. Abgeschieden, aber strategisch günstig zwischen Mesopotamien und Indien gelegen, trieb Oman intensiven Handel mit beiden Ländern. Die wichtigsten Handelsgüter des Königreichs waren Weihrauch, Marmor und Kupfer. Plinius der Ältere schrieb, dass die Kontrolle über die Weihrauchstraße die Südaraber zu einem der reichsten Menschen der Welt gemacht habe.</German>
+		<Italian>[TAB]Oman has a rich trading history dating back to ancient times. Secluded but strategically located between Mesopotamia and India, Oman extensively traded with both. The kingdom's most important trade goods were frankincense, marble and copper. Pliny the Elder wrote that control of the incese route had made the South Arabians one of the richest people in the world.</Italian>
+		<Spanish>[TAB]Oman has a rich trading history dating back to ancient times. Secluded but strategically located between Mesopotamia and India, Oman extensively traded with both. The kingdom's most important trade goods were frankincense, marble and copper. Pliny the Elder wrote that control of the incese route had made the South Arabians one of the richest people in the world.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUYID_BAGH</Tag>
+		<English>Charbagh</English>
+		<French>Charbagh</French>
+		<German>Tschahar Bagh</German>
+		<Italian>Charbagh</Italian>
+		<Spanish>Charbagh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEW_BUILDING_BUYID_BAGH_PEDIA</Tag>
+		<English>[TAB]Charbagh or Chahar Bagh (Persian: "four gardens") is a Persian and Indo-Persian quadrilateral garden layout based on the four gardens of Paradise mentioned in the Quran. The quadrilateral garden is divided by walkways or flowing water into four smaller parts. They are found in countries throughout Western Asia, North Africa, the former Islamic Andalusia and South Asia including Iran and India.</English>
+		<French>[TAB]Charbagh or Chahar Bagh (Persian: "four gardens") is a Persian and Indo-Persian quadrilateral garden layout based on the four gardens of Paradise mentioned in the Quran. The quadrilateral garden is divided by walkways or flowing water into four smaller parts. They are found in countries throughout Western Asia, North Africa, the former Islamic Andalusia and South Asia including Iran and India.</French>
+		<German>[TAB]Charbagh oder Chahar Bagh (persisch: "vier Gärten") ist eine persische und indo-persische viereckige Gartenanlage, die auf den im Koran erwähnten vier Gärten des Paradieses basiert. Der viereckige Garten ist durch Gehwege oder fließendes Wasser in vier kleinere Teile unterteilt. Sie kommen in Ländern in ganz Westasien, Nordafrika, dem ehemaligen islamischen Andalusien und Südasien einschließlich Iran und Indien vor.</German>
+		<Italian>[TAB]Charbagh or Chahar Bagh (Persian: "four gardens") is a Persian and Indo-Persian quadrilateral garden layout based on the four gardens of Paradise mentioned in the Quran. The quadrilateral garden is divided by walkways or flowing water into four smaller parts. They are found in countries throughout Western Asia, North Africa, the former Islamic Andalusia and South Asia including Iran and India.</Italian>
+		<Spanish>[TAB]Charbagh or Chahar Bagh (Persian: "four gardens") is a Persian and Indo-Persian quadrilateral garden layout based on the four gardens of Paradise mentioned in the Quran. The quadrilateral garden is divided by walkways or flowing water into four smaller parts. They are found in countries throughout Western Asia, North Africa, the former Islamic Andalusia and South Asia including Iran and India.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZENGID_NORIA</Tag>
+		<English>Noria</English>
+		<French>Noria</French>
+		<German>Noria</German>
+		<Italian>Noria</Italian>
+		<Spanish>Noria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZENGID_NORIA_PEDIA</Tag>
+		<English>[TAB]Norias can be built faster than aqueducts and will promote your growth, but they are only available later in game and can only be built on a river.[PARAGRAPH:2]A noria is a machine for lifting water into a small aqueduct, either for the purpose of irrigation or, in at least one known instance, to feed seawater into a saltern.[PARAGRAPH:2]Muslim engineers used norias to discharge water into aqueducts which carried the water to towns and fields. Some of the norias used in the medieval Islamic world were as large as 20 meters in diameter, the one in Hama being a surviving example still used in modern times. It has 120 water collection compartments and could raise as much as 95 litres of water per minute.</English>
+		<French>[TAB]Norias can be built faster than aqueducts and will promote your growth, but they are only available later in game and can only be built on a river.[PARAGRAPH:2]A noria is a machine for lifting water into a small aqueduct, either for the purpose of irrigation or, in at least one known instance, to feed seawater into a saltern.[PARAGRAPH:2]Muslim engineers used norias to discharge water into aqueducts which carried the water to towns and fields. Some of the norias used in the medieval Islamic world were as large as 20 meters in diameter, the one in Hama being a surviving example still used in modern times. It has 120 water collection compartments and could raise as much as 95 litres of water per minute.</French>
+		<German>[TAB]Norias sind schneller baubar und als Aquädukte und werden Euren Wachstum fördern, jedoch sind sie erst später im Spiel erhältlich und nur an einem Fluss baubar.[PARAGRAPH:2]Eine Noria ist eine Maschine zum Fördern von Wasser in ein kleines Aquädukt, entweder zum Zweck der Bewässerung oder, in mindestens einem bekannten Fall, um Meerwasser in eine Salzgrube einzuspeisen.[PARAGRAPH:2]Muslimische Ingenieure verwendeten Norias, um Wasser abzuleiten in Aquädukte, die das Wasser zu Städten und Feldern transportierten. Einige der in der mittelalterlichen islamischen Welt verwendeten Norias hatten einen Durchmesser von bis zu 20 Metern, wobei die in Hama ein erhaltenes Beispiel ist, das auch in der Neuzeit noch verwendet wird. Er verfügt über 120 Wassersammelfächer und kann bis zu 95 Liter Wasser pro Minute fördern.</German>
+		<Italian>[TAB]Norias can be built faster than aqueducts and will promote your growth, but they are only available later in game and can only be built on a river.[PARAGRAPH:2]A noria is a machine for lifting water into a small aqueduct, either for the purpose of irrigation or, in at least one known instance, to feed seawater into a saltern.[PARAGRAPH:2]Muslim engineers used norias to discharge water into aqueducts which carried the water to towns and fields. Some of the norias used in the medieval Islamic world were as large as 20 meters in diameter, the one in Hama being a surviving example still used in modern times. It has 120 water collection compartments and could raise as much as 95 litres of water per minute.</Italian>
+		<Spanish>[TAB]Norias can be built faster than aqueducts and will promote your growth, but they are only available later in game and can only be built on a river.[PARAGRAPH:2]A noria is a machine for lifting water into a small aqueduct, either for the purpose of irrigation or, in at least one known instance, to feed seawater into a saltern.[PARAGRAPH:2]Muslim engineers used norias to discharge water into aqueducts which carried the water to towns and fields. Some of the norias used in the medieval Islamic world were as large as 20 meters in diameter, the one in Hama being a surviving example still used in modern times. It has 120 water collection compartments and could raise as much as 95 litres of water per minute.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORTUGAL_MARINE_ACADEMY</Tag>
+		<English>Marine Academy</English>
+		<French>Marine Academy</French>
+		<German>Marineakademie</German>
+		<Italian>Marine Academy</Italian>
+		<Spanish>Marine Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORTUGAL_MARINE_ACADEMY_PEDIA</Tag>
+		<English>[TAB]On 12 December 2017, the Portuguese Navy commemorated the 700th anniversary of its official creation by King Denis of Portugal. Tracing its origins back to the 12th century, it is the oldest continuously serving navy in the world. The Navy played a key role at the beginning and during the great voyages of the Age of Discoveries in the 15th and 16th centuries. The result of this technical and scientific discoveries led Portugal to develop advanced ships, including the caravel, new and more sophisticated types of carracks for interoceanic travel and the oceanic galleon, and to find the sea route to the East and routes to South America and Northern North America.</English>
+		<French>[TAB]On 12 December 2017, the Portuguese Navy commemorated the 700th anniversary of its official creation by King Denis of Portugal. Tracing its origins back to the 12th century, it is the oldest continuously serving navy in the world. The Navy played a key role at the beginning and during the great voyages of the Age of Discoveries in the 15th and 16th centuries. The result of this technical and scientific discoveries led Portugal to develop advanced ships, including the caravel, new and more sophisticated types of carracks for interoceanic travel and the oceanic galleon, and to find the sea route to the East and routes to South America and Northern North America.</French>
+		<German>[TAB]Am 12. Dezember 2017 feierte die portugiesische Marine den 700. Jahrestag ihrer offiziellen Gründung durch König Denis von Portugal. Ihre Ursprünge reichen bis ins 12. Jahrhundert zurück und sie ist die älteste ununterbrochen im Dienst befindliche Marine der Welt. Die Marine spielte zu Beginn und während der großen Reisen des Zeitalters der Entdeckungen im 15. und 16. Jahrhundert eine Schlüsselrolle. Das Ergebnis dieser technischen und wissenschaftlichen Entdeckungen führte dazu, dass Portugal fortschrittliche Schiffe entwickelte, darunter die Karavelle, neue und ausgefeiltere Arten von Karacken für interozeanische Reisen und die ozeanische Galeone, und den Seeweg nach Osten sowie Routen nach Südamerika und in den Norden fand Nordamerika.</German>
+		<Italian>[TAB]On 12 December 2017, the Portuguese Navy commemorated the 700th anniversary of its official creation by King Denis of Portugal. Tracing its origins back to the 12th century, it is the oldest continuously serving navy in the world. The Navy played a key role at the beginning and during the great voyages of the Age of Discoveries in the 15th and 16th centuries. The result of this technical and scientific discoveries led Portugal to develop advanced ships, including the caravel, new and more sophisticated types of carracks for interoceanic travel and the oceanic galleon, and to find the sea route to the East and routes to South America and Northern North America.</Italian>
+		<Spanish>[TAB]On 12 December 2017, the Portuguese Navy commemorated the 700th anniversary of its official creation by King Denis of Portugal. Tracing its origins back to the 12th century, it is the oldest continuously serving navy in the world. The Navy played a key role at the beginning and during the great voyages of the Age of Discoveries in the 15th and 16th centuries. The result of this technical and scientific discoveries led Portugal to develop advanced ships, including the caravel, new and more sophisticated types of carracks for interoceanic travel and the oceanic galleon, and to find the sea route to the East and routes to South America and Northern North America.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BAHMANI_BIDRIMAKER</Tag>
+		<English>Bidrimaker</English>
+		<French>Bidrimaker</French>
+		<German>Bidrimacher</German>
+		<Italian>Bidrimaker</Italian>
+		<Spanish>Bidrimaker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BAHMANI_BIDRIMAKER_PEDIA</Tag>
+		<English>[TAB]Bidriware is a metal handicraft from the city of Bidar in Karnataka. It was developed in the 14th century C.E. during the rule of the Bahmani Sultans. The term "bidriware" originates from the township of Bidar, which is still the chief center of production. The metal used is white brass that is blackened and inlaid with silver.</English>
+		<French>[TAB]Bidriware is a metal handicraft from the city of Bidar in Karnataka. It was developed in the 14th century C.E. during the rule of the Bahmani Sultans. The term "bidriware" originates from the township of Bidar, which is still the chief center of production. The metal used is white brass that is blackened and inlaid with silver.</French>
+		<German>[TAB]Bidri ist ein Metallhandwerk aus der Stadt Bidar in Karnataka. Es wurde im 14. Jahrhundert n. Chr. während der Herrschaft der bahmanischen Sultane entwickelt. Der Begriff "Bidri" stammt aus der Gemeinde Bidar, die noch immer das Hauptproduktionszentrum ist. Das verwendete Metall ist weißes Messing, das geschwärzt und mit Silber eingelegt ist.</German>
+		<Italian>[TAB]Bidriware is a metal handicraft from the city of Bidar in Karnataka. It was developed in the 14th century C.E. during the rule of the Bahmani Sultans. The term "bidriware" originates from the township of Bidar, which is still the chief center of production. The metal used is white brass that is blackened and inlaid with silver.</Italian>
+		<Spanish>[TAB]Bidriware is a metal handicraft from the city of Bidar in Karnataka. It was developed in the 14th century C.E. during the rule of the Bahmani Sultans. The term "bidriware" originates from the township of Bidar, which is still the chief center of production. The metal used is white brass that is blackened and inlaid with silver.</Spanish>
+	</TEXT>
+</Civ4GameText>

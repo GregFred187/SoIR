@@ -1,0 +1,797 @@
+1.1.0.0
+
+ - Fixed both issues with portugal UHV 3
+ - Shaped noth expansion map
+ - Adjusted ArtStyleMap
+ - Added 10 new provinces (3 of them are lakes)
+ - Adjusted settler Maps for Byzantium, Georgia, Khwarezm, Ottomans, Timurids
+ - Added serbia and bulgaria civ and LH
+
+1.0.3.3
+
+ - Fixed loading-civs-issue
+ - Relics are now listed like wonders but seperately
+ - Relic-Buildings have art now
+
+1.0.3.2
+
+ - Fixed Barbs-MarathaSpawn-Bug (iMaratha_Warrior, iMaratha_Cavalry)
+ - Changed Palmforest yield to +1 commerce
+ - Fixed Aq Qoyunlu naming issue
+ - Fixed overflowing startgold
+ - Fixed issue of huge starting units for Abbasids, Makuria and Ajmer (reason for huge makuria)
+ - Reorganized artfiles
+ - Recreated original map image
+ - Expanded the map 5 tiles to the north
+
+1.0.3.1
+
+ - Fixed Palmforest graphics
+
+1.0.3
+
+ - Changed Bahmanid UHV 3 to burn at least 8 cities
+ - Bahmanid UP (2 free Dakhani Warrior for conquered city) now starts with cityraider I & II promotion
+ - Slightly increased Bahmanid Research
+ - Added Palmforest to the coastal provinces
+ - Added Serbian Barbarian Spawn, also with own unit
+ - Solved the Relic-Bug
+ - Slightly decreased Portugal Production and slightly increased Portugal CityDistanceMaintenance
+ - Changed Portugal UHV3 needed Gold to 15 000
+ - Fixed Zengid UP-Message-Bug
+
+1.0.2
+
+ - Changed Buyid starting Gold from 1500 to 500
+ - Fixed workers and settlers through desert bug
+ - Fixed Portugal UHV1
+ - Added Peasant Barbars to new Greece map
+ - Changed Bahmanid UHV3 to any cities, not only Hindus, because code don't work
+ - Increased Bahmanid starting units by 4+Handicap Dakhanis
+ - Added Mercenaries to the new provinces
+ - Noria now does not need rivers any more
+ - Fixed Portugal UB-Bug
+
+1.0.1
+
+- Translated all GameText files into German except  , ,  because of Python Bug wiht Merc-Screen (can't hire units with  ,  ,  )
+- Added missing Pedia entries to civics and Techs
+- Changed Civilisation Data in Consts, much less groth and production for Byzantium, to balance in cause of expended landmass, much more for Crusaders and Antioch, to give them higher chance to live, little less for Mamluks, to prevent Over-Mamluks in lategame
+- Increased starting Units for Crusader, Antioch and Ottomans
+- Fixed flintlock quote and musketman requirements (you already have military drill with flintlock)
+- REALLY fixed the Greek Fire event; changed number of Flamethrowers from 1 to 3 and needed gold from 50 to 150; increased probability
+- Flamethrower causes 4 units (max100%) collateral damage, according to Greek Fire promotiion
+- Increased Galley (only with Greek Fire promotion) collateral damage to 2 units
+- Changed Basils leaderhead graphics to Basils graphics from RFCEurope, in order to have same graphics in both games
+- Increased number of cities in Timurid UHV1 from 7 to 9
+- Added Oman and Hormuz to Buyid UHV3
+- Removed Morea from Fatimid border provinces
+- Daylami Tribesman upgrades now like Javelinman
+- Added UHVs, UUs, UBs, UPs to Bahmanids, Zengids, Buyids, Portugal
+
+1.0.0
+
+- Enabled full yield bonus for cities built on resources
+- Reduced the Harbors requirement for the Harbormaster quest from 6 to 4
+- Added Sulfur, Sheep and a Forest in Transjordan
+- Added the missing tooltip text for Royal Saint piety level
+- Fixed the broken Sunni Religious Victory (URV1)
+- Fixed the bug with mercenary maintenance occasionally including costs for some dead mercenaries
+- Fixed the bug from BBAI that sometimes caused the AI to disband old units when approached by hostile forces
+- Fixed the UI glitch that allowed players to use a Great Saint's new ability after the unit has already been sacrificed
+- Fixed some issues with Persecutor AI getting stuck in holy cities and persecuting cities in wrong order
+- Added a tweak from K-Mod that reduces late-game stuttering associated with selecting units
+- Updated the leaderhead art of Harun al-Rashid, Baldwin and Guy of Lusignan (Novator/edead)
+- Updated the unit art of Indian Worker (Bakuel)
+- Updated the building art of the Hagia Sophia, Rani Ki Vav and Stepwell (edead)
+- Updated the building art of the Prophet's Mosque (stolenrays)
+- Added proper special effect for Orthodox and Shia Missionary activation
+- Added regional music capability from DoC (Christian and Hindu playlists are slightly different from the rest, especially early on)
+- Added 4 new songs to the soundtrack
+
+0.5.1
+
+- Fixed an issue with some units having their upgrade paths disabled
+- Fixed Georgian UHV3 to count Barbarians but not Rebel civs as non-Christian states
+- Added Special Abilities information to Mercenary Manager
+- Optimized some Mercenary Event Manager routines
+- Changed the AI to not use siege machines for exploration
+- Updated Armenian and Seljuk settler maps
+- Updated the Armenian flag
+- Added a new Ashot leaderhead, based on Barbarossa by melcher k rzer
+- Added new unit art for Monaspa Lancer (Bakuel/edead)
+- Fixed some see-through issues with Late Crusading Knight and Hospitaller Canon unit art
+
+0.5.0
+
+General changes
+- Added playable Malwa / Paramara Empire
+- Added Kshatriya Archer as the Unique Unit for Malwa
+- Added Sanskrit College as the Unique Building for Malwa
+- Added Maratha Warrior and Maratha Cavalry mercenary / invader units
+- Added numerous generic mercenary unit types to various areas
+- Added new mercenary types, mainly for the crusaders: Man-at-Arms, Crossbowman, Sailor
+- Removed the old Italian Infantry and Italian Crossbowman
+- Changed mercenary placement mechanics: units now appear within their recruitment area, rather than in the capital
+- Added some Gurjar, Rajput and Maratha invaders to Hindustan
+- Changed the Indian cavalry line from Horse archery to Heavy cavalry
+- Changed the Chauhan Rajput Horse Archer to replace Horseman; reduced Withdrawal Chance to 20%
+- Changed the objectives of Antioch's UHV1 to Northern Syria + 3 adjacent provinces (instead of specifically Cilicia & Syria)
+- Replaced the Unique Units of Kingdom of Jerusalem (Knight of Jerusalem) & Principality of Antioch (Norman Knight)
+- Added new Templar and Hospitaller units: Hospitaller Sergeant, Hospitaller Canon, Templar Mounted Sergeant
+- Added 1 Archer and 1 Ghazi to Sultanate of Rum's starting units
+- Moved Ocean trade to Compass
+- Added the 'Paulician Sect' random event
+- Added many new Tech quotes (thanks Replacement)
+- Reduced the severity of Mansa Musa event to 50%; adjusted Mamluk permanent modifiers to keep game balance
+- Reduced the reward from completing the Greed quest from 7 to 3-5 units, depending on the number of civs alive
+- Changed the Armenian UHV3 condition so that it can be completed before 1330 AD, but it now requires 25,000 Culture
+- Changed the Knights Templar to survive past their historical year of dissolution if Jerusalem is under Catholic control
+- Added limited bombard capability to Great Galley and Lanternas units
+
+Map changes
+- Removed a forest from a plot near Kallipolis
+- Moved Chittor one tile North
+- Added two rivers to Rajputana
+- Removed the Rice south of Chittor; made it re-appear in 14th c.
+- Added independent Jodhpur in 15th c., together with some resources
+- Extended the size of Transjordan to more correct dimensions
+- Added Lebanon province (crusaders no longer flip Tripoli or Tyre)
+- Renamed Trebizond province to Chaldia
+- Added more randomization of AI found values (city sites)
+
+Bugfixes
+- Fixed the issue with Sea not allowing trade - it is now enabled by Stern Rudder
+- Fixed a bug causing Relics incorrectly add to Stability every time they were settled
+- Fixed Safavid UHV2 incorrectly counting settled relics towards the Wonder goal
+- Fixed Ak Koyunlu UHV2 not counting Shirvan as needed province
+- Fixed Orthodox URV2 sometimes not counting all Friendly players
+- Added a possible bugfix for Masters sometimes ending up at war with their Vassals
+- Renamed Seljuk Horse Archer to Tribal Cavalry (to avoid "Seljuk Seljuk Horse Archer" in combat log)
+- Changed the color of "Some of your units are joining the enemy" message from green to red
+
+Graphics & sound
+- Added different art styles for Independent (Rebel) units, depending on their city art style, province and/or religion
+- Added new unit sets for Rajputs, Sindh, Mughals, Ghorids/Delhi (Bakuel)
+- Added new unit sets for Armenia and Georgia (Bakuel/edead)
+- Added new unit sets for Jerusalem and Antioch (Bakuel/Castor Troy/coffee junkie/edead)
+- Added new unit art for Mediterranean Worker, Peasant and Byzantine Grenadier (Bakuel/edead)
+- Added new building art for Observatory, Tomb of Khalid, Bridge of 33 Arches, Shah Mosque & Mevlana's Tomb (stolenrays)
+- Added new building art for Ulugh Beg Observatory (hrochland)
+- Added the Armenian Duduk to the soundtrack
+
+Localisation
+- Moved UHV/URV help strings from Victory.py to CIV4GameText_MEM_VictoryHelp.xml
+- Moved Barbarian names from Barbs.py and CvRandomEventInterface.py to CIV4GameText_MEM_Barbarians.xml (thanks Qiu)
+- Moved Mercenary names from Consts.py to CIV4GameText_MEM_Barbarians.xml
+- Added proper localisation support to Mercenaries component; entries added to CIV4GameText_Mercenaries.xml
+
+Code overhaul
+- CvRhyes has been removed from the project; nearly all data is now accessible through DataLoader.py
+- NUM_MAJOR_PLAYERS contant moved to CvDefines
+- Moved all maps out of the CvRhyes to Maps.py; removed EARTH_X/Y constants; this has several consequences:
+  1. provinces, city art styles and settler maps can be changed without altering the DLL
+  2. they can be changed even without restarting the game, allowing mods to change map data with events, respawns etc.
+  3. actual maps can be resized without altering the DLL (the mod will load even if the map's size doesn't match the arrays in Maps.py)
+  4. the mod can use multiple maps of different sizes with the same DLL
+  5. settler found values can be easily randomized in Python (see DataLoader.py)
+- Added a new CvUnit method: setArtDefineTag - allows changing of unit art on the fly
+- Added UnitArtStyler Python module for handling of unit art styles of minor civs
+- Removed MercenaryNameUtils and moved all mod-specific mercenary data to Consts.py
+- Furusiyya & Mercenary promotions are now properly implemented through XML as iBarbarianPercent and bCannotUpgrade
+
+0.4.0.1
+
+- Fixed the bug with Espionage that allowed certain civs to steal any tech at no cost
+
+0.4.0
+
+Religious Victory
+- Added Unique Religious Victory conditions for each of the five major religions (Tigranes)
+- Added 12 unique relics for Islam and Christianity
+- Added the possibility of destroyed relics to reappear later in an independent or rebel city
+- Added the option to trade Relic units through Diplomacy
+- Added new functionality to the Missionary: it can now remove relics from cities to move them elsewhere (this consumes the Missionary)
+
+General changes
+- Added Kallipolis; removed Samsounta
+- Added some extra starting units for the Ottomans
+- Added a new effect to Ottoman UP: No Anger from the Draft
+- Added dynamic balance to some respawned civs (Cilicia, Cyprus and Uzbeks should do slightly better)
+- Adjusted final score calculations, especially for those conditions that require more time & effort
+- Decreased research costs of a number of mid- and late-game techs
+- Added balancing modifier for Espionage Mission cost; later civs pay less (this puts Espionage in line with other Commerces)
+- Changed National Wonders so that they are no longer flipped during civ birth / respawn
+- Changed the AI to ignore rebel & barbarian cities when using spies
+- Changed spies to escape to a random nearby city rather than the capital (ALN/DuneWars)
+- Increased the cargo space of all naval units for better AI performance
+- Removed the non-working Oceanfaring promotion and added +1 Moves to all affected units
+- Added Camel resource (+1 Health, required for Yemeni UU); artwork by Stolenrays
+- Changed Pig resource to be obsolete for Islamic civs
+- Changed the keyboard shortcut for Toggling Stability Overlay from CTRL-U to CTRL-K to fix overlapping with Unit Debug Screen
+- Moved the mod Concepts to the first section of Civilopedia
+
+Bugfixes
+- Fixed a bug that caused RFC balancing for city growth not apply to human players - early civs are now more difficult
+- Fixed the Victory Screen issues with Ghaznavids and Timurids
+- Fixed the Abbasid Unique Power tooltip display in City Screen
+- Fixed the pirate Dhows getting stuck in the Indian Ocean
+- Fixed the rare Python exception caused by a failed Buyid spawn
+
+Graphics & sound
+- Added new unit art for Islamic relics
+- Updated Latin Axeman, Italian Infantry and Mamluk Swordsman unit art
+- Added new leaderhead art for Qutbuddin Aibak
+- Added shaders to Al-Hadi Yahya leaderhead
+- Added animation to Furs (leopards) resource
+- Added a variety of marsh graphics
+- Added new diplomacy music tracks for Zengids, Mamluks, Khwarezmids, Ak Koyunlu, Yemen and Safavids
+- Added five new songs to the soundtrack
+- Added elephant selection sounds
+- Changed the Artstyle for Nubian villages
+- Changed the Minimap so that it no longer shows borders on water
+
+Code overhaul
+- Enums moved to CvEnums.h (Leoreth)
+- Code clean-up (Persecution, Enums, Asserts)
+- MAX_COM_SHRINE moved to GlobalDefinesAlt.xml
+- Most DLL data from CvRhyes.cpp is now initialized in DataLoader.py and handled dynamically as a part of CvPlayer, CvPlot & CvGame classes
+
+0.3.5
+
+- Fixed the bug that prevented civs from collapsing from low stability
+- Fixed the Mongol Horse Archer not giving global XP (Great Generals XP)
+- Fixed the Ayyubid UP (it was doing nothing apart from showing the bonus)
+- Fixed the Abbasid UP tooltip display (this one was working fine, but not showing the bonus)
+- Made the AI less likely to switch Civics and Religion away from those of its Master
+- Made the AI more likely to create armies
+- Changed the Spearman's bonus against Mounted Units from +50% to +75%
+- Increased the decay rate of AI memory of persecutions
+- Fixed the 'Rivals left' information in Victory Screen: Portugal is counted as rival only if it has cities
+- Added 'Rebel cities' information to Victory Screen (shows the number of remaining independent cities - for Conquest Victory)
+- Updated the Baibars leaderhead art (veBear)
+- Changed the Portuguese leader to Afonso de Albuquerque (art by Melcher)
+
+0.3.4.1
+
+- Fixed the Python error that prevented Sur from being named correctly
+
+0.3.4
+
+General changes
+- Added Religious Victory (State Religion + Holy City + 65-80% Influence depending on Religion)
+- Added a new Great Saint ability: spread state religion to up to 6 cities, including those belonging to unknown, hostile or distant civs
+- Added the option to select target religion during Religious Persecution
+- Added new hints & game concepts
+- Added small Piety bonus for razing infidel cities
+- Changed Inn and Brothel to provide cumulative +1 XP for all Espionage units
+- Changed Den of Spies to provide +3 XP for all Espionage units
+- Changed the way secessions work: some cities will revolt before others depending on the province, unhappiness, culture etc.
+- Renamed Toassin Mamluk to Royal Mamluk
+- Changed the Sindh's birth date from 1058 to 1011 CE and adjusted their UHVs and modifiers accordingly
+- Changed the Prophet's Mosque, Church of the Holy Sepulchre, Imam Ali Mosque and Kaaba to provide culture properly
+- Added a new message that alerts the player whenever new mercenaries become available in his region
+
+Balancing
+- Changed the Mongol GP massacre mechanic to randomly kill some settled GPs, rather than all of them
+- Changed the tech boost effects of Al-Jazari's Workshop from 25% to 40% of tech cost
+- Reduced the cost of some late-game techs
+- Changed Courthouses and Temples to provide Stability to the owner, not just the founder
+- Moved Topkapi Palace to Administrative Reforms; changed the effect to -25% Expansion Stability Penalty + early Absolutism
+- Adjusted Empire, Aristocracy, Market Economy, Merchant Capitalism, State Monopoly and Religious Freedom civics
+- Changed the Roman Emperor title: the holder cannot collapse but will lose some if its foreign territory instead
+- Changed the Vikramaditya title: all foreign provinces in Hindustan become border provinces
+- Adjusted inflation and research rate for Mamluks
+- Added Kerman to Seljuk border provinces
+- Changed the Pilgrimage to Mecca to a one-per-civ event
+- Switched Infiltration I and II; moved -1 Movement Cost bonus to Infiltration III
+- Increased the strength of Hemu's and Sher Khan's invasions
+
+Bugfixes
+- Added a possible fix for the RFC AI gold bug that occasionally made the AI get millions of gold
+- Fixed the default autosave behavior
+- Fixed the bugged Safavid UHV3
+- Fixed the Oman UHV1 incorrectly counting cities that already have Shia Islam
+- Fixed the UHV progress tracking display bugs for Oman, Ak Koyunlu and Safavids
+- Fixed naval units incorrectly allowing Barrage promotion
+- Fixed the mercenary upkeep causing unit strikes before auto adjustment of commerce sliders kicks in
+- Fixed the 'Reconquest of the Holy Land' quest not disappearing after one civ completes it
+- Fixed the text for 'Grateful Aristocrats' event
+- Fixed the problem with the name of Sur in Oman (will be renamed Sour if the player already owns Sur in Syria)
+- Added cancellation of holy war call if the Commander of the Faithful dies/collapses
+- Disabled vassal & tech trading for the first 2 turns after civ birth (exploit fix)
+- Fixed a number of graphical glitches with the Mercenary Screen UI and mercenary unit names
+
+Graphics & sound
+- Enlarged the text space in the Dawn of Man popup
+- Added some updated city, building and unit art from Realism Invictus
+- Added new diplomacy music for Akbar, Prithviraj, Dodo and Bhoja (cybrxkhan)
+
+0.3.3
+
+General changes
+- Final score formula has been changed to take historical start and end dates into account; this makes old scores out of date though
+- Added Hidden Attitudes modcomp by DaveMcW
+- Enabled human players as vassals of the AI (with limitations concerning AI gifts)
+- Improved AI handling of unit production (UNITAIs)
+- Improved AI handling of Great Wonder production (BBAI)
+- Improved AI handling of Espionage (BBAI/SuperSpies)
+- Added a free Great Merchant to Companies and a free Great Artist to Syncretism
+- Added Varangian Guard and Siphonarios to the list of units that get killed instead of being flipped to a newborn civ
+- Added Artuqid invaders in Northern Mesopotamia
+- Added Lumbermill Improvement (available at Economics)
+- Increased the effect of Influence Driven War slightly
+- Modified Stability mechanics slightly to be more in line with RFC color/zone scheme
+- Removed the defense bonus from Marsh, so that the AI does not move through it deliberately
+
+Interface changes
+- Added progress tracking to Victory Screen (credit to 3Miro for the idea)
+- Added province borders overlay (hold CTRL; credit as above)
+- Added color-coded stability overlay (toggle with CTRL-U or the new overlay button located above the minimap)
+
+Espionage changes
+- Added SuperSpies modcomp: Spies and Assassins can now gain XP and Promotions
+- Added a new Assassin unit (improved Spy); old Hashishin renamed to Fida'i, no longer buildable
+- Added 'Assassinate Special Unit' Espionage mission (kills Caravans, Missionaries, Sufis, Persecutors, Great People)
+- Added 'Assassinate the Heir' Espionage mission (causes Anarchy; can be performed in the Capital or a city w/ Summer Palace)
+- Added Assassin I & Assassin II promotions (reduction in difficulty of Assassination missions)
+
+Balancing
+- Changed Al-Jazari's Workshop cost and mechanics; it no longer provides a free tech, but comes with two new inventions
+- Added minor permanent attitude modifiers between some civs
+- Reduced the cottage upgrade bonus of Free Labor from +100% to +50%
+- Added degradation of Nubian cottages and farms triggered by the collapse of Makuria
+- Changed the Mongols to kill all Great Specialists in some of the cities their conquer, notably in Mesopotamia
+- Added some Turko-Mongol / Turkoman invaders in various areas
+- Added Khan Krum's invasion of Thrace
+- Added religious turmoil after state religion change - citizens and some units leave, especially if the switch was between Christianity and Islam
+- Changed the Domination Victory base land percent requirement from 60% to 55%
+- Changed Carrack's strength from 5 to 6
+- Changed Seljuk UHV3 to a specific date (by/in)
+- Increased the resurrection probability for Yemen and Sindh
+
+Bugfixes
+- Fixed a bug with the Black Death always starting in Constantinople instead of a random filthy city
+- Fixed an issue with the mod not loading text content with languages other than English
+- Fixed the Byzantine Spearman's icon
+- Fixed the description of Shahanshah's requirements (Eastern -> Western Khorasan)
+- Fixed the pink rifle in Persian Light Cavalry unit
+- Fixed the improvement upgrade times under Agrarianism & Free Labor (better solution, as actual rate is affected, not building time)
+- Fixed an issue with Armenian UP working with non-State Religion buildings
+- Fixed an issue with Karimi Family spreading to non-Muslim cities
+- Fixed the Kingdom of Armenia not changing name to Armenian Empire when the conditions are met
+- Fixed the issue with Khanate of Bukhara sometimes collapsing instantly after resurrection
+- Renamed Market Economy tech to Economics (fixes bad Civilopedia links to the Market Economy civic)
+- Added the missing provinces to Ottoman border areas (Galatia and Paphlagonia)
+- Fixed the top city culture UHVs to count only the current city owner's culture, rather than total culture
+- Fixed the Abbasid UHV2 so that it properly checks for highest culture
+- Fixed the Abbasid UHV3 so that it properly expires after 1250
+- Fixed an issue with some capital-related dynamic civ names were not applied for the human player
+- Fixed the missing Victory Screen UHV descriptions for Yemen
+- Added the missing description for Lake Moeris
+
+Graphics
+- Added new unit art for Ottoman Light Cavalry and Orthodox Missionary (Bakuel)
+- Added new building art for Den of Spies, Ibn Battuta's Embassy, Han, Caravanserai and Alchemist's Shop (Walter Hawkwood / Anno 1404)
+
+0.3.2
+
+General changes
+- Changed the AI Wars system so that the AI prepares for the war first; also applies to 2/3 UHV triggered wars
+- Added a possible respawn of Khwarezm (as Khanate of Bukhara)
+- Added new events: 'Grateful Aristocrats', 'Religious Law', 'Caste System', 'Tax Reform', 'Hajj', 'Army Reformer', 'Religious Supporters'
+- Re-added the event: 'The Reconquest of the Holy Land' (fixed)
+- Added some generic Heavy Spearmen and Heavy Infantry to regional mercenary pools
+- Enabled some African mercenaries in Iraq
+- Split Khorasan into Western and Eastern parts (this also changes core/border provinces and UHVs for Samanids and Ghaznavids)
+- Added Eastern Khorasan to Shahanshah requirements
+- Changed the Seljuk UHV3 so that it has to be finished by 1300 AD
+- Changed rebellious Peasants to occupy the countryside rather than attack cities
+- Changed Dhow, Galley and War Galley so that they can no longer enter Ocean
+- Changed Ocean-faring to work with both Ocean and Sea; removed it from Roundship and Baghlah
+- Added Great Galley between War Galley and Lanternas; adjusted other ships' strength and speed as necessary
+- Added one turn of disorder to religious persecutions
+- Increased conquest probability for some buildings
+- Added Desert Adaptation promotion to Caravans
+- Added a missing speedtweak from BTS on Speed
+- Added many new Civilopedia entries
+
+Balancing
+- Changed AI Ak Koyunlu to no longer flip Barbarian-owned Mesopotamia and Armenia upon spawn
+- Increased the time the AI cannot build wonders related to human player's UHVs
+- Changed the Caravan and Great Merchant income to use distance to closest city instead of the capital
+- Added Bithynia to Rum's border provinces, Hindu Kush to Ghaznavids' border provinces, Greater Armenia to Safavids' border provinces
+- Removed one hill from Cairo BFC
+- Changed some Great Wonders to be buildable only up to a certain era, as shown in Civilopedia (only affects Wonders that are way past their times)
+- Lowered AI Great Wonder construction bonus on Caliph level
+- Changed the Mongols to pillage Mesopotamia more and other areas less
+- Adjusted some balance factors for Yemen and all late game civs
+- Added some barbarian pressure on Gujarat and Mughals (Sher Shah Suri & Hemu)
+- Reduced the commerce bonus of Dye from 4 to 2
+- Reduced the food bonus of Clam and Crab from 3 to 2
+- Increased the cost of Ottoman Great Bombard by 10
+- Increased the Unhappiness and Stability penalty for being a Heretic or Apostate
+- Added extra Piety loss for attacking the Protector of the Holy Sepulchre or the Commander of the Faithful (if State Religion is the same)
+
+Bugfixes
+- Fixed the cottage bug (no growth with Agrarianism)
+- Fixed a bug with Crusader UP reducing mercenary maintenance more than it should
+- Fixed the 'Brimstone' event not working
+- Fixed the AI not using Religious Persecutors
+- Fixed an occasional crash triggered by hovering over the Holy War button
+
+Graphics
+- New art for the Genoan Quarter, Royal Mausoleum, Kizil Kule, Theodosian Walls, Shah Mosque, Shia religious buildings and Arab-Sunni religious buildings
+
+0.3.1
+
+General changes
+- Added 0.25 Health bonus to Forests
+- Added +50% Forest production bonus to Mechanical Engineering tech
+- Added new unit art for Middle Eastern Great Merchant, Scholar and Saint
+- Enabled non-playable civs in the Civilopedia
+- Updated the Manual with more detailed info on Stability, Piety, Holy wars and Company mechanics
+
+Balancing
+- Removed one settler from Khwarezmshah starting units
+- Added some farms to Mesopotamia
+- Adjusted some AI city-wonder preferences
+- Added 'Mansa Musa' event (inflation - Mamluk balance)
+- Added Mahra to Oman's core provinces
+- Removed the Levant from the respawned Abbasids' border provinces
+- Increased the number of Foot Knights in the 4th Crusade by one
+- Changed unit betrayal chance from 20% to 15% on Emir difficulty
+- Added some more Portuguese invaders
+- Reduced the cost of Black Powder, Matchlock, Administrative Reforms and Navigation techs
+- Changed the Timurid UP to count city culture in addition to city population
+
+Bugfixes
+- Changed the AI no-cities death immunity period from 25 to 10 turns after spawn (this should fix civs-without-cities situations)
+- Fixed the date of Makurian UHV2 (was checked in 1300 instead of 1200 AD)
+- Fixed the Bedouin invader spawns near Oman
+- Fixed the infinite looping of a particular song in the Islamic Golden Age soundtrack
+- Fixed Byzantium sometimes winning historical victory before human-controlled Safavid and Mughal starts
+- Fixed the ??? in the message about the destruction of the House of Wisdom
+- Fixed the Worker AI bug that was making them not run away from enemies
+- Fixed the Encirclement promotion so that it is actually attainable (by Missile Cavalry only)
+- Fixed the Statistic Screen showing duplicate units
+- Fixed the regional availability of Pashtun and Pathan mercenaries
+- Fixed the Timurid UP counting city population instead of massacred population
+- Removed the unlikely possibility for Timurids to start in Azerbaijan
+
+0.3.0
+
+General changes
+- Added some speed tweaks from Better BTS AI 1.02a and BTS on Speed 2.0
+- Added Great People rate civ balancing (as per regular RFC)
+- Reduced the spread of research and production penalties (older civs get lesser penalties)
+- Added unplayable Buyid civilization
+- Added pre-placed Samarkand
+- Removed one settler from Samanid, Seljuk and Timurid starting units
+- Replaced Samanid UU with Dihqan Archer
+- Moved the UUs of Yemen, Gujarat, Ayyubids and Mamluks down the tech tree
+- Added 'Protector of the Holy Sepulchre' and 'Vikramaditya' titles
+- Added 'Refugees', 'Massacre of the Latins' and 'The Fourth Crusade' events
+- Changed minimum city range to 1
+- Changed settler maps to add some variety to AI city founding
+- Changed the unit production bonus of Tannery from +10% to +15%
+- Changed the build time of Roads from 3 to 4 turns (5 for Flood Plains and Semideserts)
+- Made Karamanids more passive towards independent civs
+- Made Karamanid respawn chance based
+- Changed Safavids, Portugal and Mughals to start in Gunpowder Empires era (free Blacksmiths)
+- Adjusted some AI civic preferences
+- Adjusted Civic Stability for several civic combos
+- Added free city garrisons for the AI in case of flip + war, especially if the human leaves a city weakly defended
+- Added/changed some Ajmer, Samanid, Ghaznavid and Ottoman core/border provinces
+- Added a few more starting techs to Ak Koyunlu, Timurids, Safavids and Mughals
+- Changed Great People to provide 50% more research to match the mod's tech costs and duration
+- Removed the 'Influence Civics' espionage mission
+- Increased the cost of 'Support City Revolt' espionage mission
+- Adjusted UHVs for Makuria, Ghaznavids, Gujarat, Georgia, Oman to allow 2/3 Golden Age for all civs
+- Changed Samanid UHV3 to 8 provinces before 1140 AD
+- Changed conditional civs to be less likely to respawn over their prereq civs (i.e. Mamluks over Fatimids, Ottomans over Rum)
+- Changed unit gifting mechanics to only allow gifting between masters and vassals
+- Disabled gifting of Missionaries
+- Moved the Stability bonus from Debtor's Prison to State Religion Temples
+- Removed the early plague in Anatolia
+- Reorganized some terrain & resources in Anatolia, Egypt, Iran and Oman
+- Added a special Greek Flamethrower unit
+- Changed Ayyubid unit line from horsemen to horse archers
+- Changed Armenian unit line from Heavy Horse Archer to Noble Horseman (renamed Mounted Infantry)
+- Added the Prophet's Mosque (Medina), Ibn Battuta's Embassy, Imam Reza Shrine and The Bridge of 33 Arches wonders
+- Changed the effects of The Spiral Minaret, Bagrati Cathedral, Shahnameh, Qutb Minar and Vijay Stambha wonders
+- Moved Blue Mosque to Syncretism (ex-Autonomous Communities)
+
+Barbarians
+- Changed the unit art of most barbarians to ethnic one
+- Added various promotions to some invading units
+- Added Sallarid, Tahirid and Kartid invaders
+- Added Mongol & Chagatai invasions of India
+- Changed some Mongols in Anatolia, Mesopotamia and India to spawn within cultural borders to prevent culture-blocking
+- Changed the Mongols to destroy the House of Wisdom upon city conquest
+- Reduced the Mongols' autopillage chance from 50% to 40%
+
+Mercenary Overhaul
+- Overhauled the mercenary system: mercenary supply is now fully regional; mercenaries have their own unit art and local names
+- Changed mercenary costs to weight build cost more and promotions less than before
+- Lowered the mercenary promotion chance from 5% to 4%
+- Added mercenary naval units to more provinces along the Mediterranean and Red Sea
+- Added new unique mercenaries: Bulgarian Raider, Paulician Axeman, Zanji Spearman, Pathan Infantry, Pathan Pikeman, Khwarezmian Lancer
+
+Bugfixes
+- Fixed mercenary Dhows not showing up
+- Fixed mercenaries still costing upkeep after removal with "Delete the Unit" button
+- Fixed Abbasid UHV1 (3 shrines instead of 2), Omani UHV3 (fixed amount of gold), Timurid UHV3 (wrong date in description)
+- Fixed the Empire civic bonus to apply to city expansion penalty (worked for plots only)
+- Fixed Ak Koyunlu conditional spawn (Zengids now properly collapse if human player starts as Ak Koyunlu)
+- Fixed the bug with Jihad with the player being asked to join the war against himself
+- Fixed the 'No Spreading of Non-State Religions' effect of Persecution civic not working on scripted events
+- Fixed Plague affecting naval vessels
+- Removed "Cannot enter Marsh" from all units (it disrupts and slows pathing)
+
+Graphics & sound
+- Added new unit sets by Bakuel: Nubians, Arabs, Persians, Timurids and more; removed 40+ old units
+- Added new Middle Eastern Great People: Engineer, Spy and Artist
+- Added new rebel Peasant unit art and some more rebellions
+- Added Qutb Minar wonder art by civ-addicted and a derived art for Minaret of Jam & Kutlug-Timur
+- Added Imam Ali Mosque wonder art by stolenrays
+- Added tile-specific city art: for most areas, city art will remain the same regardless of the controlling player
+- Added Turkish / Islamic Mediterranean mixed city art style
+- Adjusted colors for Rebels and Georgia
+- Added 3 new songs to the soundtrack
+- Added 10 new wonder splashes
+- Added new icons for Karaman, Cilicia, Safavids and for numerous units
+
+0.2.6
+
+- Changed the multiplier of trade missions; it is no longer rounded down, resulting in more varied Great Merchant and Caravan income
+- Removed the 'Influence Religion' and 'Destroy Project' missions; increased the cost of the 'Influence Civics' mission
+- Removed Catholicism from Antioch and made it spread there automatically when PoA captures it
+- Changed Brothel's Espionage bonus from +25% to +10%
+- Changed Inns and Brothels to reduce the player's piety depending on state religion and civics
+- Changed and fixed Antioch UHV2 and UHV3 (in/by)
+- Changed some AI leaders to be be less likely to sign peace and more likely to gang up
+- Added Tsar Simeon barb spawn
+- Added 1 Marksman and 1 Heavy Lancer to Ottomans' starting units
+- Added Narekavank Great Wonder
+- Changed the name and art of Italian Maceman
+- Fixed Venetians/Genoans not moving into player's cities if KoJ/PoA were destroyed while at war with the player
+- Fixed the Roman Emperor title change not triggering under some circumstances
+- Fixed the massacre related Python exception
+
+0.2.5
+
+- Added Holy Wars: the Commander of the Faithful (whether human or AI-controlled) can call for a jihad against infidels and heretics
+- Seas are now Seas (1 MP cost), and Oceans Oceans (2 MP cost); this fixes the Ocean-faring Promotion as well
+- Disabled Influence Driven War during AI Autoplay for faster loading
+- Changed the requirements of the Roman Emperor title (it now also requires 3 other cities in Thrace & Anatolia)
+- Changed Antioch UHV3 and some details of all Ghorid UHVs
+- Changed Ghorid starting units (extra catapult, one less settler)
+- Removed Jazira from KoJ's and PoA's border provinces
+- Increased the research rate slightly
+- Adjusted balance (growth, production, research rate, starting techs etc.) for Byzantium, Abbasids, Oman, Sultanate of Rum, Mamluks, Ottomans, Ak Koyunlu and Portugal
+- Adjusted difficulty levels (no bonuses for human on Sultan; less bonuses on Emir)
+- Changed Ayyubids to escape to Syria, rather than to Alexandria or Damietta, on Mamluk spawn
+- Added Iron to Thrace; replaced Iron near Antioch with Stone
+- Added cultural resistance to Bulgaria (above Thrace), Northern Caucasus, Sahara and Arabia; this should not affect Seljuk UHV
+- Added a few named Great Generals to Mongol and Uzbek invasions
+- Added random auto-pillage to Mongol Horse Archers
+- Added Pashtun Cavalry mercenary unit
+- Changed the Axeman and Armored Elephant to require Iron OR Copper
+- Removed the Iron requirement from Bedouin Camel Rider
+- Increased the withdrawal chance bonus of Flanking I and II from +10% to +15%
+- Replaced Furs art with static leopards
+- Added core/border province info to the tooltip
+- Fixed the Topkapi Palace effect working for all civs sometimes, whether they had the wonder or not
+- Fixed civs sometimes not being killed when they collapse
+- Fixed the blank Civilizations Civilopedia bug, which was also responsible for some stability miscalculations
+- Fixed the Plague to no longer kill Great People
+- Fixed an issue with Islam from Ghorid UP spreading to cities before the popup asking whether to keep/raze them appears
+- Fixed the culture bonus effect of Shahanshah title
+- Fixed the 'Explusion of Jews' random event
+- Fixed Mughal UHV2 and Yemeni UHV3
+- Fixed the Crusader respawn (Cyprus & Knights of Rhodes)
+- Fixed the white eyeshadows on leaderheads on low graphics settings
+- Fixed some blurry buttons on low graphics settings
+- Fixed the white terrain when zoomed out on low graphics settings
+- Fixed the problem with units showing wrong 3d art when using 'Frozen Animations' graphics setting
+- Fixed the patcher to allow installation even if it finds that the base mod is not installed
+
+0.2.4.1
+
+- Fixed Ajmer UHV3
+
+0.2.4
+
+- Added new Communications module; contact can be cut only between far away civs; there are no embassies, but contacts are cut less with time
+- Added Influence Driven War by moctezuma; it has less impact than in other mods
+- Added a 10-turn cultural protection for core provinces of newborn civs (this makes it impossible to culture block civs like Georgia)
+- Fixed art defines for non-shader NIFs, so that the mod should run properly with older video cards (not guaranteed yet, as I have no way to test it)
+- Fixed mercenary maintenance (it is now part of total maintenance, it will not produce income for the AI, it will not cause negative gold or unit strikes with >0% research rate)
+- Fixed the UU conversion code so that it no longer misses cavalry UUs on unit flips
+- Fixed Safavid UHV2 and changed the required Wonders from 3 to 4
+- Fixed Omani UHV3 (should only check for ports now)
+- Changed the UHVs for Ajmer, Armenia and Antioch to make them more difficult
+- Changed the Marksman to +25% City Defense and 50 cost (was +50%, 55 cost)
+- Changed the Ghulam Lancer to require Iron
+- Changed the conscription units to Archer -> Heavy Spearman -> Marksman -> Pikeman -> Arquebusier -> Musketman
+- Changed the barbarian Mongol Horse Archer to provide full, uncapped XP when killed
+- Changed the Timurid UU to Siege Engineer (Trebuchet with +1 Movement Point and +25% City Attack)
+- Changed the Timurid starting Lancers to Heavy Lancers
+- Changed the language of Timurid troops to Turkish
+- Added Finery Forge to Timurid's starting techs
+- Added siege engines to starting armies of a number of civs
+- Added a worker and another missionary for Makuria
+- Extended Mamluks' core (Sinai) and border (Northern Syria) provinces
+- Made Ayyubids much less likely to collapse immediately following the Mamluk spawn
+- Increased the cost of the Shah Mosque by 50%
+- Made Beylik of Karaman weaker on respawn
+- Removed some flood plains from Sudan and Iraq
+- Changed the Black Death to be less severe in India and far Arabia
+- Made the persecution diplomatic penalty reset upon conversion
+- Increased Forest chop time from 3-4 turns to 6
+- Added Buddhist Monastery building
+- Added Buddhism to Purushapura and Lahore
+- Changed Buddhism to stop spreading and decline in 11-12th c.
+- Changed Slave Market, Slave Barracks & Ghulams to require Slavery civic
+- Added lake names to the map
+- Removed the Aydar Lake, as it was created in Soviet times
+- Added new effect for the Al-Jazari's Workshop wonder (builder can choose one invention)
+- Added new events: 'Expulsion of Jews', 'Persian Rugs', 'Confectioners', 'Camel Races', 'The Alchemist'
+- Re-added BTS events: 'Monsoon', 'Hurricane', 'Cyclone'
+- Fixed the culinary events to only appear on flatlands
+- Fixed the 'Knights of St. John' event triggering in wrong places
+- Adjusted the occurence and trigger mechanics of a lot of random events
+- Fixed unit icon for Crusader Heavy Spearman
+- Added new unit art for Antioch Heavy Swordsman (by Castor Troy) and Arab Great General (by Bakuel)
+- Added new interface theme 
+
+0.2.3
+
+- Fixed the INI file which may have caused mod launching errors for some people
+- Fixed Varangian Guard not appearing on Mercenary screen
+- Added the missing animation for Muhammad Ghori's furious pose
+- Added respawn of Edessa, in case it is razed before Antioch spawns
+- Disabled the Require Complete Kills option; a different anti-exploit mechanism will replace it later
+
+0.2.2
+
+- Fixed Autosave overwriting
+- Fixed the Civilizations Civilopedia display bug
+- Fixed massacre option showing up for Orthodox/Catholics even if only other Christians are in the city
+
+0.2.1
+
+- Disabled Autosave during AI Autoplay to reduce waiting time (except for the first turn)
+- Added playable Principality of Antioch
+- Changed birth type (siege + pilgrims), UHV2 and Core areas of the Kingdom of Jerusalem
+- Made Kingdom of Jerusalem and Principality of Antioch much less likely to surrender to non-Christian civs
+- Made some map adjustments; added a separate Edessa province; merged Eastern Thrace into Thrace
+- Changed the map tooltip to display some UHV-related geographical region names next to province names
+- Fixed all or most cases of make-peace-on-flip situations
+- Fixed unworkable Sulfur in Mereb Mellash
+- Fixed Omani UHV2 and Rum's UHV2
+- Fixed all Saint UHVs to check for >90, not 100 Piety
+- Fixed a rare problem with Zengid units teleporting to the Levant
+- Fixed a bug that sometimes made Armenian Cilicia flip cities in Armenia proper
+- Fixed the Desert Adaptation promotion
+- Changed titles to require either vacancy or vassalization
+- Reduced distance maintenance for minor civs so that they can support more units
+- Changed Portugal to no longer start with Military Drill (related to Ottoman UHV1)
+- Changed Khorasani Spearman to Spearman class and increased its bonuses, so that the Ghaznavids can use it in their lifetime
+- Changed Ayyubids and Mamluks to start at war with Fatimids in case they survive the civ birth
+- Reverted Bulgarian and other invaders from Pillage back to Attack strategy, so that they don't get stuck
+- Changed Barbarians to remove only one religion during city massacres
+- Changed Mongol Barbarians to attack cities of Crusader civs last (Franco-Mongol alliance, not tested)
+- Changed Christian denominations to never massacre each other's populations
+- Changed Mercenaries to have certain unfitting promotions blocked (i.e. no Zanji woodsmen)
+- Disallowed all mounted units from entering marshes
+- Changed Portugal to never convert and Zengids to be much less likely to convert to Christianity
+- Changed Seljuks to start with Sunni Islam state religion
+- Changed the Tomb of Khalid, House of Wisdom and Kutlug-Timur to require Sunni or Shia religion
+- Changed the collapse mechanism to release all vassals if the player is still alive (applies to the human player only)
+- Decreased the large empire research penalty for 'The Gunpowder Empires' era only (formerly 'The Three Empires')
+- Decreased the expansion stability penalty by about 5%
+- Reworked some stability calculations and added stability-related effects to Vassalage and Decentralization civics
+- Changed the Black Death to spread along the Silk Road, and affect some regions and civs less than others
+- Added the last Plague of Constantinople and a Black Death follow-up
+- Added more raiders and rebels in Anatolia, Caucasus, Syria and Palestine
+- Made the 'Kharijite Revolt' less frequent and limited to Arab areas
+- Removed the 'Fire in the City' event
+- Fixed the 'Greek Fire' event, this time for real
+- Added new events: 'Pilgrims', 'Knights of St. John', 'Karimi Merchant', 'Apricots', 'Sesame Seeds' and 'Pistacia Nuts'
+- Added the Buddhas of Bamiyan and the Red Fort, now part of Mughal UHV
+- Added more historians and a 'Most Pious' category of great works
+- Added 2 new unit graphics by Castor Troy
+- Added 1 new rare mercenary
+- Added 7 wonder splashes
+- Added an updated province map to the mod's folder
+
+0.2.0
+
+- Fixed Epic speed so that the game does not end after 600 turns
+- Adjusted research rate on Epic speed
+- Disallowed Settlers and Workers from entering Marshes and Deserts (they can enter Flood Plains and Oases normally)
+- The map is now divided into two internal continents; also, Oman, Bahrain and Mahra are considered islands, due to their surrounding desert; this should have no effect on the human player
+- Changed Flood Plains to produce 2 Food instead of 3
+- Changed Flood Plains and Marshes to produce 0.25 Unhealthiness instead of 0.40
+- Increased the upgrade time of cottages, hamlets and villages by 20% to match game length
+- Changed Free Labor's Town bonus to 1 commerce; moved Gold-rushing to State Monopoly, which no longer provides yield bonuses
+- Increased the number of starting Settlers and related units for Makuria and Fatimids
+- Changed Mamluks to start with 2 additional Heavy Lancers
+- Increased Growth rating for Makuria and Production rating for Khwarezm
+- Enabled the 'Require Complete Kills' option to stop easy killing of some newborns civs, notably military spawns
+- Forbidden the AI from disbanding units during civ birth to prevent occasional sillyness of AI with large starting army
+- Moved Alchemy from Mongol Invasions Era to Islamic Golden Age
+- Changed Barbarians to be much less likely to raze cities, until Mongol invasions
+- Made the Plague more deadly
+- Fixed the bug with unbuildable Dwarakadheesh
+- Added Tulunid, Ikhshidid, Hashid and Hashemite invaders
+- Added some Mongols with the sole purpose of pillaging Mesopotamia
+- Added 'Soil Degradation', 'Soil Erosion', 'Siltation' and 'Orban the Gunfounder' events
+- Lowered the incidence of some recurring negative events; increased the chance of getting the 'Greek Fire' quest
+- Made 'Iconoclasm' event Byzantine-only
+- Fixed the event 'Greek Fire'
+- Made some resources disappear from Mesopotamia in the 13th century
+- Changed the Abbasid UU to Abna Spearman
+- Changed Naffatun to a rare mercenary unit specialized in city defense
+- Fixed light issues with Basil II leaderhead
+- Lowered Legendary Culture level by half to make Cultural Victory and Mughal UHV more viable
+- Fixed Saint Piety Level (>90) making the Saint UHVs attainable
+- Fixed Chuahan UHV2, Georgian UHV2, Rum's UHV2 and Khwarezmian UHV2
+- Changed Yemeni UHV3 to require 1 additional Coffee (found in Sudan)
+- Made some UHVs unattainable if the Human-controlled civ has not been born yet
+- Fixed weird flipping of units in foreign borders before civ birth
+- Fixed barbarians not being flipped before civ birth
+- Made sure historical resurrection attempts do not resurrect a civ multiple times
+- Changed Great Engineers so that they cannot rush Mughal & Safavid UHV wonders before Human player is born
+- Changed unit flipping so that UUs and special units are either converted to a generic unit or killed
+- Switched places of Urganj (Old Urgench) and Khiva (was incorrect because of New Urgench)
+- Added Syr Darya river and the historical Silk Road city of Otrar
+- Added Kyzyl Kum to Khwarezmian and Timurid border provinces
+- Removed Fish from Bahrain and Wheat from Farghana
+- Changed some Arabic names of cities
+- Added more soundtrack and diplomacy music, including Byzantine, Georgian, Armenian, Syriac, Mughal and Rajput tracks
+
+0.1.2
+
+- Changed Monument to +2 Culture and increased its cost to 45
+- Changed Crusaders to move their capital to Jerusalem if possible
+- Fixed the Crop Rotation new actions display bug in the Tech Tree and Civilopedia
+- Added generic diplomacy texts for civs that had none
+- Fixed the Coffee UHV for Yemen
+- Re-enabled the option to switch civilizations during the game (limited by close birth dates like in RFC)
+- Changed all Barbarians to bear their historical names
+- Changed named barbarians and mercenaries to not display their unit type in parentheses
+- Added Hamdanid, Qarmatian, Funj and Tajik invaders
+- Changed the mechanics of Islam spreading in Anatolia to be more invasion-based
+- Made Sultanate of Rum and Ottomans much less likely to switch from Sunni Islam
+- Fixed the Fatimid, Khwarezmid, Safavid and Ak Koyunlu UHVs that required obtaining a title
+- Extended the Silk Road and some minor road networks in Anatolia and Iran
+- Replaced Sunnis with Catholics in Tyre
+- Fixed the missing ruler's name in the message displayed when a title is given to a resurrected player
+- Stopped the AI from building Mughal or Safavid Great Wonders if either Mughals or Safavids are Human-controlled and not spawned yet
+- Changed Byzantium to start with an extra Archer and War Galley in Constantinople
+- Changed Ayyubids and Crusaders to start with extra defenders in their remote flipped cities
+- Changed Khwarezmids, Rum, Ottomans, Ayyubids and Mamluks to start with an extra Sunni Missionary
+- Changed newborn civs to properly introduce themselves
+- Added a relevant message to accompany revolts caused by instability
+- Changed Byzantium to start with the Empire civic and at war with Abbasids
+- Changed Italian Macemen and Crossbowmen to require Catholicism or Orthodoxy state and city religion
+- Changed the Crusades to trigger on loss of Core provinces only
+- Made random events slightly more frequent
+- Enabled the soundtrack; added music from Ancient Arabia mod + some more
+
+0.1.1
+
+- Fixed a python error that popped up when a mercenary was fired
+- Fixed the Unique Power for Timurids
+- Culture at Crusaders' starting area should now be cleared so that they always found Acre
+- Added some Bedouin barbarians near Yemen and Oman
+- Gold & Culture bonus from Sufism reduced by 1/3
+- Fixed some typos and added a few missing texts
+- Switched Hospitaller Knight's and Sergeant's names
+
+0.1.0
+
+- Initial release

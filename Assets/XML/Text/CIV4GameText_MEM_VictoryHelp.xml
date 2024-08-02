@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOAL_ACCOMPLISHED</Tag>
+		<English>Goal accomplished!</English>
+		<French>Goal accomplished!</French>
+		<German>Ziel erreicht!</German>
+		<Italian>Goal accomplished!</Italian>
+		<Spanish>Goal accomplished!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOAL_FAILED</Tag>
+		<English>Goal failed!</English>
+		<French>Goal failed!</French>
+		<German>Ziel verfehlt!</German>
+		<Italian>Goal failed!</Italian>
+		<Spanish>Goal failed!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREATEST_WEALTH</Tag>
+		<English>Greatest Wealth</English>
+		<French>Greatest Wealth</French>
+		<German>Größter Wohlstand</German>
+		<Italian>Greatest Wealth</Italian>
+		<Spanish>Greatest Wealth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_POPULATION</Tag>
+		<English>Highest Population</English>
+		<French>Highest Population</French>
+		<German>Höchste Bevölkerungszahl</German>
+		<Italian>Highest Population</Italian>
+		<Spanish>Highest Population</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_POPULATION_IN_CAIRO</Tag>
+		<English>Highest Population in Cairo</English>
+		<French>Highest Population in Cairo</French>
+		<German>Höchste Bevölkerungszahl in Kairo</German>
+		<Italian>Highest Population in Cairo</Italian>
+		<Spanish>Highest Population in Cairo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_PRODUCTION</Tag>
+		<English>Highest Production</English>
+		<French>Highest Production</French>
+		<German>Höchste Produktion</German>
+		<Italian>Highest Production</Italian>
+		<Spanish>Highest Production</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_CULTURE</Tag>
+		<English>Highest Culture</English>
+		<French>Highest Culture</French>
+		<German>Höchste Kultur</German>
+		<Italian>Highest Culture</Italian>
+		<Spanish>Highest Culture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_BEST_TECHS</Tag>
+		<English>Best Techs</English>
+		<French>Best Techs</French>
+		<German>Beste Technologien</German>
+		<Italian>Best Techs</Italian>
+		<Spanish>Best Techs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_CULTURE_CITY</Tag>
+		<English>%s1_city ranked first in Culture</English>
+		<French>%s1_city ranked first in Culture</French>
+		<German>%s1_city hat die meiste Kultur</German>
+		<Italian>%s1_city ranked first in Culture</Italian>
+		<Spanish>%s1_city ranked first in Culture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGION_RANKED_FIRST</Tag>
+		<English>%s1_religion ranked first</English>
+		<French>%s1_religion ranked first</French>
+		<German>%s1_religion hat den höchsten Rang</German>
+		<Italian>%s1_religion ranked first</Italian>
+		<Spanish>%s1_religion ranked first</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONSTANTINOPLE</Tag>
+		<English>Constantinople</English>
+		<French>Constantinople</French>
+		<German>Konstantinopel</German>
+		<Italian>Constantinople</Italian>
+		<Spanish>Constantinople</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ALEXANDRIA</Tag>
+		<English>Alexandria</English>
+		<French>Alexandria</French>
+		<German>Alexandria</German>
+		<Italian>Alexandria</Italian>
+		<Spanish>Alexandria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_JERUSALEM</Tag>
+		<English>Jerusalem</English>
+		<French>Jerusalem</French>
+		<German>Jerusalem</German>
+		<Italian>Jerusalem</Italian>
+		<Spanish>Jerusalem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ANTIOCH</Tag>
+		<English>Antioch</English>
+		<French>Antioch</French>
+		<German>Antiochia</German>
+		<Italian>Antioch</Italian>
+		<Spanish>Antioch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SAMARKAND</Tag>
+		<English>Samarkand</English>
+		<French>Samarkand</French>
+		<German>Samarkand</German>
+		<Italian>Samarkand</Italian>
+		<Spanish>Samarkand</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MECCA</Tag>
+		<English>Mecca</English>
+		<French>Mecca</French>
+		<German>Mekka</German>
+		<Italian>Mecca</Italian>
+		<Spanish>Mecca</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MEDINA</Tag>
+		<English>Medina</English>
+		<French>Medina</French>
+		<German>Medina</German>
+		<Italian>Medina</Italian>
+		<Spanish>Medina</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_KUFAH</Tag>
+		<English>Kufah</English>
+		<French>Kufah</French>
+		<German>Kufa</German>
+		<Italian>Kufah</Italian>
+		<Spanish>Kufah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MEDITERRANEAN_SEA_ACCESS</Tag>
+		<English>Mediterranean Sea access</English>
+		<French>Mediterranean Sea access</French>
+		<German>Zugang zum Mittelmeer</German>
+		<Italian>Mediterranean Sea access</Italian>
+		<Spanish>Mediterranean Sea access</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RED_SEA_ACCESS</Tag>
+		<English>Red Sea access</English>
+		<French>Red Sea access</French>
+		<German>Zugang zum Roten Meer</German>
+		<Italian>Red Sea access</Italian>
+		<Spanish>Red Sea access</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_ISLAM_IN_HINDUSTAN</Tag>
+		<English>No Islam in Hindustan (excl. Sindh)</English>
+		<French>No Islam in Hindustan (excl. Sindh)</French>
+		<German>Kein Islam in Hindustan (außer. Sindh)</German>
+		<Italian>No Islam in Hindustan (excl. Sindh)</Italian>
+		<Spanish>No Islam in Hindustan (excl. Sindh)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_ISLAM_IN_HINDUSTAN_AND_GANDHAR</Tag>
+		<English>No Islam in Hindustan and Gandhar</English>
+		<French>No Islam in Hindustan and Gandhar</French>
+		<German>Kein Islam in Hindustan und Gandhar</German>
+		<Italian>No Islam in Hindustan and Gandhar</Italian>
+		<Spanish>No Islam in Hindustan and Gandhar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SANSKRIT_COLLEGES</Tag>
+		<English>Sanskrit Colleges: %d1 / %d2</English>
+		<French>Sanskrit Colleges: %d1 / %d2</French>
+		<German>Sanskrit-Hochschulen: %d1 / %d2</German>
+		<Italian>Sanskrit Colleges: %d1 / %d2</Italian>
+		<Spanish>Sanskrit Colleges: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HINDU_MANDIRS</Tag>
+		<English>Hindu Mandirs: %d1 / %d2</English>
+		<French>Hindu Mandirs: %d1 / %d2</French>
+		<German>Hinduistische Mandirs: %d1 / %d2</German>
+		<Italian>Hindu Mandirs: %d1 / %d2</Italian>
+		<Spanish>Hindu Mandirs: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_VENETIAN_QUARTERS</Tag>
+		<English>Venetian Quarters: %d1 / %d2</English>
+		<French>Venetian Quarters: %d1 / %d2</French>
+		<German>Venezianische Viertel: %d1 / %d2</German>
+		<Italian>Venetian Quarters: %d1 / %d2</Italian>
+		<Spanish>Venetian Quarters: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SUCCESSFUL_CONVERSIONS</Tag>
+		<English>Successful conversions: %d1 / %d2</English>
+		<French>Successful conversions: %d1 / %d2</French>
+		<German>Erfolgreiche Bekehrung: %d1 / %d2</German>
+		<Italian>Successful conversions: %d1 / %d2</Italian>
+		<Spanish>Successful conversions: %d1 / %d2</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_STATE_RELIGION</Tag>
+		<English>%s1_religion State Religion</English>
+		<French>%s1_religion State Religion</French>
+		<German>%s1_religion Staatsreligion</German>
+		<Italian>%s1_religion State Religion</Italian>
+		<Spanish>%s1_religion State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_SCORE</Tag>
+		<English>Highest score:</English>
+		<French>Highest score:</French>
+		<German>Höchste Punkte:</German>
+		<Italian>Highest score:</Italian>
+		<Spanish>Highest score:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TOTAL_CULTURE</Tag>
+		<English>Total Culture: %d1 / %d2</English>
+		<French>Total Culture: %d1 / %d2</French>
+		<German>Kultur gesamt: %d1 / %d2</German>
+		<Italian>Total Culture: %d1 / %d2</Italian>
+		<Spanish>Total Culture: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PALACE_BUILT_IN_DELHI</Tag>
+		<English>Palace built in Delhi</English>
+		<French>Palace built in Delhi</French>
+		<German>Palast in Delhi gebaut</German>
+		<Italian>Palace built in Delhi</Italian>
+		<Spanish>Palace built in Delhi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_CITIES_LOST</Tag>
+		<English>No cities lost</English>
+		<French>No cities lost</French>
+		<German>Keine Stadt verloren</German>
+		<Italian>No cities lost</Italian>
+		<Spanish>No cities lost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LAND_AREA</Tag>
+		<English>Land Area</English>
+		<French>Land Area</French>
+		<German>Landgebiet</German>
+		<Italian>Land Area</Italian>
+		<Spanish>Land Area</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_VENETIANS</Tag>
+		<English>Venetians</English>
+		<French>Venetians</French>
+		<German>Venezier</German>
+		<Italian>Venetians</Italian>
+		<Spanish>Venetians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GENOANS</Tag>
+		<English>Genoans</English>
+		<French>Genoans</French>
+		<German>Genuesen</German>
+		<Italian>Genoans</Italian>
+		<Spanish>Genoans</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ANATOLIA</Tag>
+		<English>Anatolia</English>
+		<French>Anatolia</French>
+		<German>Anatolien</German>
+		<Italian>Anatolia</Italian>
+		<Spanish>Anatolia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LEVANT</Tag>
+		<English>Levant</English>
+		<French>Levant</French>
+		<German>Levante</German>
+		<Italian>Levant</Italian>
+		<Spanish>Levant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EGYPT</Tag>
+		<English>Egypt</English>
+		<French>Egypt</French>
+		<German>Ägypten</German>
+		<Italian>Egypt</Italian>
+		<Spanish>Egypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAUCASUS</Tag>
+		<English>Caucasus</English>
+		<French>Caucasus</French>
+		<German>Kaukasus</German>
+		<Italian>Caucasus</Italian>
+		<Spanish>Caucasus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MESOPOTAMIA</Tag>
+		<English>Mesopotamia</English>
+		<French>Mesopotamia</French>
+		<German>Mesopotamien</German>
+		<Italian>Mesopotamia</Italian>
+		<Spanish>Mesopotamia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ARABIA</Tag>
+		<English>Arabia</English>
+		<French>Arabia</French>
+		<German>Arabia</German>
+		<Italian>Arabia</Italian>
+		<Spanish>Arabia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AFRICA</Tag>
+		<English>Africa</English>
+		<French>Africa</French>
+		<German>Afrika</German>
+		<Italian>Africa</Italian>
+		<Spanish>Africa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PERSIA</Tag>
+		<English>Persia</English>
+		<French>Persia</French>
+		<German>Persien</German>
+		<Italian>Persia</Italian>
+		<Spanish>Persia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CASTLES</Tag>
+		<English>Castles: %d1 / %d2</English>
+		<French>Castles: %d1 / %d2</French>
+		<German>Schlösser: %d1 / %d2</German>
+		<Italian>Castles: %d1 / %d2</Italian>
+		<Spanish>Castles: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CHURCHES</Tag>
+		<English>Churches: %d1 / %d2</English>
+		<French>Churches: %d1 / %d2</French>
+		<German>Kirchen: %d1 / %d2</German>
+		<Italian>Churches: %d1 / %d2</Italian>
+		<Spanish>Churches: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MONASTERIES</Tag>
+		<English>Monasteries: %d1 / %d2</English>
+		<French>Monasteries: %d1 / %d2</French>
+		<German>Klöster: %d1 / %d2</German>
+		<Italian>Monasteries: %d1 / %d2</Italian>
+		<Spanish>Monasteries: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITIES_RAZED_OR_MASSACRED</Tag>
+		<English>Cities razed or massacred: %d1 / %d2</English>
+		<French>Cities razed or massacred: %d1 / %d2</French>
+		<German>Städte vernichtet oder massakriert: %d1 / %d2</German>
+		<Italian>Cities razed or massacred: %d1 / %d2</Italian>
+		<Spanish>Cities razed or massacred: %d1 / %d2</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PROVINCES_HELD</Tag>
+		<English>Provinces held: %d1 / %d2</English>
+		<French>Provinces held: %d1 / %d2</French>
+		<German>Behaltene Provinzen: %d1 / %d2</German>
+		<Italian>Provinces held: %d1 / %d2</Italian>
+		<Spanish>Provinces held: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PROVINCES_CONTROLLED</Tag>
+		<English>Provinces controlled: %d1 / %d2</English>
+		<French>Provinces controlled: %d1 / %d2</French>
+		<German>Kontrollierte Provinzen: %d1 / %d2</German>
+		<Italian>Provinces controlled: %d1 / %d2</Italian>
+		<Spanish>Provinces controlled: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SHRINES_CONTROLLED</Tag>
+		<English>Shrines controlled: %d1 / %d2</English>
+		<French>Shrines controlled: %d1 / %d2</French>
+		<German>Kontrollierte Schreine: %d1 / %d2</German>
+		<Italian>Shrines controlled: %d1 / %d2</Italian>
+		<Spanish>Shrines controlled: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SUFI_SHRINES_CONTROLLED</Tag>
+		<English>Sufi Shrines controlled: %d1 / %d2</English>
+		<French>Sufi Shrines controlled: %d1 / %d2</French>
+		<German>Kontrollierte Sufi-Schreine: %d1 / %d2</German>
+		<Italian>Sufi Shrines controlled: %d1 / %d2</Italian>
+		<Spanish>Sufi Shrines controlled: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SUFI_SHRINES_BUILT</Tag>
+		<English>Sufi Shrines built: %d1 / %d2</English>
+		<French>Sufi Shrines built: %d1 / %d2</French>
+		<German>Errichtete Sufi-Shreine: %d1 / %d2</German>
+		<Italian>Sufi Shrines built: %d1 / %d2</Italian>
+		<Spanish>Sufi Shrines built: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_WONDERS_BUILT</Tag>
+		<English>Great Wonders built: %d1 / %d2</English>
+		<French>Great Wonders built: %d1 / %d2</French>
+		<German>Erbaute Weltwunder: %d1 / %d2</German>
+		<Italian>Great Wonders built: %d1 / %d2</Italian>
+		<Spanish>Great Wonders built: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LUXURY_RESOURCES</Tag>
+		<English>Luxury Resources: %d1 / %d2</English>
+		<French>Luxury Resources: %d1 / %d2</French>
+		<German>Luxusressourcen: %d1 / %d2</German>
+		<Italian>Luxury Resources: %d1 / %d2</Italian>
+		<Spanish>Luxury Resources: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RESOURCES</Tag>
+		<English>%s1_resource Resources: %d2 / %d3</English>
+		<French>%s1_resource Resources: %d2 / %d3</French>
+		<German>%s1_resource Ressourcen: %d2 / %d3</German>
+		<Italian>%s1_resource Resources: %d2 / %d3</Italian>
+		<Spanish>%s1_resource Resources: %d2 / %d3</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_GENERALS_CREATED</Tag>
+		<English>Great Generals created: %d1 / %d2</English>
+		<French>Great Generals created: %d1 / %d2</French>
+		<German>Große Generäle: %d1 / %d2</German>
+		<Italian>Great Generals created: %d1 / %d2</Italian>
+		<Spanish>Great Generals created: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_PEOPLE_SETTLED</Tag>
+		<English>Great People settled: %d1 / %d2</English>
+		<French>Great People settled: %d1 / %d2</French>
+		<German>Große Persönlichkeiten: %d1 / %d2</German>
+		<Italian>Great People settled: %d1 / %d2</Italian>
+		<Spanish>Great People settled: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ORTHODOX_CATHEDRALS_BUILT</Tag>
+		<English>Orthodox Cathedrals built: %d1 / %d2</English>
+		<French>Orthodox Cathedrals built: %d1 / %d2</French>
+		<German>Orthodoxe Kathedralen: %d1 / %d2</German>
+		<Italian>Orthodox Cathedrals built: %d1 / %d2</Italian>
+		<Spanish>Orthodox Cathedrals built: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LEGENDARY_CITIES</Tag>
+		<English>Cities with Legendary Culture: %d1 / %d2</English>
+		<French>Cities with Legendary Culture: %d1 / %d2</French>
+		<German>Städte mit Legendärer Kultur: %d1 / %d2</German>
+		<Italian>Cities with Legendary Culture: %d1 / %d2</Italian>
+		<Spanish>Cities with Legendary Culture: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_POPULOUS_PROVINCE</Tag>
+		<English>Most populous province: %s1_province</English>
+		<French>Most populous province: %s1_province</French>
+		<German>Bevölkerungsreichste Provinz: %s1_province</German>
+		<Italian>Most populous province: %s1_province</Italian>
+		<Spanish>Most populous province: %s1_province</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HINDU_SHRINE_BUILT</Tag>
+		<English>Hindu Shrine built</English>
+		<French>Hindu Shrine built</French>
+		<German>Hindu-Schrein erbaut</German>
+		<Italian>Hindu Shrine built</Italian>
+		<Spanish>Hindu Shrine built</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOLD</Tag>
+		<English>Gold: %d1 / %d2</English>
+		<French>Gold: %d1 / %d2</French>
+		<German>Gold: %d1 / %d2</German>
+		<Italian>Gold: %d1 / %d2</Italian>
+		<Spanish>Gold: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOLD_PER_TURN</Tag>
+		<English>Gold per Turn: %d1 / %d2</English>
+		<French>Gold per Turn: %d1 / %d2</French>
+		<German>Gold pro Runde: %d1 / %d2</German>
+		<Italian>Gold per Turn: %d1 / %d2</Italian>
+		<Spanish>Gold per Turn: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PIETY</Tag>
+		<English>Piety: %d1 / %d2</English>
+		<French>Piety: %d1 / %d2</French>
+		<German>Glaube: %d1 / %d2</German>
+		<Italian>Piety: %d1 / %d2</Italian>
+		<Spanish>Piety: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_VASSALS</Tag>
+		<English>Vassals: %d1 / %d2</English>
+		<French>Vassals: %d1 / %d2</French>
+		<German>Vasalen: %d1 / %d2</German>
+		<Italian>Vassals: %d1 / %d2</Italian>
+		<Spanish>Vassals: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_VASSAL_RELIGIONS</Tag>
+		<English>Vassal religions: %d1 / %d2</English>
+		<French>Vassal religions: %d1 / %d2</French>
+		<German>Religion der Vasallen: %d1 / %d2</German>
+		<Italian>Vassal religions: %d1 / %d2</Italian>
+		<Spanish>Vassal religions: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CATHOLICISM_VS_ORTHODOXY_RATIO</Tag>
+		<English>Catholicism vs. Orthodoxy ratio: %d1 / %d2</English>
+		<French>Catholicism vs. Orthodoxy ratio: %d1 / %d2</French>
+		<German>Katholizismus vs. Orthodoxie: %d1 / %d2</German>
+		<Italian>Catholicism vs. Orthodoxy ratio: %d1 / %d2</Italian>
+		<Spanish>Catholicism vs. Orthodoxy ratio: %d1 / %d2</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ADJACENT_PROVINCES</Tag>
+		<English>Adjacent Provinces: %d1 / %d2</English>
+		<French>Adjacent Provinces: %d1 / %d2</French>
+		<German>Benachbarte Provinzen: %d1 / %d2</German>
+		<Italian>Adjacent Provinces: %d1 / %d2</Italian>
+		<Spanish>Adjacent Provinces: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TOTAL_SILK_INCENSE_SPICES</Tag>
+		<English>Total Silk, Incense and Spices: %d1 / %d2</English>
+		<French>Total Silk, Incense and Spices: %d1 / %d2</French>
+		<German>Gesamt Seide, Weihrauch und Gewürze: %d1 / %d2</German>
+		<Italian>Total Silk, Incense and Spices: %d1 / %d2</Italian>
+		<Spanish>Total Silk, Incense and Spices: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_OPEN_BORDERS_AGREEMENTS</Tag>
+		<English>Open Borders agreements: %d1 / %d2</English>
+		<French>Open Borders agreements: %d1 / %d2</French>
+		<German>Offene-Grenzen-Vereinbarungen: %d1 / %d2</German>
+		<Italian>Open Borders agreements: %d1 / %d2</Italian>
+		<Spanish>Open Borders agreements: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PORTUGUESE_SHIPS_SUNK</Tag>
+		<English>Portuguese ships sunk: %d1 / %d2</English>
+		<French>Portuguese ships sunk: %d1 / %d2</French>
+		<German>Portugisische Schiffe versenkt: %d1 / %d2</German>
+		<Italian>Portuguese ships sunk: %d1 / %d2</Italian>
+		<Spanish>Portuguese ships sunk: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGION_SPREAD_TO</Tag>
+		<English>%s1_religion spread to %s2%% / %d3%%</English>
+		<French>%s1_religion spread to %s2%% / %d3%%</French>
+		<German>%s1_religion verbreitet auf %s2%% / %d3%%</German>
+		<Italian>%s1_religion spread to %s2%% / %d3%%</Italian>
+		<Spanish>%s1_religion spread to %s2%% / %d3%%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GP_IN_MECCA</Tag>
+		<English>Unique Great People in Mecca: %d1 / %d2</English>
+		<French>Unique Great People in Mecca: %d1 / %d2</French>
+		<German>Einzigartige Große Persönlichkeiten in Mekka: %d1 / %d2</German>
+		<Italian>Unique Great People in Mecca: %d1 / %d2</Italian>
+		<Spanish>Unique Great People in Mecca: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_JERUSALEM_RELICS</Tag>
+		<English>Christian Relics in Jerusalem: %d1 / %d2</English>
+		<French>Christian Relics in Jerusalem: %d1 / %d2</French>
+		<German>Christliche Relikte in Jerusalem: %d1 / %d2</German>
+		<Italian>Christian Relics in Jerusalem: %d1 / %d2</Italian>
+		<Spanish>Christian Relics in Jerusalem: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ISLAMIC_RELICS</Tag>
+		<English>Islamic Relics: %d1 / %d2</English>
+		<French>Islamic Relics: %d1 / %d2</French>
+		<German>Islamische Relikte: %d1 / %d2</German>
+		<Italian>Islamic Relics: %d1 / %d2</Italian>
+		<Spanish>Islamic Relics: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_SAINTS_SETTLED</Tag>
+		<English>Great Saints settled: %d1 / %d2</English>
+		<French>Great Saints settled: %d1 / %d2</French>
+		<German>Große Heilige angesiedelt: %d1 / %d2</German>
+		<Italian>Great Saints settled: %d1 / %d2</Italian>
+		<Spanish>Great Saints settled: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FRIENDS</Tag>
+		<English>Friendly leaders: %d1 / %d2</English>
+		<French>Friendly leaders: %d1 / %d2</French>
+		<German>Freundliche Herrscher: %d1 / %d2</German>
+		<Italian>Friendly leaders: %d1 / %d2</Italian>
+		<Spanish>Friendly leaders: %d1 / %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_OCEAN_PORTS</Tag>
+		<English>Indian Ocean ports controlled: </English>
+		<French>Indian Ocean ports controlled: </French>
+		<German>Kontrollierte Hafenstädte im Indischen Ozean: </German>
+		<Italian>Indian Ocean ports controlled: </Italian>
+		<Spanish>Indian Ocean ports controlled: </Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HINDU_CITIES_RAZED_OR_MASSACRED</Tag>
+		<English>Hindu-Cities razed or massacred: %d1 / %d2</English>
+		<French>Hindu-Cities razed or massacred: %d1 / %d2</French>
+		<German>Hindu-Städte vernichtet oder massakriert: %d1 / %d2</German>
+		<Italian>Hindu-Cities razed or massacred: %d1 / %d2</Italian>
+		<Spanish>Hindu-Cities razed or massacred: %d1 / %d2</Spanish>
+	</TEXT>	
+</Civ4GameText>

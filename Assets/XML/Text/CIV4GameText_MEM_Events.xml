@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_GREAT_SAINT_SUCCESS</Tag>
+		<English>%s1 successfully converted %d2 cities to our faith!</English>
+		<French>%s1 successfully converted %d2 cities to our faith!</French>
+		<German>%s1 hat %d2 Städte erfolgreich zu unserem Glauben konvertiert!</German>
+		<Italian>%s1 successfully converted %d2 cities to our faith!</Italian>
+		<Spanish>%s1 successfully converted %d2 cities to our faith!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_GREAT_SAINT_FAILURE</Tag>
+		<English>%s1 failed to convert any cities to our faith.</English>
+		<French>%s1 failed to convert any cities to our faith.</French>
+		<German>%s1 konnte keine Städte zu unserem Glauben konvertieren.</German>
+		<Italian>%s1 failed to convert any cities to our faith.</Italian>
+		<Spanish>%s1 failed to convert any cities to our faith.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGIOUS_TURMOIL</Tag>
+		<English>Disappointed by your recent decision, many soldiers and citizens leave your realm!</English>
+		<French>Disappointed by your recent decision, many soldiers and citizens leave your realm!</French>
+		<German>Enttäuscht über Eure jüngste Entscheidung verlassen viele Soldaten und Bürger Euer Reich!</German>
+		<Italian>Disappointed by your recent decision, many soldiers and citizens leave your realm!</Italian>
+		<Spanish>Disappointed by your recent decision, many soldiers and citizens leave your realm!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_SHAYBANIDS</Tag>
+		<English>Shaybanid Uzbeks have captured Bukhara and proclaimed a new khanate!</English>
+		<French>Shaybanid Uzbeks have captured Bukhara and proclaimed a new khanate!</French>
+		<German>Schaibanidische Usbeken haben Buchara erobert und ein neues Khanat ausgerufen!</German>
+		<Italian>Shaybanid Uzbeks have captured Bukhara and proclaimed a new khanate!</Italian>
+		<Spanish>Shaybanid Uzbeks have captured Bukhara and proclaimed a new khanate!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HOUSE_OF_WISDOM_DESTROYED</Tag>
+		<English>The Mongols have destroyed the House of Wisdom in %s1_city!</English>
+		<French>The Mongols have destroyed the House of Wisdom in %s1_city!</French>
+		<German>Die Mongolen haben das Haus der Weisheit in %s1_city zerstört!</German>
+		<Italian>The Mongols have destroyed the House of Wisdom in %s1_city!</Italian>
+		<Spanish>The Mongols have destroyed the House of Wisdom in %s1_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_BUYIDS</Tag>
+		<English>The Shia Buyids have conquered the province of Fars!</English>
+		<French>The Shia Buyids have conquered the province of Fars!</French>
+		<German>Die schiitischen Buyiden haben die Provinz Fars erobert!</German>
+		<Italian>The Shia Buyids have conquered the province of Fars!</Italian>
+		<Spanish>The Shia Buyids have conquered the province of Fars!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_SAMANIDS</Tag>
+		<English>The Persian Samanid dynasty has established an independent kingdom in Greater Khorasan!</English>
+		<French>The Persian Samanid dynasty has established an independent kingdom in Greater Khorasan!</French>
+		<German>Die persische Samaniden-Dynastie hat in Khorasan ein unabhängiges Königreich gegründet!</German>
+		<Italian>The Persian Samanid dynasty has established an independent kingdom in Greater Khorasan!</Italian>
+		<Spanish>The Persian Samanid dynasty has established an independent kingdom in Greater Khorasan!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_ARMENIA</Tag>
+		<English>Prince Ashot Bagratuni has proclaimed himself king and established an independent Armenian state!</English>
+		<French>Prince Ashot Bagratuni has proclaimed himself king and established an independent Armenian state!</French>
+		<German>Prinz Ashot Bagratuni hat sich selbst zum König erklärt und einen unabhängigen armenischen Staat gegründet!</German>
+		<Italian>Prince Ashot Bagratuni has proclaimed himself king and established an independent Armenian state!</Italian>
+		<Spanish>Prince Ashot Bagratuni has proclaimed himself king and established an independent Armenian state!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_YEMEN</Tag>
+		<English>Shia Zaidis have established an independent Imamate in Yemen!</English>
+		<French>Shia Zaidis have established an independent Imamate in Yemen!</French>
+		<German>Schiitische Zaiditen haben im Jemen ein unabhängiges Imamat gegründet!</German>
+		<Italian>Shia Zaidis have established an independent Imamate in Yemen!</Italian>
+		<Spanish>Shia Zaidis have established an independent Imamate in Yemen!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_ANTIOCH</Tag>
+		<English>Bohemond of Taranto has claimed the Principality of Antioch!</English>
+		<French>Bohemond of Taranto has claimed the Principality of Antioch!</French>
+		<German>Bohemund von Taranto beansprucht das Fürstentum Antiochia!</German>
+		<Italian>Bohemond of Taranto has claimed the Principality of Antioch!</Italian>
+		<Spanish>Bohemond of Taranto has claimed the Principality of Antioch!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_SOLANKI</Tag>
+		<English>Mulraj Solanki has overthrown the Chavda rule in Gujarat and proclaimed himself King of Gurjaresh!</English>
+		<French>Mulraj Solanki has overthrown the Chavda rule in Gujarat and proclaimed himself King of Gurjaresh!</French>
+		<German>Mulraj Solanki hat die Chavda-Herrschaft in Gujarat gestürzt und sich selbst zum König von Gurjaresh ernannt!</German>
+		<Italian>Mulraj Solanki has overthrown the Chavda rule in Gujarat and proclaimed himself King of Gurjaresh!</Italian>
+		<Spanish>Mulraj Solanki has overthrown the Chavda rule in Gujarat and proclaimed himself King of Gurjaresh!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_GHAZNAVIDS</Tag>
+		<English>Ghaznavids have declared independence from the Samanid kingdom!</English>
+		<French>Ghaznavids have declared independence from the Samanid kingdom!</French>
+		<German>Die Ghaznaviden haben ihre Unabhängigkeit vom Samanidenreich erklärt!</German>
+		<Italian>Ghaznavids have declared independence from the Samanid kingdom!</Italian>
+		<Spanish>Ghaznavids have declared independence from the Samanid kingdom!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_FATIMIDS</Tag>
+		<English>The Shia Fatimids have conquered Egypt and established an independent caliphate!</English>
+		<French>The Shia Fatimids have conquered Egypt and established an independent caliphate!</French>
+		<German>Die schiitischen Fatimiden haben Ägypten erobert und ein unabhängiges Kalifat errichtet!</German>
+		<Italian>The Shia Fatimids have conquered Egypt and established an independent caliphate!</Italian>
+		<Spanish>The Shia Fatimids have conquered Egypt and established an independent caliphate!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_GEORGIA</Tag>
+		<English>Abkhazian King Bagrat III has inherited the throne of Kartli, unifying Georgia under one monarch!</English>
+		<French>Abkhazian King Bagrat III has inherited the throne of Kartli, unifying Georgia under one monarch!</French>
+		<German>Der abchasische König Bagrat III. hat den Thron von Kartli geerbt und Georgien unter einem Monarchen vereint!</German>
+		<Italian>Abkhazian King Bagrat III has inherited the throne of Kartli, unifying Georgia under one monarch!</Italian>
+		<Spanish>Abkhazian King Bagrat III has inherited the throne of Kartli, unifying Georgia under one monarch!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_SELJUKS</Tag>
+		<English>Seljuk conquests in Iran have lead to the formation of the Great Seljuk Empire!</English>
+		<French>Seljuk conquests in Iran have lead to the formation of the Great Seljuk Empire!</French>
+		<German>Die Eroberungen der Seldschuken im Iran führten zur Bildung des Großseldschukenreiches!</German>
+		<Italian>Seljuk conquests in Iran have lead to the formation of the Great Seljuk Empire!</Italian>
+		<Spanish>Seljuk conquests in Iran have lead to the formation of the Great Seljuk Empire!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_SINDH</Tag>
+		<English>Soomro, a native Sindhi family, has established an independent Shia sultanate with its capital at Mansura!</English>
+		<French>Soomro, a native Sindhi family, has established an independent Shia sultanate with its capital at Mansura!</French>
+		<German>Soomro, eine einheimische Sindhi-Familie, hat ein unabhängiges schiitisches Sultanat mit der Hauptstadt Mansura gegründet!</German>
+		<Italian>Soomro, a native Sindhi family, has established an independent Shia sultanate with its capital at Mansura!</Italian>
+		<Spanish>Soomro, a native Sindhi family, has established an independent Shia sultanate with its capital at Mansura!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_RUM</Tag>
+		<English>Seljuks have established the Sultanate of Rum in Anatolia!</English>
+		<French>Seljuks have established the Sultanate of Rum in Anatolia!</French>
+		<German>Seldschuken haben in Anatolien das Sultanat R&#251;m gegründet!</German>
+		<Italian>Seljuks have established the Sultanate of Rum in Anatolia!</Italian>
+		<Spanish>Seljuks have established the Sultanate of Rum in Anatolia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_KHWAREZM</Tag>
+		<English>Anushtigin Gharchai, a Seljuk commander and governor of Khwarezm, has proclaimed himself a Sultan!</English>
+		<French>Anushtigin Gharchai, a Seljuk commander and governor of Khwarezm, has proclaimed himself a Sultan!</French>
+		<German>Anushtigin Gharchai, ein seldschukischer Kommandant und Gouverneur von Choresm, hat sich selbst zum Sultan erklärt!</German>
+		<Italian>Anushtigin Gharchai, a Seljuk commander and governor of Khwarezm, has proclaimed himself a Sultan!</Italian>
+		<Spanish>Anushtigin Gharchai, a Seljuk commander and governor of Khwarezm, has proclaimed himself a Sultan!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_JERUSALEM</Tag>
+		<English>The valiant Frankish crusaders have founded the Latin Kingdom of Jerusalem!</English>
+		<French>The valiant Frankish crusaders have founded the Latin Kingdom of Jerusalem!</French>
+		<German>Die tapferen fränkischen Kreuzfahrer haben das lateinische Königreich Jerusalem gegründet!</German>
+		<Italian>The valiant Frankish crusaders have founded the Latin Kingdom of Jerusalem!</Italian>
+		<Spanish>The valiant Frankish crusaders have founded the Latin Kingdom of Jerusalem!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_ZENGIDS</Tag>
+		<English>Seljuks have appointed Imad ad-Din Zengi as the new Atabeg of Mosul.</English>
+		<French>Seljuks have appointed Imad ad-Din Zengi as the new Atabeg of Mosul.</French>
+		<German>Seldschuken haben Imad ad-Din Zengi zum neuen Atabeg von Mossul ernannt.</German>
+		<Italian>Seljuks have appointed Imad ad-Din Zengi as the new Atabeg of Mosul.</Italian>
+		<Spanish>Seljuks have appointed Imad ad-Din Zengi as the new Atabeg of Mosul.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_GHORIDS</Tag>
+		<English>Ghor province breaks away from the Ghaznavid Sultanate!</English>
+		<French>Ghor province breaks away from the Ghaznavid Sultanate!</French>
+		<German>Die Provinz Ghor löst sich vom ghaznavidischen Sultanat!</German>
+		<Italian>Ghor province breaks away from the Ghaznavid Sultanate!</Italian>
+		<Spanish>Ghor province breaks away from the Ghaznavid Sultanate!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_OMAN</Tag>
+		<English>The indigenous Nabhani tribe has taken control of Oman and established an independent kingdom!</English>
+		<French>The indigenous Nabhani tribe has taken control of Oman and established an independent kingdom!</French>
+		<German>Der indigene Nabhani-Stamm hat die Kontrolle über Oman übernommen und ein unabhängiges Königreich gegründet!</German>
+		<Italian>The indigenous Nabhani tribe has taken control of Oman and established an independent kingdom!</Italian>
+		<Spanish>The indigenous Nabhani tribe has taken control of Oman and established an independent kingdom!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_AYYUBIDS</Tag>
+		<English>Revolution in Egypt! A Zengid general, Salah ad-Din, have ousted the Fatimids in Cairo and established an independent Sunni Sultanate!</English>
+		<French>Revolution in Egypt! A Zengid general, Salah ad-Din, have ousted the Fatimids in Cairo and established an independent Sunni Sultanate!</French>
+		<German>Revolution in Ägypten! Ein zengidischer General, Salah ad-Din, hat die Fatimiden in Kairo vertrieben und ein unabhängiges sunnitisches Sultanat gegründet!</German>
+		<Italian>Revolution in Egypt! A Zengid general, Salah ad-Din, have ousted the Fatimids in Cairo and established an independent Sunni Sultanate!</Italian>
+		<Spanish>Revolution in Egypt! A Zengid general, Salah ad-Din, have ousted the Fatimids in Cairo and established an independent Sunni Sultanate!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_MAMLUKS</Tag>
+		<English>Mamluk soldiers have deposed the governor of Cairo and assumed control of most of Egypt!</English>
+		<French>Mamluk soldiers have deposed the governor of Cairo and assumed control of most of Egypt!</French>
+		<German>Mamluken-Soldaten haben den Gouverneur von Kairo abgesetzt und die Kontrolle über den größten Teil Ägyptens übernommen!</German>
+		<Italian>Mamluk soldiers have deposed the governor of Cairo and assumed control of most of Egypt!</Italian>
+		<Spanish>Mamluk soldiers have deposed the governor of Cairo and assumed control of most of Egypt!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_OTTOMANS</Tag>
+		<English>Osmanli Turks are rapidly expanding into Bithynia and Thrace!</English>
+		<French>Osmanli Turks are rapidly expanding into Bithynia and Thrace!</French>
+		<German>Osmanische Türken breiten sich rasch nach Bithynien und Thrakien aus!</German>
+		<Italian>Osmanli Turks are rapidly expanding into Bithynia and Thrace!</Italian>
+		<Spanish>Osmanli Turks are rapidly expanding into Bithynia and Thrace!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_TIMURIDS</Tag>
+		<English>Timur has been crowned the Amir of Transoxiana!</English>
+		<French>Timur has been crowned the Amir of Transoxiana!</French>
+		<German>Timur wurde zum Emir von Transoxiana gekrönt!</German>
+		<Italian>Timur has been crowned the Amir of Transoxiana!</Italian>
+		<Spanish>Timur has been crowned the Amir of Transoxiana!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_AKKOYUNLU</Tag>
+		<English>The White Sheep Turkomans have established an independent state in Diyarbakir!</English>
+		<French>The White Sheep Turkomans have established an independent state in Diyarbakir!</French>
+		<German>Die Weißhammel-Turkmenen haben in Diyarbakir einen unabhängigen Staat gegründet!</German>
+		<Italian>The White Sheep Turkomans have established an independent state in Diyarbakir!</Italian>
+		<Spanish>The White Sheep Turkomans have established an independent state in Diyarbakir!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_SAFAVIDS</Tag>
+		<English>The Shia Safavids have taken control of Azerbaijan!</English>
+		<French>The Shia Safavids have taken control of Azerbaijan!</French>
+		<German>Die schiitischen Safawiden haben die Kontrolle über Aserbaidschan übernommen!</German>
+		<Italian>The Shia Safavids have taken control of Azerbaijan!</Italian>
+		<Spanish>The Shia Safavids have taken control of Azerbaijan!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BIRTH_MUGHALS</Tag>
+		<English>Babur, a descendant of Timur, has begun the conquest of India.</English>
+		<French>Babur, a descendant of Timur, has begun the conquest of India.</French>
+		<German>Babur, ein Nachkomme Timurs, hat mit der Eroberung Indiens begonnen.</German>
+		<Italian>Babur, a descendant of Timur, has begun the conquest of India.</Italian>
+		<Spanish>Babur, a descendant of Timur, has begun the conquest of India.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_NEW_IMPLOSION</Tag>
+		<English>%s1 has lost much of its territory due to internal struggles!</English>
+		<French>%s1 has lost much of its territory due to internal struggles!</French>
+		<German>%s1 hat aufgrund interner Kämpfe einen Großteil seines Territoriums verloren!</German>
+		<Italian>%s1 has lost much of its territory due to internal struggles!</Italian>
+		<Spanish>%s1 has lost much of its territory due to internal struggles!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_NEW_IMPLOSION_YOU</Tag>
+		<English>Your empire is suffering from severe instability!</English>
+		<French>Your empire is suffering from severe instability!</French>
+		<German>Euer Imperium leidet unter schwerer Instabilität!</German>
+		<Italian>Your empire is suffering from severe instability!</Italian>
+		<Spanish>Your empire is suffering from severe instability!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_REVOLT</Tag>
+		<English>A revolt took place in the city of %s1_city!</English>
+		<French>A revolt took place in the city of %s1_city!</French>
+		<German>In der Stadt %s1_city kam es zu einer Revolte!</German>
+		<Italian>A revolt took place in the city of %s1_city!</Italian>
+		<Spanish>A revolt took place in the city of %s1_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITOR_REVOLT</Tag>
+		<English>A traitor has opened the gates of %s1_city! The city is in panic!</English>
+		<French>A traitor has opened the gates of %s1_city! The city is in panic!</French>
+		<German>Ein Verräter hat die Tore von %s1_city geöffnet! Die Stadt ist in Panik!</German>
+		<Italian>A traitor has opened the gates of %s1_city! The city is in panic!</Italian>
+		<Spanish>A traitor has opened the gates of %s1_city! The city is in panic!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_FIRST_UNIVERSITY</Tag>
+		<English>The first degree-granting university has been opened in %s1_city (%s2_adj).</English>
+		<French>The first degree-granting university has been opened in %s1_city (%s2_adj).</French>
+		<German>Die erste Universität, die einen Abschluss verleiht, wurde in %s1_city (%s2_adj) eröffnet.</German>
+		<Italian>The first degree-granting university has been opened in %s1_city (%s2_adj).</Italian>
+		<Spanish>The first degree-granting university has been opened in %s1_city (%s2_adj).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_JERUSALEM_IS_LOST</Tag>
+		<English>The Holy City of Jerusalem has fallen into the hands of %s1_civ!</English>
+		<French>The Holy City of Jerusalem has fallen into the hands of %s1_civ!</French>
+		<German>Die Heilige Stadt Jerusalem ist in die Hände von %s1_civ gefallen!</German>
+		<Italian>The Holy City of Jerusalem has fallen into the hands of %s1_civ!</Italian>
+		<Spanish>The Holy City of Jerusalem has fallen into the hands of %s1_civ!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_CONSTANTINOPLE_IS_LOST</Tag>
+		<English>The city of Constantinople has fallen into %s1_adj hands!</English>
+		<French>The city of Constantinople has fallen into %s1_adj hands!</French>
+		<German>Die Stadt Konstantinopel ist in %s1_adj Hände gefallen!</German>
+		<Italian>The city of Constantinople has fallen into %s1_adj hands!</Italian>
+		<Spanish>The city of Constantinople has fallen into %s1_adj hands!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_MASSACRE</Tag>
+		<English>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</English>
+		<French>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</French>
+		<German>Du hast alle Ungläubigen in %s1_city massakriert und zusätzlich %d2_gold[ICON_GOLD] erbeutet.</German>
+		<Italian>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</Italian>
+		<Spanish>You have massacred all the disbelievers in %s1_city and looted extra %d2_gold[ICON_GOLD].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_MASSACRE_OTHER</Tag>
+		<English>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</English>
+		<French>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</French>
+		<German>%s1_civ_adjective Armeen haben die unschuldigen Bewohner von %s2_city massakriert!</German>
+		<Italian>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</Italian>
+		<Spanish>%s1_civ_adjective forces have massacred the innocent inhabitants of %s2_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_INQUISITION</Tag>
+		<English>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</English>
+		<French>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</French>
+		<German>Euer Inquisitor hat %s2_religion erfolgreich aus %s1_city entfernt und %d3_gold[ICON_GOLD] von den Opfern beschlagnahmt.</German>
+		<Italian>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</Italian>
+		<Spanish>Your inquisitor has successfully purged %s2_religion from %s1_city and confiscated %d3_gold[ICON_GOLD] from the victims.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_INQUISITION_FAIL</Tag>
+		<English>Your inquisitor in %s1_city was unsuccessful.</English>
+		<French>Your inquisitor in %s1_city was unsuccessful.</French>
+		<German>Euer Inquisitor in %s1_city war erfolglos.</German>
+		<Italian>Your inquisitor in %s1_city was unsuccessful.</Italian>
+		<Spanish>Your inquisitor in %s1_city was unsuccessful.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_INQUISITION_GLOBAL</Tag>
+		<English>%s2_religion has been purged from %s1_city.</English>
+		<French>%s2_religion has been purged from %s1_city.</French>
+		<German>%s2_religion wurde aus %s1_city gelöscht.</German>
+		<Italian>%s2_religion has been purged from %s1_city.</Italian>
+		<Spanish>%s2_religion has been purged from %s1_city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_RELIC_GIFT</Tag>
+		<English>The Pope has awarded you with a holy relic to further strengthen the faith of your people.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_INQUISITOR_GIFT</Tag>
+		<English>An inquisitor sent from Rome has arrived in %s1_city. He is now awaiting your orders.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GREAT_SCHISM</Tag>
+		<English>The Great Schism divides Christianity into Greek and Latin Churches.</English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_JEWS</Tag>
+		<English>Jewish refugees settle in %s1_city.</English>
+		<French>Jewish refugees settle in %s1_city.</French>
+		<German>Jüdische Flüchtlinge lassen sich in %s1_city nieder.</German>
+		<Italian>Jewish refugees settle in %s1_city.</Italian>
+		<Spanish>Jewish refugees settle in %s1_city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_ICONOCLASTS</Tag>
+		<English>The veneration of icons has been outlawed in the city of %s1_city. The Iconoclastic movement begins!</English>
+		<French>The veneration of icons has been outlawed in the city of %s1_city. The Iconoclastic movement begins!</French>
+		<German>Die Verehrung von Ikonen wurde in der Stadt %s1_city verboten. Die ikonoklastische Bewegung beginnt!</German>
+		<Italian>The veneration of icons has been outlawed in the city of %s1_city. The Iconoclastic movement begins!</Italian>
+		<Spanish>The veneration of icons has been outlawed in the city of %s1_city. The Iconoclastic movement begins!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_ICONOCLASTS_SPREAD</Tag>
+		<English>Iconoclasm has spread in %s1_city!</English>
+		<French>Iconoclasm has spread in %s1_city!</French>
+		<German>Der Ikonoklasmus hat sich in %s1_city ausgebreitet!</German>
+		<Italian>Iconoclasm has spread in %s1_city!</Italian>
+		<Spanish>Iconoclasm has spread in %s1_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_HERESY</Tag>
+		<English>Heresy has spread in %s1_city!</English>
+		<French>Heresy has spread in %s1_city!</French>
+		<German>Häresie hat sich in %s1_city ausgebreitet!</German>
+		<Italian>Heresy has spread in %s1_city!</Italian>
+		<Spanish>Heresy has spread in %s1_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_QARMATIAN_REVOLT</Tag>
+		<English>The Qarmatian Revolution has started in southern Iraq!</English>
+		<French>The Qarmatian Revolution has started in southern Iraq!</French>
+		<German>Die qarmatische Revolution hat im Südirak begonnen!</German>
+		<Italian>The Qarmatian Revolution has started in southern Iraq!</Italian>
+		<Spanish>The Qarmatian Revolution has started in southern Iraq!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_MONGOLS_KHWAREZM</Tag>
+		<English>A massive barbarian uprising is occurring. The Mongol invasion of Khwarezmia has begun!</English>
+		<French>A massive barbarian uprising is occurring. The Mongol invasion of Khwarezmia has begun!</French>
+		<German>Es kommt zu einem massiven Barbarenaufstand. Die mongolische Invasion in Choresmien hat begonnen!</German>
+		<Italian>A massive barbarian uprising is occurring. The Mongol invasion of Khwarezmia has begun!</Italian>
+		<Spanish>A massive barbarian uprising is occurring. The Mongol invasion of Khwarezmia has begun!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_MONGOLS_CAUCASUS</Tag>
+		<English>The armies of Mongol Empire have reached the Caucasus!</English>
+		<French>The armies of Mongol Empire have reached the Caucasus!</French>
+		<German>Die Armeen des Mongolenreichs haben den Kaukasus erreicht!</German>
+		<Italian>The armies of Mongol Empire have reached the Caucasus!</Italian>
+		<Spanish>The armies of Mongol Empire have reached the Caucasus!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_MONGOLS_CAUCASUS_2</Tag>
+		<English>The Mongol Empire has launched a full scale invasion of Armenia and Georgia!</English>
+		<French>The Mongol Empire has launched a full scale invasion of Armenia and Georgia!</French>
+		<German>Das Mongolenreich hat eine umfassende Invasion in Armenien und Georgien gestartet!</German>
+		<Italian>The Mongol Empire has launched a full scale invasion of Armenia and Georgia!</Italian>
+		<Spanish>The Mongol Empire has launched a full scale invasion of Armenia and Georgia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_MONGOLS_INDIA</Tag>
+		<English>Mongol armies have been spotted in Hindustan!</English>
+		<French>Mongol armies have been spotted in Hindustan!</French>
+		<German>Es wurden mongolische Armeen in Hindustan gesichtet!</German>
+		<Italian>Mongol armies have been spotted in Hindustan!</Italian>
+		<Spanish>Mongol armies have been spotted in Hindustan!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_MONGOLS_MESOPOTAMIA</Tag>
+		<English>The army of Hulagu Khan has been spotted moving towards Baghdad!</English>
+		<French>The army of Hulagu Khan has been spotted moving towards Baghdad!</French>
+		<German>Die Armee von Hulagu Khan wurde auf dem Weg nach Bagdad gesichtet!</German>
+		<Italian>The army of Hulagu Khan has been spotted moving towards Baghdad!</Italian>
+		<Spanish>The army of Hulagu Khan has been spotted moving towards Baghdad!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_MONGOLS_ANATOLIA</Tag>
+		<English>The Mongol Empire has launched a major offensive with the intent of conquering Anatolia!</English>
+		<French>The Mongol Empire has launched a major offensive with the intent of conquering Anatolia!</French>
+		<German>Das Mongolenreich hat eine große Offensive gestartet, um Anatolien zu erobern!</German>
+		<Italian>The Mongol Empire has launched a major offensive with the intent of conquering Anatolia!</Italian>
+		<Spanish>The Mongol Empire has launched a major offensive with the intent of conquering Anatolia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_CHAGATAI_INDIA</Tag>
+		<English>Chagatai Khanate has launched a full scale invasion of Northern Hindustan!</English>
+		<French>Chagatai Khanate has launched a full scale invasion of Northern Hindustan!</French>
+		<German>Das Tschagatai-Khanat hat eine groß angelegte Invasion in Nord-Hindustan gestartet!</German>
+		<Italian>Chagatai Khanate has launched a full scale invasion of Northern Hindustan!</Italian>
+		<Spanish>Chagatai Khanate has launched a full scale invasion of Northern Hindustan!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_TIMURIDS</Tag>
+		<English>A massive barbarian uprising is occurring. Timur's troop trample through Transoxiana and Persia, killing men and women, old and young!</English>
+		<French>A massive barbarian uprising is occurring. Timur's troop trample through Transoxiana and Persia, killing men and women, old and young!</French>
+		<German>Es kommt zu einem massiven Barbarenaufstand. Timurs Truppe trampelt durch Transoxien und Persien und tötet Männer und Frauen, alte und junge!</German>
+		<Italian>A massive barbarian uprising is occurring. Timur's troop trample through Transoxiana and Persia, killing men and women, old and young!</Italian>
+		<Spanish>A massive barbarian uprising is occurring. Timur's troop trample through Transoxiana and Persia, killing men and women, old and young!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_SELJUKS_1</Tag>
+		<English>A massive barbarian uprising is occurring. Hordes of Turkoman raiders are moving towards the heartland of Persia!</English>
+		<French>A massive barbarian uprising is occurring. Hordes of Turkoman raiders are moving towards the heartland of Persia!</French>
+		<German>Es kommt zu einem massiven Barbarenaufstand. Horden turkmenischer Plünderer rücken in das Kernland Persiens vor!</German>
+		<Italian>A massive barbarian uprising is occurring. Hordes of Turkoman raiders are moving towards the heartland of Persia!</Italian>
+		<Spanish>A massive barbarian uprising is occurring. Hordes of Turkoman raiders are moving towards the heartland of Persia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_SELJUKS_2</Tag>
+		<English>A massive army of Seljuk Turks has been spotted moving westward from the Iranian Plateau.</English>
+		<French>A massive army of Seljuk Turks has been spotted moving westward from the Iranian Plateau.</French>
+		<German>Es wurde eine riesige Armee seldschukischer Türken gesichtet, die vom iranischen Plateau nach Westen zog.</German>
+		<Italian>A massive army of Seljuk Turks has been spotted moving westward from the Iranian Plateau.</Italian>
+		<Spanish>A massive army of Seljuk Turks has been spotted moving westward from the Iranian Plateau.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_BUYIDS</Tag>
+		<English>The Buyids of Daylaman have defeated the Ziyards and are marching towards Mesopotamia!</English>
+		<French>The Buyids of Daylaman have defeated the Ziyards and are marching towards Mesopotamia!</French>
+		<German>Die Buyiden von Daylaman haben die Ziyarden besiegt und marschieren in Richtung Mesopotamien!</German>
+		<Italian>The Buyids of Daylaman have defeated the Ziyards and are marching towards Mesopotamia!</Italian>
+		<Spanish>The Buyids of Daylaman have defeated the Ziyards and are marching towards Mesopotamia!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_ZIYARIDS</Tag>
+		<English>Rebellion in Tabaristan! New rulers - the Ziyarids - have gathered enough forces to invade inner Iran!</English>
+		<French>Rebellion in Tabaristan! New rulers - the Ziyarids - have gathered enough forces to invade inner Iran!</French>
+		<German>Aufstand in Tabaristan! Neue Herrscher - die Ziyariden - haben genug Streitkräfte gesammelt, um in den inneren Iran einzumarschieren!</German>
+		<Italian>Rebellion in Tabaristan! New rulers - the Ziyarids - have gathered enough forces to invade inner Iran!</Italian>
+		<Spanish>Rebellion in Tabaristan! New rulers - the Ziyarids - have gathered enough forces to invade inner Iran!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVASION_QARAKHANIDS</Tag>
+		<English>Kara-Khanid Khanate invades Transoxiana and Sogdiana!</English>
+		<French>Kara-Khanid Khanate invades Transoxiana and Sogdiana!</French>
+		<German>Das Karachaniden-Khanat dringt in Transoxien und Sogdien ein!</German>
+		<Italian>Kara-Khanid Khanate invades Transoxiana and Sogdiana!</Italian>
+		<Spanish>Kara-Khanid Khanate invades Transoxiana and Sogdiana!</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_RESOURCE_EXHAUSTED</Tag>
+		<English>A source of [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT] near %s2_CityName has been exhausted!</English>
+		<French>Notre source [NUM1:de:d'] [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT] est perdue.</French>
+		<German>Verlust der Ressource [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT].</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT] [NUM1:finito:finita].</Italian>
+		<Spanish>[NUM1:Se ha perdido el:Se ha perdido la:Se han perdido los:Se han perdido las] [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_SILK_GROWERS</Tag>
+		<English>%s3_civ_adjective [COLOR_HIGHLIGHT_TEXT]Silk[COLOR_REVERT] growers open business near %s2_CityName!</English>
+		<French>Vous avez d&#233;couvert une source de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] pr&#232;s de %s2_CityName !</French>
+		<German>Ihr habt in der N&#228;he der Stadt %s2_CityName ein Vorkommen des Bonusguts [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] entdeckt!</German>
+		<Italian>Hai scoperto una risorsa di [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] vicino a %s2_CityName!</Italian>
+		<Spanish>Hab&#233;is descubierto una fuente de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] cerca de %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_DISCOVERED_NEW_CROP</Tag>
+		<English>%s3_civ_adjective farmers begin planting [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] near %s2_CityName!</English>
+		<French>Vous avez d&#233;couvert une source de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] pr&#232;s de %s2_CityName !</French>
+		<German>Ihr habt in der N&#228;he der Stadt %s2_CityName ein Vorkommen des Bonusguts [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] entdeckt!</German>
+		<Italian>Hai scoperto una risorsa di [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] vicino a %s2_CityName!</Italian>
+		<Spanish>Hab&#233;is descubierto una fuente de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] cerca de %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_DISCOVERED_SUGAR</Tag>
+		<English>%s3_civ_adjective farmers begin planting [COLOR_HIGHLIGHT_TEXT]Sugar[COLOR_REVERT] cane near %s2_CityName!</English>
+		<French>Vous avez d&#233;couvert une source de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] pr&#232;s de %s2_CityName !</French>
+		<German>Ihr habt in der N&#228;he der Stadt %s2_CityName ein Vorkommen des Bonusguts [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] entdeckt!</German>
+		<Italian>Hai scoperto una risorsa di [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] vicino a %s2_CityName!</Italian>
+		<Spanish>Hab&#233;is descubierto una fuente de [COLOR_HIGHLIGHT_TEXT]%s1_BonusName[COLOR_REVERT] cerca de %s2_CityName.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_EVENT_DISCOVERED_WHALES</Tag>
+		<English>%s3_civ_adjective sailors have spotted a new population of [COLOR_HIGHLIGHT_TEXT]Whales[COLOR_REVERT] near %s2_CityName!</English>
+		<French>Des marins ont rep&#233;r&#233; une nouvelle population de baleines.</French>
+		<German>Seeleute haben eine neue Walschule entdeckt.</German>
+		<Italian>I marinai hanno individuato una nuova popolazione di balene.</Italian>
+		<Spanish>Los marineros han avistado una nueva poblaci&#243;n de ballenas.</Spanish>
+	</TEXT>
+</Civ4GameText>

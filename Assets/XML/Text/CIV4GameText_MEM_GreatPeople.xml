@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Great People -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JALAL_ALDIN_RUMI</Tag>
+		<English>Jalal al-Din Rumi</English>
+		<French>Djalal ad-Din Rumi</French>
+		<German>Dschalal ad-Din ar-Rumi</German>
+		<Italian>Gialal al-Din Rumi</Italian>
+		<Spanish>Yalal ad-Din Rumi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TOROS_ROSLIN</Tag>
+		<English>Toros Roslin</English>
+		<French>Toros Roslin</French>
+		<German>Toros Roslin</German>
+		<Italian>Toros Roslin</Italian>
+		<Spanish>Toros Roslin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MANUEL_CHRYSOLORAS</Tag>
+		<English>Manuel Chrysoloras</English>
+		<French>Manuel Chrysoloras</French>
+		<German>Manuel Chrysoloras</German>
+		<Italian>Manuel Chrysoloras</Italian>
+		<Spanish>Manuel Chrysoloras</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALCUIN</Tag>
+		<English>Alcuin</English>
+		<French>Alcuin</French>
+		<German>Alkuin</German>
+		<Italian>Alcuino</Italian>
+		<Spanish>Alcuino</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NIKETAS_CHONIATES</Tag>
+		<English>Niketas Choniates</English>
+		<French>Nicétas Choniatès</French>
+		<German>Niketas Choniates</German>
+		<Italian>Niceta Coniata</Italian>
+		<Spanish>Nicetas Choniates</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_KINDI</Tag>
+		<English>Al-Kindi</English>
+		<French>Al-Kindi</French>
+		<German>Al-Kindi</German>
+		<Italian>Al-Kindi</Italian>
+		<Spanish>Al-Kindi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_KHWARIZMI</Tag>
+		<English>Al-Khwarizmi</English>
+		<French>Al-Khawarizmi</French>
+		<German>Al-Chwarizmi</German>
+		<Italian>Al-Khwarizmi</Italian>
+		<Spanish>Al-Juarismi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_RAZI</Tag>
+		<English>Al-Razi</English>
+		<French>Al-Razi</French>
+		<German>Al-Razi</German>
+		<Italian>Al-Razi</Italian>
+		<Spanish>Al-Razi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OMAR_KHAYYAM</Tag>
+		<English>Omar Khayyam</English>
+		<French>Omar Khayyam</French>
+		<German>Omar Khayyam</German>
+		<Italian>Omar Hayyam</Italian>
+		<Spanish>Omar Jayyam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALHAZEN</Tag>
+		<English>Alhazen</English>
+		<French>Alhazen</French>
+		<German>Alhazen</German>
+		<Italian>Alhazen</Italian>
+		<Spanish>Alhazen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PICO_DELLA_MIRANDOLA</Tag>
+		<English>Giovanni Pico della Mirandola</English>
+		<French>Jean Pic de la Mirandole</French>
+		<German>Giovanni Pico della Mirandola</German>
+		<Italian>Giovanni Pico della Mirandola</Italian>
+		<Spanish>Giovanni Pico della Mirandola</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_OF_RUBRUCK</Tag>
+		<English>William of Rubruck</English>
+		<French>Guillaume de Rubrouck</French>
+		<German>Wilhelm von Rubruk</German>
+		<Italian>Rubruquis</Italian>
+		<Spanish>Rubruquis</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARCO_POLO</Tag>
+		<English>Marco Polo</English>
+		<French>Marco Polo</French>
+		<German>Marco Polo</German>
+		<Italian>Marco Polo</Italian>
+		<Spanish>Marco Polo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_BATTUTA</Tag>
+		<English>Ibn Battuta</English>
+		<French>Ibn Battuta</French>
+		<German>Ibn Battuta</German>
+		<Italian>Ibn Battuta</Italian>
+		<Spanish>Ibn Batuta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_DE_BELLEME</Tag>
+		<English>Robert de Belleme</English>
+		<French>Robert de Belleme</French>
+		<German>Robert de Belleme</German>
+		<Italian>Robert de Belleme</Italian>
+		<Spanish>Robert de Belleme</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RICHARD_LIONHEART</Tag>
+		<English>Richard Lionheart</English>
+		<French>Richard Cœur de Lion</French>
+		<German>Richard Löwenherz</German>
+		<Italian>Riccardo I d'Inghilterra</Italian>
+		<Spanish>Ricardo I de Inglaterra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROUSSEL_DE_BAILLEUL</Tag>
+		<English>Roussel de Bailleul</English>
+		<French>Roussel de Bailleul</French>
+		<German>Roussel de Bailleul</German>
+		<Italian>Roussel de Bailleul</Italian>
+		<Spanish>Roussel de Bailleul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ENRICO_DE_CANDIA</Tag>
+		<English>Enrico de Candia</English>
+		<French>Enrico de Candia</French>
+		<German>Enrico de Candia</German>
+		<Italian>Enrico de Candia</Italian>
+		<Spanish>Enrico de Candia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TATICIUS</Tag>
+		<English>Taticius</English>
+		<French>Taticius</French>
+		<German>Taticius</German>
+		<Italian>Taticius</Italian>
+		<Spanish>Taticius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TANCRED_OF_LECCE</Tag>
+		<English>Tancred of Lecce</English>
+		<French>Tancrède de Lecce</French>
+		<German>Tancred von Lecce</German>
+		<Italian>Tancredi di Sicilia</Italian>
+		<Spanish>Tancredo de Sicilia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_GUISCARD</Tag>
+		<English>Robert Guiscard</English>
+		<French>Robert Guiscard</French>
+		<German>Robert Guiskard</German>
+		<Italian>Roberto il Guiscardo</Italian>
+		<Spanish>Roberto Guiscardo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_MANIAKES</Tag>
+		<English>George Maniakes</English>
+		<French>George Maniakes</French>
+		<German>George Maniakes</German>
+		<Italian>George Maniakes</Italian>
+		<Spanish>George Maniakes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_GIUISTIANI</Tag>
+		<English>Giovanni Giuistiani</English>
+		<French>Giovanni Giuistiani</French>
+		<German>Giovanni Giuistiani</German>
+		<Italian>Giovanni Giuistiani</Italian>
+		<Spanish>Giovanni Giuistiani</Spanish>
+		<Russian>Giovanni Giuistiani</Russian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDREA_DORIA</Tag>
+		<English>Andrea Doria</English>
+		<French>Andrea Doria</French>
+		<German>Andrea Doria</German>
+		<Italian>Andrea Doria</Italian>
+		<Spanish>Andrea Doria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HASSAN_I_SABBAH</Tag>
+		<English>Hassan-i Sabbah</English>
+		<French>Hassan-i Sabbah</French>
+		<German>Hassan-i Sabbah</German>
+		<Italian>Hassan-i Sabbah</Italian>
+		<Spanish>Hassan-i Sabbah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RASHID_SINAN</Tag>
+		<English>Rashid ad-Din Sinan</English>
+		<French>Rashid ad-Din Sinan</French>
+		<German>Rashid ad-Din Sinan</German>
+		<Italian>Rashid ad-Din Sinan</Italian>
+		<Spanish>Rashid ad-Din Sinan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BERTRANDON_DE_LA_BROQUIERE</Tag>
+		<English>Bertrandon de la Broquière</English>
+		<French>Bertrandon de la Broquière</French>
+		<German>Bertrandon de la Broquière</German>
+		<Italian>Bertrandon de la Broquière</Italian>
+		<Spanish>Bertrandon de la Broquière</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACQUES_COEUR</Tag>
+		<English>Jacques Coeur</English>
+		<French>Jacques Coeur</French>
+		<German>Jacques Coeur</German>
+		<Italian>Jacques Coeur</Italian>
+		<Spanish>Jacques Coeur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CLAUS_SLUTER</Tag>
+		<English>Claus Sluter</English>
+		<French>Claus Sluter</French>
+		<German>Claus Sluter</German>
+		<Italian>Claus Sluter</Italian>
+		<Spanish>Claus Sluter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CONRAD_VON_SOEST</Tag>
+		<English>Conrad von Soest</English>
+		<French>Conrad von Soest</French>
+		<German>Conrad von Soest</German>
+		<Italian>Conrad von Soest</Italian>
+		<Spanish>Conrad von Soest</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PIERRE_DE_MONTEREAU</Tag>
+		<English>Pierre de Montereau</English>
+		<French>Pierre de Montereau</French>
+		<German>Pierre de Montereau</German>
+		<Italian>Pierre de Montereau</Italian>
+		<Spanish>Pierre de Montereau</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JEAN_DE_CHELLES</Tag>
+		<English>Jean de Chelles</English>
+		<French>Jean de Chelles</French>
+		<German>Jean de Chelles</German>
+		<Italian>Jean de Chelles</Italian>
+		<Spanish>Jean de Chelles</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AHMAD_IBN_FADLAN</Tag>
+		<English>Ahmad ibn Fadlan</English>
+		<French>Ahmad ibn Fadlan</French>
+		<German>Ahmad ibn Fadlan</German>
+		<Italian>Ahmad ibn Fadlan</Italian>
+		<Spanish>Ahmad ibn Fadlan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AVERROES</Tag>
+		<English>Averroes</English><!--Ibn Rushd-->
+		<French>Averroes</French>
+		<German>Averroes</German>
+		<Italian>Averroes</Italian>
+		<Spanish>Averroes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEBER</Tag>
+		<English>Geber</English><!--Jabir ibn Hayyan-->
+		<French>Jabir ibn Hayyan</French>
+		<German>Dschabir ibn Hayyan</German>
+		<Italian>Jabir ibn Hayyan</Italian>
+		<Spanish>Jabir ibn Hayyan</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_MAJAH</Tag>
+		<English>Ibn Majah</English>
+		<French>Ibn Majah</French>
+		<German>Ibn Madscha</German>
+		<Italian>Ibn Majah</Italian>
+		<Spanish>Ibn Majah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_TIRMIDHI</Tag>
+		<English>Al-Tirmidhi</English>
+		<French>Al-Tirmidhi</French>
+		<German>Al-Tirmidhi</German>
+		<Italian>Tirmidhi</Italian>
+		<Spanish>Al-Tirmidhi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IMAM_MUSLIM</Tag>
+		<English>Muslim ibn al-Hajjaj</English>
+		<French>Muslim ben al-Hajjaj</French>
+		<German>Muslim ibn al-Haddschadsch</German>
+		<Italian>Muslim ibn al-Hajjaj</Italian>
+		<Spanish>Muslim ibn al-Hajjaj</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IMAM_BUKHARI</Tag>
+		<English>Al-Bukhari</English>
+		<French>Al-Bukhari</French>
+		<German>Al-Buchari</German>
+		<Italian>Bukhari</Italian>
+		<Spanish>Al-Bujari</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_SADIQ</Tag>
+		<English>Ja'far al-Sadiq</English>
+		<French>Dja'far al-Sadiq</French>
+		<German>Dscha'far as-Sadiq</German>
+		<Italian>Ja'far al-Sadiq</Italian>
+		<Spanish>Ya'far as-Sadiq</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PETER_DAMIAN</Tag>
+		<English>Peter Damian</English>
+		<French>Pierre Damien</French>
+		<German>Petrus Damiani</German>
+		<Italian>Pier Damiani</Italian>
+		<Spanish>Pedro Damian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCIS_OF_ASSISI</Tag>
+		<English>Francis of Assisi</English>
+		<French>François d'Assise</French>
+		<German>Franz von Assisi</German>
+		<Italian>Francesco d'Assisi</Italian>
+		<Spanish>Francisco de Asis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THEODORE_THE_STUDITE</Tag>
+		<English>Theodore the Studite</English>
+		<French>Théodore Studite</French>
+		<German>Theodor Studites</German>
+		<Italian>Teodoro Studita</Italian>
+		<Spanish>Teodoro Estudita</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOANNICIUS_THE_GREAT</Tag>
+		<English>Joannicius the Great</English>
+		<French>St. Joannicius</French>
+		<German>St. Joannicius</German>
+		<Italian>San Joannicius</Italian>
+		<Spanish>San Joannicius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAINT_CONON</Tag>
+		<English>St. Conon</English>
+		<French>Conon di Naso</French>
+		<German>Conon von Naso</German>
+		<Italian>Cono di Naso</Italian>
+		<Spanish>Cono de Naso</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAINT_PHOTIOS</Tag>
+		<English>St. Photios</English>
+		<French>Photios</French>
+		<German>Photios</German>
+		<Italian>Fozio</Italian>
+		<Spanish>Focio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SARGIS_PITSAK</Tag>
+		<English>Sargis Pitsak</English>
+		<French>Sargis Pitsak</French>
+		<German>Sargis Pitsak</German>
+		<Italian>Sargis Pitsak</Italian>
+		<Spanish>Sargis Pitsak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GUILLAUME_DAMIENS</Tag>
+		<English>Guillaume le Peigneur</English>
+		<French>Guillaume le Peigneur</French>
+		<German>Guillaume le Peigneur</German>
+		<Italian>Guillaume le Peigneur</Italian>
+		<Spanish>Guillaume le Peigneur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACQUEMART_DE_HESDIN</Tag>
+		<English>Jacquemart de Hesdin</English>
+		<French>Jacquemart de Hesdin</French>
+		<German>Jacquemart de Hesdin</German>
+		<Italian>Jacquemart de Hesdin</Italian>
+		<Spanish>Jacquemart de Hesdin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DIONISIUS</Tag>
+		<English>Dionisius</English>
+		<French>Dionisius</French>
+		<German>Dionisius</German>
+		<Italian>Dionisius</Italian>
+		<Spanish>Dionisio el Sabio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PETROK_MALY</Tag>
+		<English>Petrok Maly</English>
+		<French>Petrok Maly</French>
+		<German>Petrok Maly</German>
+		<Italian>Petrok Maly</Italian>
+		<Spanish>Petrok Maly</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARCO_FRYAZIN</Tag>
+		<English>Marco Fryazin</English>
+		<French>Marco Fryazin</French>
+		<German>Marco Fryazin</German>
+		<Italian>Marco Fryazin</Italian>
+		<Spanish>Marco Fryazin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALOISIO_DA_MILANO</Tag>
+		<English>Aloisio da Milano</English>
+		<French>Aloisio da Milano</French>
+		<German>Aloisio da Milano</German>
+		<Italian>Aloisio da Milano</Italian>
+		<Spanish>Aloisio da Milano</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PIETRO_ANTONIO_SOLARI</Tag>
+		<English>Pietro Antonio Solari</English>
+		<French>Pietro Antonio Solari</French>
+		<German>Pietro Antonio Solari</German>
+		<Italian>Pietro Antonio Solari</Italian>
+		<Spanish>Pietro Antonio Solari</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YERMAK_TIMOFEYEVICH</Tag>
+		<English>Yermak Timofeyevich</English>
+		<French>Yermak Timofeyevich</French>
+		<German>Yermak Timofeyevich</German>
+		<Italian>Yermak Timofeyevich</Italian>
+		<Spanish>Yermak Timofeyevich</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AFANASY_NIKITIN</Tag>
+		<English>Afanasy Nikitin</English>
+		<French>Afanasy Nikitin</French>
+		<German>Afanasy Nikitin</German>
+		<Italian>Afanasy Nikitin</Italian>
+		<Spanish>Afanasy Nikitin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAINT_NICON</Tag>
+		<English>Nicon Metanoeite</English>
+		<French>Nicon Metanoeite</French>
+		<German>Nicon Metanoeite</German>
+		<Italian>Nicon Metanoeite</Italian>
+		<Spanish>Nicon Metanoeite</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHALCONDYLES</Tag>
+		<English>Demetrius Chalcondyles</English>
+		<French>Demetrius Chalcondyles</French>
+		<German>Demetrius Chalcondyles</German>
+		<Italian>Demetrius Chalcondyles</Italian>
+		<Spanish>Demetrius Chalcondyles</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_ARGYROPOULOS</Tag>
+		<English>John Argyropoulos</English>
+		<French>John Argyropoulos</French>
+		<German>John Argyropoulos</German>
+		<Italian>John Argyropoulos</Italian>
+		<Spanish>John Argyropoulos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BASILIOS_BESSARION</Tag>
+		<English>Basilios Bessarion</English>
+		<French>Basilios Bessarion</French>
+		<German>Basilios Bessarion</German>
+		<Italian>Basilios Bessarion</Italian>
+		<Spanish>Basilios Bessarion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_BOCCACCIO</Tag>
+		<English>Giovanni Boccaccio</English>
+		<French>Giovanni Boccaccio</French>
+		<German>Giovanni Boccaccio</German>
+		<Italian>Giovanni Boccaccio</Italian>
+		<Spanish>Giovanni Boccaccio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARCUS_MUSURUS</Tag>
+		<English>Marcus Musurus</English>
+		<French>Marcus Musurus</French>
+		<German>Marcus Musurus</German>
+		<Italian>Marcus Musurus</Italian>
+		<Spanish>Marcus Musurus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JANUS_LASCARIS</Tag>
+		<English>Janus Lascaris</English>
+		<French>Janus Lascaris</French>
+		<German>Janus Lascaris</German>
+		<Italian>Janus Lascaris</Italian>
+		<Spanish>Janus Lascaris</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THEODORUS_GAZA</Tag>
+		<English>Theodorus Gaza</English>
+		<French>Théodore de Gaza</French>
+		<German>Theodorus Gaza</German>
+		<Italian>Theodoro Gaza</Italian>
+		<Spanish>Theodoro Gaza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGIUS_GEMISTUS</Tag>
+		<English>Georgius Gemistus</English>
+		<French>Georgius Gemistus</French>
+		<German>Georgius Gemistus</German>
+		<Italian>Georgius Gemistus</Italian>
+		<Spanish>Georgius Gemistus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MICHAEL_DEMASKINOS</Tag>
+		<English>Michael Damaskinos</English>
+		<French>Michael Damaskinos</French>
+		<German>Michael Damaskinos</German>
+		<Italian>Michael Damaskinos</Italian>
+		<Spanish>Michael Damaskinos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIMEON_SETH</Tag>
+		<English>Simeon Seth</English>
+		<French>Simeon Seth</French>
+		<German>Simeon Seth</German>
+		<Italian>Simeon Seth</Italian>
+		<Spanish>Simeon Seth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NICEPHORUS_GREGORAS</Tag>
+		<English>Nicephorus Gregoras</English>
+		<French>Nicephorus Gregoras</French>
+		<German>Nicephorus Gregoras</German>
+		<Italian>Nicephorus Gregoras</Italian>
+		<Spanish>Nicephorus Gregoras</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MICHAEL_PSELLOS</Tag>
+		<English>Michael Psellos</English>
+		<French>Michael Psellos</French>
+		<German>Michael Psellos</German>
+		<Italian>Michael Psellos</Italian>
+		<Spanish>Michael Psellos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_KHAZINI</Tag>
+		<English>Al-Khazini</English>
+		<French>Al-Khazini</French>
+		<German>Al-Khazini</German>
+		<Italian>Al-Khazini</Italian>
+		<Spanish>Al-Khazini</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_AKROPOLITES</Tag>
+		<English>George Akropolites</English>
+		<French>George Akropolites</French>
+		<German>George Akropolites</German>
+		<Italian>George Akropolites</Italian>
+		<Spanish>George Akropolites</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THEODORE_METOCHITES</Tag>
+		<English>Theodore Metochites</English>
+		<French>Theodore Metochites</French>
+		<German>Theodore Metochites</German>
+		<Italian>Theodore Metochites</Italian>
+		<Spanish>Theodore Metochites</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PETER_THE_HERMIT</Tag>
+		<English>Peter the Hermit</English>
+		<French>Pierre l'Ermite</French>
+		<German>Peter der Einsiedler</German>
+		<Italian>Pietro l'Eremita</Italian>
+		<Spanish>Pedro el Ermitaño</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_REGIOMONTANUS</Tag>
+		<English>Regiomontanus</English>
+		<French>Regiomontanus</French>
+		<German>Regiomontanus</German>
+		<Italian>Regiomontanus</Italian>
+		<Spanish>Regiomontanus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CIMABUE</Tag>
+		<English>Cimabue</English>
+		<French>Cimabue</French>
+		<German>Cimabue</German>
+		<Italian>Cimabue</Italian>
+		<Spanish>Cimabue</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIMON_DE_MONTFORT</Tag>
+		<English>Simon de Montfort</English>
+		<French>Simon de Montfort</French>
+		<German>Simon de Montfort</German>
+		<Italian>Simon de Montfort</Italian>
+		<Spanish>Simon de Montfort</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FREDERICK_BARBAROSSA</Tag>
+		<English>Frederick Barbarossa</English>
+		<French>Frédéric Barberousse</French>
+		<German>Friedrich Barbarossa</German>
+		<Italian>Federico il Barbarossa</Italian>
+		<Spanish>Federico Barbarroja</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_KOURKOUAS</Tag>
+		<English>John Kourkouas</English>
+		<French>John Kourkouas</French>
+		<German>John Kourkouas</German>
+		<Italian>John Kourkouas</Italian>
+		<Spanish>John Kourkouas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THOMAS_ERPINGHAM</Tag>
+		<English>Thomas Erpingham</English>
+		<French>Thomas Erpingham</French>
+		<German>Thomas Erpingham</German>
+		<Italian>Thomas Erpingham</Italian>
+		<Spanish>Thomas Erpingham</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIBAWAYH</Tag>
+		<English>Sibawayh</English>
+		<French>Sibawayh</French>
+		<German>Sibawayh</German>
+		<Italian>Sibawayh</Italian>
+		<Spanish>Sibawayh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KHALIL_IBN_AHMAD</Tag>
+		<English>Khalil ibn Ahmad</English>
+		<French>Khalil ibn Ahmad</French>
+		<German>Khalil ibn Ahmad</German>
+		<Italian>Khalil ibn Ahmad</Italian>
+		<Spanish>Khalil ibn Ahmad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_AL_MUQAFFA</Tag>
+		<English>Ibn al-Muqaffa</English>
+		<French>Ibn al-Muqaffa</French>
+		<German>Ibn al-Muqaffa</German>
+		<Italian>Ibn al-Muqaffa</Italian>
+		<Spanish>Ibn al-Muqaffa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_ARABI</Tag>
+		<English>Ibn Arabi</English>
+		<French>Ibn Arabi</French>
+		<German>Ibn Arabi</German>
+		<Italian>Ibn Arabi</Italian>
+		<Spanish>Ibn Arabi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABUBACER</Tag>
+		<English>Ibn Tufail</English>
+		<French>Ibn Tufail</French>
+		<German>Ibn Tufail</German>
+		<Italian>Ibn Tufail</Italian>
+		<Spanish>Ibn Tufail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BASHAR_IBN_BURD</Tag>
+		<English>Bashar ibn Burd</English>
+		<French>Bashar ibn Burd</French>
+		<German>Bashar ibn Burd</German>
+		<Italian>Bashar ibn Burd</Italian>
+		<Spanish>Bashar ibn Burd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MALIK_IBN_DINAR</Tag>
+		<English>Malik Ibn Dinar</English>
+		<French>Malik Ibn Dinar</French>
+		<German>Malik Ibn Dinar</German>
+		<Italian>Malik Ibn Dinar</Italian>
+		<Spanish>Malik Ibn Dinar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WASIL_IBN_ATA</Tag>
+		<English>Wasil ibn Ata</English>
+		<French>Wasil ibn Ata</French>
+		<German>Wasil ibn Ata</German>
+		<Italian>Wasil ibn Ata</Italian>
+		<Spanish>Wasil ibn Ata</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_GHARSIYA</Tag>
+		<English>Ibn Gharsiya</English>
+		<French>Ibn Gharsiya</French>
+		<German>Ibn Gharsiya</German>
+		<Italian>Ibn Gharsiya</Italian>
+		<Spanish>Ibn Gharsiya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SULAIMAN_AL_MAHRI</Tag>
+		<English>Sulaiman al-Mahri</English>
+		<French>Sulaiman al-Mahri</French>
+		<German>Sulaiman al-Mahri</German>
+		<Italian>Sulaiman al-Mahri</Italian>
+		<Spanish>Sulaiman al-Mahri</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AHMAD_IBN_MAJID</Tag>
+		<English>Ahmad ibn Majid</English>
+		<French>Ahmad ibn Majid</French>
+		<German>Ahmad ibn Majid</German>
+		<Italian>Ahmad ibn Majid</Italian>
+		<Spanish>Ahmad ibn Majid</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MELANCHTHON</Tag>
+		<English>Philipp Melanchthon</English>
+		<French>Philipp Melanchthon</French>
+		<German>Philipp Melanchthon</German>
+		<Italian>Philipp Melanchthon</Italian>
+		<Spanish>Philipp Melanchthon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AVICENNA</Tag>
+		<English>Avicenna</English><!--Ibn Sina-->
+		<French>Avicenne</French>
+		<German>Avicenna</German>
+		<Italian>Avicenna</Italian>
+		<Spanish>Avicena</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AZOPHI</Tag>
+		<English>Azophi</English><!--Abd al-Rahman al-Sufi-->
+		<French>Azophi</French>
+		<German>Azophi</German>
+		<Italian>Azophi</Italian>
+		<Spanish>Azophi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALFRAGANUS</Tag>
+		<English>Alfraganus</English><!--Al-Farghani-->
+		<French>Alfraganus</French>
+		<German>Alfraganus</German>
+		<Italian>Alfraganus</Italian>
+		<Spanish>Alfraganus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_RUSTAH</Tag>
+		<English>Ibn Rustah</English>
+		<French>Ibn Rustah</French>
+		<German>Ibn Rustah</German>
+		<Italian>Ibn Rustah</Italian>
+		<Spanish>Ibn Rustah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ESTAKHRI</Tag>
+		<English>Estakhri</English>
+		<French>Estakhri</French>
+		<German>Estakhri</German>
+		<Italian>Estakhri</Italian>
+		<Spanish>Estakhri</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YUNUS_EMRE</Tag>
+		<English>Yunus Emre</English>
+		<French>Yunus Emre</French>
+		<German>Yunus Emre</German>
+		<Italian>Yunus Emre</Italian>
+		<Spanish>Yunus Emre</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HAYALI</Tag>
+		<English>Hayali</English>
+		<French>Hayali</French>
+		<German>Hayali</German>
+		<Italian>Hayali</Italian>
+		<Spanish>Hayali</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABU_NUWAS</Tag>
+		<English>Abu Nuwas</English>
+		<French>Abu Nuwas</French>
+		<German>Abu Nuwas</German>
+		<Italian>Abu Nuwas</Italian>
+		<Spanish>Abu Nuwas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_MUTANABBI</Tag>
+		<English>Al-Mutanabbi</English>
+		<French>Al-Mutanabbi</French>
+		<German>Al-Mutanabbi</German>
+		<Italian>Al-Mutanabbi</Italian>
+		<Spanish>Al-Mutanabbi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_QUZMAN</Tag>
+		<English>Ibn Quzman</English>
+		<French>Ibn Quzman</French>
+		<German>Ibn Quzman</German>
+		<Italian>Ibn Quzman</Italian>
+		<Spanish>Ibn Quzman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_ZARQALI</Tag>
+		<English>Al-Zarqali</English>
+		<French>Al-Zarqali</French>
+		<German>Al-Zarqali</German>
+		<Italian>Al-Zarqali</Italian>
+		<Spanish>Al-Zarqali</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALCHABITIUS</Tag>
+		<English>Alchabitius</English>
+		<French>Alchabitius</French>
+		<German>Alchabitius</German>
+		<Italian>Alchabitius</Italian>
+		<Spanish>Alchabitius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_BIRUNI</Tag>
+		<English>Al-Biruni</English><!--Abu Rayhan Biruni-->
+		<French>Al-Biruni</French>
+		<German>Al-Biruni</German>
+		<Italian>Al-Biruni</Italian>
+		<Spanish>Al-Biruni</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_JUBAYR</Tag>
+		<English>Ibn Jubayr</English>
+		<French>Ibn Jubayr</French>
+		<German>Ibn Jubayr</German>
+		<Italian>Ibn Jubayr</Italian>
+		<Spanish>Ibn Jubayr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_IDRISI</Tag>
+		<English>Al-Idrisi</English>
+		<French>Al-Idrisi</French>
+		<German>Al-Idrisi</German>
+		<Italian>Al-Idrisi</Italian>
+		<Spanish>Al-Idrisi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EZIO</Tag>
+		<English>Ezio Auditore</English>
+		<French>Ezio Auditore</French>
+		<German>Ezio Auditore</German>
+		<Italian>Ezio Auditore</Italian>
+		<Spanish>Ezio Auditore</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BENJAMIN_OF_TUDELA</Tag>
+		<English>Benjamin of Tudela</English>
+		<French>Benjamin de Tudele</French>
+		<German>Benjamin von Tudela</German>
+		<Italian>Beniamino di Tudela</Italian>
+		<Spanish>Benjamin de Tudela</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_KHALDUN</Tag>
+		<English>Ibn Khaldun</English>
+		<French>Ibn Khaldun</French>
+		<German>Ibn Khaldun</German>
+		<Italian>Ibn Khaldun</Italian>
+		<Spanish>Ibn Khaldun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_KHORDADBEH</Tag>
+		<English>Ibn Khordadbeh</English>
+		<French>Ibn Khordadbeh</French>
+		<German>Ibn Khordadbeh</German>
+		<Italian>Ibn Khordadbeh</Italian>
+		<Spanish>Ibn Khordadbeh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_YUSUF_IBN_TASHFIN</Tag>
+		<English>Yusuf ibn Tashfin</English>
+		<French>Yusuf ibn Tashfin</French>
+		<German>Yusuf ibn Tashfin</German>
+		<Italian>Yusuf ibn Tashfin</Italian>
+		<Spanish>Yusuf ibn Tashfin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_CYRIL</Tag>
+		<English>St. Cyril</English>
+		<French>St. Cyril</French>
+		<German>St. Cyril</German>
+		<Italian>St. Cyril</Italian>
+		<Spanish>St. Cyril</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_METHODIUS</Tag>
+		<English>St. Methodius</English>
+		<French>St. Methodius</French>
+		<German>St. Methodius</German>
+		<Italian>St. Methodius</Italian>
+		<Spanish>St. Methodius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACOB_VAN_THIENEN</Tag>
+		<English>Jacob van Thienen</English>
+		<French>Jacques van Thienen</French>
+		<German>Jacob van Thienen</German>
+		<Italian>Jacob van Thienen</Italian>
+		<Spanish>Jacob van Thienen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PETER_PARLER</Tag>
+		<English>Peter Parler</English>
+		<French>Peter Parler</French>
+		<German>Peter Parler</German>
+		<Italian>Peter Parler</Italian>
+		<Spanish>Peter Parler</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JEAN_DORBAIS</Tag>
+		<English>Jean d'Orbais</English>
+		<French>Jean d'Orbais</French>
+		<German>Jean d'Orbais</German>
+		<Italian>Jean d'Orbais</Italian>
+		<Spanish>Jean d'Orbais</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACOPO_CELEGA</Tag>
+		<English>Jacopo Celega</English>
+		<French>Jacopo Celega</French>
+		<German>Jacopo Celega</German>
+		<Italian>Jacopo Celega</Italian>
+		<Spanish>Jacopo Celega</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ERWIN_VON_STEINBACH</Tag>
+		<English>Erwin von Steinbach</English>
+		<French>Erwin von Steinbach</French>
+		<German>Erwin von Steinbach</German>
+		<Italian>Erwin von Steinbach</Italian>
+		<Spanish>Erwin von Steinbach</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OMURTAG</Tag>
+		<English>Omurtag</English>
+		<French>Omurtag</French>
+		<German>Omurtag</German>
+		<Italian>Omurtag</Italian>
+		<Spanish>Omurtag</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JACOB_FUGGER</Tag>
+		<English>Jacob Fugger</English>
+		<French>Jacob Fugger</French>
+		<German>Jakob Fugger</German>
+		<Italian>Jacob Fugger</Italian>
+		<Spanish>Jacob Fugger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GRIMALDO_CANELLA</Tag>
+		<English>Grimaldo Canella</English>
+		<French>Grimaldo Canella</French>
+		<German>Grimaldo Canella</German>
+		<Italian>Grimaldo Canella</Italian>
+		<Spanish>Grimaldo Canella</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIMEONE_DE_GHISOLFI</Tag>
+		<English>Simeone de Ghisolfi</English>
+		<French>Simeone de Ghisolfi</French>
+		<German>Simeone de Ghisolfi</German>
+		<Italian>Simeone de Ghisolfi</Italian>
+		<Spanish>Simeone de Ghisolfi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GREGORY_CHONIADES</Tag>
+		<English>Gregory Choniades</English>
+		<French>Gregory Choniades</French>
+		<German>Gregory Choniades</German>
+		<Italian>Gregory Choniades</Italian>
+		<Spanish>Gregory Choniades</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WOLFGANG_LAZIUS</Tag>
+		<English>Wolfgang Lazius</English>
+		<French>Wolfgang Lazius</French>
+		<German>Wolfgang Lazius</German>
+		<Italian>Wolfgang Lazius</Italian>
+		<Spanish>Wolfgang Lazius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GARCIA_DE_ORTA</Tag>
+		<English>Garcia de Orta</English>
+		<French>Garcia de Orta</French>
+		<German>Garcia de Orta</German>
+		<Italian>Garcia de Orta</Italian>
+		<Spanish>Garcia de Orta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCOIS_RABELAIS</Tag>
+		<English>François Rabelais</English>
+		<French>François Rabelais</French>
+		<German>François Rabelais</German>
+		<Italian>François Rabelais</Italian>
+		<Spanish>François Rabelais</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VLADIMIR_SVYATOSLAVICH</Tag>
+		<English>Vladimir Svyatoslavich</English>
+		<French>Vladimir Svyatoslavich</French>
+		<German>Vladimir Svyatoslavich</German>
+		<Italian>Vladimir Svyatoslavich</Italian>
+		<Spanish>Vladimir Svyatoslavich</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAN_BREYDEL</Tag>
+		<English>Jan Breydel</English>
+		<French>Jan Breydel</French>
+		<German>Jan Breydel</German>
+		<Italian>Jan Breydel</Italian>
+		<Spanish>Jan Breydel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IVANKO</Tag>
+		<English>Ivanko</English>
+		<French>Ivanko</French>
+		<German>Ivanko</German>
+		<Italian>Ivanko</Italian>
+		<Spanish>Ivanko</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HAYREDDIN</Tag>
+		<English>Hayreddin Barbarossa</English>
+		<French>Hayreddin Barbarossa</French>
+		<German>Hayreddin Barbarossa</German>
+		<Italian>Hayreddin Barbarossa</Italian>
+		<Spanish>Hayreddin Barbarossa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIMON_CABOCHE</Tag>
+		<English>Simon Caboche</English>
+		<French>Simon Caboche</French>
+		<German>Simon Caboche</German>
+		<Italian>Simon Caboche</Italian>
+		<Spanish>Simon Caboche</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NICHOLAS_VON_RENYS</Tag>
+		<English>Nicholas von Renys</English>
+		<French>Nicholas von Renys</French>
+		<German>Nikolaus von Renys</German>
+		<Italian>Nicholas von Renys</Italian>
+		<Spanish>Nicholas von Renys</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MURTZUPHLUS</Tag>
+		<English>Murtzuphlus</English>
+		<French>Murtzuphlus</French>
+		<German>Murtzuphlus</German>
+		<Italian>Murtzuphlus</Italian>
+		<Spanish>Murtzuphlus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_OF_PROCIDA</Tag>
+		<English>Giovanni da Procida</English>
+		<French>Giovanni da Procida</French>
+		<German>Giovanni da Procida</German>
+		<Italian>Giovanni da Procida</Italian>
+		<Spanish>Giovanni da Procida</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXIOS_STRATEGOPOULOS</Tag>
+		<English>Alexios Strategopoulos</English>
+		<French>Alexis Strategopoulos</French>
+		<German>Alexios Strategopoulos</German>
+		<Italian>Alessio Strategopulo</Italian>
+		<Spanish>Alexios Strategopoulos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_REGINALD_BRAY</Tag>
+		<English>Reginald Bray</English>
+		<French>Reginald Bray</French>
+		<German>Reginald Bray</German>
+		<Italian>Reginald Bray</Italian>
+		<Spanish>Reginald Bray</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JORG_VON_HALSBACH</Tag>
+		<English>Jörg von Halsbach</English>
+		<French>Jörg von Halsbach</French>
+		<German>Jörg von Halsbach</German>
+		<Italian>Jörg von Halsbach</Italian>
+		<Spanish>Jörg von Halsbach</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PIETRO_BASEGGIO</Tag>
+		<English>Pietro Baseggio</English>
+		<French>Pietro Baseggio</French>
+		<German>Pietro Baseggio</German>
+		<Italian>Pietro Baseggio</Italian>
+		<Spanish>Pietro Baseggio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HUGUET</Tag>
+		<English>Huguet</English>
+		<French>Huguet</French>
+		<German>Huguet</German>
+		<Italian>Huguet</Italian>
+		<Spanish>Huguet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDRONIKOS_KONTOSTEPHANOS</Tag>
+		<English>Andronikos Kontostephanos</English>
+		<French>Andronikos Kontostephanos</French>
+		<German>Andronikos Kontostephanos</German>
+		<Italian>Andronikos Kontostephanos</Italian>
+		<Spanish>Andronikos Kontostephanos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXIOS_BRANAS</Tag>
+		<English>Alexios Branas</English>
+		<French>Alexios Branas</French>
+		<German>Alexios Branas</German>
+		<Italian>Alexios Branas</Italian>
+		<Spanish>Alexios Branas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_AXOUKH</Tag>
+		<English>John Axoukh</English>
+		<French>John Axoukh</French>
+		<German>John Axoukh</German>
+		<Italian>John Axoukh</Italian>
+		<Spanish>John Axoukh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EULALIOS</Tag>
+		<English>Eulalios</English>
+		<French>Eulalios</French>
+		<German>Eulalios</German>
+		<Italian>Eulalios</Italian>
+		<Spanish>Eulalios</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THEODORE_PRODROMUS</Tag>
+		<English>Theodore Prodromus</English>
+		<French>Theodore Prodromus</French>
+		<German>Theodore Prodromus</German>
+		<Italian>Theodore Prodromus</Italian>
+		<Spanish>Theodore Prodromus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_STEPHANOS_HAGIOCHRISTIOPHORITES</Tag>
+		<English>Stephanos Hagiochristophorites</English>
+		<French>Stephanos Hagiochristophorites</French>
+		<German>Stephanos Hagiochristophorites</German>
+		<Italian>Stephanos Hagiochristophorites</Italian>
+		<Spanish>Stephanos Hagiochristophorites</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LICARIO</Tag>
+		<English>Licario</English>
+		<French>Licario</French>
+		<German>Licario</German>
+		<Italian>Licario</Italian>
+		<Spanish>Licario</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KOSE_MIHAL</Tag>
+		<English>Köse Mihal</English>
+		<French>Köse Mihal</French>
+		<German>Köse Mihal</German>
+		<Italian>Köse Mihal</Italian>
+		<Spanish>Köse Mihal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BASIL_BOIOANNES</Tag>
+		<English>Basil Boioannes</English>
+		<French>Basil Boioannes</French>
+		<German>Basil Boioannes</German>
+		<Italian>Basil Boioannes</Italian>
+		<Spanish>Basil Boioannes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_THE_EUNUCH</Tag>
+		<English>John the Eunuch</English>
+		<French>Jean l'Orphanotrophe</French>
+		<German>Johannes Orphanotrophos</German>
+		<Italian>John Orphanotrophos</Italian>
+		<Spanish>John Orphanotrophos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAICTOR</Tag>
+		<English>Raictor</English>
+		<French>Raictor</French>
+		<German>Raictor</German>
+		<Italian>Raictor</Italian>
+		<Spanish>Raictor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DANIELIS</Tag>
+		<English>Danielis</English>
+		<French>Danielis</French>
+		<German>Danielis</German>
+		<Italian>Danielis</Italian>
+		<Spanish>Danielis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGIUS_CUPRIOS</Tag>
+		<English>Georgius Cuprios</English>
+		<French>Georgius Cuprios</French>
+		<German>Georgius Cuprios</German>
+		<Italian>Georgius Cuprios</Italian>
+		<Spanish>Georgius Cuprios</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MOMCHIL</Tag>
+		<English>Momchil</English>
+		<French>Momchil</French>
+		<German>Momchil</German>
+		<Italian>Momchil</Italian>
+		<Spanish>Momchil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BELAUR</Tag>
+		<English>Belaur</English>
+		<French>Belaur</French>
+		<German>Belaur</German>
+		<Italian>Belaur</Italian>
+		<Spanish>Belaur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NESTORITSA</Tag>
+		<English>Nestoritsa</English>
+		<French>Nestoritsa</French>
+		<German>Nestoritsa</German>
+		<Italian>Nestoritsa</Italian>
+		<Spanish>Nestoritsa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGI_VOITEH</Tag>
+		<English>Georgi Voiteh</English>
+		<French>Georgi Voiteh</French>
+		<German>Georgi Voiteh</German>
+		<Italian>Georgi Voiteh</Italian>
+		<Spanish>Georgi Voiteh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TIHOMIR</Tag>
+		<English>Tihomir</English>
+		<French>Tihomir</French>
+		<German>Tihomir</German>
+		<Italian>Tihomir</Italian>
+		<Spanish>Tihomir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IBATZES</Tag>
+		<English>Ibatzes</English>
+		<French>Ibatzes</French>
+		<German>Ibatzes</German>
+		<Italian>Ibatzes</Italian>
+		<Spanish>Ibatzes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ENRAVOTA</Tag>
+		<English>Enravota</English>
+		<French>Enravota</French>
+		<German>Enravota</German>
+		<Italian>Enravota</Italian>
+		<Spanish>Enravota</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TELERIG</Tag>
+		<English>Telerig</English>
+		<French>Telerig</French>
+		<German>Telerig</German>
+		<Italian>Telerig</Italian>
+		<Spanish>Telerig</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ST_NAUM</Tag>
+		<English>St. Naum</English>
+		<French>St. Naum</French>
+		<German>St. Naum</German>
+		<Italian>St. Naum</Italian>
+		<Spanish>St. Naum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MIKAEL_AGRICOLA</Tag>
+		<English>Mikael Agricola</English>
+		<French>Mikael Agricola</French>
+		<German>Mikael Agricola</German>
+		<Italian>Mikael Agricola</Italian>
+		<Spanish>Mikael Agricola</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KONSTANTIN_PRESLAVSKI</Tag>
+		<English>Konstantin Preslavski</English>
+		<French>Konstantin Preslavski</French>
+		<German>Konstantin Preslavski</German>
+		<Italian>Konstantin Preslavski</Italian>
+		<Spanish>Konstantin Preslavski</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DIONISIY_DIVNIY</Tag>
+		<English>Dionisiy Divniy</English>
+		<French>Dionisiy Divniy</French>
+		<German>Dionisiy Divniy</German>
+		<Italian>Dionisiy Divniy</Italian>
+		<Spanish>Dionisiy Divniy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TIMOT</Tag>
+		<English>Timot</English>
+		<French>Timot</French>
+		<German>Timot</German>
+		<Italian>Timot</Italian>
+		<Spanish>Timot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MKHITAR</Tag>
+		<English>Mkhitar</English>
+		<French>Mkhitar</French>
+		<German>Mkhitar</German>
+		<Italian>Mkhitar</Italian>
+		<Spanish>Mkhitar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VAHRAM</Tag>
+		<English>Vahram</English>
+		<French>Vahram</French>
+		<German>Vahram</German>
+		<Italian>Vahram</Italian>
+		<Spanish>Vahram</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_POGHOS</Tag>
+		<English>Poghos</English>
+		<French>Poghos</French>
+		<German>Poghos</German>
+		<Italian>Poghos</Italian>
+		<Spanish>Poghos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MOSES_PETACHIAH</Tag>
+		<English>Moses Petachiah</English>
+		<French>Moses Petachiah</French>
+		<German>Moses Petachiah</German>
+		<Italian>Moses Petachiah</Italian>
+		<Spanish>Moses Petachiah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DMITRY_DONSKOY</Tag>
+		<English>Dmitry Donskoy</English>
+		<French>Dmitry Donskoy</French>
+		<German>Dmitry Donskoy</German>
+		<Italian>Dmitry Donskoy</Italian>
+		<Spanish>Dmitry Donskoy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANSGAR</Tag>
+		<English>St. Ansgar</English>
+		<French>St. Ansgar</French>
+		<German>St. Ansgar</German>
+		<Italian>St. Ansgar</Italian>
+		<Spanish>St. Ansgar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BABA_TAHER</Tag>
+		<English>Baba Taher</English>
+		<French>Baba Taher</French>
+		<German>Baba Taher</German>
+		<Italian>Baba Taher</Italian>
+		<Spanish>Baba Taher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_HAMADANI</Tag>
+		<English>Badi' al-Zaman al-Hamadani</English>
+		<French>Badi' al-Zaman al-Hamadani</French>
+		<German>Badi' al-Zaman al-Hamadani</German>
+		<Italian>Badi' al-Zaman al-Hamadani</Italian>
+		<Spanish>Badi' al-Zaman al-Hamadani</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KRAKRA</Tag>
+		<English>Krakra</English>
+		<French>Krakra</French>
+		<German>Krakra</German>
+		<Italian>Krakra</Italian>
+		<Spanish>Krakra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NIKULITSA</Tag>
+		<English>Nikulitsa</English>
+		<French>Nikulitsa</French>
+		<German>Nikulitsa</German>
+		<Italian>Nikulitsa</Italian>
+		<Spanish>Nikulitsa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TERVEL</Tag>
+		<English>Tervel</English>
+		<French>Tervel</French>
+		<German>Tervel</German>
+		<Italian>Tervel</Italian>
+		<Spanish>Tervel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAMUIL</Tag>
+		<English>Samuil</English>
+		<French>Samuil</French>
+		<German>Samuil</German>
+		<Italian>Samuil</Italian>
+		<Spanish>Samuil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KALOYAN</Tag>
+		<English>Kaloyan</English>
+		<French>Kaloyan</French>
+		<German>Kaloyan</German>
+		<Italian>Kaloyan</Italian>
+		<Spanish>Kaloyan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PHILARETOS_BRACHAMIOS</Tag>
+		<English>Philaretos Brachamios</English>
+		<French>Philaretos Brachamios</French>
+		<German>Philaretos Brachamios</German>
+		<Italian>Philaretos Brachamios</Italian>
+		<Spanish>Philaretos Brachamios</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KEKAUMENOS</Tag>
+		<English>Kekaumenos</English>
+		<French>Kekaumenos</French>
+		<German>Kekaumenos</German>
+		<Italian>Kekaumenos</Italian>
+		<Spanish>Kekaumenos</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXIOS_PHILANTHROPENOS</Tag>
+		<English>Alexios Philanthropenos</English>
+		<French>Alexios Philanthropenos</French>
+		<German>Alexios Philanthropenos</German>
+		<Italian>Alexios Philanthropenos</Italian>
+		<Spanish>Alexios Philanthropenos</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NIKEPHOROS_BRYENNIOS</Tag>
+		<English>Nikephoros Bryennios</English>
+		<French>Nikephoros Bryennios</French>
+		<German>Nikephoros Bryennios</German>
+		<Italian>Nikephoros Bryennios</Italian>
+		<Spanish>Nikephoros Bryennios</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BARDAS_SKLEROS</Tag>
+		<English>Bardas Skleros</English>
+		<French>Bardas Skleros</French>
+		<German>Bardas Skleros</German>
+		<Italian>Bardas Skleros</Italian>
+		<Spanish>Bardas Skleros</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_TZIMISCES</Tag>
+		<English>John Tzimisces</English>
+		<French>John Tzimisces</French>
+		<German>John Tzimisces</German>
+		<Italian>John Tzimisces</Italian>
+		<Spanish>John Tzimisces</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BERTRAND_DU_GUESCLIN</Tag>
+		<English>Bertrand du Guesclin</English>
+		<French>Bertrand du Guesclin</French>
+		<German>Bertrand du Guesclin</German>
+		<Italian>Bertrand du Guesclin</Italian>
+		<Spanish>Bertrand du Guesclin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SADKO</Tag>
+		<English>Sadko</English>
+		<French>Sadko</French>
+		<German>Sadko</German>
+		<Italian>Sadko</Italian>
+		<Spanish>Sadko</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDREAS_VESALIUS</Tag>
+		<English>Andreas Vesalius</English>
+		<French>Andreas Vesalius</French>
+		<German>Andreas Vesalius</German>
+		<Italian>Andreas Vesalius</Italian>
+		<Spanish>Andreas Vesalius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_REMBERT_DODOENS</Tag>
+		<English>Rembert Dodoens</English>
+		<French>Rembert Dodoens</French>
+		<German>Rembert Dodoens</German>
+		<Italian>Rembert Dodoens</Italian>
+		<Spanish>Rembert Dodoens</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TARIQ_IBN_ZIYAD</Tag>
+		<English>Tariq ibn Ziyad</English>
+		<French>Tariq ibn Ziyad</French>
+		<German>Tariq ibn Ziyad</German>
+		<Italian>Tariq ibn Ziyad</Italian>
+		<Spanish>Tariq ibn Ziyad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TARIF_IBN_MALLUK</Tag>
+		<English>Tarif ibn Malluk</English>
+		<French>Tarif ibn Malluk</French>
+		<German>Tarif ibn Malluk</German>
+		<Italian>Tarif ibn Malluk</Italian>
+		<Spanish>Tarif ibn Malluk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_STIBORIUS</Tag>
+		<English>Stiborius</English>
+		<French>Stiborius</French>
+		<German>Stiborius</German>
+		<Italian>Stiborius</Italian>
+		<Spanish>Stiborius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SINDBAD</Tag>
+		<English>Sindbad</English>
+		<French>Sinbad</French>
+		<German>Sindbad</German>
+		<Italian>Sinbad</Italian>
+		<Spanish>Simbad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ODO_DE_ST_AMAND</Tag>
+		<English>Odo de St. Amand</English>
+		<French>Eudes de Saint-Amand</French>
+		<German>Eudes de Saint-Amand</German>
+		<Italian>Oddone di Saint-Amand</Italian>
+		<Spanish>Eudes de Saint-Amand</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSSELIN_DE_COURTENAY</Tag>
+		<English>Joscelin of Courtenay</English>
+		<French>Josselin de Courtenay</French>
+		<German>Joscelin von Courtenay</German>
+		<Italian>Joscelin de Courtenay</Italian>
+		<Spanish>Joscelino de Courtenay</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NICCOLO_DE_CONTI</Tag>
+		<English>Niccol&#242; de' Conti</English>
+		<French>Nicol&#242; de' Conti</French>
+		<German>Niccolo di Conti</German>
+		<Italian>Niccol&#242; de' Conti</Italian>
+		<Spanish>Niccol&#242; de' Conti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ODORIC</Tag>
+		<English>Odoric of Pordenone</English>
+		<French>Odoric de Pordenone</French>
+		<German>Odorich von Portenau</German>
+		<Italian>Odorico da Pordenone</Italian>
+		<Spanish>Odoric de Pordenone</Spanish>
+	</TEXT>
+</Civ4GameText>

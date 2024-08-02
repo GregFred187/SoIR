@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Tim McCracken (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN1</Tag>
+		<English>Urwah ibn Zubayr</English>
+		<French>Urwah ibn Zubayr</French>
+		<German>Urwah ibn Zubayr</German>
+		<Italian>Urwah ibn Zubayr</Italian>
+		<Spanish>Urwah ibn Zubayr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN2</Tag>
+		<English>Muhammad ibn Jarir al-Tabari</English>
+		<French>Muhammad ibn Jarir al-Tabari</French>
+		<German>Muhammad ibn Jarir al-Tabari</German>
+		<Italian>Muhammad ibn Jarir al-Tabari</Italian>
+		<Spanish>Muhammad ibn Jarir al-Tabari</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN3</Tag>
+		<English>Al-Masudi</English>
+		<French>Al-Masudi</French>
+		<German>Al-Masudi</German>
+		<Italian>Al-Masudi</Italian>
+		<Spanish>Al-Masudi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN4</Tag>
+		<English>Ibn Rustah</English>
+		<French>Ibn Rustah</French>
+		<German>Ibn Rustah</German>
+		<Italian>Ibn Rustah</Italian>
+		<Spanish>Ibn Rustah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN5</Tag>
+		<English>Al-Dhahabi</English>
+		<French>Al-Dhahabi</French>
+		<German>Al-Dhahabi</German>
+		<Italian>Al-Dhahabi</Italian>
+		<Spanish>Al-Dhahabi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN6</Tag>
+		<English>Baha ad-Din ibn Shaddad</English>
+		<French>Baha ad-Din ibn Shaddad</French>
+		<German>Baha ad-Din ibn Shaddad</German>
+		<Italian>Baha ad-Din ibn Shaddad</Italian>
+		<Spanish>Baha ad-Din ibn Shaddad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN7</Tag>
+		<English>Anna Komnene</English>
+		<French>
+			<Text>Anne Comn&#232;ne</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Anna Komnena</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Anna Comnena</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ana Comnena</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN8</Tag>
+		<English>Mustafa Naima</English>
+		<French>Mustafa Naima</French>
+		<German>Mustafa Naima</German>
+		<Italian>Mustafa Naima</Italian>
+		<Spanish>Mustafa Naima</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN9</Tag>
+		<English>Abu'l-Fazl ibn Mubarak</English>
+		<French>Abu'l-Fazl ibn Mubarak</French>
+		<German>Abu'l-Fazl ibn Mubarak</German>
+		<Italian>Abu'l-Fazl ibn Mubarak</Italian>
+		<Spanish>Abu'l-Fazl ibn Mubarak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN10</Tag>
+		<English>Muhammad Khwandamir</English>
+		<French>Muhammad Khwandamir</French>
+		<German>Muhammad Khwandamir</German>
+		<Italian>Muhammad Khwandamir</Italian>
+		<Spanish>Muhammad Khwandamir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN11</Tag>
+		<English>Al-Maqrizi</English>
+		<French>Al-Maqrizi</French>
+		<German>Al-Maqrizi</German>
+		<Italian>Al-Maqrizi</Italian>
+		<Spanish>Al-Maqrizi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN12</Tag>
+		<English>Firishta</English>
+		<French>Firishta</French>
+		<German>Firishta</German>
+		<Italian>Firishta</Italian>
+		<Spanish>Firishta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN13</Tag>
+		<English>Muhammad ibn Iyas</English>
+		<French>Muhammad ibn Iyas</French>
+		<German>Muhammad ibn Iyas</German>
+		<Italian>Muhammad ibn Iyas</Italian>
+		<Spanish>Muhammad ibn Iyas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN14</Tag>
+		<English>Ismail ibn Kathir</English>
+		<French>Ismail ibn Kathir</French>
+		<German>Ismail ibn Kathir</German>
+		<Italian>Ismail ibn Kathir</Italian>
+		<Spanish>Ismail ibn Kathir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN15</Tag>
+		<English>Al-Biruni</English>
+		<French>Al-Biruni</French>
+		<German>Al-Biruni</German>
+		<Italian>Al-Biruni</Italian>
+		<Spanish>Al-Biruni</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN16</Tag>
+		<English>Ibn al-Qutiyya</English>
+		<French>Ibn al-Qutiyya</French>
+		<German>Ibn al-Qutiyya</German>
+		<Italian>Ibn al-Qutiyya</Italian>
+		<Spanish>Ibn al-Qutiyya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN17</Tag>
+		<English>Niketas Choniates</English>
+		<French>Niketas Choniates</French>
+		<German>Niketas Choniates</German>
+		<Italian>Niketas Choniates</Italian>
+		<Spanish>Niketas Choniates</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN18</Tag>
+		<English>George Akropolites</English>
+		<French>George Akropolites</French>
+		<German>George Akropolites</German>
+		<Italian>George Akropolites</Italian>
+		<Spanish>George Akropolites</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN19</Tag>
+		<English>William of Tyre</English>
+		<French>Guillaume de Tyr</French>
+		<German>Wilhelm von Tyrus</German>
+		<Italian>Guglielmo di Tiro</Italian>
+		<Spanish>Guillermo de Tiro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_TEXT2</Tag>
+		<English>The %s1 States of the World!</English>
+		<French>les civilisations les plus %s1 du monde !</French>
+		<German>Die %s1 Zivilisationen der Welt!</German>
+		<Italian>La civilt&#224; %s1 del mondo!</Italian>
+		<Spanish>Las civilizaciones %s1 del mundo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_PIETY</Tag>
+		<English>Most Pious</English>
+		<French>Most Pious</French>
+		<German>Höchster Glaube</German>
+		<Italian>Most Pious</Italian>
+		<Spanish>Most Pious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_UNKNOWN</Tag>
+		<English>An Unknown State</English>
+		<French>Une civilisation inconnue</French>
+		<German>Unbekannte Zivilisation</German>
+		<Italian>Una civilt&#224; sconosciuta</Italian>
+		<Spanish>Una civilizaci&#243;n desconocida</Spanish>
+	</TEXT>
+</Civ4GameText>

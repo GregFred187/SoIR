@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ1</Tag>
+		<English>Make Constantinople the city with the highest culture on the map in 1000 AD</English>
+		<French>Make Constantinople the city with the highest culture on the map in 1000 AD</French>
+		<German>Macht Konstantinopel im Jahr 1000 n. Chr. zur Stadt mit der höchsten Kultur</German>
+		<Italian>Make Constantinople the city with the highest culture on the map in 1000 AD</Italian>
+		<Spanish>Make Constantinople the city with the highest culture on the map in 1000 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ2</Tag>
+		<English>Control at least 15 provinces in 1290 AD</English>
+		<French>Control at least 15 provinces in 1290 AD</French>
+		<German>Kontrolliert im Jahr 1290 n. Chr. mindestens 15 Provinzen</German>
+		<Italian>Control at least 15 provinces in 1290 AD</Italian>
+		<Spanish>Control at least 15 provinces in 1290 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ3</Tag>
+		<English>Be the wealthiest civ in 1500 AD</English>
+		<French>Be the wealthiest civ in 1500 AD</French>
+		<German>Seit 1500 n. Chr die reichste Zivilisation</German>
+		<Italian>Be the wealthiest civ in 1500 AD</Italian>
+		<Spanish>Be the wealthiest civ in 1500 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ABB1</Tag>
+		<English>Control 3 holy city shrines in 950 AD</English>
+		<French>Contrôler 3 autels de villes saintes en 950 ap. J.-C.</French>
+		<German>Kontrolliert 950 n. Chr. 3 heilige Schreine</German>
+		<Italian>Devi controllare 3 santuari della Città Santa nel 950 d.C.</Italian>
+		<Spanish>Controlar 3 santuarios de ciudades santas en el 950 d. C.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ABB2</Tag>
+		<English>Be the most scientifically and culturally advanced civ in 950 AD</English>
+		<French>Be the most scientifically and culturally advanced civ in 950 AD</French>
+		<German>Seit 950 n. Chr die wissenschaftlich und kulturell fortschrittlichste Zivilisation</German>
+		<Italian>Be the most scientifically and culturally advanced civ in 950 AD</Italian>
+		<Spanish>Be the most scientifically and culturally advanced civ in 950 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ABB3</Tag>
+		<English>Spread Sunni Islam to 50% by 1250 AD</English>
+		<French>Spread Sunni Islam to 50% by 1250 AD</French>
+		<German>Verbreitet bis 1250 n. Chr. Sunni Islam  auf 50%</German>
+		<Italian>Spread Sunni Islam to 50% by 1250 AD</Italian>
+		<Spanish>Spread Sunni Islam to 50% by 1250 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAK1</Tag>
+		<English>Secure or get by trade 6 different luxury resources by 1000 AD</English>
+		<French>Secure or get by trade 6 different luxury resources by 1000 AD</French>
+		<German>Sichert oder erwerbt durch Handel bis 1000 n. Chr 6 verschiedene Luxusressourcen</German>
+		<Italian>Secure or get by trade 6 different luxury resources by 1000 AD</Italian>
+		<Spanish>Secure or get by trade 6 different luxury resources by 1000 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAK2</Tag>
+		<English>Never lose a city before 1200 AD</English>
+		<French>Never lose a city before 1200 AD</French>
+		<German>Verliert bis 1200 n. Chr niemals eine Stadt</German>
+		<Italian>Never lose a city before 1200 AD</Italian>
+		<Spanish>Never lose a city before 1200 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAK3</Tag>
+		<English>Have access to both Mediterranean and Red Sea in 1300 AD</English>
+		<French>Have access to both Mediterranean and Red Sea in 1300 AD</French>
+		<German>Habt 1300 n. Chr. Zugang zum Mittelmeer und zum Roten Meer</German>
+		<Italian>Have access to both Mediterranean and Red Sea in 1300 AD</Italian>
+		<Spanish>Have access to both Mediterranean and Red Sea in 1300 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA1</Tag>
+		<English>Do not allow Islam in Hindustan (excl. Sindh) in 1200 AD</English>
+		<French>Do not allow Islam in Hindustan (excl. Sindh) in 1200 AD</French>
+		<German>Erlaubt 1200 n. Chr. keinen Islam in Hindustan (außer Sindh)</German>
+		<Italian>Do not allow Islam in Hindustan (excl. Sindh) in 1200 AD</Italian>
+		<Spanish>Do not allow Islam in Hindustan (excl. Sindh) in 1200 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA2</Tag>
+		<English>Gain 3 Great Generals by 1200 AD</English>
+		<French>Gain 3 Great Generals by 1200 AD</French>
+		<German>Erhaltet bis 1200 n. Chr. 3 große Generäle</German>
+		<Italian>Gain 3 Great Generals by 1200 AD</Italian>
+		<Spanish>Gain 3 Great Generals by 1200 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA3</Tag>
+		<English>Do not allow Islam anywhere in Hindustan and Gandhara in 1400 AD</English>
+		<French>Do not allow Islam anywhere in Hindustan and Gandhara in 1400 AD</French>
+		<German>Erlaubt 1400 n. Chr. den Islam nirgendwo in Hindustan und Gandhara</German>
+		<Italian>Do not allow Islam anywhere in Hindustan and Gandhara in 1400 AD</Italian>
+		<Spanish>Do not allow Islam anywhere in Hindustan and Gandhara in 1400 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL1</Tag>
+		<English>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</English>
+		<French>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</French>
+		<German>Baut bis 1060 n. Chr. drei Sanskrit-Hochschulen und drei Hinduistische Mandirs</German>
+		<Italian>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</Italian>
+		<Spanish>Build 3 Sanskrit Colleges and 3 Hindu Mandirs by 1060 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL2</Tag>
+		<English>Settle 5 different Great People in your capital by 1300 AD</English>
+		<French>Settle 5 different Great People in your capital by 1300 AD</French>
+		<German>Siedelt bis 1300 n. Chr. 5 verschiedene Große Persönlichkeiten in Ihrer Hauptstadt an</German>
+		<Italian>Settle 5 different Great People in your capital by 1300 AD</Italian>
+		<Spanish>Settle 5 different Great People in your capital by 1300 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL3</Tag>
+		<English>Have at least one city with legendary culture by 1300 AD</English>
+		<French>Have at least one city with legendary culture by 1300 AD</French>
+		<German>Besitzt 1300 n. Chr. mindestens eine Stadt mit legendärer Kultur</German>
+		<Italian>Have at least one city with legendary culture by 1300 AD</Italian>
+		<Spanish>Have at least one city with legendary culture by 1300 AD</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAM1</Tag>
+		<English>Be the most culturally advanced civ in 1000 AD</English>
+		<French>Be the most culturally advanced civ in 1000 AD</French>
+		<German>Seit 1000 n. Chr die kulturell fortschrittlichste Zivilisation</German>
+		<Italian>Be the most culturally advanced civ in 1000 AD</Italian>
+		<Spanish>Be the most culturally advanced civ in 1000 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAM2</Tag>
+		<English>Never lose a city before 1070 AD</English>
+		<French>Never lose a city before 1070 AD</French>
+		<German>Verliert niemals eine Stadt vor 1070 n. Chr</German>
+		<Italian>Never lose a city before 1070 AD</Italian>
+		<Spanish>Never lose a city before 1070 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAM3</Tag>
+		<English>Gain control of at least 8 provinces before 1140 AD</English>
+		<French>Gain control of at least 8 provinces before 1140 AD</French>
+		<German>Erlangt vor 1140 n. Chr. die Kontrolle über mindestens 8 Provinzen</German>
+		<Italian>Gain control of at least 8 provinces before 1140 AD</Italian>
+		<Spanish>Gain control of at least 8 provinces before 1140 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM1</Tag>
+		<English>Build an Orthodox Cathedral by 1045 AD</English>
+		<French>Build an Orthodox Cathedral by 1045 AD</French>
+		<German>Baut bis 1045 n. Chr. eine orthodoxe Kathedrale</German>
+		<Italian>Build an Orthodox Cathedral by 1045 AD</Italian>
+		<Spanish>Build an Orthodox Cathedral by 1045 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM2</Tag>
+		<English>Control Greater and Lesser Armenia, Kars and Vaspurakan in 1200 AD</English>
+		<French>Control Greater and Lesser Armenia, Kars and Vaspurakan in 1200 AD</French>
+		<German>Kontrolliert 1200 n. Chr Groß- und Kleinarmenien, Kars und Vaspurakan</German>
+		<Italian>Control Greater and Lesser Armenia, Kars and Vaspurakan in 1200 AD</Italian>
+		<Spanish>Control Greater and Lesser Armenia, Kars and Vaspurakan in 1200 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM3</Tag>
+		<English>Generate at least 25,000 Culture by 1330 AD</English>
+		<French>Avoir plus de 25000 en Culture en 1330 ap. J.-C.</French>
+		<German>Habt 1330 n. Chr. mehr als 25.000 Kulturpunkte</German>
+		<Italian>Devi avere più di 25.000 cultura nel 1330 d.C.</Italian>
+		<Spanish>Conseguir una cultura superior a 25.000 en el 1330 d. C.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM3_EPIC</Tag>
+		<English>Generate at least 37,500 Culture by 1330 AD</English>
+		<French>Avoir plus de 37500 en Culture en 1330 ap. J.-C.</French>
+		<German>Habt 1330 n. Chr. mehr als 37.500 Kulturpunkte</German>
+		<Italian>Devi avere più di 37.500 cultura nel 1330 d.C.</Italian>
+		<Spanish>Conseguir una cultura superior a 37.500 en el 1330 d. C.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM1</Tag>
+		<English>Build 3 Sufi Shrines by 1140 AD</English>
+		<French>Build 3 Sufi Shrines by 1140 AD</French>
+		<German>Baut bis 1140 n. Chr. drei Sufi-Schreine</German>
+		<Italian>Build 3 Sufi Shrines by 1140 AD</Italian>
+		<Spanish>Build 3 Sufi Shrines by 1140 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM2</Tag>
+		<English>Hold the title of the Sharif of Hejaz in 1250 AD</English>
+		<French>Hold the title of the Sharif of Hejaz in 1250 AD</French>
+		<German>Seid 1250 n. Chr Inhaber des Titels Großscherif</German>
+		<Italian>Hold the title of the Sharif of Hejaz in 1250 AD</Italian>
+		<Spanish>Hold the title of the Sharif of Hejaz in 1250 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM3</Tag>
+		<English>Secure or get by trade 4 coffee by 1500 AD</English>
+		<French>Secure or get by trade 4 coffee by 1500 AD</French>
+		<German>Sichert oder erhaltet durch Handel bis 1500 n. Chr 4 Kaffee</German>
+		<Italian>Secure or get by trade 4 coffee by 1500 AD</Italian>
+		<Spanish>Secure or get by trade 4 coffee by 1500 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GUJ1</Tag>
+		<English>Become a Hindu saint by 1140 AD</English>
+		<French>Become a Hindu saint by 1140 AD</French>
+		<German>Werdet bis 1140 n. Chr. ein Hindu-Heiliger</German>
+		<Italian>Become a Hindu saint by 1140 AD</Italian>
+		<Spanish>Become a Hindu saint by 1140 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GUJ2</Tag>
+		<English>Control or vassalize Gujarat, Sindh and Malwa in 1200 AD</English>
+		<French>Control or vassalize Gujarat, Sindh and Malwa in 1200 AD</French>
+		<German>Kontrolliert 1200 n. Chr Gujarat, Sindh und Malwa der macht sie zu Vasallen</German>
+		<Italian>Control or vassalize Gujarat, Sindh and Malwa in 1200 AD</Italian>
+		<Spanish>Control or vassalize Gujarat, Sindh and Malwa in 1200 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GUJ3</Tag>
+		<English>Have the world's highest population in 1240 AD</English>
+		<French>Avoir la population la plus nombreuse en 1240 ap. J.-C.</French>
+		<German>Erzielt 1200 n. Chr. die weltweit höchste Bevölkerungszahl</German>
+		<Italian>Devi avere la più grande popolazione al mondo nel 1240 d.C.</Italian>
+		<Spanish>Tener la mayor poblaci&#243;n del mundo en el 1240 d. C.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA1</Tag>
+		<English>Have 3,000 gold in 1180 AD</English>
+		<French>Avoir 3,000 en or en 1180 ap. J.-C.</French>
+		<German>Verfügt 1180 n. Chr. über 3.000 Gold</German>
+		<Italian>Devi avere 3,000 oro nel 1180 d.C.</Italian>
+		<Spanish>Tener 3.000 monedas de oro en el 1180 d. C.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA1_EPIC</Tag>
+		<English>Have 4,500 gold in 1180 AD</English>
+		<French>Avoir 4,500 en or en 1180 ap. J.-C.</French>
+		<German>Verfügt 1180 n. Chr. über 4.500 Gold</German>
+		<Italian>Devi avere 4,500 oro nel 1180 d.C.</Italian>
+		<Spanish>Tener 4.500 monedas de oro en el 1180 d. C.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA2</Tag>
+		<English>Have at least one city in Punjab, Sindh, Balochistan, Sistan, E. Khorasan, Tocharistan and Hindu Kush in 1180 AD</English>
+		<French>Have at least one city in Punjab, Sindh, Balochistan, Sistan, E. Khorasan, Tocharistan and Hindu Kush in 1180 AD</French>
+		<German>Besitzt 1180 n. Chr. mindestens eine Stadt in Punjab, Sindh, Belutschistan, Sistan, E. Khorasan, Tocharistan und Hindukusch</German>
+		<Italian>Have at least one city in Punjab, Sindh, Balochistan, Sistan, E. Khorasan, Tocharistan and Hindu Kush in 1180 AD</Italian>
+		<Spanish>Have at least one city in Punjab, Sindh, Balochistan, Sistan, E. Khorasan, Tocharistan and Hindu Kush in 1180 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA3</Tag>
+		<English>Have 10,000 gold by 1300 AD</English>
+		<French>Have 10,000 gold by 1300 AD</French>
+		<German>Verfügt 1300 n. Chr. über 10.000 Gold</German>
+		<Italian>Have 10,000 gold by 1300 AD</Italian>
+		<Spanish>Have 10,000 gold by 1300 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHA3_EPIC</Tag>
+		<English>Have 15,000 gold by 1300 AD</English>
+		<French>Have 15,000 gold by 1300 AD</French>
+		<German>Verfügt 1300 n. Chr. über 15.000 Gold</German>
+		<Italian>Have 15,000 gold by 1300 AD</Italian>
+		<Spanish>Have 15,000 gold by 1300 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FAT1</Tag>
+		<English>Control all of Egypt, Levant and Hejaz in 1160 AD</English>
+		<French>Control all of Egypt, Levant and Hejaz in 1160 AD</French>
+		<German>Kontrolliert 1160 n. Chr. ganz Ägypten, die Levante und Hejaz</German>
+		<Italian>Control all of Egypt, Levant and Hejaz in 1160 AD</Italian>
+		<Spanish>Control all of Egypt, Levant and Hejaz in 1160 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FAT2</Tag>
+		<English>Spread Shia Islam to 30% by 1250 AD</English>
+		<French>Spread Shia Islam to 30% by 1250 AD</French>
+		<German>Verbreitet bis 1250 n. Chr. Shia Islam auf 30%</German>
+		<Italian>Spread Shia Islam to 30% by 1250 AD</Italian>
+		<Spanish>Spread Shia Islam to 30% by 1250 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FAT3</Tag>
+		<English>Become the Commander of the Faithful by 1250 AD</English>
+		<French>Become the Commander of the Faithful by 1250 AD</French>
+		<German>Werdet bis 1250 n. Chr. Amir al-Mu'minin</German>
+		<Italian>Become the Commander of the Faithful by 1250 AD</Italian>
+		<Spanish>Become the Commander of the Faithful by 1250 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GEO1</Tag>
+		<English>Control or vassalize all of Caucasus and Chaldia in 1210 AD</English>
+		<French>Control or vassalize all of Caucasus and Chaldia in 1210 AD</French>
+		<German>Kontrolliert 1210 n. Chr ganz Kaukasus und Chaldia</German>
+		<Italian>Control or vassalize all of Caucasus and Chaldia in 1210 AD</Italian>
+		<Spanish>Control or vassalize all of Caucasus and Chaldia in 1210 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GEO2</Tag>
+		<English>Build 5 Castles, 5 Orthodox Churches and 5 Orthodox Monasteries by 1210 AD</English>
+		<French>Build 5 Castles, 5 Orthodox Churches and 5 Orthodox Monasteries by 1210 AD</French>
+		<German>Errichtet bis 1210 n. Chr. 5 Schlösser, 5 Orthodoxe Kirchen und 5 Orthodoxe Klöster</German>
+		<Italian>Build 5 Castles, 5 Orthodox Churches and 5 Orthodox Monasteries by 1210 AD</Italian>
+		<Spanish>Build 5 Castles, 5 Orthodox Churches and 5 Orthodox Monasteries by 1210 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GEO3</Tag>
+		<English>Ensure that there are no non-Christian states in Caucasus and Lesser Armenia in 1330 AD</English>
+		<French>Ensure that there are no non-Christian states in Caucasus and Lesser Armenia in 1330 AD</French>
+		<German>Stellt sicher, dass 1330 n. Chr. keine nichtchristlichen Staatenthat in Kaukasus und Kleinarmenien sind</German>
+		<Italian>Ensure that there are no non-Christian states in Caucasus and Lesser Armenia in 1330 AD</Italian>
+		<Spanish>Ensure that there are no non-Christian states in Caucasus and Lesser Armenia in 1330 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SEL1</Tag>
+		<English>Control 9% of map territory by 1200 AD</English>
+		<French>Contrôler 9% du territoire mondial avant 1200 ap. J.-C.</French>
+		<German>Kontrolliert bis 1200 n. Chr. 9% der Weltkarte</German>
+		<Italian>Devi controllare l'9% del territorio mondiale entro il 1200 d.C.</Italian>
+		<Spanish>Controlar el 9% del territorio mundial antes del 1200 d. C.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SEL2</Tag>
+		<English>Have at least two vassal states in 1200 AD</English>
+		<French>Avoir au moins deux états vassaux en 1200 ap. J.-C.</French>
+		<German>Habt 1200 n. Chr. mindestens 2 Vasallenstaaten</German>
+		<Italian>Devi avere almeno due stati vassalli nel 1200 d.C.</Italian>
+		<Spanish>Tener al menos dos estados vasallos en el 1200 d. C.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SEL3</Tag>
+		<English>Become the most culturally advanced civ in 1300 AD</English>
+		<French>Become the most culturally advanced civ in 1300 AD</French>
+		<German>Werdet 1300 n. Chr. die kulturell fortschrittlichste Zivilisation</German>
+		<Italian>Become the most culturally advanced civ in 1300 AD</Italian>
+		<Spanish>Become the most culturally advanced civ in 1300 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SIN1</Tag>
+		<English>Be the most productive civ in 1140 AD</English>
+		<French>Be the most productive civ in 1140 AD</French>
+		<German>Seid 1140 n. Chr. die produktivste Zivilisation</German>
+		<Italian>Be the most productive civ in 1140 AD</Italian>
+		<Spanish>Be the most productive civ in 1140 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SIN2</Tag>
+		<English>Control Sindh and Gujarat in 1200 AD</English>
+		<French>Control Sindh and Gujarat in 1200 AD</French>
+		<German>Kontrolliert 1200 n. Chr. Sindh und Gujarat</German>
+		<Italian>Control Sindh and Gujarat in 1200 AD</Italian>
+		<Spanish>Control Sindh and Gujarat in 1200 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SIN3</Tag>
+		<English>Build 4 Sufi Shrines by 1330 AD</English>
+		<French>Build 4 Sufi Shrines by 1330 AD</French>
+		<German>Errichtet bis 1330 n. Chr. 4 Sufi-Schreine</German>
+		<Italian>Build 4 Sufi Shrines by 1330 AD</Italian>
+		<Spanish>Build 4 Sufi Shrines by 1330 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR1</Tag>
+		<English>Control at least 6 provinces in Anatolia and Thrace in 1190 AD</English>
+		<French>Control at least 6 provinces in Anatolia and Thrace in 1190 AD</French>
+		<German>Kontrolliert 1190 n. Chr. mindestens 6 Provinzen in Anatolien und Thrakien</German>
+		<Italian>Control at least 6 provinces in Anatolia and Thrace in 1190 AD</Italian>
+		<Spanish>Control at least 6 provinces in Anatolia and Thrace in 1190 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR2</Tag>
+		<English>Control at least 5 Sufi Shrines in 1290 AD</English>
+		<French>Control at least 5 Sufi Shrines in 1290 AD</French>
+		<German>Kontrolliert 1290 n. Chr. mindestens 5 Sufi-Schreine</German>
+		<Italian>Control at least 5 Sufi Shrines in 1290 AD</Italian>
+		<Spanish>Control at least 5 Sufi Shrines in 1290 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR3</Tag>
+		<English>Control all of Anatolia and Thrace in 1460 AD</English>
+		<French>Control all of Anatolia and Thrace in 1460 AD</French>
+		<German>Kontrolliert 1460 n. Chr. ganz Anatolien und Thrakien</German>
+		<Italian>Control all of Anatolia and Thrace in 1460 AD</Italian>
+		<Spanish>Control all of Anatolia and Thrace in 1460 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHW1</Tag>
+		<English>Secure or get by trade at least 5 silk by 1230 AD</English>
+		<French>Secure or get by trade at least 5 silk by 1230 AD</French>
+		<German>Sichert oder erhaltet durch Handel bis 1230 n. Chr 5 Seide</German>
+		<Italian>Secure or get by trade at least 5 silk by 1230 AD</Italian>
+		<Spanish>Secure or get by trade at least 5 silk by 1230 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHW2</Tag>
+		<English>Claim the title of Shahanshah</English>
+		<French>Claim the title of Shahanshah</French>
+		<German>Beansprucht den Titel Schahanschah</German>
+		<Italian>Claim the title of Shahanshah</Italian>
+		<Spanish>Claim the title of Shahanshah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHW3</Tag>
+		<English>Never lose a city to barbarians before 1350 AD</English>
+		<French>Ne perdre aucune ville aux barbares avant 1350 ap. J.-C.</French>
+		<German>Verliert bis 1350 n. Chr. keine einzige Stadt an die Barbaren</German>
+		<Italian>I barbari non devono conquistare alcuna tua citt&#224; prima del 1350 d.C.</Italian>
+		<Spanish>No perder una ciudad a manos de los b&#225;rbaros antes del 1350 d. C.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ANT1</Tag>
+		<English>Control or vassalize Northern Syria and 3 adjacent provinces in 1190 AD</English>
+		<French>Control or vassalize Northern Syria and 3 adjacent provinces in 1190 AD</French>
+		<German>Kontrolliert 1190 n. Chr. Nordsyrien und 3 benachbarte Provinzen oder macht sie zu Vasallen</German>
+		<Italian>Control or vassalize Northern Syria and 3 adjacent provinces in 1190 AD</Italian>
+		<Spanish>Control or vassalize Northern Syria and 3 adjacent provinces in 1190 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ANT2</Tag>
+		<English>Have open borders agreement with 6 other civs by 1270 AD</English>
+		<French>Avoir un accord de libre passage avec 6 autres civilisations en 1290 ap. J.-C.</French>
+		<German>Verfügt 1290 n. Chr. über Offene-Grenzen-Abkommen mit 6 anderen Zivilisationen</German>
+		<Italian>Devi aver abilitato il diritto di passaggio con altre 6 civiltà nel 1290 d.C.</Italian>
+		<Spanish>Tener un acuerdo de apertura de fronteras con otras 6 civilizaciones en el 1290 d. C.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ANT3</Tag>
+		<English>Have Venetian Quarters in at least 3 cities in 1290 AD</English>
+		<French>Have Venetian Quarters in at least 3 cities in 1290 AD</French>
+		<German>Habt 1290 n. Chr. Venezianische Viertel in mindestens 3 Städten</German>
+		<Italian>Have Venetian Quarters in at least 3 cities in 1290 AD</Italian>
+		<Spanish>Have Venetian Quarters in at least 3 cities in 1290 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JER1</Tag>
+		<English>Control Palestine, Transjordan, and Cyprus in 1190 AD</English>
+		<French>Control Palestine, Transjordan, and Cyprus in 1190 AD</French>
+		<German>Kontrolliert 1190 n. Chr. Palestine, Transjordan und Zypern</German>
+		<Italian>Control Palestine, Transjordan, and Cyprus in 1190 AD</Italian>
+		<Spanish>Control Palestine, Transjordan, and Cyprus in 1190 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JER2</Tag>
+		<English>Secure or get by trade at least 8 spices, incense and silk, in any combination, by 1290 AD</English>
+		<French>Secure or get by trade at least 8 spices, incense and silk, in any combination, by 1290 AD</French>
+		<German>Sichert oder erhaltet durch Handel bis 1290 n. Chr. 8 Gewürze, Weihrauch und Seide in jeder Komination</German>
+		<Italian>Secure or get by trade at least 8 spices, incense and silk, in any combination, by 1290 AD</Italian>
+		<Spanish>Secure or get by trade at least 8 spices, incense and silk, in any combination, by 1290 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JER3</Tag>
+		<English>Become a Catholic saint by 1290 AD</English>
+		<French>Become a Catholic saint by 1290 AD</French>
+		<German>Werdet bis 1290 n. Chr. ein katholischer Heiliger</German>
+		<Italian>Become a Catholic saint by 1290 AD</Italian>
+		<Spanish>Become a Catholic saint by 1290 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHO1</Tag>
+		<English>Build a Palace in Delhi by 1250 AD</English>
+		<French>Build a Palace in Delhi by 1250 AD</French>
+		<German>Errichtet bis 1250 n. Chr. eine Palast in Delhi</German>
+		<Italian>Build a Palace in Delhi by 1250 AD</Italian>
+		<Spanish>Build a Palace in Delhi by 1250 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHO2</Tag>
+		<English>Become a Sunni saint by 1250 AD</English>
+		<French>Become a Sunni saint by 1250 AD</French>
+		<German>Werdet bis 1250 n. Chr. ein Sunni-Heiliger</German>
+		<Italian>Become a Sunni saint by 1250 AD</Italian>
+		<Spanish>Become a Sunni saint by 1250 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GHO3</Tag>
+		<English>Control Hindustan from Punjab to Maharashtra in 1400 AD</English>
+		<French>Control Hindustan from Punjab to Maharashtra in 1400 AD</French>
+		<German>Kontrolliert 1400 n. Chr. Hindustan von Punjab bis Maharashtra</German>
+		<Italian>Control Hindustan from Punjab to Maharashtra in 1400 AD</Italian>
+		<Spanish>Control Hindustan from Punjab to Maharashtra in 1400 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA1</Tag>
+		<English>Spread Islam to 5 non-Islamic coastal cities you do not control by 1470 AD</English>
+		<French>Spread Islam to 5 non-Islamic coastal cities you do not control by 1470 AD</French>
+		<German>Verbreitet bis 1470 n. Chr. Islam in 5 fremde, nichtislamische Küstenstädte</German>
+		<Italian>Spread Islam to 5 non-Islamic coastal cities you do not control by 1470 AD</Italian>
+		<Spanish>Spread Islam to 5 non-Islamic coastal cities you do not control by 1470 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA2</Tag>
+		<English>Have 50,000 gold by 1600 AD</English>
+		<French>Have 50,000 gold by 1600 AD</French>
+		<German>Verfügt 1600 n. Chr. über 50.000 Gold</German>
+		<Italian>Have 50,000 gold by 1600 AD</Italian>
+		<Spanish>Have 50,000 gold by 1600 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA2_EPIC</Tag>
+		<English>Have 75,000 gold by 1600 AD</English>
+		<French>Have 75,000 gold by 1600 AD</French>
+		<German>Verfügt 1600 n. Chr. über 75.000 Gold</German>
+		<Italian>Have 75,000 gold by 1600 AD</Italian>
+		<Spanish>Have 75,000 gold by 1600 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA3</Tag>
+		<English>Ensure there are no Portuguese ports in Arabia, Persia and Africa in 1600 AD</English>
+		<French>Ensure there are no Portuguese ports in Arabia, Persia and Africa in 1600 AD</French>
+		<German>Stellt sicher, dass es 1600 n. Chr. keine portugisischen Häfen in Arabien, Persien und Afrika gibt</German>
+		<Italian>Ensure there are no Portuguese ports in Arabia, Persia and Africa in 1600 AD</Italian>
+		<Spanish>Ensure there are no Portuguese ports in Arabia, Persia and Africa in 1600 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AYY1</Tag>
+		<English>Have Trade Relations with the Venetians and Genoans in 1245 AD</English>
+		<French>Have Trade Relations with the Venetians and Genoans in 1245 AD</French>
+		<German>Habt 1245 n. Chr. Handelsbeziehungen mit den Veneziern und Genuesen</German>
+		<Italian>Have Trade Relations with the Venetians and Genoans in 1245 AD</Italian>
+		<Spanish>Have Trade Relations with the Venetians and Genoans in 1245 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AYY2</Tag>
+		<English>Control all of Egypt, Levant, Hejaz and Yemen in 1245 AD</English>
+		<French>Control all of Egypt, Levant, Hejaz and Yemen in 1245 AD</French>
+		<German>Kontrolliert 1245 n. Chr. ganz Ägypten, den Levante, Hejaz und Jemen</German>
+		<Italian>Control all of Egypt, Levant, Hejaz and Yemen in 1245 AD</Italian>
+		<Spanish>Control all of Egypt, Levant, Hejaz and Yemen in 1245 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AYY3</Tag>
+		<English>Have the highest score in 1500 AD</English>
+		<French>Have the highest score in 1500 AD</French>
+		<German>Habt 1500 n. Chr. die meisten Punkte</German>
+		<Italian>Have the highest score in 1500 AD</Italian>
+		<Spanish>Have the highest score in 1500 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM1</Tag>
+		<English>Make Cairo the most populous city in the Middle East in 1380 AD</English>
+		<French>Make Cairo the most populous city in the Middle East in 1380 AD</French>
+		<German>Macht Cairo 1380 n. Chr. zur dicht besiedeltsten Stadt im Nahen Osten</German>
+		<Italian>Make Cairo the most populous city in the Middle East in 1380 AD</Italian>
+		<Spanish>Make Cairo the most populous city in the Middle East in 1380 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM2</Tag>
+		<English>Control all of Egypt, Levant and Hejaz in 1500 AD</English>
+		<French>Control all of Egypt, Levant and Hejaz in 1500 AD</French>
+		<German>Kontrolliert 1500 n. Chr. ganz Ägypten, den Levante und Hejaz</German>
+		<Italian>Control all of Egypt, Levant and Hejaz in 1500 AD</Italian>
+		<Spanish>Control all of Egypt, Levant and Hejaz in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM3</Tag>
+		<English>Sink 5 Portuguese ships</English>
+		<French>Sink 5 Portuguese ships</French>
+		<German>Versenkt 5 Portugisische Schiffe</German>
+		<Italian>Sink 5 Portuguese ships</Italian>
+		<Spanish>Sink 5 Portuguese ships</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT1</Tag>
+		<English>Be the first to discover Military Drill, Matchlock and Flintlock</English>
+		<French>Be the first to discover Military Drill, Matchlock and Flintlock</French>
+		<German>Erforscht als erste Drill, Luntenschloss und Steinschloss</German>
+		<Italian>Be the first to discover Military Drill, Matchlock and Flintlock</Italian>
+		<Spanish>Be the first to discover Military Drill, Matchlock and Flintlock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT2</Tag>
+		<English>Hold the title of the Roman Emperor in 1450 AD</English>
+		<French>Hold the title of the Roman Emperor in 1450 AD</French>
+		<German>Haltet 1450 n. Chr. den Titel Römischer Kaiser</German>
+		<Italian>Hold the title of the Roman Emperor in 1450 AD</Italian>
+		<Spanish>Hold the title of the Roman Emperor in 1450 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT3</Tag>
+		<English>Control or vassalize Thrace, Anatolia, Caucasus, Levant, Mesopotamia, Egypt and Hejaz in 1660 AD</English>
+		<French>Control or vassalize Thrace, Anatolia, Caucasus, Levant, Mesopotamia, Egypt and Hejaz in 1660 AD</French>
+		<German>Kontrolliert 1660 n. Chr. Thrakien, Anatolien, den Kaukasus, den Levante, Mesopotamien, Ägypten und Hejaz</German>
+		<Italian>Control or vassalize Thrace, Anatolia, Caucasus, Levant, Mesopotamia, Egypt and Hejaz in 1660 AD</Italian>
+		<Spanish>Control or vassalize Thrace, Anatolia, Caucasus, Levant, Mesopotamia, Egypt and Hejaz in 1660 AD</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIM1</Tag>
+		<English>Raze or massacre the population of at least 9 cities</English>
+		<French>Raze or massacre the population of at least 9 cities</French>
+		<German>Brennt mindestens 9 Städte nieder oder massakriert deren Bevölkerung</German>
+		<Italian>Raze or massacre the population of at least 9 cities</Italian>
+		<Spanish>Raze or massacre the population of at least 9 cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIM2</Tag>
+		<English>Make Samarkand the city with the highest culture on the map in 1500 AD</English>
+		<French>Make Samarkand the city with the highest culture on the map in 1500 AD</French>
+		<German>Macht bis 1500 n. Chr. Samarkand zur kulturell bedeutendsten Stadt</German>
+		<Italian>Make Samarkand the city with the highest culture on the map in 1500 AD</Italian>
+		<Spanish>Make Samarkand the city with the highest culture on the map in 1500 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIM3</Tag>
+		<English>Control 11% of map territory by 1600 AD</English>
+		<French>Contrôler 11% du territoire mondial avant 1600 ap. J.-C.</French>
+		<German>Kontrolliert bis 1600 n. Chr. 11% der Weltkarte</German>
+		<Italian>Devi controllare l'11% del territorio mondiale entro il 1600 d.C.</Italian>
+		<Spanish>Controlar el 11% del territorio mundial antes del 1600 d. C.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AKK1</Tag>
+		<English>Control Jazira, Asuristan and Azerbaijan in 1440 AD</English>
+		<French>Control Jazira, Asuristan and Azerbaijan in 1440 AD</French>
+		<German>Kontrolliert 1440 n. Chr. Dschazira, Asoristan und Azerbaijan</German>
+		<Italian>Control Jazira, Asuristan and Azerbaijan in 1440 AD</Italian>
+		<Spanish>Control Jazira, Asuristan and Azerbaijan in 1440 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AKK2</Tag>
+		<English>Control Iraq, Jazira, Asuristan, Khuzestan, Lesser Armenia, Azerbaijan and Shirvan in 1480 AD</English>
+		<French>Control Iraq, Jazira, Asuristan, Khuzestan, Lesser Armenia, Azerbaijan and Shirvan in 1480 AD</French>
+		<German>Kontrolliert 1480 n. Chr. Irak, Dschazira, Asoristan, Khuzestan, Kleinarmenien, Azerbaijan und Shirwan</German>
+		<Italian>Control Iraq, Jazira, Asuristan, Khuzestan, Lesser Armenia, Azerbaijan and Shirvan in 1480 AD</Italian>
+		<Spanish>Control Iraq, Jazira, Asuristan, Khuzestan, Lesser Armenia, Azerbaijan and Shirvan in 1480 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AKK3</Tag>
+		<English>Claim the title of Shahanshah</English>
+		<French>Claim the title of Shahanshah</French>
+		<German>Beansprucht den Titel Schahanschah</German>
+		<Italian>Claim the title of Shahanshah</Italian>
+		<Spanish>Claim the title of Shahanshah</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAF1</Tag>
+		<English>Claim the title of Shahanshah</English>
+		<French>Claim the title of Shahanshah</French>
+		<German>Beansprucht den Titel Schahanschah</German>
+		<Italian>Claim the title of Shahanshah</Italian>
+		<Spanish>Claim the title of Shahanshah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAF2</Tag>
+		<English>Build 4 Great Wonders</English>
+		<French>Build 4 Great Wonders</French>
+		<German>Errichtet 4 Weltwunder</German>
+		<Italian>Build 4 Great Wonders</Italian>
+		<Spanish>Build 4 Great Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SAF3</Tag>
+		<English>Make Shia Islam the dominant religion in the Middle East</English>
+		<French>Make Shia Islam the dominant religion in the Middle East</French>
+		<German>Macht Shia Islam zur dominierenden Religion im Nahen Osten</German>
+		<Italian>Make Shia Islam the dominant religion in the Middle East</Italian>
+		<Spanish>Make Shia Islam the dominant religion in the Middle East</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG1</Tag>
+		<English>Build the Shalimar Gardens, the Taj Mahal and the Red Fort</English>
+		<French>Build the Shalimar Gardens, the Taj Mahal and the Red Fort</French>
+		<German>Errichtet die Shalimar-Gärten, das Taj Mahal und das Rote Fort</German>
+		<Italian>Build the Shalimar Gardens, the Taj Mahal and the Red Fort</Italian>
+		<Spanish>Build the Shalimar Gardens, the Taj Mahal and the Red Fort</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG2</Tag>
+		<English>Have at least one city with legendary culture</English>
+		<French>Have at least one city with legendary culture</French>
+		<German>Habt mindestens eine Stadt mit Kulturstufe Ledendär</German>
+		<Italian>Have at least one city with legendary culture</Italian>
+		<Spanish>Have at least one city with legendary culture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG3</Tag>
+		<English>Control all of Hindustan (excl. Goa) in 1650 AD</English>
+		<French>Control all of Hindustan (excl. Goa) in 1650 AD</French>
+		<German>Kontrolliert 1650 n. Chr. ganz Hindustan (außer Goa)</German>
+		<Italian>Control all of Hindustan (excl. Goa) in 1650 AD</Italian>
+		<Spanish>Control all of Hindustan (excl. Goa) in 1650 AD</Spanish>
+	</TEXT>
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUY1</Tag>
+		<English>Claim the title of Shahanshah</English>
+		<French>Claim the title of Shahanshah</French>
+		<German>Beansprucht den Titel Schahanschah</German>
+		<Italian>Claim the title of Shahanshah</Italian>
+		<Spanish>Claim the title of Shahanshah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUY2</Tag>
+		<English>Hold the title of Commander of the Faithful in 1000 AD</English>
+		<French>Hold the title of Commander of the Faithful in 1000 AD</French>
+		<German>Werdet bis 1000 n. Chr. Amir al-Mu'minin</German>
+		<Italian>Hold the title of Commander of the Faithful in 1000 AD</Italian>
+		<Spanish>Hold the title of Commander of the Faithful in 1000 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUY3</Tag>
+		<English>Control Iraq, Kuzhestan, Hormuz und Oman by 1035 AD</English>
+		<French>Control Iraq, Kuzhestan, Hormuz und Oman by 1035 AD</French>
+		<German>Kontrolliert 1035 n. Chr. Irak, Khuzestan, Hormus und Oman</German>
+		<Italian>Control Iraq, Kuzhestan, Hormuz und Oman by 1035 AD</Italian>
+		<Spanish>Control Iraq, Kuzhestan, Hormuz und Oman by 1035 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZEN1</Tag>
+		<English>Conquer or vassalize Egypt by 1250 AD</English>
+		<French>Conquer or vassalize Egypt by 1250 AD</French>
+		<German>Erobert bis 1250 n. Chr. Ägypten oder macht sie zu Vasallen</German>
+		<Italian>Conquer or vassalize Egypt by 1250 AD</Italian>
+		<Spanish>Conquer or vassalize Egypt by 1250 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZEN2</Tag>
+		<English>Ensure that there are no Christian states in Egypt, Cilicia, and the Levant in 1291 AD</English>
+		<French>Ensure that there are no Christian states in Egypt, Cilicia, and the Levant in 1291 AD</French>
+		<German>Stellt sicher, dass es 1291 n. Chr. keine christlichen Zivilisation in Ägypten, Kilikien und im Levante sind</German>
+		<Italian>Ensure that there are no Christian states in Egypt, Cilicia, and the Levant in 1291 AD</Italian>
+		<Spanish>Ensure that there are no Christian states in Egypt, Cilicia, and the Levant in 1291 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZEN3</Tag>
+		<English>Never lose a city to barbarians until 1400 AD</English>
+		<French>Never lose a city to barbarians until 1400 AD</French>
+		<German>Verliert bis 1400 n. Chr. keine einzige Stadt an die Barbaren</German>
+		<Italian>Never lose a city to barbarians until 1400 AD</Italian>
+		<Spanish>Never lose a city to barbarians until 1400 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAH1</Tag>
+		<English>Never lose a city to the portuguese until 1600 AD</English>
+		<French>Never lose a city to the portuguese until 1600 AD</French>
+		<German>Verliert bis 1600 n. Chr. keine einzige Stadt an die Portugiesen</German>
+		<Italian>Never lose a city to the portuguese until 1600 AD</Italian>
+		<Spanish>Never lose a city to the portuguese until 1600 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAH2</Tag>
+		<English>Controll the south of Hindustan in 1550 AD</English>
+		<French>Controll the south of Hindustan in 1550 ADh</French>
+		<German>Kontrolliert 1550 n. Chr. den Süden Hindustans</German>
+		<Italian>Controll the south of Hindustan in 1550 AD</Italian>
+		<Spanish>Controll the south of Hindustan in 1550 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAH3</Tag>
+		<English>Raze or massacre the population of at least 8 hindu cities</English>
+		<French>Raze or massacre the population of at least 8 hindu cities</French>
+		<German>Brennt mindestens 8 Städte nieder oder massakriert deren Bevölkerung</German>
+		<Italian>Raze or massacre the population of at least 8 hindu cities</Italian>
+		<Spanish>Raze or massacre the population of at least 8 hindu cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR1</Tag>
+		<English>Control all coastal cities on the Arabian Sea, Persian Gulf, and Red Sea in 1590 AD</English>
+		<French>Control all coastal cities on the Arabian Sea, Persian Gulf, and Red Sea in 1590 AD</French>
+		<German>Kontrolliert 1590 n. Chr. alle Küstenstädte im Arabischen Meer, im Persichen Golf und im Roten Meer</German>
+		<Italian>Control all coastal cities on the Arabian Sea, Persian Gulf, and Red Sea in 1590 AD</Italian>
+		<Spanish>Control all coastal cities on the Arabian Sea, Persian Gulf, and Red Sea in 1590 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR2</Tag>
+		<English>Control 15 luxuries in 1620 AD</English>
+		<French>Control 15 luxuries in 1620 AD</French>
+		<German>Sichert bis 1620 n. Chr 15 Luxusressourcen</German>
+		<Italian>Control 15 luxuries in 1620 AD</Italian>
+		<Spanish>Control 15 luxuries in 1620 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR3</Tag>
+		<English>Have 10,000 gold in 1650 AD</English>
+		<French>Have 10,000 gold in 1650 AD</French>
+		<German>Verfügt 1650 n. Chr. über 10.000 Gold</German>
+		<Italian>Have 10,000 gold in 1650 AD</Italian>
+		<Spanish>Have 10,000 gold in 1650 AD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR3_EPIC</Tag>
+		<English>Have 15,000 gold in 1650 AD</English>
+		<French>Have 15,000 gold in 1650 AD</French>
+		<German>Verfügt 1650 n. Chr. über 15.000 Gold</German>
+		<Italian>Have 15,000 gold in 1650 AD</Italian>
+		<Spanish>Have 15,000 gold in 1650 AD</Spanish>
+	</TEXT>
+
+</Civ4GameText>

@@ -1,0 +1,10 @@
+// *** Control Bitmap Theme file
+
+// Set the resource 
+resource_path "Mods/SoIR/Resource";
+
+// Setup common properties
+include "Mods/SoIR/Resource/Themes/Civ4/Civ4Theme.thm";
+//Open the file "Assets\XML\Art\CIV4ArtDefines_Misc.xml" and search for "DEFAULT_THEME_NAME". In the next line, change the "path" to :
+//Code:
+//<Path>Mods/SoIR/Resource/Civ4.thm</Path> 

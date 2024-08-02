@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Strategy -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_1</Tag>
+		<English>To hire a mercenary, click on the "axe" icon in the upper left hand side of the screen.</English>
+		<French>Pour engager un mercenaire, cliquez sur la hache dans la partie supérieure gauche de l'écran.</French>
+		<German>Um einen Söldner anzuheuern, klicken Sie auf das Axt-Symbol in der oberen linken Ecke des Bildschirms.</German>
+		<Italian>Per assoldare dei mercenari clicca sull'icona a forma di &quot;ascia&quot; in alto a sinistra, sullo schermo.</Italian>
+		<Spanish>Para contratar a un mercenario, haz clic en el icono del hacha que hay en la parte superior izquierda de la pantalla.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_2</Tag>
+		<English>You can check the parameters influencing your stability in the Financial Advisor</English>
+		<French>Vous pouvez consulter les paramètres qui influencent votre stabilité dans l'écran du conseiller financier.</French>
+		<German>Sie können die für Ihre Stabilität entscheidenden Parameter im Finanzberater überprüfen.</German>
+		<Italian>Puoi controllare i parametri che influenzano la tua stabilit&#224; nella schermata del consigliere economico.</Italian>
+		<Spanish>Puedes comprobar los par&#225;metros que afectan a tu estabilidad en el consejero financiero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_3</Tag>
+		<English>Not every lake produces 2 food. Some are salt lakes, and thus produce 1 food, like coast.</English>
+		<French>Les lacs ne produisent pas tous 2 nourriture. Les lacs salés produisent seulement 1 nourriture, comme les côtes.</French>
+		<German>Nicht jeder See produziert 2 Nahrung. Einige von ihnen sind Salzwasserseen, die aus diesem Grund wie Küsten-Geländefelder nur 1 Nahrung produzieren.</German>
+		<Italian>Non tutti i laghi producono 2 cibo. Alcuni sono laghi salati, quindi producono 1 cibo, come la costa.</Italian>
+		<Spanish>No todos los lagos producen 2 alimentos. Algunos son salados y, por tanto, producen 1 alimento, como las costas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_4</Tag>
+		<English>If you get a skull over your cities, it means they have the plague! The population and units in the city and in the surrounding region will probably decrease dramatically. To reduce the effects and the duration of plague, keep your cities healthy.</English>
+		<French>Si un crâne apparaît au-dessus d'une de vos villes, cela signifie qu'elle est frappée par la peste ! Attendez-vous alors à voir la population et les unités dans la ville et la région environnante diminuer considérablement. Pour réduire la durée et les effets de la peste, gardez vos villes en bonne santé.</French>
+		<German>Wenn ein Totenkopf über Ihren Städten eingeblendet wird, bedeutet dies, dass dort die Pest ausgebrochen ist! Die Anzahl der Bevölkerung und Einheiten in der betreffenden Stadt und ihrer näheren Umgebung werden aller Voraussicht nach dramatisch sinken. Um die Auswirkungen und Dauer der Pest zu reduzieren, sollten Sie den Gesundheitswert Ihrer Städte möglichst hoch halten.</German>
+		<Italian>Se vedi un teschio sulle tue citt&#224; significa che c'&#232; la peste! Popolazione e unit&#224; in citt&#224; e nella zona circostante diminuiranno drasticamente. Per ridurre effetti e durata della peste mantieni in salute le tue citt&#224;.</Italian>
+		<Spanish>Si aparece una calavera sobre tus ciudades... ¡es por que tienen la peste! La poblaci&#243;n y las unidades de la ciudad y su regi&#243;n circundante probablemente comiencen a decrecer dram&#225;ticamente. Para reducir los efectos y la duraci&#243;n de la peste, mant&#233;n elevada la salud de tus ciudades.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_5</Tag>
+		<English>Plague can spread in many ways - through trade routes, along roads and between neighbouring cities.</English>
+		<French>La peste peut se propager de nombreuses façons. Elle peut être apportée par les routes commerciales, les routes et les villes voisines.</French>
+		<German>Die Pest kann sich auf viele Arten ausbreiten - über Handelswege, Straßen und zwischen benachbarten Städten.</German>
+		<Italian>La peste si pu&#242; diffondere in molti modi: attraverso rotte commerciali, lungo le strade e tra citt&#224; confinanti.</Italian>
+		<Spanish>La peste se puede propagar de muchas maneras, a trav&#233;s de las rutas comerciales, por los caminos o entre ciudades vecinas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_6</Tag>
+		<English>The civilization you choose to play affects your difficulty every bit as much as the difficulty level you choose. Make sure to pick a civ that suits your playing style and your level of expertise.</English>
+		<French>La difficulté du jeu dépend tout autant du niveau de difficulté sélectionné que de la civilisation avec laquelle vous jouez. Veillez à choisir une civilisation qui correspond à votre façon de jouer et à votre niveau d'expérience.</French>
+		<German>Neben dem eingestellten Schwierigkeitsgrad wirkt sich auch die Wahl der Zivilisation auf das Schwierigkeitsniveau im Spiel aus. Achten Sie deshalb darauf, eine Zivilisation zu wählen, die Ihrem Spielstil und Ihrem Erfahrungsstand entspricht.</German>
+		<Italian>La civilt&#224; che scegli influenza la difficolt&#224; tanto quanto il livello di difficolt&#224; che hai scelto. Assicurati di selezionare una civilt&#224; che sia adatta al tuo stile di gioco e al tuo livello di esperienza.</Italian>
+		<Spanish>La civilizaci&#243;n que elijas afecta a la dificultad tanto como el nivel de dificultad que elijas. Elige una civilizaci&#243;n que se acomode a tu estilo de juego y tu nivel de experiencia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_7</Tag>
+		<English>Every civ has hidden modifiers that influence their growth. This way, later civs are not disadvantaged by their late start.</English>
+		<French>Des modificateurs cachés influent sur le développement de chaque civilisation. Ainsi, les civilisations modernes ne sont pas désavantagées en commençant plus tard.</French>
+		<German>Jede Zivilisation verfügt über verborgene Modifikatoren, die ihr Wachstum beeinflussen. Auf diese Weise werden auch moderne Zivilisationen trotz ihres späteren Spielstarts nicht benachteiligt.</German>
+		<Italian>Ogni civilt&#224; ha dei modificatori nascosti che ne influenzano la crescita. In questo modo le civilt&#224; moderne non sono svantaggiate dall'avvio in ritardo.</Italian>
+		<Spanish>Todas las civilizaciones tienen modificadores ocultos que afectan a su crecimiento. De este modo, el inicio tard&#237;o de las civilizaciones modernas no constituye una desventaja.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_8</Tag>
+		<English>You can declare war on independent states only by moving your units into their territory.</English>
+		<French>Vous ne pouvez déclarer la guerre aux états indépendants et aux petites civilisations qu'en envoyant des unités sur leur territoire.</French>
+		<German>Sie können unabhängigen Staaten und unbedeutenderen Zivilisationen nur dadurch den Krieg erklären, dass Sie Ihre Einheiten in ihr Territorium einmarschieren lassen.</German>
+		<Italian>Puoi dichiarare guerra agli stati indipendenti e alle civilt&#224; minori solo facendo entrare le tue unit&#224; nel loro territorio.</Italian>
+		<Spanish>Puedes declarar la guerra a estados independientes y civilizaciones menores si mueves tus unidades a su territorio.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_9</Tag>
+		<English>Combining certain civics will improve or harm the stability of your empire.</English>
+		<French>La combinaison de certaines doctrines peut améliorer ou réduire la stabilité de votre empire.</French>
+		<German>Die Kombination bestimmter Staatsformen kann die Stabilität Ihrer Zivilisation verbessern oder auch beeinträchtigen.</German>
+		<Italian>Combinare alcune forme di governo pu&#242; migliorare o peggiorare la stabilit&#224; del tuo impero.</Italian>
+		<Spanish>Al combinar algunos principios mejorar&#225;s o perjudicar&#225;s la estabilidad de tu imperio.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_XXX</Tag>
+		<English>Remember that you can always take control of a newborn civ if you don't like the civilization you started with. You can also use this feature to play from 3000BC even when you want to pick a civ that starts later on.</English>
+		<French>N'oubliez pas que vous pouvez toujours prendre le contrôle d'une civilisation émergente, si la civilisation avec laquelle vous avez commencé ne vous plaît pas. Vous pouvez aussi utiliser cette option pour jouer à partir de 3000 av. J.-C., même si vous voulez choisir une civilisation qui commence plus tard.</French>
+		<German>Beachten Sie, dass Sie jederzeit eine neu entstandene Zivilisation übernehmen können, wenn Sie mit der Zivilisation, die Sie zuerst gewählt haben, nicht zufrieden sind. Sie können diese Möglichkeit auch nutzen, um bereits ab dem Jahr 3000 v. Chr. zu spielen, obwohl Sie sich eigentlich eine Zivilisation ausgesucht haben, die erst später im Spiel startet.</German>
+		<Italian>Ricorda che puoi sempre assumere il controllo di una civilt&#224; appena sorta, se non ti piace quella con cui hai iniziato. Inoltre puoi usare questa caratteristica per cominciare a giocare dal 3000 a.C. anche se vuoi scegliere una civilt&#224; che comincia più tardi.</Italian>
+		<Spanish>Recuerda que siempre puedes asumir el control de una civilizaci&#243;n reciente si no te gusta la civilizaci&#243;n con la que has empezado. Tambi&#233;n puedes aprovechar esta opci&#243;n para jugar desde el a&#241;o 3000 a. C. si deseas jugar con una civilizaci&#243;n que empiece m&#225;s tarde.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_XXX</Tag>
+		<English>In the Sword of Islam, vassals can declare war.</English>
+		<French>Dans Rhye's and Fall of Civilization, les vassaux peuvent déclarer la guerre.</French>
+		<German>In Rhye's and Fall of Civilization können Vasallenstaaten Kriegserklärungen ausgeben.</German>
+		<Italian>In Rhye's and Fall i vassalli possono dichiarare guerra.</Italian>
+		<Spanish>Los vasallos pueden declarar una guerra en Rhye's and Fall of Civilization.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_10</Tag>
+		<English>In RFC and the Sword of Islam, the max income from a shrine is 20 gold per turn.</English>
+		<French>Dans Rhye's and Fall of Civilization, le revenu maximum d'un sanctuaire est de 20 pièces d'or par tour.</French>
+		<German>In Rhye's and Fall of Civilization beträgt das maximale Einkommen durch Schreine 20 Gold pro Runde.</German>
+		<Italian>In Rhye's and Fall l'entrata massima da un santuario &#232; di 20 oro per turno.</Italian>
+		<Spanish>En Rhye's and Fall of Civilization los ingresos m&#225;ximos de un santuario o corporaci&#243;n son de 20 monedas por turno.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_11</Tag>
+		<English>If you like the mod, and if you have any ideas to improve it, or you just have a bug to report, make sure to check out the development forum at CivFanatics.com.</English>
+		<French>Si le mod vous plaît et que vous avez des idées pour l'améliorer, ou simplement un bug à signaler, pensez à consulter le forum de développement sur CivFanatics.com.</French>
+		<German>Wenn Sie den Mod mögen und Verbesserungsvorschläge haben oder einen Bug melden wollen, besuchen Sie das Entwicklerforum unter CivFanatics.com.</German>
+		<Italian>Se ti piace questo mod e hai delle idee per migliorarlo, o anche se devi semplicemente segnalare un problema, assicurati di controllare il forum di sviluppo su CivFanatics.com.</Italian>
+		<Spanish>Si te gusta el mod y tienes ideas para mejorarlo o has encontrado algún error del que informar, visita el foro de dise&#241;o en CivFanatics.com.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_12</Tag>
+		<English>Creating an enormous empire may seem tempting, but you have to be very careful not to let your expansion destabilize your empire! The Empire Civic can help with that.</English>
+		<French>Créer un empire gigantesque peut sembler tentant, mais vous devez veiller à ce que votre expansion territoriale n'entraîne pas d''instabilité ! La doctrine Expansion peut vous faciliter la tâche.</French>
+		<German>Es mag verlockend erscheinen, ein riesiges Imperium aufzubauen, dennoch sollten Sie darauf achten, dass Ihre Expansionsbestrebungen nicht zu einer Destabilisierung Ihrer Zivilisation führen! Expansiv orientierte Staatsformen können dabei sicherlich hilfreich sein.</German>
+		<Italian>Potr&#224; anche sembrare una buona idea, creare un impero enorme, ma devi stare attento a non lasciare che la tua espansione destabilizzi l'impero! La forma di governo espansione ti pu&#242; aiutare.</Italian>
+		<Spanish>Crear un imperio enorme puede ser tentador, pero debes tener cuidado para que tu expansi&#243;n no lo desestabilice. Los principios de expansi&#243;n te ayudar&#225;n a conseguirlo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_13</Tag>
+		<English>In Rhye's and Fall of Civilization, camera flying mode hotkey has changed to [CTRL + F]</English>
+		<French>Dans Rhye's and Fall of Civilization, le raccourci pour activer la caméra libre est [CTRL + F].</French>
+		<German>In Rhye's and Fall of Civilization ist die Schnelltaste für den Kameraflugmodus [STRG + F]</German>
+		<Italian>In Rhye's and Fall la combinazione di tasti per la selezione rapida della visuale dall'alto &#232; diventata [CTRL + F]</Italian>
+		<Spanish>En Rhye's and Fall of Civilization se ha cambiado el atajo de teclado para la c&#225;mara a&#233;rea a [CTRL + F].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_RFC_14</Tag>
+		<English>If you attempt to stop the growth of newborn civs, some of your units will flip to their side.</English>
+		<French>Si vous tentez d'arrêter le développement d'une civilisation émergente, certaines de vos unités se rangeront de son côté.</French>
+		<German>Wenn Sie versuchen, das Wachstum neu entstandener Zivilisationen zu behindern, werden einige Ihrer Einheiten die Seiten wechseln.</German>
+		<Italian>Se provi a fermare la crescita delle civilt&#224; appena nate, alcune delle tue unit&#224; passeranno dalla loro parte.</Italian>
+		<Spanish>Si intentas frenar el crecimiento de civilizaciones recientes, algunas de tus unidades se unir&#225;n a ellas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_1</Tag>
+		<English>In the Sword of Islam, city founding is not allowed in desert or semi-desert if no fresh water is available.</English>
+		<French>In the Sword of Islam, city founding is not allowed in desert or semi-desert if no fresh water is available.</French>
+		<German>In Sword of Islam können Städte in Wüsten oder Halbwüsten nur gegründet werden, wenn sie Zugang zu Süßwasser haben.</German>
+		<Italian>In the Sword of Islam, city founding is not allowed in desert or semi-desert if no fresh water is available.</Italian>
+		<Spanish>In the Sword of Islam, city founding is not allowed in desert or semi-desert if no fresh water is available.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_2</Tag>
+		<English>In the Sword of Islam, some exotic mercenaries can only be hired if you have a city in or near their native province.</English>
+		<French>In the Sword of Islam, some exotic mercenaries can only be hired if you have a city in or near their native province.</French>
+		<German>In Sword of Islam können manche ausländische Söldner nur angeheuert werden wenn ihr eine Stadt in oder nahe deren Heimatprovinz habt.</German>
+		<Italian>In the Sword of Islam, some exotic mercenaries can only be hired if you have a city in or near their native province.</Italian>
+		<Spanish>In the Sword of Islam, some exotic mercenaries can only be hired if you have a city in or near their native province.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_3</Tag>
+		<English>In the Sword of Islam, the map is divided into historical provinces, which determine AI wars, your stability and historical goals. To see the name of a province, just hover your pointer over a map tile.</English>
+		<French>In the Sword of Islam, the map is divided into historical provinces, which determine AI wars, your stability and historical goals. To see the name of a province, just hover your pointer over a map tile.</French>
+		<German>In Sword of Islam ist die Karte in historische Provinzen gegliedert, die über die Kriege der Ai, eure Stabilität und die historischen Ziele entscheiden. Um ihre Namen zu sehen, zieht den Zeiger über ein Feld.</German>
+		<Italian>In the Sword of Islam, the map is divided into historical provinces, which determine AI wars, your stability and historical goals. To see the name of a province, just hover your pointer over a map tile.</Italian>
+		<Spanish>In the Sword of Islam, the map is divided into historical provinces, which determine AI wars, your stability and historical goals. To see the name of a province, just hover your pointer over a map tile.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_4</Tag>
+		<English>In the Sword of Islam, some AI civs are conditional, e.g. Ottomans will not spawn if Seljuk Sultanate of Rum is still alive and stable in 1300 AD (but they can be resurrected later).</English>
+		<French>In the Sword of Islam, some AI civs are conditional, e.g. Ottomans will not spawn if Seljuk Sultanate of Rum is still alive and stable in 1300 AD (but they can be resurrected later).</French>
+		<German>In Sword of Islam brauchen manche AI Civs bestimmte Vorraussetzungen, z.B. entstehen die Osmanen nicht wenn das Rûm-Sultanat 1300 n.Chr. noch stabil ist (aber sie können auch später entstehen).</German>
+		<Italian>In the Sword of Islam, some AI civs are conditional, e.g. Ottomans will not spawn if Seljuk Sultanate of Rum is still alive and stable in 1300 AD (but they can be resurrected later).</Italian>
+		<Spanish>In the Sword of Islam, some AI civs are conditional, e.g. Ottomans will not spawn if Seljuk Sultanate of Rum is still alive and stable in 1300 AD (but they can be resurrected later).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_5</Tag>
+		<English>In the Sword of Islam, players can claim contested titles, such as the Roman Emperor or the Commander of the Faithful, as one of their victory conditions, or just for the added benefits provided by titles.</English>
+		<French>In the Sword of Islam, players can claim contested titles, such as the Roman Emperor or the Commander of the Faithful, as one of their victory conditions, or just for the added benefits provided by titles.</French>
+		<German>In Sword of Islam können Spieler historische Titel beanspruchen, wie Römische Kaiser oder Amir al-Mu'minin, als eine der UHVs oder bloß wegen der zusätzlichen Vorteile.</German>
+		<Italian>In the Sword of Islam, players can claim contested titles, such as the Roman Emperor or the Commander of the Faithful, as one of their victory conditions, or just for the added benefits provided by titles.</Italian>
+		<Spanish>In the Sword of Islam, players can claim contested titles, such as the Roman Emperor or the Commander of the Faithful, as one of their victory conditions, or just for the added benefits provided by titles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_6</Tag>
+		<English>In the Sword of Islam, companies replace corporations. Companies cannot be built - they spread on their own to cities that meet their requirements.</English>
+		<French>In the Sword of Islam, companies replace Corporations. Companies cannot be built - they spread on their own to cities that meet their requirements.</French>
+		<German>In Sword of Islam werden Kapitalgesellschaften durch Unternehmen ersetzt. Unternehmen können nicht errichtet werden - sie breiten sich von selbst in Städte aus die ihre Anforderungen erfüllen.</German>
+		<Italian>In the Sword of Islam, companies replace Corporations. Companies cannot be built - they spread on their own to cities that meet their requirements.</Italian>
+		<Spanish>In the Sword of Islam, companies replace Corporations. Companies cannot be built - they spread on their own to cities that meet their requirements.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_7</Tag>
+		<English>The rulers of Ajmer (Chauhan), Gujarat (Solanki) and Malwa (Paramara) are Rajput clans belonging to the Agnivanshi branch of the Hindu Kshatriya (warrior) caste.</English>
+		<French>The rulers of Ajmer (Chauhan), Gujarat (Solanki) and Malwa (Paramara) are Rajput clans belonging to the Agnivanshi branch of the Hindu Kshatriya (warrior) caste.</French>
+		<German>Die Herrscher von Ajmer (Chauhan), Gujarat (Solanki) und Malwa (Paramara) sind Rajputen-Dynastien, die zum Agnivanshi-Zweig der Hindukaste Kshatriya (Krieger) gehören.</German>
+		<Italian>The rulers of Ajmer (Chauhan), Gujarat (Solanki) and Malwa (Paramara) are Rajput clans belonging to the Agnivanshi branch of the Hindu Kshatriya (warrior) caste.</Italian>
+		<Spanish>The rulers of Ajmer (Chauhan), Gujarat (Solanki) and Malwa (Paramara) are Rajput clans belonging to the Agnivanshi branch of the Hindu Kshatriya (warrior) caste.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_8</Tag>
+		<English>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</English>
+		<French>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</French>
+		<German>Es gibt keine RFC Botschaften, Kongresse oder die sechste Spalte der Staatsformen in Sword of Islam.</German>
+		<Italian>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</Italian>
+		<Spanish>There are no RFC Embassies, Congresses or the sixth Civic column in the Sword of Islam.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_9</Tag>
+		<English>Islam split into Sunni and Shia branches due to a dispute over the succession of Caliphs. The division was followed by two civil wars, both won by the Sunnis. Shi'as remain a minority to this day, except in Iran, Iraq and Azerbaijan.</English>
+		<French>Islam split into Sunni and Shia branches due to a dispute over the succession of Caliphs. The division was followed by two civil wars, both won by the Sunnis. Shi'as remain a minority to this day, except in Iran, Iraq and Azerbaijan.</French>
+		<German>Der Islam spaltete sich aufgrund eines Streits um die Nachfolge der Kalifen in sunnitische und schiitische Zweige. Der Teilung folgten zwei Bürgerkriege, die beide von den Sunniten gewonnen wurden. Schiiten sind bis heute eine Minderheit, außer im Iran, im Irak und in Aserbaidschan.</German>
+		<Italian>Islam split into Sunni and Shia branches due to a dispute over the succession of Caliphs. The division was followed by two civil wars, both won by the Sunnis. Shi'as remain a minority to this day, except in Iran, Iraq and Azerbaijan.</Italian>
+		<Spanish>Islam split into Sunni and Shia branches due to a dispute over the succession of Caliphs. The division was followed by two civil wars, both won by the Sunnis. Shi'as remain a minority to this day, except in Iran, Iraq and Azerbaijan.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_10</Tag>
+		<English>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + K] to toggle the Stability Overlay.</English>
+		<French>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + K] to toggle the Stability Overlay.</French>
+		<German>Kernprovinzen sind die stabilsten und sollten nicht in die Hände der Feinde fallen. Historische Provinzen stellen das historische Expansionsgebiet dar. Um die Kern- und historischen Provinzen zu sehen, überprüfen Sie den Zivilopädieeintrag oder durch drücken von [STRG + K], uzm den Stabilitätsanzeiger umzuschalten</German>
+		<Italian>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + K] to toggle the Stability Overlay.</Italian>
+		<Spanish>Core provinces are most stable and should not fall into enemy hands. Border provinces constitute your historical expansion territory. To see your Core and Border provinces, check your civ's Civilopedia entry, or press [CTRL + K] to toggle the Stability Overlay.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_11</Tag>
+		<English>In order to qualify for "controlling" a province for your historical goals and titles, you need to make sure that all cities in the province are yours.</English>
+		<French>In order to qualify for "controlling" a province for your historical goals and titles, you need to make sure that all cities in the province are yours.</French>
+		<German>Um sicherzustellen dass eine Provinz für die UHVs und die Titel "kontrolliert" wird müssen Ihr sicherstellen dass alle Städte in der Provinz Euch gehören.</German>
+		<Italian>In order to qualify for "controlling" a province for your historical goals and titles, you need to make sure that all cities in the province are yours.</Italian>
+		<Spanish>In order to qualify for "controlling" a province for your historical goals and titles, you need to make sure that all cities in the province are yours.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_12</Tag>
+		<English>The Palace, Castle, Inn, Brothel, Courthouse and Debtor's Prison increase the number of Espionage Points the player will receive each turn. They may also attract the Assassin faction to your city.</English>
+		<French>The Palace, Castle, Inn, Brothel, Courthouse and Debtor's Prison increase the number of Espionage Points the player will receive each turn. They may also attract the Assassin faction to your city.</French>
+		<German>Der Palast, das Schloss, das Gasthaus, das Bordell, das Gerichtsgebäude und das Schuldnergefängnis erhöhen die Anzahl der Spionagepunkte, die der Spieler in jeder Runde erhält. Sie können auch die Hashishiyya in Ihre Stadt holen.</German>
+		<Italian>The Palace, Castle, Inn, Brothel, Courthouse and Debtor's Prison increase the number of Espionage Points the player will receive each turn. They may also attract the Assassin faction to your city.</Italian>
+		<Spanish>The Palace, Castle, Inn, Brothel, Courthouse and Debtor's Prison increase the number of Espionage Points the player will receive each turn. They may also attract the Assassin faction to your city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_13</Tag>
+		<English>Building the Summer Palace, Courthouse, State Religion Temple or any National or Great Wonder will increase your Stability.</English>
+		<French>Building the Summer Palace, Courthouse, State Religion Temple or any National or Great Wonder will increase your Stability.</French>
+		<German>Der Bau des Sommerpalastes, Gerichtsgebäude, [ICON_RELIGION]-Tempel oder Nationalwunder und Weltwunders wird Ihre Stabilität erhöhen.</German>
+		<Italian>Building the Summer Palace, Courthouse, State Religion Temple or any National or Great Wonder will increase your Stability.</Italian>
+		<Spanish>Building the Summer Palace, Courthouse, State Religion Temple or any National or Great Wonder will increase your Stability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_14</Tag>
+		<English>During the period covered by this mod, capitals of many empires changed often. Moving your capital in SoI is cheaper and will not reduce your Stability as badly as in RFC.</English>
+		<French>During the period covered by this mod, capitals of many empires changed often. Moving your capital in SoI is cheaper and will not reduce your Stability as badly as in RFC.</French>
+		<German>Während des von SoI abgedeckten Zeitraums änderten sich die Hauptstädte vieler Imperien häufig. Das Verschieben der Haupstadt in SoI ist billiger und verringert die Stabilität nicht so stark wie in RFC.</German>
+		<Italian>During the period covered by this mod, capitals of many empires changed often. Moving your capital in SoI is cheaper and will not reduce your Stability as badly as in RFC.</Italian>
+		<Spanish>During the period covered by this mod, capitals of many empires changed often. Moving your capital in SoI is cheaper and will not reduce your Stability as badly as in RFC.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_15</Tag>
+		<English>Timur was a great patron of the arts. He would order his soldiers to massacre whole cities, including women and children, but he would also gather the most talented artistans and send them to Samarkand, where they could work on the city's legacy.</English>
+		<French>Timur was a great patron of the arts. He would order his soldiers to massacre whole cities, including women and children, but he would also gather the most talented artistans and send them to Samarkand, where they could work on the city's legacy.</French>
+		<German>Timur war ein großer Förderer der Künste. Er befahl seinen Soldaten, ganze Städte zu massakrieren, einschließlich Frauen und Kinder, aber er sammelte auch die talentiertesten Künstler und schickte sie nach Samarkand, wo sie am Erbe der Stadt arbeiten konnten.</German>
+		<Italian>Timur was a great patron of the arts. He would order his soldiers to massacre whole cities, including women and children, but he would also gather the most talented artistans and send them to Samarkand, where they could work on the city's legacy.</Italian>
+		<Spanish>Timur was a great patron of the arts. He would order his soldiers to massacre whole cities, including women and children, but he would also gather the most talented artistans and send them to Samarkand, where they could work on the city's legacy.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_16</Tag>
+		<English>Muslim scholars are credited for inventing the alembic, kerosene lamp, sextant, prefabricated homes, finery forge, spinning wheel, guitar, sticking plaster, solid lipstick and more. They were also the first to produce distilled alcohol, coffee, confectionery, kerosene and petrol.</English>
+		<French>Muslim scholars are credited for inventing the alembic, kerosene lamp, sextant, prefabricated homes, finery forge, spinning wheel, guitar, sticking plaster, solid lipstick and more. They were also the first to produce distilled alcohol, coffee, confectionery, kerosene and petrol.</French>
+		<German>Muslimischen Scholaren wird die Erfindung des Destillierkolbens, der Petroleumlampe, des Sextanten, der Fertighäuser, der Frischofen, des Spinnrads, der Gitarre, des Heftpflasters, des festen Lippenstifts und mehr zugeschrieben. Sie waren auch die ersten, die destillierten Alkohol, Kaffee, Süßwaren, Kerosin und Benzin herstellten.</German>
+		<Italian>Muslim scholars are credited for inventing the alembic, kerosene lamp, sextant, prefabricated homes, finery forge, spinning wheel, guitar, sticking plaster, solid lipstick and more. They were also the first to produce distilled alcohol, coffee, confectionery, kerosene and petrol.</Italian>
+		<Spanish>Muslim scholars are credited for inventing the alembic, kerosene lamp, sextant, prefabricated homes, finery forge, spinning wheel, guitar, sticking plaster, solid lipstick and more. They were also the first to produce distilled alcohol, coffee, confectionery, kerosene and petrol.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_16</Tag>
+		<English>Mughal emperors were Persianized Mongols and descendants of Timur and Genghis Khan. They built a long-lasting Islamic empire spanning nearly all of modern India, Bengal, Pakistan and Afghanistan.</English>
+		<French>Mughal emperors were Persianized Mongols and descendants of Timur and Genghis Khan. They built a long-lasting Islamic empire spanning nearly all of modern India, Bengal, Pakistan and Afghanistan.</French>
+		<German>Die Mogule waren persische Mongolen und Nachkommen von Timur und Dschingis Khan. Sie bauten ein langlebiges islamisches Reich auf, das sich über fast das gesamte moderne Indien, Bengalen, Pakistan und Afghanistan erstreckte.</German>
+		<Italian>Mughal emperors were Persianized Mongols and descendants of Timur and Genghis Khan. They built a long-lasting Islamic empire spanning nearly all of modern India, Bengal, Pakistan and Afghanistan.</Italian>
+		<Spanish>Mughal emperors were Persianized Mongols and descendants of Timur and Genghis Khan. They built a long-lasting Islamic empire spanning nearly all of modern India, Bengal, Pakistan and Afghanistan.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_17</Tag>
+		<English>Makuria was a medieval Christian kingdom in Nubia. Nubians were one of the few to resist Muslim conquests, defeating Arab armies in two decisive battles at Dongola. This allowed the kingdom to survive for 600 more years, until it collapsed due to internal strife.</English>
+		<French>Makuria was a medieval Christian kingdom in Nubia. Nubians were one of the few to resist Muslim conquests, defeating Arab armies in two decisive battles at Dongola. This allowed the kingdom to survive for 600 more years, until it collapsed due to internal strife.</French>
+		<German>Makuria war ein mittelalterliches christliches Königreich in Nubien. Die Nubier gehörten zu den wenigen, die sich muslimischen Eroberungen widersetzten und arabische Armeen in zwei entscheidenden Schlachten bei Dongola besiegten. Dadurch konnte das Königreich weitere 600 Jahre überleben, bis es aufgrund interner Streitigkeiten zusammenbrach.</German>
+		<Italian>Makuria was a medieval Christian kingdom in Nubia. Nubians were one of the few to resist Muslim conquests, defeating Arab armies in two decisive battles at Dongola. This allowed the kingdom to survive for 600 more years, until it collapsed due to internal strife.</Italian>
+		<Spanish>Makuria was a medieval Christian kingdom in Nubia. Nubians were one of the few to resist Muslim conquests, defeating Arab armies in two decisive battles at Dongola. This allowed the kingdom to survive for 600 more years, until it collapsed due to internal strife.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_18</Tag>
+		<English>The famous model for the recurring rise and fall of civilizations (Asabiyyah) was invented by a Muslim scholar Ibn Khaldun in the late 14th century.</English>
+		<French>The famous model for the recurring rise and fall of civilizations (Asabiyyah) was invented by a Muslim scholar Ibn Khaldun in the late 14th century.</French>
+		<German>Das berühmte Modell für des wiederkehrenden Aufstiegs und Fall von Zivilisationen (Asabiyyah) wurde Ende des 14. Jahrhunderts von einem muslimischen Gelehrten Ibn Khaldun erfunden.</German>
+		<Italian>The famous model for the recurring rise and fall of civilizations (Asabiyyah) was invented by a Muslim scholar Ibn Khaldun in the late 14th century.</Italian>
+		<Spanish>The famous model for the recurring rise and fall of civilizations (Asabiyyah) was invented by a Muslim scholar Ibn Khaldun in the late 14th century.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_19</Tag>
+		<English>Hold down the [CTRL] key to highlight the province's borders on the map.</English>
+		<French>Hold down the [CTRL] key to highlight the province's borders on the map.</French>
+		<German>Haltet die [STRG]-Taste gedrückt, um die Provinzen auf der Karte hervorzuheben.</German>
+		<Italian>Hold down the [CTRL] key to highlight the province's borders on the map.</Italian>
+		<Spanish>Hold down the [CTRL] key to highlight the province's borders on the map.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_20</Tag>
+		<English>Press [CTRL + K] to toggle the Stability Overlay on/off.</English>
+		<French>Press [CTRL + K] to toggle the Stability Overlay on/off.</French>
+		<German>Drückt [STRG + K] um den Stabilitätsanzeiger ein-/auszuschalten.</German>
+		<Italian>Press [CTRL + K] to toggle the Stability Overlay on/off.</Italian>
+		<Spanish>Press [CTRL + K] to toggle the Stability Overlay on/off.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_SOI_21</Tag>
+		<English>In the Sword of Islam, human players can be vassals of the AI.</English>
+		<French>In the Sword of Islam, human players can be vassals of the AI.</French>
+		<German>In Sword of Islam können menschliche Spieler Vasallen der AI werden.</German>
+		<Italian>In the Sword of Islam, human players can be vassals of the AI.</Italian>
+		<Spanish>In the Sword of Islam, human players can be vassals of the AI.</Spanish>
+	</TEXT>
+</Civ4GameText>

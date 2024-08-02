@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_URV_HINDUISM1</Tag>
+		<English>Dharma: Become a Royal Saint</English>
+		<French>Dharma: Become a Royal Saint</French>
+		<German>Dharma: Werdet ein königlicher Heiliger</German>
+		<Italian>Dharma: Become a Royal Saint</Italian>
+		<Spanish>Dharma: Become a Royal Saint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_HINDUISM2</Tag>
+		<English>Artha: Ensure that the Hindu holy city generates at least 100 Gold per Turn</English>
+		<French>Artha: Ensure that the Hindu holy city generates at least 100 Gold per Turn</French>
+		<German>Artha: Stellt sicher, dass die Heilige Stadt der Hindus mindestens 100 Gold pro Runde generiert</German>
+		<Italian>Artha: Ensure that the Hindu holy city generates at least 100 Gold per Turn</Italian>
+		<Spanish>Artha: Ensure that the Hindu holy city generates at least 100 Gold per Turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_HINDUISM3</Tag>
+		<English>Kama: Control the most populous province on the map</English>
+		<French>Kama: Control the most populous province on the map</French>
+		<German>Kama: Kontrolliert die bevölkerungsreichste Provinz auf der Karte</German>
+		<Italian>Kama: Control the most populous province on the map</Italian>
+		<Spanish>Kama: Control the most populous province on the map</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CATHOLICISM1</Tag>
+		<English>Devotion: Ensure that at least three Christian Relics are recovered and brought to Jerusalem</English>
+		<French>Devotion: Ensure that at least three Christian Relics are recovered and brought to Jerusalem</French>
+		<German>Andacht: Stellt drei christliche Relikte in Jerusalem sicher</German>
+		<Italian>Devotion: Ensure that at least three Christian Relics are recovered and brought to Jerusalem</Italian>
+		<Spanish>Devotion: Ensure that at least three Christian Relics are recovered and brought to Jerusalem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_CATHOLICISM2</Tag>
+		<English>Keys of Heaven: Have three vassals of three different religions</English>
+		<French>Keys of Heaven: Have three vassals of three different religions</French>
+		<German>Schlüssel des Himmels: Besitzt drei Vasallen von drei verschiedenen Religionen</German>
+		<Italian>Keys of Heaven: Have three vassals of three different religions</Italian>
+		<Spanish>Keys of Heaven: Have three vassals of three different religions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_CATHOLICISM3</Tag>
+		<English>One Faith, One Baptism, One Church: Make Catholicism more popular than Orthodox faith</English>
+		<French>One Faith, One Baptism, One Church: Make Catholicism more popular than Orthodox faith</French>
+		<German>Ein Glaube, eine Taufe, eine Kirche: Macht den Katholizismus einflussreicher als die Orthodoxie</German>
+		<Italian>One Faith, One Baptism, One Church: Make Catholicism more popular than Orthodox faith</Italian>
+		<Spanish>One Faith, One Baptism, One Church: Make Catholicism more popular than Orthodox faith</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_URV_ORTHODOXY1</Tag>
+		<English>Four Eastern Patriarchs: Ensure that there is an Orthodox Cathedral in every apostolic see</English>
+		<French>Four Eastern Patriarchs: Ensure that there is an Orthodox Cathedral in every apostolic see</French>
+		<German>Vier östliche Patriarchen: Sorgt für eine orthodoxe Kathedrale in jedem Apostolischen Stuhl</German>
+		<Italian>Four Eastern Patriarchs: Ensure that there is an Orthodox Cathedral in every apostolic see</Italian>
+		<Spanish>Four Eastern Patriarchs: Ensure that there is an Orthodox Cathedral in every apostolic see</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_ORTHODOXY2</Tag>
+		<English>Love One Another: Become friendly with any five leaders</English>
+		<French>Love One Another: Become friendly with any five leaders</French>
+		<German>Lieben Sie einander: Werdet mit fünf beliebigen Anführern befreundet</German>
+		<Italian>Love One Another: Become friendly with any five leaders</Italian>
+		<Spanish>Love One Another: Become friendly with any five leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_ORTHODOXY3</Tag>
+		<English>Personal Salvation: Become a Royal Saint</English>
+		<French>Personal Salvation: Become a Royal Saint</French>
+		<German>Persönliche Erlösung: Werdet ein königlicher Heiliger</German>
+		<Italian>Personal Salvation: Become a Royal Saint</Italian>
+		<Spanish>Personal Salvation: Become a Royal Saint</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_URV_SUNNI1</Tag>
+		<English>Shahadah: Spread Sunni Islam to 50%</English>
+		<French>Shahadah: Spread Sunni Islam to 50%</French>
+		<German>Shahadah: Verbreitet den sunnitischen Islam auf 50 %</German>
+		<Italian>Shahadah: Spread Sunni Islam to 50%</Italian>
+		<Spanish>Shahadah: Spread Sunni Islam to 50%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_SUNNI2</Tag>
+		<English>Hajj: Ensure that seven different Great People settle in Mecca</English>
+		<French>Hajj: Ensure that seven different Great People settle in Mecca</French>
+		<German>Hajj: Stellt sicher, dass sich sieben verschiedene Große Persönlichkeiten in Mekka niederlassen</German>
+		<Italian>Hajj: Ensure that seven different Great People settle in Mecca</Italian>
+		<Spanish>Hajj: Ensure that seven different Great People settle in Mecca</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_SUNNI3</Tag>
+		<English>Jihad: Become a Royal Saint</English>
+		<French>Jihad: Become a Royal Saint</French>
+		<German>Dschihad: Werdet ein königlicher Heiliger</German>
+		<Italian>Jihad: Become a Royal Saint</Italian>
+		<Spanish>Jihad: Become a Royal Saint</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_URV_SHIA1</Tag>
+		<English>Twelve Imams: Ensure that eleven Great Saints are settled in cities under Shia control</English>
+		<French>Twelve Imams: Ensure that eleven Great Saints are settled in cities under Shia control</French>
+		<German>Zwölf Imame: Stellt elf Große Heilige in Städten unter schiitischer Kontrolle sicher</German>
+		<Italian>Twelve Imams: Ensure that eleven Great Saints are settled in cities under Shia control</Italian>
+		<Spanish>Twelve Imams: Ensure that eleven Great Saints are settled in cities under Shia control</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_SHIA2</Tag>
+		<English>Holy Sites: Control Mecca, Medina, Kufah and three Islamic Relics</English>
+		<French>Holy Sites: Control Mecca, Medina, Kufah and three Islamic Relics</French>
+		<German>Heilige Stätten: Kontrolliert Mekka, Medina, Kufa und drei islamische Relikte</German>
+		<Italian>Holy Sites: Control Mecca, Medina, Kufah and three Islamic Relics</Italian>
+		<Spanish>Holy Sites: Control Mecca, Medina, Kufah and three Islamic Relics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_URV_SHIA3</Tag>
+		<English>Minority No More: Make Shia Islam the dominant religion on the map</English>
+		<French>Minority No More: Make Shia Islam the dominant religion on the map</French>
+		<German>Keine Minderheit mehr: Macht den schiitischen Islam zur dominierenden Religion</German>
+		<Italian>Minority No More: Make Shia Islam the dominant religion on the map</Italian>
+		<Spanish>Minority No More: Make Shia Islam the dominant religion on the map</Spanish>
+	</TEXT>
+
+</Civ4GameText>

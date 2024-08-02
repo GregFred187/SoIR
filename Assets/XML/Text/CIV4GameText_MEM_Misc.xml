@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_RELIC</Tag>
+		<English>Relics</English>
+		<French>Relics</French>
+		<German>Relikte</German>
+		<Italian>Relics</Italian>
+		<Spanish>Relics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_TRADED_UNIT_TO_YOU</Tag>
+		<English>%s1 has traded %s2 to you.</English>
+		<French>%s1 vous a vendu [NUM2:un:une:des:des] %s2.</French>
+		<German>%s1 hat %s2 an Dich verkauft.</German>
+		<Italian>%s1 has traded %s2 to you.</Italian>
+		<Spanish>%s1 has traded %s2 to you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_STEAL_RELIC</Tag>
+		<English>Steal Relic</English>
+		<French>Steal Relic</French>
+		<German>Relikt stehlen</German>
+		<Italian>Steal Relic</Italian>
+		<Spanish>Steal Relic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REQUIRES_STATE_RELIGION</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires matching State Religion[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]La religion d'Etat doit &#234;tre pr&#233;sente dans cette ville[COLOR_REVERT]</French>
+		<German>[COLOR_WARNING_TEXT]Staatsreligion muss in der Stadt vorhanden sein[COLOR_REVERT]</German>
+		<Italian>[COLOR_WARNING_TEXT]deve essere presente la religione di stato in citt&#224;[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_WARNING_TEXT]La religi&#243;n oficial ha de estar presente en la ciudad[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS</Tag>
+		<English>Religious</English>
+		<French>Religious</French>
+		<German>Religiös</German>
+		<Italian>Religious</Italian>
+		<Spanish>Religious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS_PEDIA</Tag>
+		<English>Religious Victory</English>
+		<French>Religious Victory</French>
+		<German>Religiöser Sieg</German>
+		<Italian>Religious Victory</Italian>
+		<Spanish>Religious Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_1</Tag>
+		<English>Suleiman the Magnificent</English>
+		<French>
+			<Text>Suleiman the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Suleiman der Prächtige</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Suleiman the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Suleiman the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_2</Tag>
+		<English>Tamerlane</English>
+		<French>
+			<Text>Tamerlane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Timur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tamerlane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tamerlane</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_3</Tag>
+		<English>Hulagu Khan</English>
+		<French>
+			<Text>Hulagu Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Hülegü Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Hulagu Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hulagu Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_4</Tag>
+		<English>Mehmed II</English>
+		<French>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mehmed II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_5</Tag>
+		<English>Shah Ismail</English>
+		<French>
+			<Text>Shah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Schah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Shah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Shah Ismail</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_6</Tag>
+		<English>Manuel I Komnenos</English>
+		<French>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Manuel I Komnenos</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_7</Tag>
+		<English>Babur</English>
+		<French>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Babur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_8</Tag>
+		<English>Baibars</English>
+		<French>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Baibars</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_9</Tag>
+		<English>Sher Shah Suri</English>
+		<French>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sher Shah Suri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_10</Tag>
+		<English>Hemu Vikramaditya</English>
+		<French>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hemu Vikramaditya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_11</Tag>
+		<English>Saladin</English>
+		<French>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Saladin</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_12</Tag>
+		<English>Mahmud of Ghazni</English>
+		<French>
+			<Text>Mahmud of Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mahmud von Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mahmud of Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mahmud of Ghazni</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_13</Tag>
+		<English>Al-Mutawakkil</English>
+		<French>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Al-Mutawakkil</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_14</Tag>
+		<English>Qutb-ud-din Aybak</English>
+		<French>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Qutb-ud-din Aybak</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_15</Tag>
+		<English>David the Builder</English>
+		<French>
+			<Text>David the Builder</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Dawit der Erbauer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>David the Builder</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>David the Builder</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_16</Tag>
+		<English>Imad ad-Din Zengi</English>
+		<French>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imad ad-Din Zengi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_17</Tag>
+		<English>Malik Shah</English>
+		<French>
+			<Text>Malik Shah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Malik Schah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Malik Shah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Malik Shah</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_18</Tag>
+		<English>Levon the Magnificent</English>
+		<French>
+			<Text>Levon the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Levon der Prächtige</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Levon the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Levon the Magnificent</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_19</Tag>
+		<English>Constantine XI</English>
+		<French>
+			<Text>Constantine XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Konstantin XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Constantine XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Constantine XI</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DQ_LEADER_NAME_20</Tag>
+		<English>Guy of Lusignan</English>
+		<French>
+			<Text>Guy of Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Guido von Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Guy of Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Guy of Lusignan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TECH_GAINED_FROM_PLAYER</Tag>
+		<English>[ICON_BULLET]Gain knowledge of [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Acqu&#233;rir la connaissance de : [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Wissen &#252;ber [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] erwerben</German>
+		<Italian>[ICON_BULLET]Ottieni la conoscenza di [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Adquirir el conocimiento [NUM1:del:de la:de los:de las] [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TECH_GAINED_FROM_PLAYER_PERCENT</Tag>
+		<English>[ICON_BULLET]%D1_num[ICON_RESEARCH] towards [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Plus que %D1_num[ICON_RESEARCH] avant la d&#233;couverte de : [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]%D1_num[ICON_RESEARCH] f&#252;r die Technologie [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]%D1_num[ICON_RESEARCH] verso [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]%D1_num [ICON_RESEARCH] hacia [NUM2:el:la:los:las] [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_OVERLAY_WIDGET</Tag>
+		<English>Toggle Stability Display</English>
+		<French>Toggle Stability Display</French>
+		<German>Stabilitätsanzeige umschalten</German>
+		<Italian>Toggle Stability Display</Italian>
+		<Spanish>Toggle Stability Display</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STABILITY_OVERLAY_HELP</Tag>
+		<English>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</English>
+		<French>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</French>
+		<German>[COLOR_HIGHLIGHT_CORE]Kerngebiet:[COLOR_REVERT] Strafe für Verlust[NEWLINE][COLOR_HIGHLIGHT_BORDER]Historisches Gebiet:[COLOR_REVERT] Keine Strafe[NEWLINE][COLOR_HIGHLIGHT_CONTESTED]Umkämpftes Gebiet:[COLOR_REVERT] Strafe für Expansion,[NEWLINE]   Risiko für Revolte[NEWLINE][COLOR_HIGHLIGHT_OUTSIDE]Grenzgebiet[COLOR_REVERT]: Strafe für Expansion[NEWLINE][COLOR_HIGHLIGHT_FOREIGN]Ausland:[COLOR_REVERT] Große Strafe und Risiko für [NEWLINE]   Revolte</German>
+		<Italian>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</Italian>
+		<Spanish>Cyan: core area; penalty if lost[NEWLINE]Green: border area; no penalty[NEWLINE]Yellow: contested area; penalty for occupation, revolt risk[NEWLINE]Orange: foreign area; penalty for expansion[NEWLINE]Red: foreign core; large penalty and revolt risk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_CORE</Tag>
+		<English>(core province)</English>
+		<French>(core province)</French>
+		<German>(Kerngebiet)</German>
+		<Italian>(core province)</Italian>
+		<Spanish>(core province)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_BORDER</Tag>
+		<English>(border province)</English>
+		<French>(border province)</French>
+		<German>(Historisches Gebiet)</German>
+		<Italian>(border province)</Italian>
+		<Spanish>(border province)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_CONTESTED</Tag>
+		<English>(contested province)</English>
+		<French>(contested province)</French>
+		<German>(Umkämpftes Gebiet)</German>
+		<Italian>(contested province)</Italian>
+		<Spanish>(contested province)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOOLTIP_FOREIGN</Tag>
+		<English>(foreign core)</English>
+		<French>(foreign core)</French>
+		<German>(Ausland)</German>
+		<Italian>(foreign core)</Italian>
+		<Spanish>(foreign core)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CIV_DESTROYED</Tag>
+		<English>The %s1_CivName has been destroyed!!!</English>
+		<French>Les %s1_CivName ont &#233;t&#233; &#233;cras&#233;s !</French>
+		<German>Die %s1:3_CivName Zivilisation wurde vernichtet!!!</German>
+		<Italian>La civilt&#224; %s1:4_CivName &#232; stata distrutta!</Italian>
+		<Spanish>&#161;La civilizaci&#243;n %s1:2_CivName ha sido destruida!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FREE_COLONY</Tag>
+		<English>Select the cities to which you wish to grant independence</English>
+		<French>S&#233;lectionnez les colonies auxquelles vous souhaitez accorder l'ind&#233;pendance</French>
+		<German>W&#228;hlt die Kolonien aus, denen Ihr Unabh&#228;ngigkeit verleihen m&#246;chtet</German>
+		<Italian>Seleziona le colonie che vuoi rendere indipendenti</Italian>
+		<Spanish>Seleccionad las colonias que quer&#225;is declarar independientes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVILOPEDIA_CORE_PROVINCES</Tag>
+		<English>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</English>
+		<French>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</French>
+		<German>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Kerngebiet: [COLOR_REVERT]</German>
+		<Italian>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Core Provinces: [COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVILOPEDIA_BORDER_PROVINCES</Tag>
+		<English>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</English>
+		<French>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</French>
+		<German>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Historisches Gebiet: [COLOR_REVERT]</German>
+		<Italian>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Border Provinces: [COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TERROR1</Tag>
+		<English>Citizens of</English>
+		<French>Les citoyens de</French>
+		<German>Die Bürger von</German>
+		<Italian>I cittadini di</Italian>
+		<Spanish>Los ciudadanos de</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TERROR2</Tag>
+		<English>fear the same fate of their neighbour inhabitants and surrender!</English>
+		<French>craignent de subir le même sort que leurs voisins et se rendent !</French>
+		<German>fürchten, dass sie dasselbe Schicksal ereilt wie ihre Nachbarn, und kapitulieren!</German>
+		<Italian>temono di subire lo stesso fato dei vicini e si arrendono!</Italian>
+		<Spanish>temen sufrir el mismo destino que sus vecinos y se rinden.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_CRUSADE</Tag>
+		<English>Franks have established an independent crusader kingdom in Cyprus!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_CILICIA</Tag>
+		<English>Armenian refugees in Cilicia have declared independence!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INDEPENDENCE_TEXT_DELHI</Tag>
+		<English>The Ghulams in Hindustan have declared independence!</English>
+		<French>Les villes %s1 ont déclaré leur indépendance par rapport à la domination étrangère !</French>
+		<German>%s1:3 St&#228;dte haben ihre Unabh&#228;ngigkeit von der Fremdherrschaft erkl&#228;rt!</German>
+		<Italian>Le citt&#224; %s1:4 hanno dichiarato la propria indipendenza dal dominio straniero!</Italian>
+		<Spanish>Las ciudades %s1:4 han declarado su independencia del dominio extranjero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
+		<English>THE SWORD OF ISLAM</English>
+		<French>THE SWORD OF ISLAM</French>
+		<German>THE SWORD OF ISLAM</German>
+		<Italian>THE SWORD OF ISLAM</Italian>
+		<Spanish>THE SWORD OF ISLAM</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_0</Tag>
+		<English>It is the year 750 AD. Plagued by the Arab and Bulgarian invaders, as well as the economic and religious instability, the empire has been severely weakened. Fortunately, the advance of Muslim armies into the heartland of the empire has been halted. It is time to bring the Roman Empire back to its former glory!</English>
+		<French>It is the year 750 AD. Plagued by the Arab and Bulgarian invaders, as well as the economic and religious instability, the empire has been severely weakened. Fortunately, the advance of Muslim armies into the heartland of the empire has been halted. It is time to bring the Roman Empire back to its former glory!</French>
+		<German>Es ist das Jahr 750 n. Chr. Das Reich wurde von den arabischen und bulgarischen Invasoren sowie der wirtschaftlichen und religiösen Instabilität geplagt und stark geschwächt. Glücklicherweise wurde der Vormarsch muslimischer Armeen in das Kernland des Reiches gestoppt. Es ist an der Zeit, dem Römischen Reich wieder zu seinem früheren Glanz zu verhelfen!</German>
+		<Italian>It is the year 750 AD. Plagued by the Arab and Bulgarian invaders, as well as the economic and religious instability, the empire has been severely weakened. Fortunately, the advance of Muslim armies into the heartland of the empire has been halted. It is time to bring the Roman Empire back to its former glory!</Italian>
+		<Spanish>It is the year 750 AD. Plagued by the Arab and Bulgarian invaders, as well as the economic and religious instability, the empire has been severely weakened. Fortunately, the advance of Muslim armies into the heartland of the empire has been halted. It is time to bring the Roman Empire back to its former glory!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_1</Tag>
+		<English>It is the year 750 AD. Muslims have conquered most of the Middle East and Africa, including Egypt, but here, in Nubian Dongola, they suffered an embarassing defeat, not once, but twice. Take advantage of the resulting peace and build a Christian kingdom that can survive alone in a world dominated by Islam.</English>
+		<French>It is the year 750 AD. Muslims have conquered most of the Middle East and Africa, including Egypt, but here, in Nubian Dongola, they suffered an embarassing defeat, not once, but twice. Take advantage of the resulting peace and build a Christian kingdom that can survive alone in a world dominated by Islam.</French>
+		<German>Es ist das Jahr 750 n. Chr. Muslime haben den größten Teil des Nahen Ostens und Afrikas, einschließlich Ägypten, erobert, aber hier, im nubischen Dongola, haben sie durch Euch nicht nur einmal, sondern zweimal eine peinliche Niederlage erlitten. Nutzet den daraus resultierenden Frieden und baut ein christliches Königreich auf, das in einer vom Islam dominierten Welt allein überleben kann.</German>
+		<Italian>It is the year 750 AD. Muslims have conquered most of the Middle East and Africa, including Egypt, but here, in Nubian Dongola, they suffered an embarassing defeat, not once, but twice. Take advantage of the resulting peace and build a Christian kingdom that can survive alone in a world dominated by Islam.</Italian>
+		<Spanish>It is the year 750 AD. Muslims have conquered most of the Middle East and Africa, including Egypt, but here, in Nubian Dongola, they suffered an embarassing defeat, not once, but twice. Take advantage of the resulting peace and build a Christian kingdom that can survive alone in a world dominated by Islam.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_2</Tag>
+		<English>It is the year 750 AD. The Umayyad Caliphate has descended into civil war, and your faction, the Abbasid dynasty, is victorious. From your new capital in the heart of Mesopotamia, you are expected to re-establish order in the former Umayyad provinces and bring the Caliphate back to its glory.</English>
+		<French>It is the year 750 AD. The Umayyad Caliphate has descended into civil war, and your faction, the Abbasid dynasty, is victorious. From your new capital in the heart of Mesopotamia, you are expected to re-establish order in the former Umayyad provinces and bring the Caliphate back to its glory.</French>
+		<German>Es ist das Jahr 750 n. Chr. Das Umayyaden-Kalifat ist in einen Bürgerkrieg versunken, und Ihre Fraktion, die Abbasiden-Dynastie, ist siegreich. Von Ihrer neuen Hauptstadt im Herzen Mesopotamiens aus wird von Ihnen erwartet, dass Ihr die Ordnung in den ehemaligen Umayyaden-Provinzen wiederherstellt und das Kalifat wieder zu neuem Glanz erweckt.</German>
+		<Italian>It is the year 750 AD. The Umayyad Caliphate has descended into civil war, and your faction, the Abbasid dynasty, is victorious. From your new capital in the heart of Mesopotamia, you are expected to re-establish order in the former Umayyad provinces and bring the Caliphate back to its glory.</Italian>
+		<Spanish>It is the year 750 AD. The Umayyad Caliphate has descended into civil war, and your faction, the Abbasid dynasty, is victorious. From your new capital in the heart of Mesopotamia, you are expected to re-establish order in the former Umayyad provinces and bring the Caliphate back to its glory.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_3</Tag>
+		<English>It is the year 750 AD. The long-time masters of the Chauhan, the Gurjara-Pratihara Empire, is in decline. It is time for the Chauhan to expand from their home in Ajmer, but with no Pratiharas on your side, your clan is the only major force that can defend Hindustan from Muslim assaults.</English>
+		<French>It is the year 750 AD. The long-time masters of the Chauhan, the Gurjara-Pratihara Empire, is in decline. It is time for the Chauhan to expand from their home in Ajmer, but with no Pratiharas on your side, your clan is the only major force that can defend Hindustan from Muslim assaults.</French>
+		<German>Es ist das Jahr 750 n. Chr. Der langjährige Herrscher des Chauhan, das Gurjara-Pratihara-Reich, befindet sich im Niedergang. Es ist an der Zeit, dass die Chauhan von ihrer Heimat in Ajmer aus expandieren, aber ohne Pratiharas auf Ihrer Seite ist Ihr Clan die einzige große Kraft, die Hindustan vor muslimischen Angriffen verteidigen kann.</German>
+		<Italian>It is the year 750 AD. The long-time masters of the Chauhan, the Gurjara-Pratihara Empire, is in decline. It is time for the Chauhan to expand from their home in Ajmer, but with no Pratiharas on your side, your clan is the only major force that can defend Hindustan from Muslim assaults.</Italian>
+		<Spanish>It is the year 750 AD. The long-time masters of the Chauhan, the Gurjara-Pratihara Empire, is in decline. It is time for the Chauhan to expand from their home in Ajmer, but with no Pratiharas on your side, your clan is the only major force that can defend Hindustan from Muslim assaults.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_4</Tag>
+		<English>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</English>
+		<French>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</French>
+		<German>Es ist das Jahr 800 n. Chr. Mit dem Niedergang des Gurjara-Pratihara-Reiches haben sich die Paramaras von Malwa zu einem der mächtigsten Rajput-Clans in Nordindien entwickelt. Wird das kleine Paramara-Königreich Malwa die benachbarten kleinen Rajput-Staaten dominieren und dem Aufkommen des Islam widerstehen?</German>
+		<Italian>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</Italian>
+		<Spanish>It is the year 800 AD. With the Gurjara-Pratihara Empire in decline, the Paramaras of Malwa have become one of the most powerful Rajput clans in Northern India. Will the small Paramara kingdom of Malwa dominate the neighboring petty Rajput states and resist the coming of Islam?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_5</Tag>
+		<English>It is the year 819 AD. The Sassanian Persian Empire is gone. Despite coming from a Zoroastrian theocratic nobility, you decide to convert to Islam and serve as a governor for the Abbasid caliph. For your faithful service, you and your family have been granted Greater Khorasan virtually all for yourselves...</English>
+		<French>It is the year 819 AD. The Sassanian Persian Empire is gone. Despite coming from a Zoroastrian theocratic nobility, you decide to convert to Islam and serve as a governor for the Abbasid caliph. For your faithful service, you and your family have been granted Greater Khorasan virtually all for yourselves...</French>
+		<German>Es ist das Jahr 819 n. Chr. Das sassanidische Perserreich ist verschwunden. Obwohl Ihr einem zoroastrischen theokratischen Adel entstammt, beschließt Ihr, zum Islam zu konvertieren und als Gouverneur für den abbasidischen Kalifen zu dienen. Für Ihren treuen Dienst wurde Ihnen und Ihrer Familie der Großraum Khorasan praktisch ganz für sich allein zugeteilt ...</German>
+		<Italian>It is the year 819 AD. The Sassanian Persian Empire is gone. Despite coming from a Zoroastrian theocratic nobility, you decide to convert to Islam and serve as a governor for the Abbasid caliph. For your faithful service, you and your family have been granted Greater Khorasan virtually all for yourselves...</Italian>
+		<Spanish>It is the year 819 AD. The Sassanian Persian Empire is gone. Despite coming from a Zoroastrian theocratic nobility, you decide to convert to Islam and serve as a governor for the Abbasid caliph. For your faithful service, you and your family have been granted Greater Khorasan virtually all for yourselves...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_6</Tag>
+		<English>It is the year 861 AD. Armenia has been under foreign rule for centuries. But now your family, the Bagratids, have gained enough power to exploit the unstable political situation of the Greek and Muslim neighbors and force them to recognize you as a king. The Armenian people believe the time is right to restore the ancient kingdom to its former glory!</English>
+		<French>It is the year 861 AD. Armenia has been under foreign rule for centuries. But now your family, the Bagratids, have gained enough power to exploit the unstable political situation of the Greek and Muslim neighbors and force them to recognize you as a king. The Armenian people believe the time is right to restore the ancient kingdom to its former glory!</French>
+		<German>Es ist das Jahr 861 n. Chr. Armenien steht seit Jahrhunderten unter Fremdherrschaft. Aber jetzt hat Ihre Familie, die Bagratiden, genug Macht erlangt, um die instabile politische Situation der griechischen und muslimischen Nachbarn auszunutzen und sie zu zwingen, Euch als König anzuerkennen. Das armenische Volk glaubt, dass es an der Zeit ist, dem alten Königreich seinen früheren Glanz zurückzugeben!</German>
+		<Italian>It is the year 861 AD. Armenia has been under foreign rule for centuries. But now your family, the Bagratids, have gained enough power to exploit the unstable political situation of the Greek and Muslim neighbors and force them to recognize you as a king. The Armenian people believe the time is right to restore the ancient kingdom to its former glory!</Italian>
+		<Spanish>It is the year 861 AD. Armenia has been under foreign rule for centuries. But now your family, the Bagratids, have gained enough power to exploit the unstable political situation of the Greek and Muslim neighbors and force them to recognize you as a king. The Armenian people believe the time is right to restore the ancient kingdom to its former glory!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_7</Tag>
+		<English>It is the year 898 AD. You have been sent to Yemen from Medina to settle disputes between local Bedouin tribes. The mission was a success, and fruited in the establishment of a theocratic state based on Zaidi branch of Shia Islam. The Arab world is still predominantly Sunni, but here in isolation, you shall be safe, at least for now.</English>
+		<French>It is the year 898 AD. You have been sent to Yemen from Medina to settle disputes between local Bedouin tribes. The mission was a success, and fruited in the establishment of a theocratic state based on Zaidi branch of Shia Islam. The Arab world is still predominantly Sunni, but here in isolation, you shall be safe, at least for now.</French>
+		<German>Es ist das Jahr 898 n. Chr. Iht wurdet von Medina in den Jemen geschickt, um Streitigkeiten zwischen lokalen Beduinenstämmen beizulegen. Die Mission war ein Erfolg und führte zur Gründung eines theokratischen Staates auf der Grundlage des zaiditischen Zweigs des schiitischen Islam. Die arabische Welt ist immer noch überwiegend sunnitisch, aber hier in der Isolation sied Ihr zumindest vorerst in Sicherheit.</German>
+		<Italian>It is the year 898 AD. You have been sent to Yemen from Medina to settle disputes between local Bedouin tribes. The mission was a success, and fruited in the establishment of a theocratic state based on Zaidi branch of Shia Islam. The Arab world is still predominantly Sunni, but here in isolation, you shall be safe, at least for now.</Italian>
+		<Spanish>It is the year 898 AD. You have been sent to Yemen from Medina to settle disputes between local Bedouin tribes. The mission was a success, and fruited in the establishment of a theocratic state based on Zaidi branch of Shia Islam. The Arab world is still predominantly Sunni, but here in isolation, you shall be safe, at least for now.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_8</Tag>
+		<English>It is the year 934 AD. Your ancestors were Dailamites which converted from Zoroastrianism to Shia Islam. Now it is time to claim the old title Shahanshah and make the persian traditions great again!</English>
+		<French>It is the year 934 AD. Your ancestors were Dailamites which converted from Zoroastrianism to Shia Islam. Now it is time to claim the old title Shahanshah and make the persian traditions great again!</French>
+		<German>Es ist das Jahr 934 n. Chr. Ihre Vorfahren waren Dailamiten, die vom Zoroastrismus zur Schia konvertierten. Jetzt ist es an der Zeit, den alten Titel Schahanschah zu beanspruchen und die persischen Traditionen wieder groß zu machen!</German>
+		<Italian>It is the year 934 AD. Your ancestors were Dailamites which converted from Zoroastrianism to Shia Islam. Now it is time to claim the old title Shahanshah and make the persian traditions great again!</Italian>
+		<Spanish>It is the year 934 AD. Your ancestors were Dailamites which converted from Zoroastrianism to Shia Islam. Now it is time to claim the old title Shahanshah and make the persian traditions great again!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_9</Tag>
+		<English>It is the year 942 AD. Your clan, the Solanki, a branch of Western Chalukyas, have just conquered Gujarat from the rival Chavdas. The rich lands of Western and Northern Hindustan lay open before you. </English>
+		<French>It is the year 942 AD. Your clan, the Solanki, a branch of Western Chalukyas, have just conquered Gujarat from the rival Chavdas. The rich lands of Western and Northern Hindustan lay open before you.</French>
+		<German>Es ist das Jahr 942 n. Chr. Ihr Clan, die Solanki, ein Zweig der westlichen Chalukyas, hat Gujarat gerade von den rivalisierenden Chavdas erobert. Die reichen Länder des westlichen und nördlichen Hindustan liegen offen vor Ihnen.</German>
+		<Italian>It is the year 942 AD. Your clan, the Solanki, a branch of Western Chalukyas, have just conquered Gujarat from the rival Chavdas. The rich lands of Western and Northern Hindustan lay open before you.</Italian>
+		<Spanish>It is the year 942 AD. Your clan, the Solanki, a branch of Western Chalukyas, have just conquered Gujarat from the rival Chavdas. The rich lands of Western and Northern Hindustan lay open before you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_10</Tag>
+		<English>It is the year 963 AD. Your family has served the Persian Samanid kings for decades, but now, the Samanids are on the verge of collapse. It is high time to bring them down and build an empire of your own.</English>
+		<French>It is the year 963 AD. Your family has served the Persian Samanid kings for decades, but now, the Samanids are on the verge of collapse. It is high time to bring them down and build an empire of your own.</French>
+		<German>Es ist das Jahr 963 n. Chr. Ihre Familie hat den persischen Samanidenkönigen jahrzehntelang gedient, doch jetzt stehen die Samaniden kurz vor dem Zusammenbruch. Es ist höchste Zeit, sie zu besiegen und ein eigenes Imperium aufzubauen.</German>
+		<Italian>It is the year 963 AD. Your family has served the Persian Samanid kings for decades, but now, the Samanids are on the verge of collapse. It is high time to bring them down and build an empire of your own.</Italian>
+		<Spanish>It is the year 963 AD. Your family has served the Persian Samanid kings for decades, but now, the Samanids are on the verge of collapse. It is high time to bring them down and build an empire of your own.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_11</Tag>
+		<English>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</English>
+		<French>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</French>
+		<German>Es ist das Jahr 969 n. Chr. Unter Ihrem Kommando hat die Armee der Fatimiden Ägypten erobert. Das Land hier ist reich und die Menschen haben die Verfolgung durch sunnitische Gouverneure satt. Die ismailitischen Fatimiden sollen Menschen unterschiedlicher Glaubensrichtungen gegenüber offener sein - ihre Hilfe wird im letzten Kampf gegen die Kalifen von Bagdad von entscheidender Bedeutung sein.</German>
+		<Italian>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</Italian>
+		<Spanish>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_12</Tag>
+		<English>It is the year 1008 AD. Through conquest and diplomacy, the realms of Abkhazia and Kartli have been united for the first time into a unified Georgian monarchy. Now it is time to secure the borders of your kingdom, as its marchlands are claimed by all your neighbors, from Byzantium in the West to Arabs and Turks in the Southeast.</English>
+		<French>It is the year 1008 AD. Through conquest and diplomacy, the realms of Abkhazia and Kartli have been united for the first time into a unified Georgian monarchy. Now it is time to secure the borders of your kingdom, as its marchlands are claimed by all your neighbors, from Byzantium in the West to Arabs and Turks in the Southeast.</French>
+		<German>Es ist das Jahr 1008 n. Chr. Durch Eroberung und Diplomatie wurden die Reiche Abchasien und Kartlien erstmals zu einer einheitlichen georgischen Monarchie vereint. Jetzt ist es an der Zeit, die Grenzen Ihres Königreichs zu sichern, da seine Marschgebiete von allen Ihren Nachbarn beansprucht werden, von Byzanz im Westen bis zu Arabern und Türken im Südosten.</German>
+		<Italian>It is the year 1008 AD. Through conquest and diplomacy, the realms of Abkhazia and Kartli have been united for the first time into a unified Georgian monarchy. Now it is time to secure the borders of your kingdom, as its marchlands are claimed by all your neighbors, from Byzantium in the West to Arabs and Turks in the Southeast.</Italian>
+		<Spanish>It is the year 1008 AD. Through conquest and diplomacy, the realms of Abkhazia and Kartli have been united for the first time into a unified Georgian monarchy. Now it is time to secure the borders of your kingdom, as its marchlands are claimed by all your neighbors, from Byzantium in the West to Arabs and Turks in the Southeast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_14</Tag>
+		<English>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</English>
+		<French>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</French>
+		<German>Es ist das Jahr 1037 n. Chr. Ihre Vorfahren waren Steppennomaden, die schließlich zum Islam konvertierten und in den Großraum Iran auswanderten. Schwach und zersplittert sollte es der Vereinigung unter seldschukischen Sultanen nicht widerstehen.</German>
+		<Italian>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</Italian>
+		<Spanish>It is the year 1037 AD. Your ancestors were steppe nomads that eventually converted to Islam and migrated into Greater Iran. Weak and fractured, it should not resist unification under Seljuk sultans.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_13</Tag>
+		<English>It is the year 1011 AD. Long time ago, Arab invaders brought Islam to Sindh, then the easternmost province of the Umayyad Caliphate. But three centuries later, Sindh is ruled by native Shia Sindhis, and maintains only a remote relationship with the dwindling Abbasid Caliphate.</English>
+		<French>It is the year 1011 AD. Long time ago, Arab invaders brought Islam to Sindh, then the easternmost province of the Umayyad Caliphate. But three centuries later, Sindh is ruled by native Shia Sindhis, and maintains only a remote relationship with the dwindling Abbasid Caliphate.</French>
+		<German>Es ist das Jahr 1011 n. Chr. Vor langer Zeit brachten arabische Eindringlinge den Islam nach Sindh, der damals östlichsten Provinz des Umayyaden-Kalifats. Doch drei Jahrhunderte später wird Sindh von einheimischen schiitischen Sindhis regiert und unterhält nur entfernte Beziehungen zum schwindenden abbasidischen Kalifat.</German>
+		<Italian>It is the year 1011 AD. Long time ago, Arab invaders brought Islam to Sindh, then the easternmost province of the Umayyad Caliphate. But three centuries later, Sindh is ruled by native Shia Sindhis, and maintains only a remote relationship with the dwindling Abbasid Caliphate.</Italian>
+		<Spanish>It is the year 1011 AD. Long time ago, Arab invaders brought Islam to Sindh, then the easternmost province of the Umayyad Caliphate. But three centuries later, Sindh is ruled by native Shia Sindhis, and maintains only a remote relationship with the dwindling Abbasid Caliphate.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_15</Tag>
+		<English>It is the year 1072 AD. You have become the ruler of a newly created Seljuk Sultanate in Anatolia, formerly part of the Roman Empire. The land here is rich, even if rugged and arid. But all the port cities, still in Roman hands, are even richer...</English>
+		<French>It is the year 1072 AD. You have become the ruler of a newly created Seljuk Sultanate in Anatolia, formerly part of the Roman Empire. The land here is rich, even if rugged and arid. But all the port cities, still in Roman hands, are even richer...</French>
+		<German>Es ist das Jahr 1072 n. Chr. Ihr seid zum Herrscher eines neu geschaffenen seldschukischen Sultanats in Anatolien geworden, das früher Teil des Römischen Reiches war. Das Land hier ist reich, auch wenn es rau und trocken ist. Aber alle noch in römischer Hand befindlichen Hafenstädte sind noch reicher...</German>
+		<Italian>It is the year 1072 AD. You have become the ruler of a newly created Seljuk Sultanate in Anatolia, formerly part of the Roman Empire. The land here is rich, even if rugged and arid. But all the port cities, still in Roman hands, are even richer...</Italian>
+		<Spanish>It is the year 1072 AD. You have become the ruler of a newly created Seljuk Sultanate in Anatolia, formerly part of the Roman Empire. The land here is rich, even if rugged and arid. But all the port cities, still in Roman hands, are even richer...</Spanish>	
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_16</Tag>
+		<English>It is the year 1077 AD. Khwarezm has been a Seljuk vizierate for some time, but its late rulers have been more and more independent, while maintaing good relations with Seljuk sultans. With so much turmoil in Seljuk Empire, however, it is a matter of time when it will crumble and open itself for conquest.</English>
+		<French>It is the year 1077 AD. Khwarezm has been a Seljuk vizierate for some time, but its late rulers have been more and more independent, while maintaing good relations with Seljuk sultans. With so much turmoil in Seljuk Empire, however, it is a matter of time when it will crumble and open itself for conquest.</French>
+		<German>Es ist das Jahr 1077 n. Chr. Choresm ist seit einiger Zeit ein Wesirat der Seldschuken, aber seine späteren Herrscher wurden immer unabhängiger und pflegten gute Beziehungen zu den seldschukischen Sultanen. Angesichts der großen Unruhen im Seldschukenreich ist es jedoch eine Frage der Zeit, bis es zusammenbricht und sich der Eroberung öffnet.</German>
+		<Italian>It is the year 1077 AD. Khwarezm has been a Seljuk vizierate for some time, but its late rulers have been more and more independent, while maintaing good relations with Seljuk sultans. With so much turmoil in Seljuk Empire, however, it is a matter of time when it will crumble and open itself for conquest.</Italian>
+		<Spanish>It is the year 1077 AD. Khwarezm has been a Seljuk vizierate for some time, but its late rulers have been more and more independent, while maintaing good relations with Seljuk sultans. With so much turmoil in Seljuk Empire, however, it is a matter of time when it will crumble and open itself for conquest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_17</Tag>
+		<English>It is the year 1097 AD. While Baldwin and Tancred headed east towards Edessa, the main army of the First Crusade, largely consisting of your fellow Normans from southern Italy, have laid siege to Antioch. The city's impenetrable walls might pose a problem, but with God on your side, the city will fall.</English>
+		<French>It is the year 1097 AD. While Baldwin and Tancred headed east towards Edessa, the main army of the First Crusade, largely consisting of your fellow Normans from southern Italy, have laid siege to Antioch. The city's impenetrable walls might pose a problem, but with God on your side, the city will fall.</French>
+		<German>Es ist das Jahr 1097 n. Chr. Während Baldwin und Tancred nach Osten in Richtung Edessa aufbrachen, belagerte die Hauptarmee des Ersten Kreuzzugs, die größtenteils aus Ihren normannischen Landsleuten aus Süditalien bestand, Antiochia. Die undurchdringlichen Mauern der Stadt könnten ein Problem darstellen, aber mit Gott an Ihrer Seite wird die Stadt fallen.</German>
+		<Italian>It is the year 1097 AD. While Baldwin and Tancred headed east towards Edessa, the main army of the First Crusade, largely consisting of your fellow Normans from southern Italy, have laid siege to Antioch. The city's impenetrable walls might pose a problem, but with God on your side, the city will fall.</Italian>
+		<Spanish>It is the year 1097 AD. While Baldwin and Tancred headed east towards Edessa, the main army of the First Crusade, largely consisting of your fellow Normans from southern Italy, have laid siege to Antioch. The city's impenetrable walls might pose a problem, but with God on your side, the city will fall.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_18</Tag>
+		<English>It is the year 1099 AD. Having left Bohemond and rest of the Normans behind in Antioch and Edessa, your tired and starved crusader army is finally at the gates of Jerusalem.</English>
+		<French>It is the year 1099 AD. Having left Bohemond and rest of the Normans behind in Antioch and Edessa, your tired and starved crusader army is finally at the gates of Jerusalem.</French>
+		<German>Es ist das Jahr 1099 n. Chr. Nachdem Ihr Bohemond und den Rest der Normannen in Antiochia und Edessa zurückgelassen habt, steht Ihre müde und ausgehungerte Kreuzfahrerarmee endlich vor den Toren Jerusalems.</German>
+		<Italian>It is the year 1099 AD. Having left Bohemond and rest of the Normans behind in Antioch and Edessa, your tired and starved crusader army is finally at the gates of Jerusalem.</Italian>
+		<Spanish>It is the year 1099 AD. Having left Bohemond and rest of the Normans behind in Antioch and Edessa, your tired and starved crusader army is finally at the gates of Jerusalem.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_19</Tag>
+		<English>It is the year 1127 AD. Your became the Seljuk atabeg of Mosul. Now it is in your hands, Nur ad-Din Zengi, to repulse the crusaders from the Levante, establish a new Emirate and become the greatest hero in the Muslim world...</English>
+		<French>It is the year 1127 AD. Your became the Seljuk atabeg of Mosul. Now it is in your hands, Nur ad-Din Zengi, to repulse the crusaders from the Levante, establish a new Emirate and become the greatest hero in the Muslim world...</French>
+		<German>Es ist das Jahr 1127 n. Chr. Ihr wurdet zum seldschukischen Atabeg von Mossul ernannt. Jetzt liegt es in Euren Händen, Nur ad-Din Zengi, die Kreuzfahrer aus der Levante zurückzuschlagen, ein neues Emirat zu errichten und der größte Held der muslimischen Welt zu werden ...</German>
+		<Italian>It is the year 1127 AD. Your became the Seljuk atabeg of Mosul. Now it is in your hands, Nur ad-Din Zengi, to repulse the crusaders from the Levante, establish a new Emirate and become the greatest hero in the Muslim world...</Italian>
+		<Spanish>It is the year 1127 AD. Your became the Seljuk atabeg of Mosul. Now it is in your hands, Nur ad-Din Zengi, to repulse the crusaders from the Levante, establish a new Emirate and become the greatest hero in the Muslim world...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_20</Tag>
+		<English>It is the year 1148 AD. The people of Ghor are only recent converts to Islam, yet showed amazing zeal and ferocity while serving the Ghaznavids and Seljuks. But now, under the Shansabani family, Ghor has grown powerful enough to turn their former lords into vassals, and proceed with the long-planned conquest of India.</English>
+		<French>It is the year 1148 AD. The people of Ghor are only recent converts to Islam, yet showed amazing zeal and ferocity while serving the Ghaznavids and Seljuks. But now, under the Shansabani family, Ghor has grown powerful enough to turn their former lords into vassals, and proceed with the long-planned conquest of India.</French>
+		<German>Es ist das Jahr 1148 n. Chr. Die Menschen in Ghor sind erst kürzlich zum Islam konvertiert, zeigten jedoch erstaunlichen Eifer und Wildheit, als sie den Ghaznaviden und Seldschuken dienten. Aber jetzt ist Ghor unter der Familie Shansabani mächtig genug geworden, um ihre ehemaligen Herren zu Vasallen zu machen und die seit langem geplante Eroberung Indiens fortzusetzen.</German>
+		<Italian>It is the year 1148 AD. The people of Ghor are only recent converts to Islam, yet showed amazing zeal and ferocity while serving the Ghaznavids and Seljuks. But now, under the Shansabani family, Ghor has grown powerful enough to turn their former lords into vassals, and proceed with the long-planned conquest of India.</Italian>
+		<Spanish>It is the year 1148 AD. The people of Ghor are only recent converts to Islam, yet showed amazing zeal and ferocity while serving the Ghaznavids and Seljuks. But now, under the Shansabani family, Ghor has grown powerful enough to turn their former lords into vassals, and proceed with the long-planned conquest of India.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_21</Tag>
+		<English>It is the year 1154 AD. Originally an Ibadi Imamate, Oman fell under foreign domination, first ruled by the Abbasid Caliphs, then by Seljuks of Kerman. But now the native Nabhanis tribe managed to take over the forts of Oman and establish a despotic state ruled by you - the Malik of Oman.</English>
+		<French>It is the year 1154 AD. Originally an Ibadi Imamate, Oman fell under foreign domination, first ruled by the Abbasid Caliphs, then by Seljuks of Kerman. But now the native Nabhanis tribe managed to take over the forts of Oman and establish a despotic state ruled by you - the Malik of Oman.</French>
+		<German>Es ist das Jahr 1154 n. Chr. Ursprünglich ein Ibadi-Imamat, geriet Oman unter ausländische Herrschaft, zuerst von den abbasidischen Kalifen, dann von den Seldschuken von Kerman. Aber jetzt gelang es dem einheimischen Stamm der Nabhani, die Festungen von Oman zu übernehmen und einen despotischen Staat zu errichten, der von Ihnen regiert wird - den Malik von Oman.</German>
+		<Italian>It is the year 1154 AD. Originally an Ibadi Imamate, Oman fell under foreign domination, first ruled by the Abbasid Caliphs, then by Seljuks of Kerman. But now the native Nabhanis tribe managed to take over the forts of Oman and establish a despotic state ruled by you - the Malik of Oman.</Italian>
+		<Spanish>It is the year 1154 AD. Originally an Ibadi Imamate, Oman fell under foreign domination, first ruled by the Abbasid Caliphs, then by Seljuks of Kerman. But now the native Nabhanis tribe managed to take over the forts of Oman and establish a despotic state ruled by you - the Malik of Oman.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_22</Tag>
+		<English>It is the year 1174 AD. You have conquered Egypt on behalf of the Zengid emir of Aleppo, but asserted independence soon after. Now you have enemies in both the Crusaders and the Zengids, but you also have the economic base needed to raise an adequate army.</English>
+		<French>It is the year 1174 AD. You have conquered Egypt on behalf of the Zengid emir of Aleppo, but asserted independence soon after. Now you have enemies in both the Crusaders and the Zengids, but you also have the economic base needed to raise an adequate army.</French>
+		<German>Es ist das Jahr 1174 n. Chr. Ihr habt Ägypten im Auftrag des zengidischen Emirs von Aleppo erobert, aber bald darauf die Unabhängigkeit behauptet. Jetzt habt Ihr sowohl die Kreuzfahrer als auch die Zengiden als Feinde, aber Ihr verfügt auch über die wirtschaftliche Basis, die Ihr benötigt, um eine angemessene Armee aufzustellen.</German>
+		<Italian>It is the year 1174 AD. You have conquered Egypt on behalf of the Zengid emir of Aleppo, but asserted independence soon after. Now you have enemies in both the Crusaders and the Zengids, but you also have the economic base needed to raise an adequate army.</Italian>
+		<Spanish>It is the year 1174 AD. You have conquered Egypt on behalf of the Zengid emir of Aleppo, but asserted independence soon after. Now you have enemies in both the Crusaders and the Zengids, but you also have the economic base needed to raise an adequate army.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_23</Tag>
+		<English>It is the year 1250 AD. For more than two centuries, mamluks served as slave soldiers under caliphs and sultans of Egypt, gaining more and more power and influence. With the passing of the last Ayyubid sultan, Egypt came under the rule of his wife. She in turn, had no choice but to marry you, a mamluk general...</English>
+		<French>It is the year 1250 AD. For more than two centuries, mamluks served as slave soldiers under caliphs and sultans of Egypt, gaining more and more power and influence. With the passing of the last Ayyubid sultan, Egypt came under the rule of his wife. She in turn, had no choice but to marry you, a mamluk general...</French>
+		<German>Es ist das Jahr 1250 n. Chr. Mehr als zwei Jahrhunderte lang dienten Mamluken als Sklavensoldaten unter den Kalifen und Sultanen Ägyptens und erlangten immer mehr Macht und Einfluss. Mit dem Tod des letzten Ayyubiden-Sultans kam Ägypten unter die Herrschaft seiner Frau. Sie wiederum hatte keine andere Wahl, als Euch zu heiraten, einen Mamluken-General ...</German>
+		<Italian>It is the year 1250 AD. For more than two centuries, mamluks served as slave soldiers under caliphs and sultans of Egypt, gaining more and more power and influence. With the passing of the last Ayyubid sultan, Egypt came under the rule of his wife. She in turn, had no choice but to marry you, a mamluk general...</Italian>
+		<Spanish>It is the year 1250 AD. For more than two centuries, mamluks served as slave soldiers under caliphs and sultans of Egypt, gaining more and more power and influence. With the passing of the last Ayyubid sultan, Egypt came under the rule of his wife. She in turn, had no choice but to marry you, a mamluk general...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_24</Tag>
+		<English>It is the year 1299 AD. Since the collapse of the Seljuk Sultanate in Anatolia, there was no beylik powerful enough to challenge other ghazi emirates, reunite them, and march for the rich Roman cities in Bithynia and Thrace. Until now.</English>
+		<French>It is the year 1299 AD. Since the collapse of the Seljuk Sultanate in Anatolia, there was no beylik powerful enough to challenge other ghazi emirates, reunite them, and march for the rich Roman cities in Bithynia and Thrace. Until now.</French>
+		<German>Es ist das Jahr 1299 n. Chr. Seit dem Zusammenbruch des seldschukischen Sultanats in Anatolien gab es keinen Beylik, der stark genug war, um andere Ghazi-Emirate herauszufordern, sie wieder zu vereinen und in die reichen römischen Städte in Bithynien und Thrakien zu marschieren. Bis jetzt.</German>
+		<Italian>It is the year 1299 AD. Since the collapse of the Seljuk Sultanate in Anatolia, there was no beylik powerful enough to challenge other ghazi emirates, reunite them, and march for the rich Roman cities in Bithynia and Thrace. Until now.</Italian>
+		<Spanish>It is the year 1299 AD. Since the collapse of the Seljuk Sultanate in Anatolia, there was no beylik powerful enough to challenge other ghazi emirates, reunite them, and march for the rich Roman cities in Bithynia and Thrace. Until now.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_25</Tag>
+		<English>It is the year 1347 AD. For a long time you weren't much more than a field laborer. But now the Sultan made you  the commander of a hundred horsemen. This gives you the oppertunity to found an independent kingdom in the Deccan!</English>
+		<French>It is the year 1347 AD. For a long time you weren't much more than a field laborer. But now the Sultan made you  the commander of a hundred horsemen. This gives you the oppertunity to found an independent kingdom in the Deccan!</French>
+		<German>Es ist das Jahr 1347 n. Chr. Lange Zeit wart Ihr nicht viel mehr als ein Feldarbeiter. Aber jetzt hat Euch der Sultan zum Kommandeur von einhundert Reitern ernannt. Dies gibt Euch die Möglichkeit, im Dekkan ein unabhängiges Königreich zu gründen!</German>
+		<Italian>It is the year 1347 AD. For a long time you weren't much more than a field laborer. But now the Sultan made you  the commander of a hundred horsemen. This gives you the oppertunity to found an independent kingdom in the Deccan!</Italian>
+		<Spanish>It is the year 1347 AD. For a long time you weren't much more than a field laborer. But now the Sultan made you  the commander of a hundred horsemen. This gives you the oppertunity to found an independent kingdom in the Deccan!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_26</Tag>
+		<English>It is the year 1370 AD. Your ancestors, Genghis Khan among them, conquered much of the known world. But now, most of that is lost. You have set yourself an ambitious goal of rebuilding the Mongol Empire, and making the city of Samarkand the center of the world!</English>
+		<French>It is the year 1370 AD. Your ancestors, Genghis Khan among them, conquered much of the known world. But now, most of that is lost. You have set yourself an ambitious goal of rebuilding the Mongol Empire, and making the city of Samarkand the center of the world!</French>
+		<German>Es ist das Jahr 1370 n. Chr. Ihre Vorfahren, darunter auch Dschingis Khan, eroberten einen Großteil der bekannten Welt. Aber jetzt ist das meiste davon verloren. Ihr habt Euch das ehrgeizige Ziel gesetzt, das Mongolenreich wieder aufzubauen und die Stadt Samarkand zum Zentrum der Welt zu machen!</German>
+		<Italian>It is the year 1370 AD. Your ancestors, Genghis Khan among them, conquered much of the known world. But now, most of that is lost. You have set yourself an ambitious goal of rebuilding the Mongol Empire, and making the city of Samarkand the center of the world!</Italian>
+		<Spanish>It is the year 1370 AD. Your ancestors, Genghis Khan among them, conquered much of the known world. But now, most of that is lost. You have set yourself an ambitious goal of rebuilding the Mongol Empire, and making the city of Samarkand the center of the world!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_27</Tag>
+		<English>It is the year 1402 AD. The various Turkoman tribes comprising the Federation of the White Sheep have been living in Eastern Anatolia for some time. But now, Timur has granted you the land of Diyarbakir. It's time to take advantage of your weak neighbors and expand your territory!</English>
+		<French>It is the year 1402 AD. The various Turkoman tribes comprising the Federation of the White Sheep have been living in Eastern Anatolia for some time. But now, Timur has granted you the land of Diyarbakir. It's time to take advantage of your weak neighbors and expand your territory!</French>
+		<German>Es ist das Jahr 1402 n. Chr. Die verschiedenen turkmenischen Stämme, aus denen sich die Föderation der Weißen Hammeln zusammensetzt, leben seit einiger Zeit in Ostanatolien. Aber jetzt hat Timur Ihnen das Land Diyarbakir geschenkt. Es ist Zeit, Ihre schwachen Nachbarn auszunutzen und Ihr Territorium zu erweitern!</German>
+		<Italian>It is the year 1402 AD. The various Turkoman tribes comprising the Federation of the White Sheep have been living in Eastern Anatolia for some time. But now, Timur has granted you the land of Diyarbakir. It's time to take advantage of your weak neighbors and expand your territory!</Italian>
+		<Spanish>It is the year 1402 AD. The various Turkoman tribes comprising the Federation of the White Sheep have been living in Eastern Anatolia for some time. But now, Timur has granted you the land of Diyarbakir. It's time to take advantage of your weak neighbors and expand your territory!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_28</Tag>
+		<English>It is the year 1501 AD. Backed by the Safaviyyeh Sufi order and local Shia Qizilbashi tribes, your family has gained firm control of Azerbaijan. After the devastating invasions of Hulegu Khan and Timur, Iran has been shattered into numerous small and weak states - a perfect opportunity for you to expand!</English>
+		<French>It is the year 1501 AD. Backed by the Safaviyyeh Sufi order and local Shia Qizilbashi tribes, your family has gained firm control of Azerbaijan. After the devastating invasions of Hulegu Khan and Timur, Iran has been shattered into numerous small and weak states - a perfect opportunity for you to expand!</French>
+		<German>Es ist das Jahr 1501 n. Chr. Mit der Unterstützung des Safaviyyeh-Sufi-Ordens und der örtlichen schiitischen Qizilbashi-Stämme hat Euer Haus die feste Kontrolle über Aserbaidschan erlangt. Nach den verheerenden Invasionen von Hulegü Khan und Timur ist der Iran in zahlreiche kleine und schwache Staaten zerfallen - eine perfekte Gelegenheit für Euch, zu expandieren!</German>
+		<Italian>It is the year 1501 AD. Backed by the Safaviyyeh Sufi order and local Shia Qizilbashi tribes, your family has gained firm control of Azerbaijan. After the devastating invasions of Hulegu Khan and Timur, Iran has been shattered into numerous small and weak states - a perfect opportunity for you to expand!</Italian>
+		<Spanish>It is the year 1501 AD. Backed by the Safaviyyeh Sufi order and local Shia Qizilbashi tribes, your family has gained firm control of Azerbaijan. After the devastating invasions of Hulegu Khan and Timur, Iran has been shattered into numerous small and weak states - a perfect opportunity for you to expand!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_29</Tag>
+		<English>It is the year 1509 AD. 11 years ago, the great explorer Vasco da Gama reached India. The aim of Portugal in the Indian Ocean is to ensure the monopoly of the spice trade. Goa was taken from the Bijapur sultanate in 1510 with the help of Hindu privateer Timoji. It's now on yours, Albuquerque, to take the oppertunity and make Goa, the best port in the region, the capital of the rising Esato de India...</English>
+		<French>It is the year 1509 AD. 11 years ago, the great explorer Vasco da Gama reached India. The aim of Portugal in the Indian Ocean is to ensure the monopoly of the spice trade. Goa was taken from the Bijapur sultanate in 1510 with the help of Hindu privateer Timoji. It's now on yours, Albuquerque, to take the oppertunity and make Goa, the best port in the region, the capital of the rising Esato de India...</French>
+		<German>Es ist das Jahr 1509 n. Chr. Vor 11 Jahren erreichte der große Entdecker Vasco da Gama Indien. Ziel Portugals im Indischen Ozean ist es, das Monopol des Gewürzhandels zu sichern. 1510 wurde Goa mit Hilfe des hinduistischen Freibeuters Timoji vom Sultanat Bijapur erobert. Jetzt liegt es an Ihnen, Albuquerque, die Gelegenheit zu nutzen und Goa, den besten Hafen der Region, zur Hauptstadt der aufstrebenden Esato de India zu machen ...</German>
+		<Italian>It is the year 1509 AD. 11 years ago, the great explorer Vasco da Gama reached India. The aim of Portugal in the Indian Ocean is to ensure the monopoly of the spice trade. Goa was taken from the Bijapur sultanate in 1510 with the help of Hindu privateer Timoji. It's now on yours, Albuquerque, to take the oppertunity and make Goa, the best port in the region, the capital of the rising Esato de India...</Italian>
+		<Spanish>It is the year 1509 AD. 11 years ago, the great explorer Vasco da Gama reached India. The aim of Portugal in the Indian Ocean is to ensure the monopoly of the spice trade. Goa was taken from the Bijapur sultanate in 1510 with the help of Hindu privateer Timoji. It's now on yours, Albuquerque, to take the oppertunity and make Goa, the best port in the region, the capital of the rising Esato de India...</Spanish>	
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT_30</Tag>
+		<English>It is the year 1526 AD. As the rightful heir of Tamerlane, for many years you have sought to become the ruler of Farghana. After losing it to the Uzbeks, you have retreated to Kabul, and from there you decided to march on Hindustan instead. Losing Farghana was a blessing, as these lands are richer than anything you have seen in your life!</English>
+		<French>It is the year 1526 AD. As the rightful heir of Timur, for many years you have sought to become the ruler of Farghana. After losing it to the Uzbeks, you have retreated to Kabul, and from there you decided to march on Hindustan instead. Losing Farghana was a blessing, as these lands are richer than anything you have seen in your life!</French>
+		<German>Es ist das Jahr 1526 n. Chr. Als rechtmäßiger Erbe Timurs habt Ihr viele Jahre lang versucht, der Herrscher von Farghana zu werden. Nachdem Ihr es an die Usbeken verloren hattet, habt Ihr euch nach Kabul zurückgezogen und von dort aus beschlossen, stattdessen nach Hindustan zu marschieren. Der Verlust von Farghana war ein Segen, denn diese Länder sind reicher als alles, was Ihr in Eurem Leben gesehen habt!</German>
+		<Italian>It is the year 1526 AD. As the rightful heir of Timur, for many years you have sought to become the ruler of Farghana. After losing it to the Uzbeks, you have retreated to Kabul, and from there you decided to march on Hindustan instead. Losing Farghana was a blessing, as these lands are richer than anything you have seen in your life!</Italian>
+		<Spanish>It is the year 1526 AD. As the rightful heir of Timur, for many years you have sought to become the ruler of Farghana. After losing it to the Uzbeks, you have retreated to Kabul, and from there you decided to march on Hindustan instead. Losing Farghana was a blessing, as these lands are richer than anything you have seen in your life!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_ESPIONAGE</Tag>
+		<English>Espionage</English>
+		<French>Espionage</French>
+		<German>Spionage</German>
+		<Italian>Espionage</Italian>
+		<Spanish>Espionage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_CALIPH</Tag>
+		<English>Caliph</English>
+		<French>Caliph</French>
+		<German>Kalif</German>
+		<Italian>Caliph</Italian>
+		<Spanish>Caliph</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_SULTAN</Tag>
+		<English>Sultan</English>
+		<French>Sultan</French>
+		<German>Sultan</German>
+		<Italian>Sultan</Italian>
+		<Spanish>Sultan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_EMIR</Tag>
+		<English>Emir</English>
+		<French>Emir</French>
+		<German>Emir</German>
+		<Italian>Emir</Italian>
+		<Spanish>Emir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_1</Tag>
+		<English>The Muslim Conquests Era</English>
+		<French>The Muslim Conquests Era</French>
+		<German>Ära der muslimischen Eroberungen</German>
+		<Italian>The Muslim Conquests Era</Italian>
+		<Spanish>The Muslim Conquests Era</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_2</Tag>
+		<English>The Islamic Golden Age</English>
+		<French>The Islamic Golden Age</French>
+		<German>Das Islamische Goldene Zeitalter</German>
+		<Italian>The Islamic Golden Age</Italian>
+		<Spanish>The Islamic Golden Age</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_3</Tag>
+		<English>The Mongol Invasions Era</English>
+		<French>The Mongol Invasions Era</French>
+		<German>Ära der Mongoleninvasionen</German>
+		<Italian>The Mongol Invasions Era</Italian>
+		<Spanish>The Mongol Invasions Era</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_4</Tag>
+		<English>The Gunpowder Empires Era</English>
+		<French>The Gunpowder Empires Era</French>
+		<German>Ära der Schießpulverreiche</German>
+		<Italian>The Gunpowder Empires Era</Italian>
+		<Spanish>The Gunpowder Empires Era</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_HELP</Tag>
+		<English>Piety Help: %d1 %d2</English>
+		<French>Piety Help: %d1 %d2</French>
+		<German>Glaubenshilfe: %d1 %d2</German>
+		<Italian>Piety Help: %d1 %d2</Italian>
+		<Spanish>Piety Help: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_TITLE</Tag>
+		<English>Piety Level: %d1 %d2</English>
+		<French>Piety Level: %d1 %d2</French>
+		<German>Glaube: %d1 %d2</German>
+		<Italian>Piety Level: %d1 %d2</Italian>
+		<Spanish>Piety Level: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RESEARCH_ESPIONAGE</Tag>
+		<English>RESEARCH:</English>
+		<French>RECHERCHE:</French>
+		<German>FORSCHUNG:</German>
+		<Italian>RICERCA:</Italian>
+		<Spanish>INVESTIGACI&#211;N:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HEALTH_FROM_ESPIONAGE</Tag>
+		<English>%D1_Change[ICON_UNHEALTHY] from Disease</English>
+		<French>%D1_Change[ICON_UNHEALTHY] en raison de Maladie</French>
+		<German>%D1_Change[ICON_UNHEALTHY] durch Krankheit</German>
+		<Italian>%D1_Change[ICON_UNHEALTHY] per Malattia</Italian>
+		<Spanish>%D1_Change [ICON_UNHEALTHY] por Enfermedad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_GOOD</Tag>
+		<English>%D1: "Past events have brought our people together."</English>
+		<French>%D1 : "Les &#233;v&#233;nements pass&#233;s prouvent qu'on peut vous faire confiance."</French>
+		<German>%D1: "Die vergangenen Ereignisse haben Eure guten Absichten bewiesen."</German>
+		<Italian>%D1: "Gli eventi passati hanno unito i nostri popoli."</Italian>
+		<Spanish>%D1: "Los acontecimientos pasados nos han demostrado vuestra bondad."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_BAD</Tag>
+		<English>%D1: "We cannot forget the persecution of our brothers in faith!"</English>
+		<French>%D1 : "Les &#233;v&#233;nements pass&#233;s prouvent qu'on ne peut vous faire confiance."</French>
+		<German>%D1: "Wir können die Verfolgung unserer Glaubensbrüder nicht vergessen!"</German>
+		<Italian>%D1: "Gli eventi passati hanno diviso i nostri popoli."</Italian>
+		<Spanish>%D1: "Los acontecimientos pasados nos han demostrado vuestra maldad. "</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_PERSECUTION</Tag>
+		<English>%D1: "We cannot forget the persecution of our brothers in faith!"</English>
+		<French>%D1 : "Les &#233;v&#233;nements pass&#233;s prouvent qu'on ne peut vous faire confiance."</French>
+		<German>%D1: "Wir können die Verfolgung unserer Glaubensbrüder nicht vergessen!"</German>
+		<Italian>%D1: "Gli eventi passati hanno diviso i nostri popoli."</Italian>
+		<Spanish>%D1: "Los acontecimientos pasados nos han demostrado vuestra maldad. "</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CITY_WAS_TRADED_TO</Tag>
+		<English>%s1_CityName was ceded to the %s2_CivName!</English>
+		<French>%s1_CityName a &#233;t&#233; &#233;chang&#233; &#224; %s2_CivName!</French>
+		<German>Die Stadt %s1_CityName wurde an das %s2:2_CivName &#252;bereignet!</German>
+		<Italian>%s1_CityName &#232; stata ceduta a %s2_CivName!</Italian>
+		<Spanish>&#161;%s1_CityName ha sido cedida al %s2_CivName!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_CORPORATIONS</Tag>
+		<English>Companies</English>
+		<French>Companies</French>
+		<German>Unternehmen</German>
+		<Italian>Companies</Italian>
+		<Spanish>Companies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_CONCEPT_NEW</Tag>
+		<English>BTS Concepts</English>
+		<French>BTS Concepts</French>
+		<German>BTS Konzepte</German>
+		<Italian>BTS Concepts</Italian>
+		<Spanish>BTS Concepts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_WORLD_WONDER</Tag>
+		<English>World Wonders</English>
+		<French>World Wonders</French>
+		<German>Weltwunder</German>
+		<Italian>World Wonders</Italian>
+		<Spanish>World Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_NATIONAL_WONDER</Tag>
+		<English>National Wonders</English>
+		<French>National Wonders</French>
+		<German>Nationale Wunder</German>
+		<Italian>National Wonders</Italian>
+		<Spanish>National Wonders</Spanish>
+	</TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_CIVIC_COASTAL_TRADE_ROUTES</Tag>
+        <English>[ICON_BULLET]%D1 Trade Routes ([ICON_TRADE]) in Coastal Cities</English>
+        <French>[ICON_BULLET]%D1 routes commerciales ([ICON_TRADE]) dans les villes côtières</French>
+        <German>[ICON_BULLET]%D1 Handelsrouten ([ICON_TRADE]) in Küstenstädten</German>
+        <Italian>[ICON_BULLET]%D1 rotte commerciali ([ICON_TRADE]) per citt&#224; marìttimo</Italian>
+        <Spanish>[ICON_BULLET]%D1 rutas comerciales ([ICON_TRADE]) a las ciudades costeras</Spanish>
+    </TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_BONUS_COMMERCE</Tag>
+		<English>[ICON_BULLET]%D1% %F2 resources</English>
+		<French>[ICON_BULLET]%D1% %F2 en resources &#233;change</French>
+		<German>[ICON_BULLET]%D1% %F2 durch Ressourcen</German>
+		<Italian>[ICON_BULLET]%D1% %F2 resources</Italian>
+		<Spanish>[ICON_BULLET]%D1% %F2 resources</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED</Tag>
+		<English>%s1_CorpName has been founded in %s2_CityName!</English>
+		<French>La soci&#233;t&#233; commerciale %s1_CorpName a &#233;t&#233; fond&#233;e &#224; %s2_CityName !</French>
+		<German>Die Kapitalgesellschaft %s1_CorpName wurde in %s2_CityName gegr&#252;ndet!</German>
+		<Italian>La %s1_CorpName &#232; stata fondata a %s2_CityName!</Italian>
+		<Spanish>&#161;%s1_CorpName se ha incorporado a %s2_CityName!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED_UNKNOWN</Tag>
+		<English>%s1_CorpName has been founded in a distant land!</English>
+		<French>La soci&#233;t&#233; commerciale %s1_CorpName a &#233;t&#233; fond&#233;e dans un pays lointain !</French>
+		<German>Die Kapitalgesellschaft %s1_CorpName wurde in einem entfernten Land gegr&#252;ndet!</German>
+		<Italian>La %s1_CorpName &#232; stata fondata in terre lontane!</Italian>
+		<Spanish>&#161;%s1_CorpName se ha incorporado a una tierra lejana!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FOUNDED_FIRST</Tag>
+		<English>[ICON_BULLET]Founded by First to Discover [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Fond&#233;e par le premier &#224; d&#233;couvrir la technologie [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Gegr&#252;ndet durch ersten Entdecker der Technologie [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]Fondata dal primo a scoprire [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Se incorporar&#225; al primero en descubrir [NUM1:el:la:los:las] [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_FIRST_DISCOVER_INCORPORATES</Tag>
+		<English>[ICON_BULLET]First to Discover Founds[SPACE]</English>
+		<French>[ICON_BULLET]Le premier &#224; d&#233;couvrir fonde[SPACE]</French>
+		<German>[ICON_BULLET]Erster Entdecker gr&#252;ndet[SPACE]</German>
+		<Italian>[ICON_BULLET]Il primo a scoprire fonda[SPACE]</Italian>
+		<Spanish>[ICON_BULLET]El primero en descubrir se incorpora[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_CORPORATION_COMMERCE</Tag>
+		<English>[ICON_BULLET]%D1%F2 from Companies</English>
+		<French>[ICON_BULLET]%D1%F2 gr&#226;ce aux soci&#233;t&#233;s commerciales</French>
+		<German>[ICON_BULLET]%D1%F2 durch Kapitalgesellschaften</German>
+		<Italian>[ICON_BULLET]%D1%F2 dalle corporazioni</Italian>
+		<Spanish>[ICON_BULLET]%D1 %F2 por corporaciones</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_CORPORATIONS</Tag>
+		<English>[ICON_BULLET]Trade Companies are Prohibited</English>
+		<French>[ICON_BULLET]Les soci&#233;t&#233;s commerciales n'ont aucun effet</French>
+		<German>[ICON_BULLET]Kapitalgesellschaften haben keine Auswirkung</German>
+		<Italian>[ICON_BULLET]Le corporazioni non hanno effetto</Italian>
+		<Spanish>[ICON_BULLET]Las corporaciones no tienen efecto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_FOREIGN_CORPORATIONS</Tag>
+		<English>[ICON_BULLET]Trade Companies are Prohibited</English>
+		<French>[ICON_BULLET]Les soci&#233;t&#233;s commerciales &#233;trang&#232;res n'ont aucun effet</French>
+		<German>[ICON_BULLET]Fremde Kapitalgesellschaften haben keine Auswirkung</German>
+		<Italian>[ICON_BULLET]Le corporazioni straniere non hanno effetto</Italian>
+		<Spanish>[ICON_BULLET]Las corporaciones extranjeras no tienen efecto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SPREAD_CORPORATION</Tag>
+		<English>Expand Company</English>
+		<French>D&#233;velopper une soci&#233;t&#233; commerciale</French>
+		<German>Kapitalgesellschaft expandieren</German>
+		<Italian>Espandi corporazione</Italian>
+		<Spanish>Expandir corporaci&#243;n</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SPREAD_CORPORATION_HELP</Tag>
+		<English>This order will consume the [COLOR_UNIT_TEXT]Executive[COLOR_REVERT] unit but expand their company into the city.</English>
+		<French>Cet ordre d&#233;truira le [COLOR_UNIT_TEXT]Directeur[COLOR_REVERT] mais d&#233;veloppera sa soci&#233;t&#233; commerciale dans la ville.</French>
+		<German>Der [COLOR_UNIT_TEXT]Vorstand[COLOR_REVERT] wird geopfert, damit die Kapitalgesellschaft in die Stadt expandieren kann.</German>
+		<Italian>Con questo ordine, si sacrifica un [COLOR_UNIT_TEXT]Funzionario[COLOR_REVERT], ma la corporazione si espande nella citt&#224;.</Italian>
+		<Spanish>Esta orden consumir&#225; a la unidad de [COLOR_UNIT_TEXT]Ejecutivo[COLOR_REVERT] pero expandir&#225; su corporaci&#243;n en la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FOUNDS_CORPORATION</Tag>
+		<English>[ICON_BULLET]Founds [LINK=literal]%s1_corporation[\LINK]</English>
+		<French>[ICON_BULLET]Fonde [LINK=literal]%s1_corporation[\LINK]</French>
+		<German>[ICON_BULLET]Gr&#252;ndet die Kapitalgesellschaft [LINK=literal]%s1_corporation[\LINK]</German>
+		<Italian>[ICON_BULLET]Fonda la [LINK=literal]%s1_corporation[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Incorpora [LINK=literal]%s1_corporation[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GUNPOWDER_UNITS_HELP</Tag>
+		<English>[ICON_BULLET]Ignores Man-made Fortifications</English>
+		<French>[ICON_BULLET]Ignores Man-made Fortifications</French>
+		<German>[ICON_BULLET]Ignoriert  Einheitenverschanzung</German>
+		<Italian>[ICON_BULLET]Ignores Man-made Fortifications</Italian>
+		<Spanish>[ICON_BULLET]Ignores Man-made Fortifications</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HAPPINESS</Tag>
+		<English>[ICON_BULLET]%D1_Change%F2_HappyOrUn in All Cities</English>
+		<French>[ICON_BULLET]%D1_Change%F2_HappyOrUn dans les ... plus grandes villes</French>
+		<German>[ICON_BULLET]%D1_Change%F2_HappyOrUn in allen St&#228;dten</German>
+		<Italian>[ICON_BULLET]%D1_Change%F2_HappyOrUn nelle ... citt&#224; pi&#249; grandi</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change %F2_HappyOrUn en las ... mayores ciudades</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_CIVIC</Tag>
+		<English>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</English>
+		<French>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</French>
+		<German>+%d1_Change[ICON_UNHAPPY]: "Wir arbeiten den ganzen Tag!"</German>
+		<Italian>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</Italian>
+		<Spanish>+%d1_Change[ICON_UNHAPPY]: "We work all day long!"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_CIVIC</Tag>
+		<English>+%d1_Change[ICON_HAPPY]: "We like pie!"</English>
+		<French>+%d1_Change[ICON_HAPPY]: "We like pie!"</French>
+		<German>+%d1_Change[ICON_HAPPY]: "Wir mögen Kuchen!"</German>
+		<Italian>+%d1_Change[ICON_HAPPY]: "We like pie!"</Italian>
+		<Spanish>+%d1_Change[ICON_HAPPY]: "We like pie!"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_BUILD_INQUISITORS</Tag>
+		<English>[ICON_BULLET]Can Build Religious Prosecutors</English>
+		<French>[ICON_BULLET]Peut cr&#233;er des inquisiteurs</French>
+		<German>[ICON_BULLET]Kann Inquisitor errichten</German>
+		<Italian>[ICON_BULLET]Permette di realizzare inquisitori</Italian>
+		<Spanish>[ICON_BULLET]No se pueden construir inquisitores</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_TEXT</Tag>
+		<English>The sun rises on the year %s1_year. %s3_leader, the %s2_civ people have vested absolute power in you, trusting that you can build a kingdom to stand the test of time!</English>
+		<French>Le soleil se l&#232;ve sur l'an %s1_year. Depuis des temps imm&#233;moriaux, les %s2_civ vivent en nomades. Apr&#232;s des ann&#233;es d'errance, ils sont pr&#234;ts &#224; s'installer et &#224; fonder votre premi&#232;re ville. [NEWLINE][NEWLINE]%s3_leader, votre peuple vous a confi&#233; le pouvoir absolu et s'en remet &#224; vous pour b&#226;tir une civilisation qui r&#233;sistera &#224; l'&#233;preuve du temps !</French>
+		<German>Die Sonne erhellt das Jahr %s1_year Das %s2:3_civ Volk f&#252;hrt seit uralter Zeit ein Nomadenleben. Doch nun, nach so vielen Jahren des Umherziehens, sind die Menschen bereit, sich niederzulassen und Eure erste Stadt zu gr&#252;nden. [NEWLINE][NEWLINE]%s3_leader, Euer Volk hat Euch absolute Macht verliehen und vertraut darauf, dass Ihr eine Zivilisation errichtet, welche die Zeit &#252;berdauern wird!</German>
+		<Italian>Il sole sorge nell'anno %s1_year. Da tempi immemori, la popolazione %s2:2_civ ha condotto una vita nomade. Dopo anni di vagabondaggi, sono infine pronti a stabilirsi e a fondare la tua prima citt&#224;. [NEWLINE][NEWLINE]%s3_leader, il tuo popolo ti ha conferito potere assoluto, credendo che tu possa sviluppare una civilt&#224; in grado di resistere alle prove del tempo!</Italian>
+		<Spanish>El sol se alza en el a&#241;o %s1_year. Desde tiempos inmemoriales, los %s2:3_civ han llevado una vida n&#243;mada. Tras a&#241;os de deambular, est&#225;n listos para asentarse y fundar vuestra primera ciudad. [NEWLINE][NEWLINE]%s3_leader, vuestro pueblo os ha conferido poder absoluto, confiando en que pod&#225;is desarrollar una civilizaci&#243;n que supere los retos del tiempo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_DESC</Tag>
+		<English>Large Map of the Middle East</English>
+		<French>Large Map of the Middle East</French>
+		<German>Große Karte des Nahen Ostens</German>
+		<Italian>Large Map of the Middle East</Italian>
+		<Spanish>Large Map of the Middle East</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_MISSILE_CAVALRY</Tag>
+		<English>Missile Cavalry</English>
+		<French>Missile Cavalry</French>
+		<German>Fernkampf-Kavallerie</German>
+		<Italian>Missile Cavalry</Italian>
+		<Spanish>Missile Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_CAVALRY</Tag>
+		<English>Cavalry</English>
+		<French>Cavalry</French>
+		<German>Kavallerie</German>
+		<Italian>Cavalry</Italian>
+		<Spanish>Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_ANCIENT</Tag>
+		<English>The Opening</English>
+		<French>The Opening</French>
+		<German>Der Anfang</German>
+		<Italian>The Opening</Italian>
+		<Spanish>The Opening</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_CLASSICAL</Tag>
+		<English>The Golden Age</English>
+		<French>The Golden Age</French>
+		<German>Das Goldene Zeitalter</German>
+		<Italian>The Golden Age</Italian>
+		<Spanish>The Golden Age</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_MEDIEVAL</Tag>
+		<English>The Mongol Invasions</English>
+		<French>The Mongol Invasions</French>
+		<German>Die Mongoleninvasion</German>
+		<Italian>The Mongol Invasions</Italian>
+		<Spanish>The Mongol Invasions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_RENAISSANCE</Tag>
+		<English>The Three Empires</English>
+		<French>The Three Empires</French>
+		<German>Die Drei Reiche</German>
+		<Italian>The Three Empires</Italian>
+		<Spanish>The Three Empires</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_SCIENTIST</Tag>
+		<English>Great Scholar</English>
+		<French>Great Scholar</French>
+		<German>Großer Scholar</German>
+		<Italian>Great Scholar</Italian>
+		<Spanish>Great Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_PRIEST</Tag>
+		<English>Great Saint</English>
+		<French>Great Saint</French>
+		<German>Großer Heiliger</German>
+		<Italian>Great Saint</Italian>
+		<Spanish>Great Saint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_SCIENTIST</Tag>
+		<English>Great Scholar</English>
+		<French>Great Scholar</French>
+		<German>Großer Scholar</German>
+		<Italian>Great Scholar</Italian>
+		<Spanish>Great Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_PROPHET</Tag>
+		<English>Great Saint</English>
+		<French>Great Sain</French>
+		<German>Großer Heiliger</German>
+		<Italian>Great Sain</Italian>
+		<Spanish>Great Sain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_SCIENTIST</Tag>
+		<English>Scholar</English>
+		<French>Scholar</French>
+		<German>Scholar</German>
+		<Italian>Scholar</Italian>
+		<Spanish>Scholar</Spanish>
+	</TEXT>
+</Civ4GameText>

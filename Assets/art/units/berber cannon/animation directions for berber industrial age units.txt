@@ -1,0 +1,5 @@
+The Berber Industrial Cavalry use the Cavalry animations,
+The Berber Rifleman and the Snaphaunce Musket use the rifleman animations,
+The Berber Fusilier uses the Redcoat animations,
+The Berber Cannon uses the cannon animations,
+The Berber Gernadier uses the gernadier animations.

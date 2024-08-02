@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIQUE_POWER</Tag>
+		<English>Unique Power</English>
+		<French>Pouvoir unique</French>
+		<German>Einzigartige Macht</German>
+		<Italian>Potere unico</Italian>
+		<Spanish>Poder único:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIQUE_POWER_NONE</Tag>
+		<English>No Unique Power</English>
+		<French>No Unique Power</French>
+		<German>Keine Einzigartige Macht</German>
+		<Italian>No Unique Power</Italian>
+		<Spanish>No Unique Power</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BYZ</Tag>
+		<English>The Power of Byzantine Diplomacy:</English>
+		<French>The Power of Byzantine Diplomacy:</French>
+		<German>Die Macht der byzantinischen Diplomatie:</German>
+		<Italian>The Power of Byzantine Diplomacy:</Italian>
+		<Spanish>The Power of Byzantine Diplomacy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BYZ2</Tag>
+		<English>+1 [ICON_ESPIONAGE] per City</English>
+		<French>+1 [ICON_ESPIONAGE] per City</French>
+		<German>+1 [ICON_ESPIONAGE] pro Stadt</German>
+		<Italian>+1 [ICON_ESPIONAGE] per City</Italian>
+		<Spanish>+1 [ICON_ESPIONAGE] per City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAK</Tag>
+		<English>The Power of Marksmanship:</English>
+		<French>The Power of Marksmanship:</French>
+		<German>Die Macht der Treffsicherheit:</German>
+		<Italian>The Power of Marksmanship:</Italian>
+		<Spanish>The Power of Marksmanship:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAK2</Tag>
+		<English>Free Drill I and City Defense I Promotions for Archery Units</English>
+		<French>Free Drill I and City Defense I Promotions for Archery Units</French>
+		<German>Freie Drill I und Garnision I Beförderung für Bogenschützeneinheiten</German>
+		<Italian>Free Drill I and City Defense I Promotions for Archery Units</Italian>
+		<Spanish>Free Drill I and City Defense I Promotions for Archery Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ABB</Tag>
+		<English>The Power of Philosophy:</English>
+		<French>The Power of Philosophy:</French>
+		<German>Die Macht der Philosophie:</German>
+		<Italian>The Power of Philosophy:</Italian>
+		<Spanish>The Power of Philosophy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ABB2</Tag>
+		<English>+100% [ICON_GREATPEOPLE] Birth Rate until the End of Islamic Golden Age</English>
+		<French>+100% [ICON_GREATPEOPLE] Birth Rate until the End of Islamic Golden Age</French>
+		<German>+100% [ICON_GREATPEOPLE] Geburtenrate bis zum Ende des Islamischen Goldenen Zeitalters</German>
+		<Italian>+100% [ICON_GREATPEOPLE] Birth Rate until the End of Islamic Golden Age</Italian>
+		<Spanish>+100% [ICON_GREATPEOPLE] Birth Rate until the End of Islamic Golden Age</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_ABBASID_UP</Tag>
+		<English>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Abbasid Unique Power</English>
+		<French>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Abbasid Unique Power</French>
+		<German>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] von Abbasidischer Einzigartigen Macht</German>
+		<Italian>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Abbasid Unique Power</Italian>
+		<Spanish>[ICON_BULLET]%D1%% a [ICON_GREATPEOPLE] from Abbasid Unique Power</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CHA</Tag>
+		<English>The Power of Heroism:</English>
+		<French>The Power of Heroism:</French>
+		<German>Die Macht des Heldentums:</German>
+		<Italian>The Power of Heroism:</Italian>
+		<Spanish>The Power of Heroism:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_CHA2</Tag>
+		<English>+100% Great General Birth Rate for Battles Fought within Cultural Borders</English>
+		<French>+100% Great General Birth Rate for Battles Fought within Cultural Borders</French>
+		<German>+100% Geburtenrate für Großer General durch Schlachten innerhalb der kulturellen Grenzen </German>
+		<Italian>+100% Great General Birth Rate for Battles Fought within Cultural Borders</Italian>
+		<Spanish>+100% Great General Birth Rate for Battles Fought within Cultural Borders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAL</Tag>
+		<English>The Power of Engineering:</English>
+		<French>The Power of Engineering:</French>
+		<German>Die Macht der Technik:</German>
+		<Italian>The Power of Engineering:</Italian>
+		<Spanish>The Power of Engineering:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAL2</Tag>
+		<English>Double Production Speed of National Wonders</English>
+		<French>Double Production Speed of National Wonders</French>
+		<German>Doppelte Produktionsgeschwindigkeit für Nationale Wunder</German>
+		<Italian>Double Production Speed of National Wonders</Italian>
+		<Spanish>Double Production Speed of National Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAM</Tag>
+		<English>The Power of Legitimacy:</English>
+		<French>The Power of Legitimacy:</French>
+		<German>Die Macht der Legitimität:</German>
+		<Italian>The Power of Legitimacy:</Italian>
+		<Spanish>The Power of Legitimacy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAM2</Tag>
+		<English>+2 Additional Stability Points for Each City Conquered</English>
+		<French>+2 points de stabilité par ville conquise</French>
+		<German>+2 zusätzliche Stabilitätspunkte für jede eroberte Stadt</German>
+		<Italian>+2 punti stabilit&#224; addizionali per ogni citt&#224; conquistata</Italian>
+		<Spanish>+2 puntos de estabilidad adicionales por cada ciudad conquistada</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARM</Tag>
+		<English>The Power of Piety:</English>
+		<French>The Power of Piety:</French>
+		<German>Die Macht des Glaubens:</German>
+		<Italian>The Power of Piety:</Italian>
+		<Spanish>The Power of Piety:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARM2</Tag>
+		<English>Double Production Speed of State [ICON_RELIGION] Buildings</English>
+		<French>Double Production Speed of State [ICON_RELIGION] Buildings</French>
+		<German>Doppelte Produktionsgeschwindigkeit von Gebäuden der Staats-[ICON_RELIGION].</German>
+		<Italian>Double Production Speed of State [ICON_RELIGION] Buildings</Italian>
+		<Spanish>Double Production Speed of State [ICON_RELIGION] Buildings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_YEM</Tag>
+		<English>The Power of the Desert:</English>
+		<French>The Power of the Desert:</French>
+		<German>Die Macht der Wüste:</German>
+		<Italian>The Power of the Desert:</Italian>
+		<Spanish>The Power of the Desert:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_YEM2</Tag>
+		<English>Double Movement and +10% Strength in Desert for All Land Units</English>
+		<French>Double Movement and +10% Strength in Desert for All Land Units</French>
+		<German>Doppelte Fortbewegung und +10 % Stärke in Wüste für alle Landeinheiten</German>
+		<Italian>Double Movement and +10% Strength in Desert for All Land Units</Italian>
+		<Spanish>Double Movement and +10% Strength in Desert for All Land Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BUY</Tag>
+		<English>The Power of Persian Tradition:</English>
+		<French>The Power of Persian Tradition:</French>
+		<German>Die Macht der Persischen Tradition:</German>
+		<Italian>The Power of Persian Tradition:</Italian>
+		<Spanish>The Power of Persian Tradition:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BUY2</Tag>
+		<English>+2 [ICON_HAPPY] in Cities located in Iran</English>
+		<French>+2 [ICON_HAPPY] in Cities located in Iran</French>
+		<German>+2 [ICON_HAPPY] in Städten im Iran</German>
+		<Italian>+2 [ICON_HAPPY] in Cities located in Iran</Italian>
+		<Spanish>+2 [ICON_HAPPY] in Cities located in Iran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GUJ</Tag>
+		<English>The Power of Agnivanshi:</English>
+		<French>The Power of Agnivanshi:</French>
+		<German>Die Macht der Agnivanshi:</German>
+		<Italian>The Power of Agnivanshi:</Italian>
+		<Spanish>The Power of Agnivanshi:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GUJ2</Tag>
+		<English>Free Shock Promotion for Melee and Cavalry Units</English>
+		<French>Free Shock Promotion for Melee and Cavalry Units</French>
+		<German>Freie Beförderung Schock für Nahkampf- und Kavallerieeinheiten</German>
+		<Italian>Free Shock Promotion for Melee and Cavalry Units</Italian>
+		<Spanish>Free Shock Promotion for Melee and Cavalry Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GHA</Tag>
+		<English>The Power of Plunder:</English>
+		<French>The Power of Plunder:</French>
+		<German>Die Macht der Plünderung:</German>
+		<Italian>The Power of Plunder:</Italian>
+		<Spanish>The Power of Plunder:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GHA2</Tag>
+		<English>Double Gold from City Conquest and Pillage</English>
+		<French>Double Gold from City Conquest and Pillage</French>
+		<German>Doppeltes Gold durch Stadteroberung und Plünderung</German>
+		<Italian>Double Gold from City Conquest and Pillage</Italian>
+		<Spanish>Double Gold from City Conquest and Pillage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_FAT</Tag>
+		<English>The Power of Tolerance:</English>
+		<French>The Power of Tolerance:</French>
+		<German>Die Macht der Toleranz:</German>
+		<Italian>The Power of Tolerance:</Italian>
+		<Spanish>The Power of Tolerance:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_FAT2</Tag>
+		<English>Reduced [ICON_UNHAPPY] and Instability from Foreign Culture and Religion</English>
+		<French>Reduced [ICON_UNHAPPY] and Instability from Foreign Culture and Religion</French>
+		<German>Weniger [ICON_UNHAPPY] und Instabilität aufgrund fremder Kultur und Religion</German>
+		<Italian>Reduced [ICON_UNHAPPY] and Instability from Foreign Culture and Religion</Italian>
+		<Spanish>Reduced [ICON_UNHAPPY] and Instability from Foreign Culture and Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SEL</Tag>
+		<English>The Power of Mobility:</English>
+		<French>The Power of Mobility:</French>
+		<German>Die Macht der Mobilität:</German>
+		<Italian>The Power of Mobility:</Italian>
+		<Spanish>The Power of Mobility:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GEO</Tag>
+		<English>The Power of Restoration:</English>
+		<French>The Power of Restoration:</French>
+		<German>Die Macht der Wiederherstellung:</German>
+		<Italian>The Power of Restoration:</Italian>
+		<Spanish>The Power of Restoration:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GEO2</Tag>
+		<English>+100% Golden Age Length until the Mongol Invasions Era</English>
+		<French>+100% Golden Age Length until the Mongol Invasions Era</French>
+		<German>+100% Länge des Goldenen Zeitalters bis zur Ära der Mongoleninvasion</German>
+		<Italian>+100% Golden Age Length until the Mongol Invasions Era</Italian>
+		<Spanish>+100% Golden Age Length until the Mongol Invasions Era</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_SEL2</Tag>
+		<English>Free Mobility and Flanking I Promotions for Cavalry and Missile Cavalry Units</English>
+		<French>Free Mobility and Flanking I Promotions for Cavalry and Missile Cavalry Units</French>
+		<German>Freie Beförderung Mobilität und Flanke I für Kavallerie- und FernkampfKavallerieeinheiten</German>
+		<Italian>Free Mobility and Flanking I Promotions for Cavalry and Missile Cavalry Units</Italian>
+		<Spanish>Free Mobility and Flanking I Promotions for Cavalry and Missile Cavalry Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SIN</Tag>
+		<English>The Power of Craftsmanship:</English>
+		<French>The Power of Craftsmanship:</French>
+		<German>Die Macht des Handwerks:</German>
+		<Italian>The Power of Craftsmanship:</Italian>
+		<Spanish>The Power of Craftsmanship:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SIN2</Tag>
+		<English>+50% Production Efficiency of Wealth and Culture</English>
+		<French>+50% Production Efficiency of Wealth and Culture</French>
+		<German>+50 % Produktionseffizienz für Wohlstand und Kultur</German>
+		<Italian>+50% Production Efficiency of Wealth and Culture</Italian>
+		<Spanish>+50% Production Efficiency of Wealth and Culture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_RUM</Tag>
+		<English>The Power of Ghazis:</English>
+		<French>The Power of Ghazis:</French>
+		<German>Die Macht der Ghazis:</German>
+		<Italian>The Power of Ghazis:</Italian>
+		<Spanish>The Power of Ghazis:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_RUM2</Tag>
+		<English>+25% Land Unit Train Speed until the Gunpowder Empires Era</English>
+		<French>+25% Land Unit Train Speed until the Gunpowder Empires Era</French>
+		<German>+25 % Produktionsgeschwindigkeit für Landeinheiten bis zur Ära der Schießpulverreiche</German>
+		<Italian>+25% Land Unit Train Speed until the Gunpowder Empires Era</Italian>
+		<Spanish>+25% Land Unit Train Speed until the Gunpowder Empires Era</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHW</Tag>
+		<English>The Power of Shah:</English>
+		<French>The Power of Shah:</French>
+		<German>Die Macht des Schahs:</German>
+		<Italian>The Power of Shah:</Italian>
+		<Spanish>The Power of Shah:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHW2</Tag>
+		<English>No Resistance in Conquered Cities</English>
+		<French>Pas de résistance dans les villes conquises</French>
+		<German>Kein Widerstand in eroberten Städten</German>
+		<Italian>Nessuna resistenza nelle citt&#224; conquistate</Italian>
+		<Spanish>Las ciudades conquistadas no ofrecen resistencia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ANT</Tag>
+		<English>The Power of Norman Fervor:</English>
+		<French>The Power of Norman Fervor:</French>
+		<German>Die Macht des normannischen Eifers:</German>
+		<Italian>The Power of Norman Fervor:</Italian>
+		<Spanish>The Power of Norman Fervor:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ANT2</Tag>
+		<English>Trained Starting Army; Free Units from Crusades</English>
+		<French>Trained Starting Army; Free Units from Crusades</French>
+		<German>Ausgebildete Startarmee; Freie Einheiten aus Kreuzzügen</German>
+		<Italian>Trained Starting Army; Free Units from Crusades</Italian>
+		<Spanish>Trained Starting Army; Free Units from Crusades</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_JER</Tag>
+		<English>The Power of the Crusades:</English>
+		<French>The Power of the Crusades:</French>
+		<German>Die Macht der Kreuzzüge:</German>
+		<Italian>The Power of the Crusades:</Italian>
+		<Spanish>The Power of the Crusades:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_JER2</Tag>
+		<English>Mercenary Hire and Maintenance Costs Halved; Free Units from Crusades</English>
+		<French>Coûts de recrutement et d'entretien des mercenaires divisés par deux; Free Units from Crusades</French>
+		<German>Halbierte Sold- und Unterhaltskosten für Söldner; Freie Einheiten aus Kreuzzügen</German>
+		<Italian>Dimezzati i costi di assunzione e mantenimento dei mercenari; Free Units from Crusades</Italian>
+		<Spanish>Se reducen a la mitad los costes de contrataci&#243;n y mantenimiento de mercenarios; Free Units from Crusades</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ZEN</Tag>
+		<English>The Power of the Reconqueror:</English>
+		<French>The Power of the Reconqueror:</French>
+		<German>Die Macht der Rückeroberer:</German>
+		<Italian>The Power of the Reconqueror:</Italian>
+		<Spanish>The Power of the Reconqueror:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ZEN2</Tag>
+		<English>+2 Gold per turn for each Crusader city</English>
+		<French>+2 Gold per turn for each Crusader city</French>
+		<German>+2 Gold pro Runde für jede Kreuzfahrer-Stadt</German>
+		<Italian>+2 Gold per turn for each Crusader city</Italian>
+		<Spanish>+2 Gold per turn for each Crusader city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_ZEN3</Tag>
+		<English>Gold you have received as support against the crusaders:   </English>
+		<French>Gold you have received as support against the crusaders:   </French>
+		<German>Gold das Ihr als Unterstützung gegen die Kreuzfahrer erhalten habt:   </German>
+		<Italian>Gold you have received as support against the crusaders:   </Italian>
+		<Spanish>Gold you have received as support against the crusaders:   </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GHO</Tag>
+		<English>The Power of Zeal:</English>
+		<French>The Power of Zeal:</French>
+		<German>Die Macht des Eifers:</German>
+		<Italian>The Power of Zeal:</Italian>
+		<Spanish>The Power of Zeal:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_GHO2</Tag>
+		<English>Spreads State [ICON_RELIGION] to Conquered Cities</English>
+		<French>Spreads State [ICON_RELIGION] to Conquered Cities</French>
+		<German>Verbreitet Staats-[ICON_RELIGION] in eroberte Städte</German>
+		<Italian>Spreads State [ICON_RELIGION] to Conquered Cities</Italian>
+		<Spanish>Spreads State [ICON_RELIGION] to Conquered Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_OMA</Tag>
+		<English>The Power of the Arabian Sea:</English>
+		<French>The Power of the Arabian Sea:</French>
+		<German>Die Macht des Arabischen Meeres:</German>
+		<Italian>The Power of the Arabian Sea:</Italian>
+		<Spanish>The Power of the Arabian Sea:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_OMA2</Tag>
+		<English>+50% Trade Route Yield in All Cities</English>
+		<French>+50% Trade Route Yield in All Cities</French>
+		<German>+50 % Enertrag durch Handelwegen in allen Städten</German>
+		<Italian>+50% Trade Route Yield in All Cities</Italian>
+		<Spanish>+50% Trade Route Yield in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_AYY</Tag>
+		<English>The Power of Diplomacy:</English>
+		<French>The Power of Diplomacy:</French>
+		<German>Die Macht der Diplomatie:</German>
+		<Italian>The Power of Diplomacy:</Italian>
+		<Spanish>The Power of Diplomacy:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_AYY2</Tag>
+		<English>+2 to Attitude Versus All Leaders</English>
+		<French>+2 to Attitude Versus All Leaders</French>
+		<German>+2 Haltungspunkte zu allen Zivilisationen</German>
+		<Italian>+2 to Attitude Versus All Leaders</Italian>
+		<Spanish>+2 to Attitude Versus All Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAM</Tag>
+		<English>The Power of Furusiyya:</English>
+		<French>The Power of Furusiyya:</French>
+		<German>Die Macht der Furusiyya:</German>
+		<Italian>The Power of Furusiyya:</Italian>
+		<Spanish>The Power of Furusiyya:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MAM2</Tag>
+		<English>All Mounted Units receive +50% Strength vs. Barbarians</English>
+		<French>All Mounted Units receive +50% Strength vs. Barbarians</French>
+		<German>Alle berittenen Einheiten erhalten +50 % Stärke gegen Barbaren</German>
+		<Italian>All Mounted Units receive +50% Strength vs. Barbarians</Italian>
+		<Spanish>All Mounted Units receive +50% Strength vs. Barbarians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_OTT</Tag>
+		<English>The Power of Devshirme:</English>
+		<French>The Power of Devshirme:</French>
+		<German>Die Macht der Dewschirme:</German>
+		<Italian>The Power of Devshirme:</Italian>
+		<Spanish>The Power of Devshirme:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_OTT2</Tag>
+		<English>Can Draft +3 Units per Turn; No [ICON_UNHAPPY] from the Draft</English>
+		<French>Can Draft +3 Units per Turn; No [ICON_UNHAPPY] from the Draft</French>
+		<German>Kamm +3 Einheiten pro Runde rekrutieren; Keine [ICON_UNHAPPY] durch Rekrutation</German>
+		<Italian>Can Draft +3 Units per Turn; No [ICON_UNHAPPY] from the Draft</Italian>
+		<Spanish>Can Draft +3 Units per Turn; No [ICON_UNHAPPY] from the Draft</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BAH</Tag>
+		<English>The Power of the Deccan:</English>
+		<French>The Power of the Deccan</French>
+		<German>Die Macht des Dekkan:</German>
+		<Italian>The Power of the Deccan</Italian>
+		<Spanish>The Power of the Deccan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BAH2</Tag>
+		<English>Free Dakhani Units for each razed or massacred city</English>
+		<French>Free Dakhani Units for each razed or massacred city</French>
+		<German>Freie Einheiten Dakhani für jede zerstörte oder massakrierte Stadt</German>
+		<Italian>Free Dakhani Units for each razed or massacred city</Italian>
+		<Spanish>Free Dakhani Units for each razed or massacred city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TIM</Tag>
+		<English>The Power of Patronage:</English>
+		<French>The Power of Patronage:</French>
+		<German>Die Macht der Patronage:</German>
+		<Italian>The Power of Patronage:</Italian>
+		<Spanish>The Power of Patronage:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_TIM2</Tag>
+		<English>Transfers a portion of [ICON_CULTURE] of razed and massacred cities to the capital</English>
+		<French>Transfers a portion of [ICON_CULTURE] of razed and massacred cities to the capital</French>
+		<German>Überträgt einen Teil der [ICON_CULTURE] von zerstörten und massakrierten Städten in die Hauptstadt</German>
+		<Italian>Transfers a portion of [ICON_CULTURE] of razed and massacred cities to the capital</Italian>
+		<Spanish>Transfers a portion of [ICON_CULTURE] of razed and massacred cities to the capital</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_AKK</Tag>
+		<English>The Power of Statesmanship:</English>
+		<French>The Power of Statesmanship:</French>
+		<German>Die Macht der Staatskunst:</German>
+		<Italian>The Power of Statesmanship:</Italian>
+		<Spanish>The Power of Statesmanship:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_AKK2</Tag>
+		<English>No Anarchy Between Religion and Civic Changes</English>
+		<French>No Anarchy Between Religion and Civic Changes</French>
+		<German>Keine Anarchie durch Religions- und Staatsformwechsel</German>
+		<Italian>No Anarchy Between Religion and Civic Changes</Italian>
+		<Spanish>No Anarchy Between Religion and Civic Changes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAF</Tag>
+		<English>The Power of Safaviyyeh:</English>
+		<French>The Power of Safaviyyeh:</French>
+		<German>Die Macht von Safaviyyeh:</German>
+		<Italian>The Power of Safaviyyeh:</Italian>
+		<Spanish>The Power of Safaviyyeh:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_SAF2</Tag>
+		<English>+50% Base Piety</English>
+		<French>+50% Base Piety</French>
+		<German>+50% Basis-Glaube</German>
+		<Italian>+50% Base Piety</Italian>
+		<Spanish>+50% Base Piety</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_POR</Tag>
+		<English>The Power of Discovery:</English>
+		<French>The Power of Discovery:</French>
+		<German>Die Macht der Entdeckung:</German>
+		<Italian>The Power of Discovery:</Italian>
+		<Spanish>The Power of Discovery:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_POR2</Tag>
+		<English>Double movement through Ocean for all naval units</English>
+		<French>Double movement through Ocean for all naval units</French>
+		<German>Doppelte Fortbewegung auf Ozean für alle Marineeinheiten</German>
+		<Italian>Double movement through Ocean for all naval units</Italian>
+		<Spanish>Double movement through Ocean for all naval units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MUG</Tag>
+		<English>The Power of Architecture:</English>
+		<French>The Power of Architecture:</French>
+		<German>Die Macht der Architektur:</German>
+		<Italian>The Power of Architecture:</Italian>
+		<Spanish>The Power of Architecture:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_MUG2</Tag>
+		<English>+50% Wonder Production</English>
+		<French>+50% Wonder Production</French>
+		<German>+50% Produktion für Wunder</German>
+		<Italian>+50% Wonder Production</Italian>
+		<Spanish>+50% Wonder Production</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_PATRONAGE</Tag>
+		<English>The artisans spared from the destruction of %s1_name have been brought to %s2_name and produced %d3_culture [ICON_CULTURE]</English>
+		<French>The artisans spared from the destruction of %s1_name have been brought to %s2_name and produced %d3_culture [ICON_CULTURE]</French>
+		<German>Die von der Zerstörung von %s1_name verschonten Handwerker wurden nach %s2_name gebracht und produzierten %d3_culture [ICON_CULTURE]</German>
+		<Italian>The artisans spared from the destruction of %s1_name have been brought to %s2_name and produced %d3_culture [ICON_CULTURE]</Italian>
+		<Spanish>The artisans spared from the destruction of %s1_name have been brought to %s2_name and produced %d3_culture [ICON_CULTURE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UP_BAH3</Tag>
+		<English>New Dakhanis of the destroyed %s1_name have joined your army!</English>
+		<French>New Dakhanis of the destroyed %s1_name have joined your army!</French>
+		<German>Neue Dakhanis aus der zerstörten Stadt %s1_name haben sich Eurer Armee angeschlossen!</German>
+		<Italian>New Dakhanis of the destroyed %s1_name have joined your army!</Italian>
+		<Spanish>New Dakhanis of the destroyed %s1_name have joined your army!</Spanish>
+	</TEXT>
+</Civ4GameText>

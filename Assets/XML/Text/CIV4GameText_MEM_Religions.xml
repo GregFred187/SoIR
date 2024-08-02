@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_LOAD_RELIC</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Load Relic (%s1_Name)[COLOR_REVERT][NEWLINE]Transforms the Missionary unit into a relic carrier, so that it can be moved to another city.</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Load Relic (%s1_Name)[COLOR_REVERT][NEWLINE]Transforms the Missionary unit into a relic carrier, so that it can be moved to another city.</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]Relikt laden (%s1_Name)[COLOR_REVERT][NEWLINE]Verwandelt den Missionar in einen Reliktträger, sodass sie in eine andere Stadt transportiert werden kann.</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]Load Relic (%s1_Name)[COLOR_REVERT][NEWLINE]Transforms the Missionary unit into a relic carrier, so that it can be moved to another city.</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]Load Relic (%s1_Name)[COLOR_REVERT][NEWLINE]Transforms the Missionary unit into a relic carrier, so that it can be moved to another city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_GREAT_SAINT</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Spread Religion[COLOR_REVERT][NEWLINE]Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Spread Religion[COLOR_REVERT][NEWLINE]Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]Religion verbreiten[COLOR_REVERT][NEWLINE]Verbreitet Ihre Staatsreligion auf bis zu 6 Städte, abhängig von der Entfernung. Großer Heiliger kann entfernte Städte unbekannter und feindlicher Spieler erreichen, es sei denn, sie nutzen die Bürgerrechte Verfolgung. Der Glaubensbonus wird entsprechend der normalen Missionstätigkeit vergeben (2 Punkte pro Stadt).</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]Spread Religion[COLOR_REVERT][NEWLINE]Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]Spread Religion[COLOR_REVERT][NEWLINE]Spreads your State Religion to up to 6 cities, depending on the distance. Great Saint can reach distant cities of unknown and hostile players, unless they are using the Persecution civic. Piety bonus is awarded as per normal missionary activity (2 points per city).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_WIDGET</Tag>
+		<English>Select a target for a holy war!</English>
+		<French>Select a target for a holy war!</French>
+		<German>Wählen Sie ein Ziel für einen heiligen Krieg!</German>
+		<Italian>Select a target for a holy war!</Italian>
+		<Spanish>Select a target for a holy war!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_YES</Tag>
+		<English>YES! Muster against them all the men and cavalry!</English>
+		<French>YES! Muster against them all the men and cavalry!</French>
+		<German>JA! Versammelt alle Männer und Kavallerie gegen sie!</German>
+		<Italian>YES! Muster against them all the men and cavalry!</Italian>
+		<Spanish>YES! Muster against them all the men and cavalry!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_NO</Tag>
+		<English>NO! We shall take no part in this evil scheme!</English>
+		<French>NO! We shall take no part in this evil scheme!</French>
+		<German>NEIN! Wir werden uns an diesem bösen Plan nicht beteiligen!</German>
+		<Italian>NO! We shall take no part in this evil scheme!</Italian>
+		<Spanish>NO! We shall take no part in this evil scheme!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_PIETY_TOO_LOW</Tag>
+		<English>You need at least 50 Piety to call for a holy war.</English>
+		<French>You need at least 50 Piety to call for a holy war.</French>
+		<German>Sie benötigen mindestens 50 Glaubenspunkte, um zum Heiligen Krieg aufzurufen.</German>
+		<Italian>You need at least 50 Piety to call for a holy war.</Italian>
+		<Spanish>You need at least 50 Piety to call for a holy war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CALL</Tag>
+		<English>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</English>
+		<French>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</French>
+		<German>%s1_name, der Amir al-Mu'minin, hat zu einem heiligen Krieg gegen die %s2_civ (%s3) aufgerufen. Sollen wir den Anruf entgegennehmen?</German>
+		<Italian>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</Italian>
+		<Spanish>%s1_name, the Commander of the Faithful, has called for a holy war against the %s2_civ (%s3). Shall we answer the call?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CALLED</Tag>
+		<English>%s1_name has called for a holy war against the %s2_civ!</English>
+		<French>%s1_name has called for a holy war against the %s2_civ!</French>
+		<German>%s1_name hat zum Heiligen Krieg gegen %s2_civ aufgerufen!</German>
+		<Italian>%s1_name has called for a holy war against the %s2_civ!</Italian>
+		<Spanish>%s1_name has called for a holy war against the %s2_civ!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_SELECT_TARGET</Tag>
+		<English>Select a target for the holy war:</English>
+		<French>Select a target for the holy war:</French>
+		<German>Wählen Sie ein Ziel für den Heiligen Krieg:</German>
+		<Italian>Select a target for the holy war:</Italian>
+		<Spanish>Select a target for the holy war:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_POPUP_TITLE</Tag>
+		<English>Jihad!</English>
+		<French>Jihad!</French>
+		<German>Dschihad!</German>
+		<Italian>Jihad!</Italian>
+		<Spanish>Jihad!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_DELAY</Tag>
+		<English>You cannot call for another holy war for %d1 turns.</English>
+		<French>You cannot call for another holy war for %d1 turns.</French>
+		<German>Ihr könnt für %d1 Runden keinen weiteren Heiligen Krieg ausrufen.</German>
+		<Italian>You cannot call for another holy war for %d1 turns.</Italian>
+		<Spanish>You cannot call for another holy war for %d1 turns.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_NO_TARGETS</Tag>
+		<English>No valid targets for a holy war.</English>
+		<French>No valid targets for a holy war.</French>
+		<German>Keine gültigen Ziele für einen Heiligen Krieg.</German>
+		<Italian>No valid targets for a holy war.</Italian>
+		<Spanish>No valid targets for a holy war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_TARGETS</Tag>
+		<English>You can call for a holy war against:</English>
+		<French>You can call for a holy war against:</French>
+		<German>Ihr könnt zum Heiligen Krieg aufrufen gegen:</German>
+		<Italian>You can call for a holy war against:</Italian>
+		<Spanish>You can call for a holy war against:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CANCEL</Tag>
+		<English>Maybe later...</English>
+		<French>Maybe later...</French>
+		<German>Vielliecht später...</German>
+		<Italian>Maybe later...</Italian>
+		<Spanish>Maybe later...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_CHRISTIAN</Tag>
+		<English>Christian</English>
+		<French>Christian</French>
+		<German>Christliche</German>
+		<Italian>Christian</Italian>
+		<Spanish>Christian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_PAGAN</Tag>
+		<English>Pagan</English>
+		<French>Pagan</French>
+		<German>Heidnische</German>
+		<Italian>Pagan</Italian>
+		<Spanish>Pagan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_HOLY_CITY</Tag>
+		<English>Defiled our holy city!</English>
+		<French>Defiled our holy city!</French>
+		<German>Entweihte unsere Heilige Stadt!</German>
+		<Italian>Defiled our holy city!</Italian>
+		<Spanish>Defiled our holy city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_INFIDEL</Tag>
+		<English>%s1_adj infidels!</English>
+		<French>%s1_adj infidels!</French>
+		<German>%s1_adj Ungläubige!</German>
+		<Italian>%s1_adj infidels!</Italian>
+		<Spanish>%s1_adj infidels!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLY_WAR_HERETIC</Tag>
+		<English>%s1_adj heretics!</English>
+		<French>%s1_adj heretics!</French>
+		<German>%s1_adj Ketzer!</German>
+		<Italian>%s1_adj heretics!</Italian>
+		<Spanish>%s1_adj heretics!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_PILGRIM_FOUND_RELIC</Tag>
+		<English>Your pilgrims have obtained a Holy Relic!</English>
+		<French>Your pilgrims have obtained a Holy Relic!</French>
+		<German>Ihre Pilger haben eine heilige Reliquie erhalten!</German>
+		<Italian>Your pilgrims have obtained a Holy Relic!</Italian>
+		<Spanish>Your pilgrims have obtained a Holy Relic!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MINOR_EVENT_PILGRIM_ARRIVED</Tag>
+		<English>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</English>
+		<French>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</French>
+		<German>Eine Gruppe von Pilgern aus %s1_city hat sich auf den Weg zur Heiligen Stadt %s2_city gemacht!</German>
+		<Italian>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</Italian>
+		<Spanish>A group of pilgrims from %s1_city has set out for the Holy City of %s2_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PIETY_TITLE</Tag>
+		<English>Piety Level:</English>
+		<French>Piety Level:</French>
+		<German>Glaube:</German>
+		<Italian>Piety Level:</Italian>
+		<Spanish>Piety Level:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HERETIC</Tag>
+		<English>Heretic</English>
+		<French>Heretic</French>
+		<German>Ketzer</German>
+		<Italian>Heretic</Italian>
+		<Spanish>Heretic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HERETIC_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</English>
+		<French>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</French>
+		<German>[ICON_BULLET]Stabilitätsstrafe[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in allen Städten</German>
+		<Italian>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</Italian>
+		<Spanish>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+2[ICON_UNHAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_APOSTATE</Tag>
+		<English>Apostate</English>
+		<French>Apostat</French>
+		<German>Apostat</German>
+		<Italian>Apostata</Italian>
+		<Spanish>Ap&#243;stata</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_APOSTATE_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</English>
+		<French>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</French>
+		<German>[ICON_BULLET]Stabilitätsstrafe[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in allen Städten</German>
+		<Italian>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</Italian>
+		<Spanish>[ICON_BULLET]Stability penalty[NEWLINE][ICON_BULLET]+1[ICON_UNHAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HEATHEN</Tag>
+		<English>Heathen</English>
+		<French>Pa&#239;en</French>
+		<German>Heide</German>
+		<Italian>Pagano</Italian>
+		<Spanish>Infiel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_HEATHEN_EFFECTS</Tag>
+		<English>[ICON_BULLET]No Effects</English>
+		<French>[ICON_BULLET]No Effects</French>
+		<German>[ICON_BULLET]Keine Effekte</German>
+		<Italian>[ICON_BULLET]No Effects</Italian>
+		<Spanish>[ICON_BULLET]No Effects</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_UNRELIABLE</Tag>
+		<English>Unreliable</English>
+		<French>Unreliable</French>
+		<German>Unglaubwürdig</German>
+		<Italian>Unreliable</Italian>
+		<Spanish>Unreliable</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_UNRELIABLE_EFFECTS</Tag>
+		<English>[ICON_BULLET]No Effects</English>
+		<French>[ICON_BULLET]No Effects</French>
+		<German>[ICON_BULLET]Keine Effekte</German>
+		<Italian>[ICON_BULLET]No Effects</Italian>
+		<Spanish>[ICON_BULLET]No Effects</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BELIEVER</Tag>	
+		<English>Believer</English>
+		<French>Croyant</French>
+		<German>Gl&#228;ubiger</German>
+		<Italian>Credente</Italian>
+		<Spanish>Creyente</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BELIEVER_EFFECTS</Tag>
+		<English>[ICON_BULLET]No Effects</English>
+		<French>[ICON_BULLET]No Effects</French>
+		<German>[ICON_BULLET]Keine Effekte</German>
+		<Italian>[ICON_BULLET]No Effects</Italian>
+		<Spanish>[ICON_BULLET]No Effects</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_FAITHFUL</Tag>
+		<English>Faithful</English>
+		<French>Faithful</French>
+		<German>Fromm</German>
+		<Italian>Faithful</Italian>
+		<Spanish>Faithful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_FAITHFUL_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus</English>
+		<French>[ICON_BULLET]Stability bonus</French>
+		<German>[ICON_BULLET]Stabilitätsbonus</German>
+		<Italian>[ICON_BULLET]Stability bonus</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_RIGHTEOUS</Tag>
+		<English>Righteous</English>
+		<French>Righteous</French>
+		<German>Gerecht</German>
+		<Italian>Righteous</Italian>
+		<Spanish>Righteous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_RIGHTEOUS_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus</English>
+		<French>[ICON_BULLET]Stability bonus</French>
+		<German>[ICON_BULLET]Stabilitätsbonus</German>
+		<Italian>[ICON_BULLET]Stability bonus</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_DEVOTED</Tag>
+		<English>Devoted</English>
+		<French>Devoted</French>
+		<German>Hingebungsvoll</German>
+		<Italian>Devoted</Italian>
+		<Spanish>Devoted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_DEVOTED_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</English>
+		<French>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</French>
+		<German>[ICON_BULLET]Stabilitätsbonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in allen Städten</German>
+		<Italian>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BLESSED</Tag>
+		<English>Blessed</English>
+		<French>B&#233;ni</French>
+		<German>Gesegnet</German>
+		<Italian>Benedetto</Italian>
+		<Spanish>Bendecido</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_BLESSED_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</English>
+		<French>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</French>
+		<German>[ICON_BULLET]Stabilitätsbonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in allen Städten[NEWLINE][ICON_BULLET]Freie Beförderung "Gesegnet" für alle Einheiten</German>
+		<Italian>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+1[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_ROYAL_SAINT</Tag>
+		<English>Royal Saint</English>
+		<French>Royal Saint</French>
+		<German>Königlicher Heiliger</German>
+		<Italian>Royal Saint</Italian>
+		<Spanish>Royal Saint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_SAINT</Tag>
+		<English>Saint</English>
+		<French>Saint</French>
+		<German>Heiliger</German>
+		<Italian>Saint</Italian>
+		<Spanish>Saint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_SAINT_EFFECTS</Tag>
+		<English>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</English>
+		<French>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</French>
+		<German>[ICON_BULLET]Stabilitätsbonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in allen Städten[NEWLINE][ICON_BULLET]Freie Beförderung "Gesegnet" für alle Einheiten</German>
+		<Italian>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Italian>
+		<Spanish>[ICON_BULLET]Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_ROYAL_SAINT_EFFECTS</Tag>
+		<English>[ICON_BULLET]Huge Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</English>
+		<French>[ICON_BULLET]Huge Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</French>
+		<German>[ICON_BULLET]Großer Stabilitätsbonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in allen Städten[NEWLINE][ICON_BULLET]Freie Beförderung "Gesegnet" für alle Einheiten</German>
+		<Italian>[ICON_BULLET]Huge Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Italian>
+		<Spanish>[ICON_BULLET]Huge Stability bonus[NEWLINE][ICON_BULLET]+2[ICON_HAPPY] in All Cities[NEWLINE][ICON_BULLET]Free "Blessed" Promotion for All Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FAVOR_LEVEL_INFIDEL</Tag>
+		<English>Infidel</English>
+		<French>Infidel</French>
+		<German>Ungläubig</German>
+		<Italian>Infidel</Italian>
+		<Spanish>Infidel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_HAPPINESS</Tag>
+		<English>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</English>
+		<French>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</French>
+		<German>[NEWLINE]+%d1[ICON_HAPPY] in allen Städten</German>
+		<Italian>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</Italian>
+		<Spanish>[NEWLINE]+%d1[ICON_HAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PIETY_UNHAPPINESS</Tag>
+		<English>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</English>
+		<French>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</French>
+		<German>[NEWLINE]+%d1[ICON_UNHAPPY] in allen Städten</German>
+		<Italian>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</Italian>
+		<Spanish>[NEWLINE]+%d1[ICON_UNHAPPY] in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_KHARIJISM</Tag>
+		<English>Kharijism</English>
+		<French>Kharijisme</French>
+		<German>Charidschiten</German>
+		<Italian>Kharigismo</Italian>
+		<Spanish>Jariyismo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_KHARIJISM_ADJECTIVE</Tag>
+		<English>Kharijite</English>
+		<French>Kharijite</French>
+		<German>Charidschitisch</German>
+		<Italian>Kharijite</Italian>
+		<Spanish>Kharijite</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HERESY</Tag>
+		<English>Heresy</English>
+		<French>Hérésie</French>
+		<German>Häresie</German>
+		<Italian>Eresia</Italian>
+		<Spanish>Herejía</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HERESY_ADJECTIVE</Tag>
+		<English>Heretic</English>
+		<French>Heretic</French>
+		<German>Häretisch</German>
+		<Italian>Heretic</Italian>
+		<Spanish>Heretic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CATHOLICISM</Tag>
+		<English>Catholicism</English>
+		<French>Catholicisme</French>
+		<German>Katholizismus</German>
+		<Italian>Cattolico</Italian>
+		<Spanish>Catolicismo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CATHOLICISM_ADJECTIVE</Tag>
+		<English>Catholic</English>
+		<French>Catholic</French>
+		<German>Katholisch</German>
+		<Italian>Catholic</Italian>
+		<Spanish>Catholic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CATHOLICISM_PEDIA</Tag>
+		<English>[TAB]The Catholic Church, also known as the Roman Catholic Church, is the world's largest Christian church. Its leader is the Pope who holds supreme authority in concert with the College of Bishops of which he is the head. The Church is the oldest continuous institution in the Western world, and has played a prominent role since the 3rd century. It teaches that it is the "One, Holy, Catholic and Apostolic Church" founded by Jesus Christ, that its bishops are consecrated successors of his apostles and that the Pope as the successor of St. Peter possesses a universal primacy of jurisdiction and pastoral care. Church doctrines have been defined through 21 ecumenical councils and the Church maintains that by guidance of the Holy Spirit, it can define its teachings on faith and morals infallibly under specific conditions. Catholic beliefs are based on the Holy Bible and Sacred Tradition interpreted by the Church's teaching authority and detailed in the Catechism of the Catholic Church. Catholic worship is called the liturgy, the central component of which is the Eucharist.</English>
+		<French>[TAB]The Catholic Church, also known as the Roman Catholic Church, is the world's largest Christian church. Its leader is the Pope who holds supreme authority in concert with the College of Bishops of which he is the head. The Church is the oldest continuous institution in the Western world, and has played a prominent role since the 3rd century. It teaches that it is the "One, Holy, Catholic and Apostolic Church" founded by Jesus Christ, that its bishops are consecrated successors of his apostles and that the Pope as the successor of St. Peter possesses a universal primacy of jurisdiction and pastoral care. Church doctrines have been defined through 21 ecumenical councils and the Church maintains that by guidance of the Holy Spirit, it can define its teachings on faith and morals infallibly under specific conditions. Catholic beliefs are based on the Holy Bible and Sacred Tradition interpreted by the Church's teaching authority and detailed in the Catechism of the Catholic Church. Catholic worship is called the liturgy, the central component of which is the Eucharist.</French>
+		<German>[TAB]Die katholische Kirche, auch römisch-katholische Kirche genannt, ist die größte christliche Kirche der Welt. Ihr Anführer ist der Papst, der im Einvernehmen mit dem Bischofskollegium, dessen Oberhaupt er ist, die höchste Autorität innehat. Die Kirche ist die älteste noch bestehende Institution der westlichen Welt und spielt seit dem 3. Jahrhundert eine herausragende Rolle. Sie lehrt, dass es sich um die "Eine, Heilige, Katholische und Apostolische Kirche" handelt, die von Jesus Christus gegründet wurde, dass ihre Bischöfe geweihte Nachfolger seiner Apostel sind und dass der Papst als Nachfolger des heiligen Petrus ein universales Primat der Jurisdiktion und Seelsorge innehat . Die Lehren der Kirche wurden durch 21 ökumenische Konzile definiert und die Kirche behauptet, dass sie durch die Führung des Heiligen Geistes ihre Lehren über Glauben und Moral unter bestimmten Bedingungen unfehlbar festlegen kann. Der katholische Glaube basiert auf der Heiligen Bibel und der Heiligen Tradition, die von der Lehrbehörde der Kirche interpretiert und im Katechismus der Katholischen Kirche detailliert beschrieben werden. Der katholische Gottesdienst wird Liturgie genannt, deren zentraler Bestandteil die Eucharistie ist.</German>
+		<Italian>[TAB]The Catholic Church, also known as the Roman Catholic Church, is the world's largest Christian church. Its leader is the Pope who holds supreme authority in concert with the College of Bishops of which he is the head. The Church is the oldest continuous institution in the Western world, and has played a prominent role since the 3rd century. It teaches that it is the "One, Holy, Catholic and Apostolic Church" founded by Jesus Christ, that its bishops are consecrated successors of his apostles and that the Pope as the successor of St. Peter possesses a universal primacy of jurisdiction and pastoral care. Church doctrines have been defined through 21 ecumenical councils and the Church maintains that by guidance of the Holy Spirit, it can define its teachings on faith and morals infallibly under specific conditions. Catholic beliefs are based on the Holy Bible and Sacred Tradition interpreted by the Church's teaching authority and detailed in the Catechism of the Catholic Church. Catholic worship is called the liturgy, the central component of which is the Eucharist.</Italian>
+		<Spanish>[TAB]The Catholic Church, also known as the Roman Catholic Church, is the world's largest Christian church. Its leader is the Pope who holds supreme authority in concert with the College of Bishops of which he is the head. The Church is the oldest continuous institution in the Western world, and has played a prominent role since the 3rd century. It teaches that it is the "One, Holy, Catholic and Apostolic Church" founded by Jesus Christ, that its bishops are consecrated successors of his apostles and that the Pope as the successor of St. Peter possesses a universal primacy of jurisdiction and pastoral care. Church doctrines have been defined through 21 ecumenical councils and the Church maintains that by guidance of the Holy Spirit, it can define its teachings on faith and morals infallibly under specific conditions. Catholic beliefs are based on the Holy Bible and Sacred Tradition interpreted by the Church's teaching authority and detailed in the Catechism of the Catholic Church. Catholic worship is called the liturgy, the central component of which is the Eucharist.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ORTHODOXY</Tag>
+		<English>Orthodoxy</English>
+		<French>Orthodoxy</French>
+		<German>Orthodoxie</German>
+		<Italian>Orthodoxy</Italian>
+		<Spanish>Orthodoxy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ORTHODOXY_ADJECTIVE</Tag>
+		<English>Orthodox</English>
+		<French>Orthodox</French>
+		<German>Orthodox</German>
+		<Italian>Orthodox</Italian>
+		<Spanish>Orthodox</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ORTHODOXY_PEDIA</Tag>
+		<English>[TAB]Eastern Orthodoxy comprises those Christian churches in communion with the Patriarchal Sees of the East, such as the Ecumenical Patriarch of Constantinople. Like the Roman Catholic Church, the Eastern Orthodox Church also traces its heritage to the foundation of Christianity through Apostolic succession and has an episcopal structure, though the autonomy of the individual, mostly national churches is emphasized. A number of conflicts with Western Christianity over questions of doctrine and authority culminated in the Great Schism. Apart from the Byzantine (Greek) Orthodox Chruch, there is a number of other oriental Orthodox Churches (e.g. Syriac, Coptic, Ethiopian, Armenian) that are similar, differing mainly by the rejection of the dogmatic definitions of the Council of Chalcedon. </English>
+		<French>[TAB]Eastern Orthodoxy comprises those Christian churches in communion with the Patriarchal Sees of the East, such as the Ecumenical Patriarch of Constantinople. Like the Roman Catholic Church, the Eastern Orthodox Church also traces its heritage to the foundation of Christianity through Apostolic succession and has an episcopal structure, though the autonomy of the individual, mostly national churches is emphasized. A number of conflicts with Western Christianity over questions of doctrine and authority culminated in the Great Schism. Apart from the Byzantine (Greek) Orthodox Chruch, there is a number of other oriental Orthodox Churches (e.g. Syriac, Coptic, Ethiopian, Armenian) that are similar, differing mainly by the rejection of the dogmatic definitions of the Council of Chalcedon. </French>
+		<German>[TAB]Die östliche Orthodoxie umfasst jene christlichen Kirchen, die mit den Patriarchatssitzen des Ostens in Gemeinschaft stehen, wie etwa dem Ökumenischen Patriarchen von Konstantinopel. Wie die römisch-katholische Kirche führt auch die Ostorthodoxe Kirche ihr Erbe auf die Gründung des Christentums durch die apostolische Sukzession zurück und hat eine bischöfliche Struktur, obwohl die Autonomie der einzelnen, meist nationalen Kirchen betont wird. Eine Reihe von Konflikten mit dem westlichen Christentum über Fragen der Lehre und Autorität gipfelten im Großen Schisma. Neben der byzantinischen (griechisch) orthodoxen Kirche gibt es eine Reihe anderer orientalisch-orthodoxer Kirchen (z. B. Syrisch, Koptisch, Äthiopisch, Armenisch), die ähnlich sind und sich hauptsächlich durch die Ablehnung der dogmatischen Definitionen des Konzils von Chalkedon unterscheiden.</German>
+		<Italian>[TAB]Eastern Orthodoxy comprises those Christian churches in communion with the Patriarchal Sees of the East, such as the Ecumenical Patriarch of Constantinople. Like the Roman Catholic Church, the Eastern Orthodox Church also traces its heritage to the foundation of Christianity through Apostolic succession and has an episcopal structure, though the autonomy of the individual, mostly national churches is emphasized. A number of conflicts with Western Christianity over questions of doctrine and authority culminated in the Great Schism. Apart from the Byzantine (Greek) Orthodox Chruch, there is a number of other oriental Orthodox Churches (e.g. Syriac, Coptic, Ethiopian, Armenian) that are similar, differing mainly by the rejection of the dogmatic definitions of the Council of Chalcedon. </Italian>
+		<Spanish>[TAB]Eastern Orthodoxy comprises those Christian churches in communion with the Patriarchal Sees of the East, such as the Ecumenical Patriarch of Constantinople. Like the Roman Catholic Church, the Eastern Orthodox Church also traces its heritage to the foundation of Christianity through Apostolic succession and has an episcopal structure, though the autonomy of the individual, mostly national churches is emphasized. A number of conflicts with Western Christianity over questions of doctrine and authority culminated in the Great Schism. Apart from the Byzantine (Greek) Orthodox Chruch, there is a number of other oriental Orthodox Churches (e.g. Syriac, Coptic, Ethiopian, Armenian) that are similar, differing mainly by the rejection of the dogmatic definitions of the Council of Chalcedon. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SUNNI</Tag>
+		<English>Sunni Islam</English>
+		<French>Sunni Islam</French>
+		<German>Sunni Islam</German>
+		<Italian>Sunni Islam</Italian>
+		<Spanish>Sunni Islam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SUNNI_ADJECTIVE</Tag>
+		<English>Sunni</English>
+		<French>Sunni</French>
+		<German>Sunnitisch</German>
+		<Italian>Sunni</Italian>
+		<Spanish>Sunni</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SUNNI_PEDIA</Tag>
+		<English>[TAB]Sunni Islam is the largest branch of Islam, also referred to as Orthodox Islam. The word "Sunni" comes from the term Sunnah, which refers to the words and actions or example of the Islamic prophet Muhammad. The Sunni branch of Islam has four legal schools of thought or madh'hab.[PARAGRAPH:2]The Sunni believe that Muhammad did not specifically appoint a successor to lead the Muslim ummah (community) before his death, and after an initial period of confusion, a group of his most prominent companions gathered and elected Abu Bakr - Muhammad's close friend and a father-in-law - as the first caliph of Islam. Sunni Muslims regard the first four caliphs - Abu Bakr, 'Umar ibn al-Khattab, Uthman Ibn Affan and Ali ibn Abu Talib - as "al-Khulafa'ur-Rashidun" or "The Rightly Guided Caliphs." Sunnis also believe that the position of caliph may be democratically chosen, but after the Rashidun, the position turned into a hereditary dynastic rule. After the fall of the Ottoman Empire in 1923, there has never been another caliph as widely recognized in the Muslim world.</English>
+		<French>[TAB]Sunni Islam is the largest branch of Islam, also referred to as Orthodox Islam. The word "Sunni" comes from the term Sunnah, which refers to the words and actions or example of the Islamic prophet Muhammad. The Sunni branch of Islam has four legal schools of thought or madh'hab.[PARAGRAPH:2]The Sunni believe that Muhammad did not specifically appoint a successor to lead the Muslim ummah (community) before his death, and after an initial period of confusion, a group of his most prominent companions gathered and elected Abu Bakr - Muhammad's close friend and a father-in-law - as the first caliph of Islam. Sunni Muslims regard the first four caliphs - Abu Bakr, 'Umar ibn al-Khattab, Uthman Ibn Affan and Ali ibn Abu Talib - as "al-Khulafa'ur-Rashidun" or "The Rightly Guided Caliphs." Sunnis also believe that the position of caliph may be democratically chosen, but after the Rashidun, the position turned into a hereditary dynastic rule. After the fall of the Ottoman Empire in 1923, there has never been another caliph as widely recognized in the Muslim world.</French>
+		<German>[TAB]Der sunnitische Islam ist der größte Zweig des Islam, der auch als orthodoxer Islam bezeichnet wird. Das Wort "Sunni" kommt vom Begriff "Sunnah", der sich auf die Worte und Taten oder das Beispiel des islamischen Propheten Mohammed bezieht. Der sunnitische Zweig des Islam hat vier juristische Denkschulen oder Madh'hab.[PARAGRAPH:2]Die Sunniten glauben, dass Mohammed vor seinem Tod und nach einer ersten Zeitspanne nicht ausdrücklich einen Nachfolger zur Leitung der muslimischen Ummah (Gemeinschaft) ernannt hat Als die Verwirrung herrschte, versammelte sich eine Gruppe seiner prominentesten Gefährten und wählte Abu Bakr - Mohammeds engen Freund und Schwiegervater - zum ersten Kalifen des Islam. Sunnitische Muslime betrachten die ersten vier Kalifen - Abu Bakr, 'Umar ibn al-Khattab, Uthman Ibn Affan und Ali ibn Abu Talib - als "al-Khulafa'ur-Rashidun" oder "Die rechtgeleiteten Kalifen". Sunniten glauben auch, dass die Position des Kalifen demokratisch gewählt werden kann, aber nach dem Rashidun wurde die Position zu einer erblichen dynastischen Herrschaft. Nach dem Untergang des Osmanischen Reiches im Jahr 1923 gab es in der muslimischen Welt nie wieder einen so weithin anerkannten Kalifen.</German>
+		<Italian>[TAB]Sunni Islam is the largest branch of Islam, also referred to as Orthodox Islam. The word "Sunni" comes from the term Sunnah, which refers to the words and actions or example of the Islamic prophet Muhammad. The Sunni branch of Islam has four legal schools of thought or madh'hab.[PARAGRAPH:2]The Sunni believe that Muhammad did not specifically appoint a successor to lead the Muslim ummah (community) before his death, and after an initial period of confusion, a group of his most prominent companions gathered and elected Abu Bakr - Muhammad's close friend and a father-in-law - as the first caliph of Islam. Sunni Muslims regard the first four caliphs - Abu Bakr, 'Umar ibn al-Khattab, Uthman Ibn Affan and Ali ibn Abu Talib - as "al-Khulafa'ur-Rashidun" or "The Rightly Guided Caliphs." Sunnis also believe that the position of caliph may be democratically chosen, but after the Rashidun, the position turned into a hereditary dynastic rule. After the fall of the Ottoman Empire in 1923, there has never been another caliph as widely recognized in the Muslim world.</Italian>
+		<Spanish>[TAB]Sunni Islam is the largest branch of Islam, also referred to as Orthodox Islam. The word "Sunni" comes from the term Sunnah, which refers to the words and actions or example of the Islamic prophet Muhammad. The Sunni branch of Islam has four legal schools of thought or madh'hab.[PARAGRAPH:2]The Sunni believe that Muhammad did not specifically appoint a successor to lead the Muslim ummah (community) before his death, and after an initial period of confusion, a group of his most prominent companions gathered and elected Abu Bakr - Muhammad's close friend and a father-in-law - as the first caliph of Islam. Sunni Muslims regard the first four caliphs - Abu Bakr, 'Umar ibn al-Khattab, Uthman Ibn Affan and Ali ibn Abu Talib - as "al-Khulafa'ur-Rashidun" or "The Rightly Guided Caliphs." Sunnis also believe that the position of caliph may be democratically chosen, but after the Rashidun, the position turned into a hereditary dynastic rule. After the fall of the Ottoman Empire in 1923, there has never been another caliph as widely recognized in the Muslim world.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SHIA</Tag>
+		<English>Shia Islam</English>
+		<French>Shia Islam</French>
+		<German>Schia Islam</German>
+		<Italian>Shia Islam</Italian>
+		<Spanish>Shia Islam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SHIA_ADJECTIVE</Tag>
+		<English>Shia</English>
+		<French>Shia</French>
+		<German>Schiitisch</German>
+		<Italian>Shia</Italian>
+		<Spanish>Shia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SHIA_PEDIA</Tag>
+		<English>[TAB]Shia Islam, also Shiite Islam or Shiism is the second largest branch of Islam, after Sunnism. Shias adhere to the teachings of Muhammad and the religious guidance of his family or his descendents known as Shia Imams. Muhammad's bloodline continues only through his daughter Fatima Zahra and cousin Ali which alongside Muhammad's grandsons are the Ahl al-Bayt. Thus, Shias consider Muhammad's descendants as the true source of guidance while considering the first three ruling Sunni caliphs a historic occurrence and not something attached to faith. Shia Islam, like Sunni Islam, has at times been divided into many branches; however, only three of these currently have a significant number of followers and each of them has a separate trajectory.[PARAGRAPH:2]From political viewpoint the history of Shia was formed from several parts. The first part is emergence of Shia which starts after Muhammad's death in 632 and lasts until Battle of Karbala in 680. This part coincides with the Imamah of Ali, Hasan ibn Ali and Husayn. The second part is the differentiation and distinction of Shia as a separate sect in Muslim community and opposition of Sunni caliph. This part starts after battle of Karbala and lasts until the formation of Shia states about 900. During this section Shia is divided into several branches. The third section is the period of Shia states. The first Shia state was Idrisid dynasty (780-974) in Maghreb, followed by Alavids (864 - 928) in Tabaristan, north of Iran. These dynasties were local, but they followed by two great and powerful states: the Fatimid Caliphate, which ruled over varying areas of the Maghreb, Egypt and the Levant in 909-1171. The Buyid dynasty emerged in Daylaman, north of Iran, about 930 and then ruled over central and western part of Iran and Iraq until 1048. In Yemen Imams of various dynasties usually of the Zaidi sect established a theocratic political structure that survived from 897 until 1962. A major turning point in Shia history was the Safavid dynasty in Persia, whose religious leaders converted most of the country and ended the relative mutual tolerance between Sunnis and Shias that existed from the time of the Mongol conquests onwards.</English>
+		<French>[TAB]Shia Islam, also Shiite Islam or Shiism is the second largest branch of Islam, after Sunnism. Shias adhere to the teachings of Muhammad and the religious guidance of his family or his descendents known as Shia Imams. Muhammad's bloodline continues only through his daughter Fatima Zahra and cousin Ali which alongside Muhammad's grandsons are the Ahl al-Bayt. Thus, Shias consider Muhammad's descendants as the true source of guidance while considering the first three ruling Sunni caliphs a historic occurrence and not something attached to faith. Shia Islam, like Sunni Islam, has at times been divided into many branches; however, only three of these currently have a significant number of followers and each of them has a separate trajectory.[PARAGRAPH:2]From political viewpoint the history of Shia was formed from several parts. The first part is emergence of Shia which starts after Muhammad's death in 632 and lasts until Battle of Karbala in 680. This part coincides with the Imamah of Ali, Hasan ibn Ali and Husayn. The second part is the differentiation and distinction of Shia as a separate sect in Muslim community and opposition of Sunni caliph. This part starts after battle of Karbala and lasts until the formation of Shia states about 900. During this section Shia is divided into several branches. The third section is the period of Shia states. The first Shia state was Idrisid dynasty (780-974) in Maghreb, followed by Alavids (864 - 928) in Tabaristan, north of Iran. These dynasties were local, but they followed by two great and powerful states: the Fatimid Caliphate, which ruled over varying areas of the Maghreb, Egypt and the Levant in 909-1171. The Buyid dynasty emerged in Daylaman, north of Iran, about 930 and then ruled over central and western part of Iran and Iraq until 1048. In Yemen Imams of various dynasties usually of the Zaidi sect established a theocratic political structure that survived from 897 until 1962. A major turning point in Shia history was the Safavid dynasty in Persia, whose religious leaders converted most of the country and ended the relative mutual tolerance between Sunnis and Shias that existed from the time of the Mongol conquests onwards.</French>
+		<German>[TAB]Der schiitische Islam, auch schiitischer Islam oder Schiismus, ist nach dem Sunnitentum der zweitgrößte Zweig des Islam. Schiiten halten sich an die Lehren Mohammeds und an die religiöse Führung seiner Familie oder seiner Nachkommen, die als schiitische Imame bekannt sind. Mohammeds Blutlinie wird nur durch seine Tochter Fatima Zahra und seinen Cousin Ali weitergeführt, die neben Mohammeds Enkeln die Ahl al-Bayt sind. Daher betrachten Schiiten Mohammeds Nachkommen als die wahre Quelle der Führung, während sie die ersten drei regierenden sunnitischen Kalifen als historisches Ereignis und nicht als etwas mit dem Glauben verbunden betrachten. Der schiitische Islam war wie der sunnitische Islam zeitweise in viele Zweige unterteilt; Allerdings haben derzeit nur drei von ihnen eine nennenswerte Anzahl von Anhängern und jeder von ihnen hat einen eigenen Werdegang.[PARAGRAPH:2]Aus politischer Sicht bestand die Geschichte der Schiiten aus mehreren Teilen. Der erste Teil ist die Entstehung der Schiiten, die nach Mohammeds Tod im Jahr 632 beginnt und bis zur Schlacht von Karbala im Jahr 680 andauert. Dieser Teil fällt mit der Imamah von Ali, Hasan ibn Ali und Husayn zusammen. Der zweite Teil ist die Differenzierung und Unterscheidung der Schiiten als eigenständige Sekte in der muslimischen Gemeinschaft und als Opposition zum sunnitischen Kalifen. Dieser Teil beginnt nach der Schlacht von Karbala und dauert bis zur Bildung der schiitischen Staaten um das Jahr 900. In diesem Abschnitt ist die Schiitschaft in mehrere Zweige unterteilt. Der dritte Abschnitt ist die Zeit der schiitischen Staaten. Der erste schiitische Staat war die Idrisiden-Dynastie (780-974) im Maghreb, gefolgt von den Alaviden (864-928) in Tabaristan, nördlich des Iran. Diese Dynastien waren lokal, ihnen folgten jedoch zwei große und mächtige Staaten: das Fatimiden-Kalifat, das von 909 bis 1171 über verschiedene Gebiete des Maghreb, Ägyptens und der Levante herrschte. Die Buyid-Dynastie entstand um 930 in Daylaman, nördlich des Iran, und herrschte dann bis 1048 über den zentralen und westlichen Teil Irans und des Irak. Im Jemen gründeten Imame verschiedener Dynastien, meist der Zaiditen-Sekte, eine theokratische politische Struktur, die von 897 bis 1962 überlebte Ein wichtiger Wendepunkt in der schiitischen Geschichte war die Safawiden-Dynastie in Persien, deren religiöse Führer den größten Teil des Landes konvertierten und die relative gegenseitige Toleranz zwischen Sunniten und Schiiten beendeten, die seit der Zeit der mongolischen Eroberungen bestand.</German>
+		<Italian>[TAB]Shia Islam, also Shiite Islam or Shiism is the second largest branch of Islam, after Sunnism. Shias adhere to the teachings of Muhammad and the religious guidance of his family or his descendents known as Shia Imams. Muhammad's bloodline continues only through his daughter Fatima Zahra and cousin Ali which alongside Muhammad's grandsons are the Ahl al-Bayt. Thus, Shias consider Muhammad's descendants as the true source of guidance while considering the first three ruling Sunni caliphs a historic occurrence and not something attached to faith. Shia Islam, like Sunni Islam, has at times been divided into many branches; however, only three of these currently have a significant number of followers and each of them has a separate trajectory.[PARAGRAPH:2]From political viewpoint the history of Shia was formed from several parts. The first part is emergence of Shia which starts after Muhammad's death in 632 and lasts until Battle of Karbala in 680. This part coincides with the Imamah of Ali, Hasan ibn Ali and Husayn. The second part is the differentiation and distinction of Shia as a separate sect in Muslim community and opposition of Sunni caliph. This part starts after battle of Karbala and lasts until the formation of Shia states about 900. During this section Shia is divided into several branches. The third section is the period of Shia states. The first Shia state was Idrisid dynasty (780-974) in Maghreb, followed by Alavids (864 - 928) in Tabaristan, north of Iran. These dynasties were local, but they followed by two great and powerful states: the Fatimid Caliphate, which ruled over varying areas of the Maghreb, Egypt and the Levant in 909-1171. The Buyid dynasty emerged in Daylaman, north of Iran, about 930 and then ruled over central and western part of Iran and Iraq until 1048. In Yemen Imams of various dynasties usually of the Zaidi sect established a theocratic political structure that survived from 897 until 1962. A major turning point in Shia history was the Safavid dynasty in Persia, whose religious leaders converted most of the country and ended the relative mutual tolerance between Sunnis and Shias that existed from the time of the Mongol conquests onwards.</Italian>
+		<Spanish>[TAB]Shia Islam, also Shiite Islam or Shiism is the second largest branch of Islam, after Sunnism. Shias adhere to the teachings of Muhammad and the religious guidance of his family or his descendents known as Shia Imams. Muhammad's bloodline continues only through his daughter Fatima Zahra and cousin Ali which alongside Muhammad's grandsons are the Ahl al-Bayt. Thus, Shias consider Muhammad's descendants as the true source of guidance while considering the first three ruling Sunni caliphs a historic occurrence and not something attached to faith. Shia Islam, like Sunni Islam, has at times been divided into many branches; however, only three of these currently have a significant number of followers and each of them has a separate trajectory.[PARAGRAPH:2]From political viewpoint the history of Shia was formed from several parts. The first part is emergence of Shia which starts after Muhammad's death in 632 and lasts until Battle of Karbala in 680. This part coincides with the Imamah of Ali, Hasan ibn Ali and Husayn. The second part is the differentiation and distinction of Shia as a separate sect in Muslim community and opposition of Sunni caliph. This part starts after battle of Karbala and lasts until the formation of Shia states about 900. During this section Shia is divided into several branches. The third section is the period of Shia states. The first Shia state was Idrisid dynasty (780-974) in Maghreb, followed by Alavids (864 - 928) in Tabaristan, north of Iran. These dynasties were local, but they followed by two great and powerful states: the Fatimid Caliphate, which ruled over varying areas of the Maghreb, Egypt and the Levant in 909-1171. The Buyid dynasty emerged in Daylaman, north of Iran, about 930 and then ruled over central and western part of Iran and Iraq until 1048. In Yemen Imams of various dynasties usually of the Zaidi sect established a theocratic political structure that survived from 897 until 1962. A major turning point in Shia history was the Safavid dynasty in Persia, whose religious leaders converted most of the country and ended the relative mutual tolerance between Sunnis and Shias that existed from the time of the Mongol conquests onwards.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM</Tag>
+		<English>Zoroastrianism</English>
+		<French>Zoroastrianism</French>
+		<German>Zoroastrismus</German>
+		<Italian>Zoroastrianism</Italian>
+		<Spanish>Zoroastrianism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM_ADJECTIVE</Tag>
+		<English>Zoroastrian</English>
+		<French>Zoroastrian</French>
+		<German>Zoroastrisch</German>
+		<Italian>Zoroastrian</Italian>
+		<Spanish>Zoroastrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM_PEDIA</Tag>
+		<English>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </English>
+		<French>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </French>
+		<German>[TAB]Zoroastrismus ist eine Religion und Philosophie, die auf den Lehren des Propheten Zoroaster (auf Avestanisch auch Zarathustra genannt) basiert. Es wurde wahrscheinlich einige Zeit vor dem 6. Jahrhundert v. Chr. im Iran gegründet. Der Begriff Zoroastrismus ist im allgemeinen Sprachgebrauch im Wesentlichen gleichbedeutend mit Mazdaismus (der Verehrung von Ahura Mazda, der von Zoroaster als höchste göttliche Autorität verherrlicht wird).[PARAGRAPH:2]Im Zoroastrismus ist der Schöpfer Ahura Mazda alles gut und es entsteht kein Böses von ihm. So haben Gut und Böse im Zoroastrismus unterschiedliche Quellen, wobei das Böse (druj) versucht, die Schöpfung Mazdas (asha) zu zerstören, und das Gute versucht, sie aufrechtzuerhalten. Mazda ist der Welt nicht immanent, und seine Schöpfung wird durch die Amesha Spentas und die Schar anderer Yazatas repräsentiert, durch die die Werke Gottes für die Menschheit offensichtlich werden und durch die letztendlich die Verehrung Mazdas erfolgt. Die wichtigsten Texte der Religion sind die des Avesta, von dem ein erheblicher Teil verloren gegangen ist und von dem meist nur die Liturgien erhalten sind. Die verlorenen Teile sind nur durch Verweise und kurze Zitate in späteren Werken bekannt, vor allem aus dem 9. bis 11. Jahrhundert.[PARAGRAPH:2]Der Zoroastrismus ist von großem Alter. In irgendeiner Form diente es viele Jahrhunderte lang als National- oder Staatsreligion eines bedeutenden Teils des iranischen Volkes, bevor es ab dem 7. Jahrhundert allmählich vom Islam an den Rand gedrängt wurde. Die politische Macht der vorislamischen iranischen Dynastien verlieh dem Zoroastrismus in der Antike großes Ansehen, und einige seiner Leitlehren wurden von anderen religiösen Systemen übernommen.</German>
+		<Italian>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </Italian>
+		<Spanish>[TAB]Zoroastrianism is a religion and philosophy based on the teachings of prophet Zoroaster (also known as Zarathustra, in Avestan). It was probably founded some time before the 6th century BC in Iran. The term Zoroastrianism is, in general usage, essentially synonymous with Mazdaism (the worship of Ahura Mazda, exalted by Zoroaster as the supreme divine authority).[PARAGRAPH:2]In Zoroastrianism, the Creator Ahura Mazda is all good, and no evil originates from Him. Thus, in Zoroastrianism good and evil have distinct sources, with evil (druj) trying to destroy the creation of Mazda (asha), and good trying to sustain it. Mazda is not immanent in the world, and His creation is represented by the Amesha Spentas and the host of other Yazatas, through whom the works of God are evident to humanity, and through whom worship of Mazda is ultimately directed. The most important texts of the religion are those of the Avesta, of which a significant portion has been lost, and mostly only the liturgies of which have survived. The lost portions are known of only through references and brief quotations in the later works, primarily from the 9th to 11th centuries.[PARAGRAPH:2]Zoroastrianism is of great antiquity. In some form, it served as the national- or state religion of a significant portion of the Iranian people for many centuries before it was gradually marginalized by Islam from the 7th century onwards. The political power of the pre-Islamic Iranian dynasties lent Zoroastrianism immense prestige in ancient times, and some of its leading doctrines were adopted by other religious systems. </Spanish>
+	</TEXT>
+</Civ4GameText>
