@@ -21,16 +21,16 @@ iTan = 90
 iLime = 139
 
 # Coordinates of Rhye's catapault (should be in some inaccessible area on the edge of the map)
-iCatapultX = 114
-iCatapultY = 71
+iCatapultX = 124
+iCatapultY = 81
 
 # Coordinates of temporary Unit flipping plot (as above)
-iFlipX = 114
-iFlipY = 69
+iFlipX = 124
+iFlipY = 79
 
 # Coordinates of temporary Mercenary creation plot (as above)
-iMercX = 114
-iMercY = 67
+iMercX = 124
+iMercY = 77
 
 # RFC Plague
 iImmunity = 20
