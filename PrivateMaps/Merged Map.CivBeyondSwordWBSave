@@ -1,6 +1,5 @@
 Version=11
 BeginGame
-	Tutorial=0
 	Era=ERA_ANCIENT
 	Speed=GAMESPEED_NORMAL
 	Calendar=CALENDAR_DEFAULT
@@ -31,6 +30,28 @@ BeginTeam
 	TeamID=2
 	ContactWithTeam=1
 	AtWar=0
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
+EndTeam
+BeginTeam
 EndTeam
 BeginTeam
 EndTeam
@@ -140,6 +161,20 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=3
+	LeaderType=LEADER_BULAN
+	CivType=CIVILIZATION_KHAZARS
+	PlayableCiv=1
+	StateReligion=RELIGION_JUDAISM
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=4
 	LeaderType=LEADER_PRITHVIRAJ
 	CivType=CIVILIZATION_CHAUHAN
 	PlayableCiv=1
@@ -153,7 +188,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=4
+	Team=5
 	LeaderType=LEADER_BHOJA
 	CivType=CIVILIZATION_MALWA
 	PlayableCiv=1
@@ -167,11 +202,11 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=5
-	LeaderType=LEADER_SAMAN
-	CivType=CIVILIZATION_SAMANIDS
+	Team=6
+	LeaderType=LEADER_SHAHMALIK
+	CivType=CIVILIZATION_OGHUZ
 	PlayableCiv=1
-	StateReligion=RELIGION_SUNNI
+	StateReligion=
 	StartingEra=ERA_CLASSICAL
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
@@ -181,7 +216,35 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=6
+	Team=7
+	LeaderType=LEADER_SAMAN
+	CivType=CIVILIZATION_SAMANIDS
+	PlayableCiv=1
+	StateReligion=RELIGION_SUNNI
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=8
+	LeaderType=LEADER_ALITEGIN
+	CivType=CIVILIZATION_KHANIDS
+	PlayableCiv=1
+	StateReligion=
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=9
 	LeaderType=LEADER_ASHOT
 	CivType=CIVILIZATION_ARMENIA
 	WhiteFlag=1
@@ -196,7 +259,35 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=7
+	Team=10
+	LeaderType=LEADER_YAROSLAV
+	CivType=CIVILIZATION_KIEV
+	PlayableCiv=1
+	StateReligion=
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=11
+	LeaderType=LEADER_DURGULEL
+	CivType=CIVILIZATION_ALANIA
+	PlayableCiv=1
+	StateReligion=
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=12
 	LeaderType=LEADER_YAHYA
 	CivType=CIVILIZATION_YEMEN
 	PlayableCiv=1
@@ -210,7 +301,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=8
+	Team=13
 	LeaderType=LEADER_AL_DAWLA
 	CivType=CIVILIZATION_BUYIDS
 	PlayableCiv=1
@@ -224,7 +315,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=9
+	Team=14
 	LeaderType=LEADER_SIDDHRAJ
 	CivType=CIVILIZATION_GUJARAT
 	PlayableCiv=1
@@ -238,7 +329,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=10
+	Team=15
 	LeaderType=LEADER_SABUKTIGIN
 	CivType=CIVILIZATION_GHAZNAVIDS
 	PlayableCiv=1
@@ -252,7 +343,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=11
+	Team=16
 	LeaderType=LEADER_AL_MUIZZ
 	CivType=CIVILIZATION_FATIMIDS
 	PlayableCiv=1
@@ -266,7 +357,21 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=12
+	Team=17
+	LeaderType=LEADER_VIKRAMADITYA
+	CivType=CIVILIZATION_CHALUKYA
+	PlayableCiv=1
+	StateReligion=RELIGION_HINDUISM
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=18
 	LeaderType=LEADER_TAMAR
 	CivType=CIVILIZATION_GEORGIA
 	PlayableCiv=1
@@ -280,7 +385,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=13
+	Team=19
 	LeaderType=LEADER_DODO
 	CivType=CIVILIZATION_SINDH
 	PlayableCiv=1
@@ -294,7 +399,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=14
+	Team=20
 	LeaderType=LEADER_ALP_ARSLAN
 	CivType=CIVILIZATION_SELJUKS
 	PlayableCiv=1
@@ -304,11 +409,25 @@ BeginPlayer
 	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=21
+	LeaderType=LEADER_KONCHEK
+	CivType=CIVILIZATION_KYPCHAKS
+	PlayableCiv=1
+	StateReligion=
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_TRIBAL_FEDERATION
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=15
+	Team=22
 	LeaderType=LEADER_KILIJ
 	CivType=CIVILIZATION_TURKS
 	WhiteFlag=1
@@ -323,7 +442,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=16
+	Team=23
 	LeaderType=LEADER_ALA_AD_DIN
 	CivType=CIVILIZATION_KHWAREZM
 	WhiteFlag=1
@@ -338,7 +457,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=17
+	Team=24
 	LeaderType=LEADER_BOHEMOND
 	CivType=CIVILIZATION_ANTIOCH
 	PlayableCiv=1
@@ -352,7 +471,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=18
+	Team=25
 	LeaderType=LEADER_BALDWIN
 	CivType=CIVILIZATION_OUTREMER
 	PlayableCiv=1
@@ -366,7 +485,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=19
+	Team=26
 	LeaderType=LEADER_ZENGI
 	CivType=CIVILIZATION_ZENGIDS
 	PlayableCiv=1
@@ -380,7 +499,21 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=20
+	Team=27
+	LeaderType=LEADER_YELU
+	CivType=CIVILIZATION_KHITAI
+	PlayableCiv=1
+	StateReligion=RELIGION_BUDDHISM
+	StartingEra=ERA_CLASSICAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=28
 	LeaderType=LEADER_MUHAMMAD_GHORI
 	CivType=CIVILIZATION_GHORIDS
 	WhiteFlag=1
@@ -395,7 +528,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=21
+	Team=29
 	LeaderType=LEADER_AL_HAMAL
 	CivType=CIVILIZATION_OMAN
 	PlayableCiv=1
@@ -409,7 +542,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=22
+	Team=30
 	LeaderType=LEADER_SALADIN
 	CivType=CIVILIZATION_AYYUBIDS
 	PlayableCiv=1
@@ -423,7 +556,60 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=23
+	Team=31
+	LeaderType=LEADER_GENGHIS_KHAN
+	CivType=CIVILIZATION_ILKHANATE
+	PlayableCiv=1
+	StateReligion=
+	StartingEra=ERA_MEDIEVAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_EMPIRE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	AttitudePlayer=0, AttitudeExtra=4
+	AttitudePlayer=2, AttitudeExtra=-7
+	AttitudePlayer=8, AttitudeExtra=6
+	AttitudePlayer=11, AttitudeExtra=3
+	AttitudePlayer=13, AttitudeExtra=3
+	AttitudePlayer=16, AttitudeExtra=4
+	AttitudePlayer=18, AttitudeExtra=-5
+	AttitudePlayer=19, AttitudeExtra=-2
+	AttitudePlayer=20, AttitudeExtra=-2
+	AttitudePlayer=21, AttitudeExtra=-6
+	AttitudePlayer=22, AttitudeExtra=5
+	AttitudePlayer=23, AttitudeExtra=4
+	AttitudePlayer=24, AttitudeExtra=-2
+	AttitudePlayer=25, AttitudeExtra=-2
+	AttitudePlayer=26, AttitudeExtra=-5
+	AttitudePlayer=28, AttitudeExtra=-4
+	AttitudePlayer=30, AttitudeExtra=-3
+	AttitudePlayer=31, AttitudeExtra=-5
+	AttitudePlayer=32, AttitudeExtra=-1
+	AttitudePlayer=33, AttitudeExtra=-1
+	AttitudePlayer=35, AttitudeExtra=-5
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=32
+	LeaderType=LEADER_OZ_BEG
+	CivType=CIVILIZATION_GOLDEN
+	PlayableCiv=1
+	StateReligion=
+	StartingEra=ERA_MEDIEVAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	AttitudePlayer=29, AttitudeExtra=-3
+	AttitudePlayer=31, AttitudeExtra=1
+	AttitudePlayer=32, AttitudeExtra=-1
+	AttitudePlayer=35, AttitudeExtra=-2
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=33
 	LeaderType=LEADER_BAIBARS
 	CivType=CIVILIZATION_MAMLUKS
 	PlayableCiv=1
@@ -437,7 +623,28 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=24
+	Team=34
+	LeaderType=LEADER_DUWA_KHAN
+	CivType=CIVILIZATION_CHAGATAI
+	PlayableCiv=1
+	StateReligion=
+	StartingEra=ERA_MEDIEVAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_HEREDITARY_RULE
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	AttitudePlayer=7, AttitudeExtra=-1
+	AttitudePlayer=21, AttitudeExtra=-2
+	AttitudePlayer=26, AttitudeExtra=-1
+	AttitudePlayer=29, AttitudeExtra=-1
+	AttitudePlayer=30, AttitudeExtra=-1
+	AttitudePlayer=35, AttitudeExtra=-2
+	AttitudePlayer=39, AttitudeExtra=1
+	Handicap=HANDICAP_PRINCE
+EndPlayer
+BeginPlayer
+	Team=35
 	LeaderType=LEADER_SULEIMAN
 	CivType=CIVILIZATION_OTTOMAN
 	PlayableCiv=1
@@ -451,7 +658,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=25
+	Team=36
 	LeaderType=LEADER_BAHMAN
 	CivType=CIVILIZATION_BAHMANIDS
 	PlayableCiv=1
@@ -465,7 +672,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=26
+	Team=37
 	LeaderType=LEADER_TAMERLANE
 	CivType=CIVILIZATION_TIMURIDS
 	PlayableCiv=1
@@ -479,7 +686,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=27
+	Team=38
 	LeaderType=LEADER_UZUN_HASSAN
 	CivType=CIVILIZATION_AKKOYUNLU
 	PlayableCiv=1
@@ -493,7 +700,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=28
+	Team=39
 	LeaderType=LEADER_ABBAS
 	CivType=CIVILIZATION_SAFAVIDS
 	PlayableCiv=1
@@ -507,7 +714,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=29
+	Team=40
 	LeaderType=LEADER_JOAO
 	CivType=CIVILIZATION_PORTUGAL
 	PlayableCiv=1
@@ -521,7 +728,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=30
+	Team=41
 	LeaderType=LEADER_AKBAR
 	CivType=CIVILIZATION_MUGHALS
 	PlayableCiv=1
@@ -535,7 +742,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=31
+	Team=42
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK2
@@ -545,7 +752,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=32
+	Team=43
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK3
@@ -555,7 +762,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=33
+	Team=44
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK4
@@ -565,7 +772,7 @@ BeginPlayer
 	Handicap=HANDICAP_PRINCE
 EndPlayer
 BeginPlayer
-	Team=34
+	Team=45
 	LeaderType=LEADER_MINOR
 	CivType=CIVILIZATION_MINOR
 	Color=PLAYERCOLOR_BLACK5
@@ -574,8 +781,6 @@ BeginPlayer
 	StartingEra=ERA_CLASSICAL
 	Handicap=HANDICAP_PRINCE
 EndPlayer
-
-
 BeginMap
 	grid width=125
 	grid height=86
@@ -973,23 +1178,26 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=0,y=75
+	isNOfRiver
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=0,y=76
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=0,y=77
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
 EndPlot
 BeginPlot
 	x=0,y=78
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=0,y=79
@@ -998,6 +1206,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=0,y=80
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -1008,22 +1219,25 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=0,y=82
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=0,y=83
+	BonusType=BONUS_WINE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=0,y=84
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=0,y=85
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -1368,18 +1582,17 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=32
+		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Skadar
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_ORTHODOX_TEMPLE
 		ReligionType=RELIGION_ORTHODOXY
-		Player32Culture=5
 	EndCity
 EndPlot
 BeginPlot
@@ -1423,57 +1636,67 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=1,y=75
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	isNOfRiver
+	RiverWEDirection=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=1,y=76
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=1,y=77
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
 EndPlot
 BeginPlot
 	x=1,y=78
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=1,y=79
+	BonusType=BONUS_COW
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=1,y=80
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=1,y=81
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=1,y=82
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	BonusType=BONUS_FUR
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=1,y=83
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=1,y=84
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=1,y=85
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -1864,57 +2087,80 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=2,y=75
-	TerrainType=TERRAIN_PLAINS
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
+	BonusType=BONUS_WHEAT
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=2,y=76
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=2,y=77
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=2,y=78
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=2,y=79
+	RiverNSDirection=2
+	isWOfRiver
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=2,y=80
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	BonusType=BONUS_DYE
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=2,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=2,y=82
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=2,y=83
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	RiverNSDirection=0
+	isWOfRiver
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=2,y=84
-	TerrainType=TERRAIN_PLAINS
+	BonusType=BONUS_DEER
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=2,y=85
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -2105,12 +2351,12 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Bengazi
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
@@ -2272,7 +2518,6 @@ BeginPlot
 		CityName=Dyrrachion
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -2324,16 +2569,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=3,y=73
-	RiverNSDirection=2
-	isWOfRiver
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=3,y=74
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -2343,16 +2586,19 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=3,y=76
+	BonusType=BONUS_COW
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=3,y=77
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=3,y=78
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -2363,7 +2609,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=3,y=80
-	TerrainType=TERRAIN_PLAINS
+	BonusType=BONUS_DYE
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -2373,23 +2620,29 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=3,y=82
-	TerrainType=TERRAIN_PLAINS
+	BonusType=BONUS_APPLE
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=3,y=83
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=3,y=84
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=3,y=85
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=4,y=0
@@ -2780,13 +3033,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=4,y=73
-	isNOfRiver
-	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=4,y=74
+	isNOfRiver
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -2798,7 +3051,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=4,y=76
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -2818,32 +3071,39 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=4,y=80
+	BonusType=BONUS_HONEY
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=4,y=81
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=4,y=82
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=4,y=83
-	TerrainType=TERRAIN_PLAINS
+	BonusType=BONUS_WHEAT
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=4,y=84
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=4,y=85
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -3229,13 +3489,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=5,y=73
-	isNOfRiver
-	RiverWEDirection=1
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=5,y=74
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
 	BonusType=BONUS_FUR
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
@@ -3243,18 +3507,24 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=5,y=75
+	RiverNSDirection=2
+	isWOfRiver
+	BonusType=BONUS_BARLEY
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=5,y=76
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=5,y=77
+	BonusType=BONUS_WINE
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=5,y=78
@@ -3263,37 +3533,47 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=5,y=79
+	BonusType=BONUS_HONEY
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=5,y=80
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=5,y=81
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=5,y=82
+	BonusType=BONUS_IRON
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=5,y=83
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=5,y=84
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=5,y=85
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -3601,7 +3881,6 @@ BeginPlot
 		CityName=Arta
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -3718,53 +3997,76 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=6,y=76
+	isNOfRiver
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=6,y=77
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	BonusType=BONUS_APPLE
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=6,y=78
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=6,y=79
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=6,y=80
+	isNOfRiver
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=6,y=81
+	BonusType=BONUS_SALT
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=6,y=82
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=6,y=83
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=6,y=84
-	TerrainType=TERRAIN_PLAINS
+	RiverNSDirection=0
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
+	BonusType=BONUS_APPLE
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=6,y=85
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=7,y=0
@@ -4058,7 +4360,6 @@ BeginPlot
 		CityName=Patrai
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -4133,18 +4434,17 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=31
+		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=42
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Skopie
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_ORTHODOX_TEMPLE
 		ReligionType=RELIGION_ORTHODOXY
-		Player31Culture=5
 	EndCity
 EndPlot
 BeginPlot
@@ -4201,11 +4501,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=7,y=75
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=7,y=76
+	isNOfRiver
+	RiverWEDirection=3
+	BonusType=BONUS_WINE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -4216,43 +4519,55 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=7,y=78
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=7,y=79
+	isNOfRiver
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=7,y=80
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=7,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=7,y=82
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=7,y=83
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=7,y=84
-	TerrainType=TERRAIN_PLAINS
+	RiverNSDirection=0
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=7,y=85
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	RiverNSDirection=0
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=8,y=0
@@ -4676,52 +4991,71 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=8,y=76
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=8,y=77
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=8,y=78
-	TerrainType=TERRAIN_PLAINS
+	BonusType=BONUS_BARLEY
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=8,y=79
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	BonusType=BONUS_HORSE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=8,y=80
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=8,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=8,y=82
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=8,y=83
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	RiverNSDirection=0
+	isWOfRiver
+	BonusType=BONUS_SULFUR
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=8,y=84
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=3
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=8,y=85
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -4997,7 +5331,6 @@ BeginPlot
 		CityName=Mystras
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -5053,7 +5386,6 @@ BeginPlot
 		CityName=Larissa
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -5088,7 +5420,6 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_FAIRGROUND
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -5163,14 +5494,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=9,y=74
-	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=9,y=75
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=9,y=76
@@ -5179,46 +5510,59 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=9,y=77
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=3
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=9,y=78
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=9,y=79
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=9,y=80
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	isNOfRiver
+	RiverWEDirection=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=9,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=9,y=82
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	RiverNSDirection=0
+	isWOfRiver
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=9,y=83
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	isNOfRiver
+	RiverWEDirection=3
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=9,y=84
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=9,y=85
+	BonusType=BONUS_PIG
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -5619,62 +5963,77 @@ EndPlot
 BeginPlot
 	x=10,y=74
 	FeatureType=FEATURE_FOREST, FeatureVariety=2
-	TerrainType=TERRAIN_TUNDRA
+	TerrainType=TERRAIN_GRASS
 	PlotType=0
 EndPlot
 BeginPlot
 	x=10,y=75
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	BonusType=BONUS_FUR
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=10,y=76
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=10,y=77
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=3
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=10,y=78
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=10,y=79
-	TerrainType=TERRAIN_PLAINS
+	RiverNSDirection=0
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=10,y=80
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	isNOfRiver
+	RiverWEDirection=3
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=10,y=81
-	TerrainType=TERRAIN_PLAINS
+	BonusType=BONUS_DEER
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=10,y=82
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	RiverNSDirection=0
+	isWOfRiver
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=10,y=83
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=10,y=84
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=10,y=85
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -5864,12 +6223,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Tobruk
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
@@ -6085,67 +6444,83 @@ BeginPlot
 	x=11,y=73
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=1
+	PlotType=0
 EndPlot
 BeginPlot
 	x=11,y=74
 	FeatureType=FEATURE_FOREST, FeatureVariety=2
 	TerrainType=TERRAIN_TUNDRA
-	PlotType=0
+	PlotType=1
 EndPlot
 BeginPlot
 	x=11,y=75
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=11,y=76
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=11,y=77
+	isNOfRiver
+	RiverWEDirection=3
+	BonusType=BONUS_COW
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=11,y=78
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=11,y=79
+	isNOfRiver
+	RiverWEDirection=3
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=11,y=80
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=11,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=11,y=82
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=11,y=83
-	TerrainType=TERRAIN_PLAINS
+	RiverNSDirection=0
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=11,y=84
-	TerrainType=TERRAIN_PLAINS
+	BonusType=BONUS_HORSE
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=11,y=85
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6442,7 +6817,6 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -6504,18 +6878,17 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=31
+		UnitType=UNIT_ARCHER_SYRIAN, UnitOwner=42
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Plovdivy
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		BuildingType=BUILDING_ORTHODOX_TEMPLE
 		ReligionType=RELIGION_ORTHODOXY
-		Player31Culture=5
 	EndCity
 EndPlot
 BeginPlot
@@ -6564,7 +6937,7 @@ BeginPlot
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
-	PlotType=1
+	PlotType=0
 EndPlot
 BeginPlot
 	x=12,y=74
@@ -6572,61 +6945,79 @@ BeginPlot
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=2
 	TerrainType=TERRAIN_TUNDRA
-	PlotType=0
+	PlotType=1
 EndPlot
 BeginPlot
 	x=12,y=75
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=12,y=76
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=12,y=77
+	isNOfRiver
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=12,y=78
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=12,y=79
-	TerrainType=TERRAIN_PLAINS
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	BonusType=BONUS_PIG
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=12,y=80
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=12,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	BonusType=BONUS_SALT
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=12,y=82
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=12,y=83
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=12,y=84
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=12,y=85
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -6871,7 +7262,6 @@ BeginPlot
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -7026,7 +7416,7 @@ BeginPlot
 	BonusType=BONUS_FUR
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
-	PlotType=1
+	PlotType=0
 EndPlot
 BeginPlot
 	x=13,y=74
@@ -7036,58 +7426,73 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=13,y=75
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	BonusType=BONUS_DEER
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=13,y=76
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=13,y=77
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=13,y=78
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=1
 EndPlot
 BeginPlot
 	x=13,y=79
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=13,y=80
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=13,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=13,y=82
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=13,y=83
-	TerrainType=TERRAIN_PLAINS
+	RiverNSDirection=2
+	isWOfRiver
+	BonusType=BONUS_BARLEY
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=13,y=84
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=13,y=85
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=14,y=0
@@ -7483,58 +7888,72 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=14,y=75
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=14,y=76
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=14,y=77
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	BonusType=BONUS_STONE
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
 EndPlot
 BeginPlot
 	x=14,y=78
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	BonusType=BONUS_FUR
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=14,y=79
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=0
 EndPlot
 BeginPlot
 	x=14,y=80
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=0
 EndPlot
 BeginPlot
 	x=14,y=81
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
 EndPlot
 BeginPlot
 	x=14,y=82
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=14,y=83
-	TerrainType=TERRAIN_PLAINS
+	isNOfRiver
+	RiverWEDirection=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=14,y=84
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=14,y=85
-	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	BonusType=BONUS_DEER
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=15,y=0
@@ -7909,7 +8328,7 @@ EndPlot
 BeginPlot
 	x=15,y=71
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -7923,56 +8342,65 @@ EndPlot
 BeginPlot
 	x=15,y=73
 	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	PlotType=1
 EndPlot
 BeginPlot
 	x=15,y=74
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
 BeginPlot
 	x=15,y=75
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=0
 EndPlot
 BeginPlot
 	x=15,y=76
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
 EndPlot
 BeginPlot
 	x=15,y=77
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=0
 EndPlot
 BeginPlot
 	x=15,y=78
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=0
 EndPlot
 BeginPlot
 	x=15,y=79
 	isNOfRiver
-	RiverWEDirection=3
-	TerrainType=TERRAIN_PLAINS
+	RiverWEDirection=1
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=0
 EndPlot
 BeginPlot
 	x=15,y=80
-	isNOfRiver
-	RiverWEDirection=3
+	RiverNSDirection=2
+	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=15,y=81
+	RiverNSDirection=2
+	isWOfRiver
 	BonusType=BONUS_DEER
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=15,y=82
+	isNOfRiver
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -8319,7 +8747,6 @@ BeginPlot
 		CityName=Kallipolis
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -8355,7 +8782,6 @@ BeginPlot
 		CityPopulation=3
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -8388,9 +8814,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=16,y=71
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -8414,22 +8840,24 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=16,y=75
-	TerrainType=TERRAIN_PLAINS
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=0
 EndPlot
 BeginPlot
 	x=16,y=76
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=0
 EndPlot
 BeginPlot
 	x=16,y=77
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	TerrainType=TERRAIN_TUNDRA
 	PlotType=0
 EndPlot
 BeginPlot
 	x=16,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
@@ -8437,7 +8865,7 @@ EndPlot
 BeginPlot
 	x=16,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_COPPER
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -8446,7 +8874,7 @@ EndPlot
 BeginPlot
 	x=16,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -8467,6 +8895,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=16,y=84
+	BonusType=BONUS_HONEY
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -8653,12 +9082,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Paraitonion
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
@@ -8791,7 +9220,6 @@ BeginPlot
 		CityPopulation=3
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -8882,7 +9310,7 @@ EndPlot
 BeginPlot
 	x=17,y=72
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_OLIVES
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -8906,14 +9334,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=17,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	PlotType=1
 EndPlot
 BeginPlot
 	x=17,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
@@ -8922,7 +9350,7 @@ EndPlot
 BeginPlot
 	x=17,y=78
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -8936,13 +9364,14 @@ EndPlot
 BeginPlot
 	x=17,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=17,y=81
+	BonusType=BONUS_GOLD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -9346,7 +9775,7 @@ EndPlot
 BeginPlot
 	x=18,y=72
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=0
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -9359,13 +9788,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=18,y=74
+	BonusType=BONUS_GOLD
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=18,y=75
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
@@ -9374,13 +9804,14 @@ EndPlot
 BeginPlot
 	x=18,y=76
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=18,y=77
+	BonusType=BONUS_SILVER
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -9392,7 +9823,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=18,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -9401,7 +9832,7 @@ EndPlot
 BeginPlot
 	x=18,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -9697,7 +10128,6 @@ BeginPlot
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -9785,7 +10215,7 @@ BeginPlot
 	x=19,y=63
 	RouteType=ROUTE_RAILROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=19,y=64
@@ -9833,9 +10263,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=19,y=72
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
@@ -9859,7 +10289,7 @@ EndPlot
 BeginPlot
 	x=19,y=75
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -9877,7 +10307,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=19,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_COW
 	TerrainType=TERRAIN_PLAINS
@@ -9886,7 +10316,7 @@ EndPlot
 BeginPlot
 	x=19,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -9909,7 +10339,7 @@ EndPlot
 BeginPlot
 	x=19,y=83
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_WINE
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -10279,13 +10709,13 @@ BeginPlot
 	BonusType=BONUS_SILK
 	RouteType=ROUTE_RAILROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=20,y=64
 	BonusType=BONUS_HEMP
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=20,y=65
@@ -10336,7 +10766,7 @@ EndPlot
 BeginPlot
 	x=20,y=73
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -10354,14 +10784,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=20,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -10369,7 +10799,7 @@ EndPlot
 BeginPlot
 	x=20,y=78
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -10386,7 +10816,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=81
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_APPLE
 	TerrainType=TERRAIN_PLAINS
@@ -10399,9 +10829,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=83
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -10612,12 +11042,12 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Alexandria
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
@@ -10781,7 +11211,7 @@ BeginPlot
 	x=21,y=61
 	BonusType=BONUS_PIG
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=21,y=62
@@ -10829,7 +11259,6 @@ BeginPlot
 		BuildingType=BUILDING_THEODOSIAN_WALLS
 		ReligionType=RELIGION_ORTHODOXY
 		HolyCityReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -10867,7 +11296,6 @@ BeginPlot
 	x=21,y=70
 	TerrainType=TERRAIN_COAST
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=21,y=71
@@ -10893,7 +11321,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=21,y=75
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -10901,7 +11329,7 @@ EndPlot
 BeginPlot
 	x=21,y=76
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -10918,13 +11346,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=21,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=21,y=80
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -10936,7 +11366,7 @@ EndPlot
 BeginPlot
 	x=21,y=82
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -10948,7 +11378,7 @@ EndPlot
 BeginPlot
 	x=21,y=84
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -11318,7 +11748,7 @@ BeginPlot
 	BonusType=BONUS_SILK
 	RouteType=ROUTE_RAILROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=22,y=63
@@ -11360,7 +11790,6 @@ BeginPlot
 	x=22,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=22,y=71
@@ -11387,7 +11816,7 @@ EndPlot
 BeginPlot
 	x=22,y=75
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -11411,7 +11840,7 @@ EndPlot
 BeginPlot
 	x=22,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -11428,7 +11857,7 @@ EndPlot
 BeginPlot
 	x=22,y=82
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -11440,7 +11869,7 @@ EndPlot
 BeginPlot
 	x=22,y=84
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=2
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -11836,7 +12265,7 @@ BeginPlot
 	ImprovementType=IMPROVEMENT_HAMLET
 	RouteType=ROUTE_RAILROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=23,y=63
@@ -11877,7 +12306,6 @@ BeginPlot
 	x=23,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=23,y=71
@@ -11897,7 +12325,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=23,y=74
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -11905,7 +12333,7 @@ EndPlot
 BeginPlot
 	x=23,y=75
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -11921,7 +12349,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=23,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -11929,7 +12357,7 @@ EndPlot
 BeginPlot
 	x=23,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -11945,9 +12373,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=23,y=82
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	BonusType=BONUS_IRON
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
@@ -11963,7 +12391,7 @@ BeginPlot
 	x=23,y=84
 	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -11971,7 +12399,7 @@ EndPlot
 BeginPlot
 	x=23,y=85
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -12399,7 +12827,6 @@ BeginPlot
 	x=24,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=24,y=71
@@ -12437,7 +12864,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=24,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -12445,7 +12872,7 @@ EndPlot
 BeginPlot
 	x=24,y=78
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -12472,9 +12899,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=24,y=83
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -12488,7 +12915,7 @@ EndPlot
 BeginPlot
 	x=24,y=85
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=0
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -12503,7 +12930,7 @@ BeginPlot
 	BonusType=BONUS_IVORY
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=25,y=2
@@ -12511,7 +12938,7 @@ BeginPlot
 	isWOfRiver
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=25,y=3
@@ -12519,7 +12946,7 @@ BeginPlot
 	RiverWEDirection=3
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=25,y=4
@@ -12821,7 +13248,6 @@ BeginPlot
 		CityName=Attaleia
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -12885,7 +13311,6 @@ BeginPlot
 		CityName=Dorylaion
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -12948,7 +13373,6 @@ BeginPlot
 	x=25,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=25,y=71
@@ -12977,7 +13401,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=25,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -12986,7 +13410,7 @@ EndPlot
 BeginPlot
 	x=25,y=77
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -13013,14 +13437,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=25,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=25,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_COTTON
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
@@ -13029,9 +13453,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=25,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
@@ -13041,7 +13465,7 @@ BeginPlot
 	x=25,y=85
 	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -13059,7 +13483,7 @@ BeginPlot
 	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=26,y=2
@@ -13069,12 +13493,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Soba
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
@@ -13084,7 +13508,7 @@ BeginPlot
 	x=26,y=3
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=26,y=4
@@ -13479,7 +13903,6 @@ BeginPlot
 	x=26,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=26,y=71
@@ -13512,7 +13935,7 @@ EndPlot
 BeginPlot
 	x=26,y=76
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -13539,7 +13962,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=26,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_PIG
 	TerrainType=TERRAIN_GRASS
@@ -13548,7 +13971,7 @@ EndPlot
 BeginPlot
 	x=26,y=82
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -13561,7 +13984,7 @@ EndPlot
 BeginPlot
 	x=26,y=84
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -13581,18 +14004,18 @@ EndPlot
 BeginPlot
 	x=27,y=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=27,y=2
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=27,y=3
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=27,y=4
@@ -13974,7 +14397,6 @@ BeginPlot
 	x=27,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=27,y=71
@@ -14032,7 +14454,7 @@ EndPlot
 BeginPlot
 	x=27,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -14050,9 +14472,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=27,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -14427,7 +14849,6 @@ BeginPlot
 		CityName=Amastris
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -14459,7 +14880,6 @@ BeginPlot
 	x=28,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=28,y=71
@@ -14509,7 +14929,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=28,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -14518,7 +14938,7 @@ EndPlot
 BeginPlot
 	x=28,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -14541,7 +14961,7 @@ EndPlot
 BeginPlot
 	x=28,y=85
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -14731,7 +15151,7 @@ BeginPlot
 	BonusType=BONUS_OLIVES
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=29,y=35
@@ -14835,13 +15255,13 @@ EndPlot
 BeginPlot
 	x=29,y=53
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=29,y=54
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=29,y=55
@@ -14884,7 +15304,6 @@ BeginPlot
 		CityName=Ankyra
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -14940,7 +15359,6 @@ BeginPlot
 	x=29,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=29,y=71
@@ -14997,7 +15415,7 @@ EndPlot
 BeginPlot
 	x=29,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_WHEAT
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -15025,7 +15443,7 @@ EndPlot
 BeginPlot
 	x=29,y=85
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -15201,24 +15619,24 @@ EndPlot
 BeginPlot
 	x=30,y=32
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=30,y=33
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=30,y=34
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=30,y=35
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=30,y=36
@@ -15303,7 +15721,7 @@ BeginPlot
 	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=30,y=52
@@ -15313,13 +15731,13 @@ EndPlot
 BeginPlot
 	x=30,y=53
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=30,y=54
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=30,y=55
@@ -15412,7 +15830,6 @@ BeginPlot
 	x=30,y=70
 	TerrainType=TERRAIN_SEA
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=30,y=71
@@ -15467,7 +15884,7 @@ EndPlot
 BeginPlot
 	x=30,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -15489,7 +15906,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=84
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -15497,7 +15914,7 @@ EndPlot
 BeginPlot
 	x=30,y=85
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -15682,30 +16099,30 @@ EndPlot
 BeginPlot
 	x=31,y=32
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=31,y=33
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=31,y=34
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=31,y=35
 	BonusType=BONUS_CITRUS
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=31,y=36
 	ImprovementType=IMPROVEMENT_COTTAGE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=31,y=37
@@ -15799,7 +16216,7 @@ EndPlot
 BeginPlot
 	x=31,y=54
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=31,y=55
@@ -15898,7 +16315,6 @@ BeginPlot
 	x=31,y=70
 	TerrainType=TERRAIN_COAST
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=31,y=71
@@ -15948,7 +16364,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=31,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -15956,7 +16372,7 @@ EndPlot
 BeginPlot
 	x=31,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -15978,7 +16394,7 @@ EndPlot
 BeginPlot
 	x=31,y=84
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_WINE
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -16151,7 +16567,7 @@ EndPlot
 BeginPlot
 	x=32,y=31
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=32
@@ -16165,45 +16581,45 @@ EndPlot
 BeginPlot
 	x=32,y=33
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=34
 	BonusType=BONUS_COPPER
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=35
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=36
 	BonusType=BONUS_OLIVES
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=37
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=38
 	ImprovementType=IMPROVEMENT_HAMLET
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=39
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=40
@@ -16249,7 +16665,7 @@ BeginPlot
 	x=32,y=48
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=32,y=49
@@ -16269,12 +16685,12 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Tarsos
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
@@ -16388,7 +16804,6 @@ BeginPlot
 	x=32,y=70
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=32,y=71
@@ -16432,7 +16847,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=32,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_HEMP
 	TerrainType=TERRAIN_GRASS
@@ -16441,7 +16856,7 @@ EndPlot
 BeginPlot
 	x=32,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -16463,7 +16878,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=32,y=83
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_WHEAT
 	TerrainType=TERRAIN_PLAINS
@@ -16471,9 +16886,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=32,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -16481,7 +16896,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=32,y=85
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -16653,7 +17068,7 @@ EndPlot
 BeginPlot
 	x=33,y=32
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=33,y=33
@@ -16669,7 +17084,7 @@ BeginPlot
 	x=33,y=34
 	BonusType=BONUS_SALT
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=33,y=35
@@ -16677,12 +17092,12 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Al-Quds
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
@@ -16693,9 +17108,9 @@ BeginPlot
 		BuildingType=BUILDING_DOME_OF_THE_ROCK
 		ReligionType=RELIGION_JUDAISM
 		ReligionType=RELIGION_CATHOLICISM
+		HolyCityReligionType=RELIGION_CATHOLICISM
 		ReligionType=RELIGION_ORTHODOXY
 		ReligionType=RELIGION_SUNNI
-		HolyCityReligionType=RELIGION_CATHOLICISM
 	EndCity
 EndPlot
 BeginPlot
@@ -16731,14 +17146,14 @@ BeginPlot
 	BonusType=BONUS_BARLEY
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=33,y=41
 	BonusType=BONUS_DYE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=33,y=42
@@ -16746,12 +17161,12 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, UnitOwner=42
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Sur
 		CityPopulation=2
 		BuildingType=BUILDING_HARBOR
@@ -16808,7 +17223,7 @@ BeginPlot
 	BonusType=BONUS_COTTON
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=33,y=52
@@ -16858,7 +17273,6 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -16917,7 +17331,6 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -16944,7 +17357,6 @@ BeginPlot
 	x=33,y=70
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=33,y=71
@@ -16986,16 +17398,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=33,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=33,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -17017,9 +17429,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=33,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -17211,7 +17623,7 @@ BeginPlot
 	x=34,y=33
 	BonusType=BONUS_SALT
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=34,y=34
@@ -17227,18 +17639,18 @@ BeginPlot
 	x=34,y=36
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=34,y=37
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=34,y=38
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=34,y=39
@@ -17275,7 +17687,7 @@ BeginPlot
 	BonusType=BONUS_DYE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=34,y=44
@@ -17317,13 +17729,13 @@ BeginPlot
 	ImprovementType=IMPROVEMENT_COTTAGE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=34,y=52
 	BonusType=BONUS_WHEAT
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=34,y=53
@@ -17425,7 +17837,6 @@ BeginPlot
 	x=34,y=70
 	TerrainType=TERRAIN_COAST
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=34,y=71
@@ -17475,7 +17886,7 @@ EndPlot
 BeginPlot
 	x=34,y=78
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -17486,16 +17897,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=34,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=34,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -17514,17 +17925,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=34,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=34,y=85
-	RiverNSDirection=0
-	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -17734,25 +18143,25 @@ EndPlot
 BeginPlot
 	x=35,y=39
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=40
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=41
 	BonusType=BONUS_SPICES
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=42
 	BonusType=BONUS_DYE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=43
@@ -17784,7 +18193,7 @@ BeginPlot
 	ImprovementType=IMPROVEMENT_COTTAGE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=47
@@ -17792,21 +18201,21 @@ BeginPlot
 	FeatureType=FEATURE_PALM_FOREST, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=48
 	ImprovementType=IMPROVEMENT_HAMLET
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=49
 	BonusType=BONUS_OLIVES
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=50
@@ -17822,7 +18231,7 @@ BeginPlot
 	x=35,y=52
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=53
@@ -17831,7 +18240,7 @@ BeginPlot
 	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=35,y=54
@@ -17932,7 +18341,6 @@ BeginPlot
 	x=35,y=70
 	TerrainType=TERRAIN_COAST
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=35,y=71
@@ -17997,7 +18405,7 @@ EndPlot
 BeginPlot
 	x=35,y=82
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -18015,7 +18423,7 @@ EndPlot
 BeginPlot
 	x=35,y=85
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -18232,22 +18640,22 @@ EndPlot
 BeginPlot
 	x=36,y=38
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=36,y=39
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=36,y=40
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=36,y=41
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=36,y=42
@@ -18311,12 +18719,12 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Antioch
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
@@ -18455,7 +18863,6 @@ BeginPlot
 	x=36,y=70
 	TerrainType=TERRAIN_COAST
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=36,y=71
@@ -18517,9 +18924,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -18539,10 +18946,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=85
-	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=1
-	isWOfRiver
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -18558,12 +18963,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Aksum
 		CityPopulation=1
 		ReligionType=RELIGION_CATHOLICISM
@@ -18758,32 +19163,32 @@ EndPlot
 BeginPlot
 	x=37,y=37
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=38
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=39
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=40
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=41
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=42
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=43
@@ -18791,12 +19196,12 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Dimashq
 		CityPopulation=2
 		BuildingType=BUILDING_SUNNI_TEMPLE
@@ -18816,7 +19221,7 @@ BeginPlot
 	x=37,y=45
 	BonusType=BONUS_SORGHUM
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=46
@@ -18831,14 +19236,14 @@ BeginPlot
 	isWOfRiver
 	BonusType=BONUS_WHEAT
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=48
 	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=49
@@ -18846,7 +19251,7 @@ BeginPlot
 	RiverWEDirection=3
 	BonusType=BONUS_BARLEY
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=50
@@ -18864,13 +19269,13 @@ BeginPlot
 	x=37,y=52
 	ImprovementType=IMPROVEMENT_COTTAGE
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=53
 	BonusType=BONUS_HORSE
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=37,y=54
@@ -18971,7 +19376,6 @@ BeginPlot
 	x=37,y=70
 	TerrainType=TERRAIN_COAST
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=37,y=71
@@ -19027,7 +19431,7 @@ EndPlot
 BeginPlot
 	x=37,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -19039,7 +19443,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=37,y=83
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -19047,7 +19451,7 @@ EndPlot
 BeginPlot
 	x=37,y=84
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -19188,12 +19592,12 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, UnitOwner=42
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Madinah
 		CityPopulation=1
 		BuildingType=BUILDING_MOSQUE_OF_THE_PROPHET
@@ -19263,38 +19667,38 @@ EndPlot
 BeginPlot
 	x=38,y=37
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=38
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=39
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=40
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=41
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=42
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=43
 	FeatureType=FEATURE_OASIS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=44
@@ -19306,7 +19710,7 @@ BeginPlot
 	BonusType=BONUS_INCENSE
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=46
@@ -19318,33 +19722,33 @@ BeginPlot
 	x=38,y=47
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=48
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=49
 	BonusType=BONUS_HONEY
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=50
 	ImprovementType=IMPROVEMENT_HAMLET
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=51
 	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=38,y=52
@@ -19408,7 +19812,6 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -19442,7 +19845,6 @@ BeginPlot
 		CityName=Sampsounta
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -19480,7 +19882,6 @@ BeginPlot
 	BonusType=BONUS_PEARL
 	TerrainType=TERRAIN_COAST
 	PlotType=3
-	TeamReveal=0,
 EndPlot
 BeginPlot
 	x=38,y=71
@@ -19532,7 +19933,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=38,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -19540,7 +19941,7 @@ EndPlot
 BeginPlot
 	x=38,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -19767,32 +20168,32 @@ EndPlot
 BeginPlot
 	x=39,y=39
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=40
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=41
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=42
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=43
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=44
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=45
@@ -19803,7 +20204,7 @@ BeginPlot
 	x=39,y=46
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=47
@@ -19813,20 +20214,20 @@ EndPlot
 BeginPlot
 	x=39,y=48
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=49
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=50
 	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=51
@@ -19834,13 +20235,13 @@ BeginPlot
 	RiverWEDirection=1
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=52
 	BonusType=BONUS_HONEY
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=39,y=53
@@ -19954,15 +20355,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=39,y=71
+	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Samkarsh
 		CityPopulation=1
 		ReligionType=RELIGION_JUDAISM
@@ -20017,7 +20419,7 @@ EndPlot
 BeginPlot
 	x=39,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -20258,34 +20660,34 @@ EndPlot
 BeginPlot
 	x=40,y=41
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=42
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=43
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=44
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=45
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=46
 	BonusType=BONUS_CAMEL
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=47
@@ -20295,7 +20697,7 @@ EndPlot
 BeginPlot
 	x=40,y=48
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=49
@@ -20303,19 +20705,19 @@ BeginPlot
 	isWOfRiver
 	BonusType=BONUS_WHEAT
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=50
 	isNOfRiver
 	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=51
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=52
@@ -20323,12 +20725,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Edessa
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
@@ -20340,7 +20742,7 @@ BeginPlot
 	x=40,y=53
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=40,y=54
@@ -20484,7 +20886,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=40,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -20492,7 +20894,7 @@ EndPlot
 BeginPlot
 	x=40,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -20602,19 +21004,19 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, UnitOwner=42
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Makkah
 		CityPopulation=1
 		BuildingType=BUILDING_SUNNI_TEMPLE
 		BuildingType=BUILDING_SUNNI_SHRINE
 		ReligionType=RELIGION_SUNNI
-		ReligionType=RELIGION_SHIA
 		HolyCityReligionType=RELIGION_SUNNI
+		ReligionType=RELIGION_SHIA
 	EndCity
 EndPlot
 BeginPlot
@@ -20765,18 +21167,18 @@ EndPlot
 BeginPlot
 	x=41,y=44
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=41,y=45
 	TerrainType=TERRAIN_WASTELAND
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=41,y=46
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=41,y=47
@@ -20788,14 +21190,14 @@ BeginPlot
 	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=41,y=49
 	isNOfRiver
 	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=41,y=50
@@ -20916,7 +21318,7 @@ EndPlot
 BeginPlot
 	x=41,y=71
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -20960,7 +21362,7 @@ EndPlot
 BeginPlot
 	x=41,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -20976,28 +21378,28 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=41,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=41,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=41,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=41,y=85
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -21232,7 +21634,7 @@ BeginPlot
 	x=42,y=45
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=42,y=46
@@ -21240,7 +21642,7 @@ BeginPlot
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=42,y=47
@@ -21249,7 +21651,7 @@ BeginPlot
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_DESERT
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=42,y=48
@@ -21288,7 +21690,7 @@ EndPlot
 BeginPlot
 	x=42,y=54
 	TerrainType=TERRAIN_GRASS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=42,y=55
@@ -21385,7 +21787,7 @@ EndPlot
 BeginPlot
 	x=42,y=71
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -21430,7 +21832,7 @@ EndPlot
 BeginPlot
 	x=42,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -21441,7 +21843,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=42,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -21450,7 +21852,7 @@ EndPlot
 BeginPlot
 	x=42,y=82
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -21461,7 +21863,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=42,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
@@ -21471,7 +21873,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=42,y=85
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -21771,7 +22173,7 @@ EndPlot
 BeginPlot
 	x=43,y=56
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=43,y=57
@@ -21820,7 +22222,6 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
-		Player0Culture=15
 	EndCity
 EndPlot
 BeginPlot
@@ -21866,7 +22267,7 @@ EndPlot
 BeginPlot
 	x=43,y=71
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -21907,7 +22308,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=43,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -21916,7 +22317,7 @@ EndPlot
 BeginPlot
 	x=43,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -21929,7 +22330,7 @@ EndPlot
 BeginPlot
 	x=43,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -22244,7 +22645,7 @@ EndPlot
 BeginPlot
 	x=44,y=56
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=44,y=57
@@ -22325,9 +22726,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=44,y=71
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
@@ -22364,7 +22765,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=44,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -22373,7 +22774,7 @@ EndPlot
 BeginPlot
 	x=44,y=78
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -22797,7 +23198,7 @@ EndPlot
 BeginPlot
 	x=45,y=72
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -22808,7 +23209,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=45,y=74
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_MARSH, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -22832,7 +23233,7 @@ EndPlot
 BeginPlot
 	x=45,y=77
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -23267,7 +23668,7 @@ EndPlot
 BeginPlot
 	x=46,y=72
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_COPPER
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -23281,7 +23682,7 @@ EndPlot
 BeginPlot
 	x=46,y=74
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -23297,7 +23698,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=46,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -23305,7 +23706,7 @@ EndPlot
 BeginPlot
 	x=46,y=77
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -23336,7 +23737,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=46,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -23740,7 +24141,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=71
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -23749,14 +24150,14 @@ EndPlot
 BeginPlot
 	x=47,y=72
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=47,y=73
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -23764,7 +24165,7 @@ EndPlot
 BeginPlot
 	x=47,y=74
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -23811,7 +24212,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -23819,29 +24220,29 @@ EndPlot
 BeginPlot
 	x=47,y=82
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=47,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=47,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=47,y=85
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -24125,20 +24526,18 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, UnitOwner=42
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Al-Mosul
 		CityPopulation=2
 		BuildingType=BUILDING_AQUEDUCT
 		ReligionType=RELIGION_CATHOLICISM
 		ReligionType=RELIGION_SUNNI
 		ReligionType=RELIGION_SHIA
-		Player2Culture=9
-		Player31Culture=3
 	EndCity
 EndPlot
 BeginPlot
@@ -24265,7 +24664,7 @@ EndPlot
 BeginPlot
 	x=48,y=71
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_HORSE
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -24279,7 +24678,7 @@ EndPlot
 BeginPlot
 	x=48,y=73
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -24317,7 +24716,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=48,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
@@ -24327,7 +24726,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=48,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -24335,7 +24734,7 @@ EndPlot
 BeginPlot
 	x=48,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -24623,12 +25022,12 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Samarra
 		CityPopulation=1
 		ReligionType=RELIGION_SUNNI
@@ -24772,13 +25171,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=49,y=69
+	RiverNSDirection=0
+	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=49,y=70
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -24787,7 +25188,7 @@ EndPlot
 BeginPlot
 	x=49,y=71
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -24800,7 +25201,7 @@ EndPlot
 BeginPlot
 	x=49,y=73
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -25071,12 +25472,12 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Al-Kufah
 		CityPopulation=3
 		BuildingType=BUILDING_AQUEDUCT
@@ -25290,7 +25691,7 @@ EndPlot
 BeginPlot
 	x=50,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_WHEAT
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -25817,14 +26218,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=51,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=51,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_GRASS
@@ -26259,6 +26660,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=52,y=70
+	isNOfRiver
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -26296,7 +26699,7 @@ EndPlot
 BeginPlot
 	x=52,y=77
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -26308,23 +26711,23 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=52,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=52,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=52,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_WHEAT
 	TerrainType=TERRAIN_GRASS
@@ -26332,7 +26735,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=52,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
@@ -26745,6 +27148,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=53,y=70
+	isNOfRiver
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -26782,7 +27187,7 @@ EndPlot
 BeginPlot
 	x=53,y=77
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_SORGHUM
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -26817,9 +27222,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=53,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	FeatureType=FEATURE_MARSH, FeatureVariety=2
 	TerrainType=TERRAIN_WETLAND
@@ -26827,14 +27232,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=53,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=53,y=85
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -27045,12 +27450,12 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Wasit
 		CityPopulation=3
 		ReligionType=RELIGION_SUNNI
@@ -27263,7 +27668,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=54,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_COW
 	TerrainType=TERRAIN_PLAINS
@@ -27272,7 +27677,7 @@ EndPlot
 BeginPlot
 	x=54,y=77
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -27751,7 +28156,7 @@ EndPlot
 BeginPlot
 	x=55,y=76
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -29609,12 +30014,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Derbent
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
@@ -29987,12 +30392,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Qazvin
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -31524,21 +31929,21 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=63,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=63,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=63,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_PLAINS
@@ -31546,14 +31951,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=63,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=63,y=85
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -31764,12 +32169,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Esfahan
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -31964,7 +32369,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=75
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -31972,7 +32377,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -31980,7 +32385,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -31988,7 +32393,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -31996,14 +32401,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
 BeginPlot
 	x=64,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
@@ -32011,7 +32416,7 @@ EndPlot
 BeginPlot
 	x=64,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
@@ -32415,8 +32820,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=65,y=73
-	RiverNSDirection=2
-	isWOfRiver
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 EndPlot
@@ -35435,7 +35838,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=72,y=48
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
@@ -35443,7 +35846,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=72,y=49
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=0
@@ -35906,7 +36309,7 @@ EndPlot
 BeginPlot
 	x=73,y=50
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -36363,7 +36766,7 @@ EndPlot
 BeginPlot
 	x=74,y=50
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -36426,24 +36829,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=74,y=61
-	RiverNSDirection=2
-	isNOfRiver
-	RiverWEDirection=3
-	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 EndPlot
 BeginPlot
 	x=74,y=62
-	RiverNSDirection=2
-	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 EndPlot
 BeginPlot
 	x=74,y=63
-	RiverNSDirection=0
-	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 EndPlot
@@ -36560,7 +36955,7 @@ EndPlot
 BeginPlot
 	x=74,y=85
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -36743,12 +37138,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Kerman
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -36834,7 +37229,7 @@ EndPlot
 BeginPlot
 	x=75,y=50
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -37015,7 +37410,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=75,y=84
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -37023,7 +37418,7 @@ EndPlot
 BeginPlot
 	x=75,y=85
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_DEER
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -37281,7 +37676,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=49
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_COPPER
 	TerrainType=TERRAIN_GRASS
@@ -37290,7 +37685,7 @@ EndPlot
 BeginPlot
 	x=76,y=50
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_WHEAT
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
@@ -37463,21 +37858,21 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=81
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=76,y=82
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=76,y=83
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_HONEY
 	TerrainType=TERRAIN_PLAINS
@@ -37486,7 +37881,7 @@ EndPlot
 BeginPlot
 	x=76,y=84
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -37746,8 +38141,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=77,y=49
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -39564,6 +39961,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=81,y=45
+	isNOfRiver
+	RiverWEDirection=3
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
@@ -39610,15 +40009,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=81,y=54
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=81,y=55
-	RiverNSDirection=2
-	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 EndPlot
@@ -39760,7 +40157,7 @@ EndPlot
 BeginPlot
 	x=81,y=81
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
@@ -40057,7 +40454,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=82,y=53
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_BARLEY
 	RouteType=ROUTE_ROAD
@@ -40067,7 +40464,7 @@ EndPlot
 BeginPlot
 	x=82,y=54
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -40218,9 +40615,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=82,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
@@ -40529,7 +40926,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=83,y=53
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
@@ -40539,14 +40936,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=83,y=54
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=83,y=55
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
@@ -40698,7 +41095,7 @@ EndPlot
 BeginPlot
 	x=83,y=82
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -41148,8 +41545,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=84,y=78
-	TerrainType=TERRAIN_STEPPE
-	PlotType=2
+	TerrainType=TERRAIN_SALTLAKE
+	PlotType=3
 EndPlot
 BeginPlot
 	x=84,y=79
@@ -41168,9 +41565,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=84,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -41649,9 +42046,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	BonusType=BONUS_GEMS
 	TerrainType=TERRAIN_PLAINS
@@ -42126,9 +42523,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=86,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -42136,7 +42533,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=86,y=85
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -42864,7 +43261,7 @@ EndPlot
 BeginPlot
 	x=88,y=47
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -43326,7 +43723,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=89,y=46
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
@@ -43335,7 +43732,7 @@ EndPlot
 BeginPlot
 	x=89,y=47
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -43376,6 +43773,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=89,y=55
+	RiverNSDirection=0
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -43517,14 +43916,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=89,y=81
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=89,y=82
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_PLAINS
@@ -43790,7 +44189,7 @@ EndPlot
 BeginPlot
 	x=90,y=46
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -43832,11 +44231,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=54
+	RiverNSDirection=0
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=90,y=55
+	isNOfRiver
+	RiverWEDirection=3
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
@@ -43977,7 +44380,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=80
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -43985,7 +44388,7 @@ EndPlot
 BeginPlot
 	x=90,y=81
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -44292,11 +44695,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=91,y=53
+	RiverNSDirection=0
+	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=91,y=54
+	isNOfRiver
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -44874,7 +45281,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=73
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -45347,9 +45754,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=93,y=74
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -45357,14 +45764,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=93,y=75
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
 BeginPlot
 	x=93,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_STEPPE
@@ -45392,7 +45799,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=93,y=81
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_BARLEY
 	TerrainType=TERRAIN_PLAINS
@@ -45400,14 +45807,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=93,y=82
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=93,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -45669,12 +46076,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Bamiyan
 		CityPopulation=1
 		BuildingType=BUILDING_BAMYAN_BUDDHA
@@ -45758,12 +46165,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Samarkand
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -45875,30 +46282,30 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=94,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=94,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=94,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=94,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -45906,7 +46313,7 @@ EndPlot
 BeginPlot
 	x=94,y=81
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -46367,7 +46774,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=95,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
@@ -46496,12 +46903,12 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=31
+		UnitType=UNIT_ARCHER, UnitOwner=42
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=31
+		UnitOwner=42
 		CityName=Dwarka
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM
@@ -46873,9 +47280,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=96,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -47363,7 +47770,7 @@ EndPlot
 BeginPlot
 	x=97,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -47845,7 +48252,7 @@ EndPlot
 BeginPlot
 	x=98,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -48314,7 +48721,7 @@ EndPlot
 BeginPlot
 	x=99,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -48804,7 +49211,7 @@ EndPlot
 BeginPlot
 	x=100,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
@@ -49291,7 +49698,7 @@ EndPlot
 BeginPlot
 	x=101,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -49807,7 +50214,7 @@ EndPlot
 BeginPlot
 	x=102,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -50046,12 +50453,12 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Multan
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM
@@ -50268,12 +50675,12 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Talas
 		CityPopulation=1
 		ReligionType=RELIGION_ZOROASTRIANISM
@@ -50335,7 +50742,7 @@ EndPlot
 BeginPlot
 	x=103,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_GOLD
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
@@ -50580,7 +50987,7 @@ BeginPlot
 	x=104,y=36
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=104,y=37
@@ -50748,9 +51155,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=104,y=64
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
@@ -50834,7 +51241,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=104,y=79
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
@@ -50842,7 +51249,7 @@ EndPlot
 BeginPlot
 	x=104,y=80
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -51088,7 +51495,7 @@ EndPlot
 BeginPlot
 	x=105,y=36
 	TerrainType=TERRAIN_PLAINS
-	PlotType=2
+	PlotType=3
 EndPlot
 BeginPlot
 	x=105,y=37
@@ -51263,9 +51670,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=105,y=65
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=0
@@ -51510,12 +51917,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SWORDSMAN, UnitOwner=34
+		UnitType=UNIT_SWORDSMAN, UnitOwner=45
 		Level=1, Experience=2
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Chittor
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
@@ -51618,12 +52025,12 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=32
+		UnitType=UNIT_ARCHER, UnitOwner=43
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=32
+		UnitOwner=43
 		CityName=Lavapuri
 		CityPopulation=2
 		ReligionType=RELIGION_HINDUISM
@@ -51796,7 +52203,7 @@ EndPlot
 BeginPlot
 	x=106,y=66
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -52295,7 +52702,7 @@ EndPlot
 BeginPlot
 	x=107,y=66
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -52506,7 +52913,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=108,y=17
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
@@ -52514,7 +52921,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=108,y=18
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
@@ -52522,14 +52929,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=108,y=19
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=108,y=20
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_COW
 	TerrainType=TERRAIN_GRASS
@@ -52537,21 +52944,21 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=108,y=21
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=108,y=22
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=108,y=23
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
@@ -52791,7 +53198,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=108,y=65
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
@@ -52801,7 +53208,7 @@ EndPlot
 BeginPlot
 	x=108,y=66
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -53008,7 +53415,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=109,y=16
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -53016,7 +53423,7 @@ EndPlot
 BeginPlot
 	x=109,y=17
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_SORGHUM
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -53055,9 +53462,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=109,y=24
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -53289,7 +53696,7 @@ EndPlot
 BeginPlot
 	x=109,y=65
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -53548,9 +53955,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=110,y=25
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -53766,7 +54173,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=110,y=64
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
@@ -53774,7 +54181,7 @@ EndPlot
 BeginPlot
 	x=110,y=65
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=0
 EndPlot
@@ -53785,12 +54192,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=110,y=67
+	RiverNSDirection=0
+	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=110,y=68
+	RiverNSDirection=0
+	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -53803,8 +54214,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=110,y=70
-	isNOfRiver
-	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -53862,7 +54271,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=110,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -54040,9 +54449,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=111,y=26
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -54093,12 +54502,12 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Dhillika
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM
@@ -54240,12 +54649,12 @@ BeginPlot
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=34
+		UnitType=UNIT_ARCHER, UnitOwner=45
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=34
+		UnitOwner=45
 		CityName=Kashgar
 		CityPopulation=1
 		ReligionType=RELIGION_BUDDHISM
@@ -54280,7 +54689,7 @@ EndPlot
 BeginPlot
 	x=111,y=64
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -54309,8 +54718,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=111,y=69
-	isNOfRiver
-	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -54362,14 +54769,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=111,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=111,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
@@ -54377,7 +54784,7 @@ EndPlot
 BeginPlot
 	x=111,y=80
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -54556,12 +54963,12 @@ BeginPlot
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=33
+		UnitType=UNIT_ARCHER, UnitOwner=44
 		Level=1, Experience=0
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=33
+		UnitOwner=44
 		CityName=Gwalior
 		CityPopulation=1
 		ReligionType=RELIGION_HINDUISM
@@ -54569,9 +54976,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=112,y=27
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -54783,7 +55190,7 @@ EndPlot
 BeginPlot
 	x=112,y=64
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -55066,7 +55473,7 @@ BeginPlot
 	x=113,y=28
 	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	BonusType=BONUS_SUGAR
 	TerrainType=TERRAIN_GRASS
@@ -55223,9 +55630,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=113,y=56
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
@@ -55245,7 +55652,7 @@ EndPlot
 BeginPlot
 	x=113,y=59
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -55271,9 +55678,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=113,y=64
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
@@ -55390,7 +55797,7 @@ EndPlot
 BeginPlot
 	x=113,y=85
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -55544,11 +55951,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=114,y=26
+	RiverNSDirection=2
+	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=114,y=27
+	RiverNSDirection=2
+	isWOfRiver
 	BonusType=BONUS_IVORY
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_GRASS
@@ -55691,7 +56102,7 @@ EndPlot
 BeginPlot
 	x=114,y=53
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=0
 EndPlot
@@ -55712,9 +56123,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=114,y=57
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	RouteType=ROUTE_ROAD
@@ -55723,7 +56134,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=114,y=58
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
@@ -55731,7 +56142,7 @@ EndPlot
 BeginPlot
 	x=114,y=59
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -55868,7 +56279,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=114,y=84
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -55876,7 +56287,7 @@ EndPlot
 BeginPlot
 	x=114,y=85
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -55904,6 +56315,10 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=115,y=4
+	RiverNSDirection=0
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
 	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -55911,8 +56326,6 @@ EndPlot
 BeginPlot
 	x=115,y=5
 	RiverNSDirection=0
-	isNOfRiver
-	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
@@ -55929,7 +56342,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=115,y=8
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_CITRUS
 	TerrainType=TERRAIN_PLAINS
@@ -55938,7 +56351,7 @@ EndPlot
 BeginPlot
 	x=115,y=9
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
@@ -55966,7 +56379,7 @@ EndPlot
 BeginPlot
 	x=115,y=13
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -56035,7 +56448,7 @@ EndPlot
 BeginPlot
 	x=115,y=24
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -56049,7 +56462,7 @@ EndPlot
 BeginPlot
 	x=115,y=26
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -56066,21 +56479,21 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=115,y=29
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=115,y=30
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=115,y=31
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_MARSH, FeatureVariety=2
 	TerrainType=TERRAIN_WETLAND
@@ -56089,7 +56502,7 @@ EndPlot
 BeginPlot
 	x=115,y=32
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_RICE
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -56109,17 +56522,11 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=115,y=35
-	RiverNSDirection=0
-	isNOfRiver
-	RiverWEDirection=1
-	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=0
 EndPlot
 BeginPlot
 	x=115,y=36
-	RiverNSDirection=0
-	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=0
 EndPlot
@@ -56205,9 +56612,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=115,y=53
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=0
@@ -56242,9 +56649,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=115,y=59
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -56321,7 +56728,7 @@ EndPlot
 BeginPlot
 	x=115,y=73
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -56379,7 +56786,7 @@ EndPlot
 BeginPlot
 	x=115,y=84
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -56437,16 +56844,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=116,y=8
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=116,y=9
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -56454,7 +56861,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=116,y=10
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_SPICES
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
@@ -56464,7 +56871,7 @@ EndPlot
 BeginPlot
 	x=116,y=11
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -56476,7 +56883,7 @@ EndPlot
 BeginPlot
 	x=116,y=13
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -56547,13 +56954,13 @@ EndPlot
 BeginPlot
 	x=116,y=24
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=116,y=25
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -56561,7 +56968,7 @@ EndPlot
 BeginPlot
 	x=116,y=26
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -56579,7 +56986,7 @@ EndPlot
 BeginPlot
 	x=116,y=29
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -56708,16 +57115,16 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=116,y=54
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=1
 EndPlot
 BeginPlot
 	x=116,y=55
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_SILK
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
@@ -56748,7 +57155,7 @@ EndPlot
 BeginPlot
 	x=116,y=60
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_COTTON
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -56822,7 +57229,7 @@ EndPlot
 BeginPlot
 	x=116,y=73
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -56879,7 +57286,7 @@ EndPlot
 BeginPlot
 	x=116,y=84
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -56957,7 +57364,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=12
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -56965,7 +57372,7 @@ EndPlot
 BeginPlot
 	x=117,y=13
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -57032,9 +57439,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=24
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	BonusType=BONUS_COTTON
 	TerrainType=TERRAIN_GRASS
@@ -57043,7 +57450,7 @@ EndPlot
 BeginPlot
 	x=117,y=25
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	BonusType=BONUS_BARLEY
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -57068,7 +57475,7 @@ EndPlot
 BeginPlot
 	x=117,y=29
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=0
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -57188,30 +57595,28 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=52
-	RiverNSDirection=2
-	isNOfRiver
-	RiverWEDirection=1
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=0
 EndPlot
 BeginPlot
 	x=117,y=53
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=0
 EndPlot
 BeginPlot
 	x=117,y=54
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
 BeginPlot
 	x=117,y=55
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_OASIS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -57219,7 +57624,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=56
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
@@ -57230,7 +57635,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=57
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
@@ -57247,9 +57652,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=60
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
@@ -57304,7 +57709,7 @@ EndPlot
 BeginPlot
 	x=117,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_WINE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -57352,7 +57757,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=79
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -57374,7 +57779,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=83
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -57382,7 +57787,7 @@ EndPlot
 BeginPlot
 	x=117,y=84
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -57464,7 +57869,7 @@ EndPlot
 BeginPlot
 	x=118,y=12
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -57543,7 +57948,7 @@ EndPlot
 BeginPlot
 	x=118,y=24
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=0
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -57689,7 +58094,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=118,y=51
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=0
@@ -57697,7 +58102,7 @@ EndPlot
 BeginPlot
 	x=118,y=52
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=0
 EndPlot
@@ -57731,23 +58136,23 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=118,y=58
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 EndPlot
 BeginPlot
 	x=118,y=59
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_WASTELAND
 	PlotType=2
 EndPlot
 BeginPlot
 	x=118,y=60
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	BonusType=BONUS_CAMEL
 	TerrainType=TERRAIN_SALTFLAT
@@ -57806,7 +58211,7 @@ EndPlot
 BeginPlot
 	x=118,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -57845,7 +58250,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=118,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
@@ -57854,7 +58259,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=118,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -57862,15 +58267,15 @@ EndPlot
 BeginPlot
 	x=118,y=79
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=118,y=80
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -57888,7 +58293,7 @@ EndPlot
 BeginPlot
 	x=118,y=83
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -57960,7 +58365,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=119,y=10
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
@@ -57968,7 +58373,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=119,y=11
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_RICE
 	TerrainType=TERRAIN_PLAINS
@@ -57977,7 +58382,7 @@ EndPlot
 BeginPlot
 	x=119,y=12
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -58045,7 +58450,7 @@ EndPlot
 BeginPlot
 	x=119,y=24
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_MARSH, FeatureVariety=1
 	TerrainType=TERRAIN_WETLAND
 	PlotType=2
@@ -58292,7 +58697,7 @@ EndPlot
 BeginPlot
 	x=119,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	BonusType=BONUS_BARLEY
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -58352,7 +58757,7 @@ EndPlot
 BeginPlot
 	x=119,y=81
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -58365,7 +58770,7 @@ EndPlot
 BeginPlot
 	x=119,y=83
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -58520,7 +58925,7 @@ EndPlot
 BeginPlot
 	x=120,y=24
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -58764,7 +59169,7 @@ EndPlot
 BeginPlot
 	x=120,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -58817,7 +59222,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=120,y=80
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -58825,7 +59230,7 @@ EndPlot
 BeginPlot
 	x=120,y=81
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -58837,7 +59242,7 @@ EndPlot
 BeginPlot
 	x=120,y=83
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
@@ -58899,10 +59304,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=121,y=8
-	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=1
-	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -58994,7 +59397,7 @@ EndPlot
 BeginPlot
 	x=121,y=24
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -59019,14 +59422,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=121,y=28
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=121,y=29
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_RICE
 	TerrainType=TERRAIN_GRASS
@@ -59034,7 +59437,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=121,y=30
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -59245,7 +59648,7 @@ EndPlot
 BeginPlot
 	x=121,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -59376,6 +59779,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=122,y=8
+	isNOfRiver
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -59457,7 +59862,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=122,y=23
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	BonusType=BONUS_SHEEP
 	TerrainType=TERRAIN_GRASS
@@ -59466,7 +59871,7 @@ EndPlot
 BeginPlot
 	x=122,y=24
 	isNOfRiver
-	RiverWEDirection=3
+	RiverWEDirection=1
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 EndPlot
@@ -59708,7 +60113,7 @@ EndPlot
 BeginPlot
 	x=122,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -59743,7 +60148,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=122,y=76
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
@@ -59754,7 +60159,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=122,y=77
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isWOfRiver
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
@@ -59844,6 +60249,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=123,y=8
+	isNOfRiver
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -59953,7 +60360,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=123,y=27
-	RiverNSDirection=2
+	RiverNSDirection=0
 	isWOfRiver
 	FeatureType=FEATURE_MARSH, FeatureVariety=0
 	TerrainType=TERRAIN_WETLAND
@@ -60177,7 +60584,7 @@ EndPlot
 BeginPlot
 	x=123,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -60221,9 +60628,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=123,y=78
-	RiverNSDirection=0
+	RiverNSDirection=2
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	BonusType=BONUS_SORGHUM
 	TerrainType=TERRAIN_PLAINS
@@ -60309,6 +60716,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=124,y=8
+	isNOfRiver
+	RiverWEDirection=1
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
@@ -60642,7 +61051,7 @@ EndPlot
 BeginPlot
 	x=124,y=70
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -60688,7 +61097,7 @@ BeginPlot
 	x=124,y=78
 	RiverNSDirection=0
 	isNOfRiver
-	RiverWEDirection=1
+	RiverWEDirection=3
 	isWOfRiver
 	BonusType=BONUS_SORGHUM
 	TerrainType=TERRAIN_PLAINS
@@ -60730,3 +61139,5 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=0
 EndPlot
+
+### Sign Info ###

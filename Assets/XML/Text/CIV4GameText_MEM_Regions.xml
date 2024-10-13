@@ -77,11 +77,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_9</Tag>
-		<English>Moesia</English>
-		<French>Moesia</French>
-		<German>Moesia</German>
-		<Italian>Moesia</Italian>
-		<Spanish>Moesia</Spanish>
+		<English>Bulgaria</English>
+		<French>Bulgaria</French>
+		<German>Bulgarien</German>
+		<Italian>Bulgaria</Italian>
+		<Spanish>Bulgaria</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_10</Tag>
@@ -373,11 +373,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_46</Tag>
-		<English>Northern Caucasus</English>
-		<French>Northern Caucasus</French>
-		<German>Nordkaukasus</German>
-		<Italian>Northern Caucasus</Italian>
-		<Spanish>Northern Caucasus</Spanish>
+		<English>Alania</English>
+		<French>Alania</French>
+		<German>Alanien</German>
+		<Italian>Alania</Italian>
+		<Spanish>Alania</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_47</Tag>
@@ -893,11 +893,11 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_111</Tag>
-		<English>Macedonia</English>
-		<French>Macedonia</French>
-		<German>Mazedonia</German>
-		<Italian>Macedonia</Italian>
-		<Spanish>Macedonia</Spanish>
+		<English>Wallachia</English>
+		<French>Wallachia</French>
+		<German>Wallachia</German>
+		<Italian>Wallachia</Italian>
+		<Spanish>Wallachia</Spanish>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_112</Tag>
@@ -957,19 +957,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_119</Tag>
-		<English>Cephalonia</English>
-		<French>Cephalonia</French>
-		<German>Kefalonia</German>
-		<Italian>Cephalonia</Italian>
-		<Spanish>Cephalonia</Spanish>
+		<English>Transylvania</English>
+		<French>Transylvania</French>
+		<German>Transylvania</German>
+		<Italian>Transylvania</Italian>
+		<Spanish>Transylvania</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_120</Tag>
-		<English>Dagestan</English>
-		<French>Dagestan</French>
-		<German>Dagestan</German>
-		<Italian>Dagestan</Italian>
-		<Spanish>Dagestan</Spanish>
+		<English>Hungary</English>
+		<French>Hungary</French>
+		<German>Hungary</German>
+		<Italian>Hungary</Italian>
+		<Spanish>Hungary</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_121</Tag>
@@ -981,19 +981,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_122</Tag>
-		<English>Lake Sarygamysh</English>
-		<French>Lake Sarygamysh</French>
-		<German>Sarykamyschsee</German>
-		<Italian>Lake Sarygamysh</Italian>
-		<Spanish>Lake Sarygamysh</Spanish>
+		<English>Galicia</English>
+		<French>Galicia</French>
+		<German>Galicia</German>
+		<Italian>Galicia</Italian>
+		<Spanish>Galicia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_123</Tag>
-		<English>Kyzylorda</English>
-		<French>Kyzylorda</French>
-		<German>Qysylorda </German>
-		<Italian>Kyzylorda</Italian>
-		<Spanish>Kyzylorda</Spanish>
+		<English>Lesser Poland</English>
+		<French>Lesser Poland</French>
+		<German>Lesser Poland </German>
+		<Italian>Lesser Poland</Italian>
+		<Spanish>Lesser Poland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_124</Tag>
@@ -1029,27 +1029,283 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_128</Tag>
-		<English>Southern Carpathians</English>
-		<French>Southern Carpathians</French>
-		<German>Südkarpaten</German>
-		<Italian>Southern Carpathians</Italian>
-		<Spanish>Southern Carpathians</Spanish>
+		<English>Banat</English>
+		<French>Banat</French>
+		<German>Banat</German>
+		<Italian>Banat</Italian>
+		<Spanish>Banat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_129</Tag>
-		<English>Kalmykia</English>
-		<French>Kalmykia</French>
-		<German>Kalmykien</German>
-		<Italian>Kalmykia</Italian>
-		<Spanish>Kalmykia</Spanish>
+		<English>Sarygamysh Lake</English>
+		<French>Sarygamysh Lake</French>
+		<German>Sarygamysh Lake</German>
+		<Italian>Sarygamysh Lake</Italian>
+		<Spanish>Sarygamysh Lake</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_130</Tag>
-		<English>Circassia</English>
-		<French>Circassia</French>
-		<German>Tscherkessien</German>
-		<Italian>Circassia</Italian>
-		<Spanish>Circassia</Spanish>
+		<English>Lake Issyk-Kul</English>
+		<French>Lake Issyk-Kul</French>
+		<German>Lake Issyk-Kul</German>
+		<Italian>Lake Issyk-Kul</Italian>
+		<Spanish>Lake Issyk-Kul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_131</Tag>
+		<English>Eastern Balochistan</English>
+		<French>Eastern Balochistan</French>
+		<German>Eastern Balochistan</German>
+		<Italian>Eastern Balochistan</Italian>
+		<Spanish>Eastern Balochistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_132</Tag>
+		<English>Pontic Steppe</English>
+		<French>Pontic Steppe</French>
+		<German>Pontic Steppe</German>
+		<Italian>Pontic Steppe</Italian>
+		<Spanish>Pontic Steppe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_133</Tag>
+		<English>Saqsin</English>
+		<French>Saqsin</French>
+		<German>Saqsin</German>
+		<Italian>Saqsin</Italian>
+		<Spanish>Saqsin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_134</Tag>
+		<English>Eastern Zhetysu</English>
+		<French>Eastern Zhetysu</French>
+		<German>Eastern Zhetysu</German>
+		<Italian>Eastern Zhetysu</Italian>
+		<Spanish>Eastern Zhetysu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_135</Tag>
+		<English>Western Zhetysu</English>
+		<French>Western Zhetysu</French>
+		<German>Western Zhetysu</German>
+		<Italian>Western Zhetysu</Italian>
+		<Spanish>Western Zhetysu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_136</Tag>
+		<English>Lake Balkhash</English>
+		<French>Lake Balkhash</French>
+		<German>Lake Balkhash</German>
+		<Italian>Lake Balkhash</Italian>
+		<Spanish>Lake Balkhash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_137</Tag>
+		<English>Jejakabhukti</English>
+		<French>Jejakabhukti</French>
+		<German>Jejakabhukti</German>
+		<Italian>Jejakabhukti</Italian>
+		<Spanish>Jejakabhukti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_138</Tag>
+		<English>Gondwana</English>
+		<French>Gondwana</French>
+		<German>Gondwana</German>
+		<Italian>Gondwana</Italian>
+		<Spanish>Gondwana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_139</Tag>
+		<English>Telangana</English>
+		<French>Telangana</French>
+		<German>Telangana</German>
+		<Italian>Telangana</Italian>
+		<Spanish>Telangana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_140</Tag>
+		<English>Andhra</English>
+		<French>Andhra</French>
+		<German>Andhra</German>
+		<Italian>Andhra</Italian>
+		<Spanish>Andhra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_141</Tag>
+		<English>Quhistan</English>
+		<French>Quhistan</French>
+		<German>Quhistan</German>
+		<Italian>Quhistan</Italian>
+		<Spanish>Quhistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_142</Tag>
+		<English>Zichia</English>
+		<French>Zichia</French>
+		<German>Zichia</German>
+		<Italian>Zichia</Italian>
+		<Spanish>Zichia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_143</Tag>
+		<English>Ispidjab</English>
+		<French>Ispidjab</French>
+		<German>Ispidjab</German>
+		<Italian>Ispidjab</Italian>
+		<Spanish>Ispidjab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_144</Tag>
+		<English>Khazaria</English>
+		<French>Khazaria</French>
+		<German>Khazaria</German>
+		<Italian>Khazaria</Italian>
+		<Spanish>Khazaria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_145</Tag>
+		<English>Oudh</English>
+		<French>Oudh</French>
+		<German>Oudh</German>
+		<Italian>Oudh</Italian>
+		<Spanish>Oudh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_146</Tag>
+		<English>Siahkuh</English>
+		<French>Siahkuh</French>
+		<German>Siahkuh</German>
+		<Italian>Siahkuh</Italian>
+		<Spanish>Siahkuh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_147</Tag>
+		<English>Ruthenia</English>
+		<French>Ruthenia</French>
+		<German>Ruthenia</German>
+		<Italian>Ruthenia</Italian>
+		<Spanish>Ruthenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_148</Tag>
+		<English>Moldavia</English>
+		<French>Moldavia</French>
+		<German>Moldavia</German>
+		<Italian>Moldavia</Italian>
+		<Spanish>Moldavia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_149</Tag>
+		<English>Podolia</English>
+		<French>Podolia</French>
+		<German>Podolia</German>
+		<Italian>Podolia</Italian>
+		<Spanish>Podolia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_150</Tag>
+		<English>Severia</English>
+		<French>Severia</French>
+		<German>Severia</German>
+		<Italian>Severia</Italian>
+		<Spanish>Severia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_151</Tag>
+		<English>Porosia</English>
+		<French>Porosia</French>
+		<German>Porosia</German>
+		<Italian>Porosia</Italian>
+		<Spanish>Porosia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_152</Tag>
+		<English>Polesia</English>
+		<French>Polesia</French>
+		<German>Polesia</German>
+		<Italian>Polesia</Italian>
+		<Spanish>Polesia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_153</Tag>
+		<English>Volhynia</English>
+		<French>Volhynia</French>
+		<German>Volhynia</German>
+		<Italian>Volhynia</Italian>
+		<Spanish>Volhynia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_154</Tag>
+		<English>Cumania</English>
+		<French>Cumania</French>
+		<German>Cumania</German>
+		<Italian>Cumania</Italian>
+		<Spanish>Cumania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_155</Tag>
+		<English>Voronozh</English>
+		<French>Voronozh</French>
+		<German>Voronozh</German>
+		<Italian>Voronozh</Italian>
+		<Spanish>Voronozh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_156</Tag>
+		<English>Chervleny Yar</English>
+		<French>Chervleny Yar</French>
+		<German>Chervleny Yar</German>
+		<Italian>Chervleny Yar</Italian>
+		<Spanish>Chervleny Yar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_157</Tag>
+		<English>Alakol Lake</English>
+		<French>Alakol Lake</French>
+		<German>Alakol Lake</German>
+		<Italian>Alakol Lake</Italian>
+		<Spanish>Alakol Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_158</Tag>
+		<English>Yaik</English>
+		<French>Yaik</French>
+		<German>Yaik</German>
+		<Italian>Yaik</Italian>
+		<Spanish>Yaik</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_159</Tag>
+		<English>Mordovia</English>
+		<French>Mordovia</French>
+		<German>Mordovia</German>
+		<Italian>Mordovia</Italian>
+		<Spanish>Mordovia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_160</Tag>
+		<English>Bashkyrd</English>
+		<French>Bashkyrd</French>
+		<German>Bashkyrd</German>
+		<Italian>Bashkyrd</Italian>
+		<Spanish>Bashkyrd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_161</Tag>
+		<English>Misrian</English>
+		<French>Misrian</French>
+		<German>Misrian</German>
+		<Italian>Misrian</Italian>
+		<Spanish>Misrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_162</Tag>
+		<English>Bilad al-Buja</English>
+		<French>Bilad al-Buja</French>
+		<German>Bilad al-Buja</German>
+		<Italian>Bilad al-Buja</Italian>
+		<Spanish>Bilad al-Buja</Spanish>
 	</TEXT>
 	
 	<TEXT>
@@ -1942,11 +2198,11 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_111</Tag>
-		<English>Macedonia</English>
-		<French>Macedonia</French>
-		<German>Mazedonia</German>
-		<Italian>Macedonia</Italian>
-		<Spanish>Macedonia</Spanish>
+		<English>Wallachia</English>
+		<French>Wallachia</French>
+		<German>Wallachia</German>
+		<Italian>Wallachia</Italian>
+		<Spanish>Wallachia</Spanish>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_112</Tag>
@@ -2006,19 +2262,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_119</Tag>
-		<English>Cephalonia</English>
-		<French>Cephalonia</French>
-		<German>Kefalonia</German>
-		<Italian>Cephalonia</Italian>
-		<Spanish>Cephalonia</Spanish>
+		<English>Transylvania</English>
+		<French>Transylvania</French>
+		<German>Transylvania</German>
+		<Italian>Transylvania</Italian>
+		<Spanish>Transylvania</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_120</Tag>
-		<English>Dagestan</English>
-		<French>Dagestan</French>
-		<German>Dagestan</German>
-		<Italian>Dagestan</Italian>
-		<Spanish>Dagestan</Spanish>
+		<English>Hungary</English>
+		<French>Hungary</French>
+		<German>Hungary</German>
+		<Italian>Hungary</Italian>
+		<Spanish>Hungary</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_121</Tag>
@@ -2030,19 +2286,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_122</Tag>
-		<English>Lake Sarygamysh</English>
-		<French>Lake Sarygamysh</French>
-		<German>Sarykamyschsee</German>
-		<Italian>Lake Sarygamysh</Italian>
-		<Spanish>Lake Sarygamysh</Spanish>
+		<English>Galicia</English>
+		<French>Galicia</French>
+		<German>Galicia</German>
+		<Italian>Galicia</Italian>
+		<Spanish>Galicia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_123</Tag>
-		<English>Kyzylorda</English>
-		<French>Kyzylorda</French>
-		<German>Qysylorda </German>
-		<Italian>Kyzylorda</Italian>
-		<Spanish>Kyzylorda</Spanish>
+		<English>Lesser Poland</English>
+		<French>Lesser Poland</French>
+		<German>Lesser Poland </German>
+		<Italian>Lesser Poland</Italian>
+		<Spanish>Lesser Poland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_124</Tag>
@@ -2078,27 +2334,283 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_128</Tag>
-		<English>Southern Carpathians</English>
-		<French>Southern Carpathians</French>
-		<German>Südkarpaten</German>
-		<Italian>Southern Carpathians</Italian>
-		<Spanish>Southern Carpathians</Spanish>
+		<English>Banat</English>
+		<French>Banat</French>
+		<German>Banat</German>
+		<Italian>Banat</Italian>
+		<Spanish>Banat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_129</Tag>
-		<English>Kalmykia</English>
-		<French>Kalmykia</French>
-		<German>Kalmykien</German>
-		<Italian>Kalmykia</Italian>
-		<Spanish>Kalmykia</Spanish>
+		<English>Sarygamysh Lake</English>
+		<French>Sarygamysh Lake</French>
+		<German>Sarygamysh Lake</German>
+		<Italian>Sarygamysh Lake</Italian>
+		<Spanish>Sarygamysh Lake</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_TOOLTIP_130</Tag>
-		<English>Circassia</English>
-		<French>Circassia</French>
-		<German>Tscherkessien</German>
-		<Italian>Circassia</Italian>
-		<Spanish>Circassia</Spanish>
+		<English>Sarygamysh Lake</English>
+		<French>Sarygamysh Lake</French>
+		<German>Sarygamysh Lake</German>
+		<Italian>Sarygamysh Lake</Italian>
+		<Spanish>Sarygamysh Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_131</Tag>
+		<English>Eastern Balochistan</English>
+		<French>Eastern Balochistan</French>
+		<German>Eastern Balochistan</German>
+		<Italian>Eastern Balochistan</Italian>
+		<Spanish>Eastern Balochistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_132</Tag>
+		<English>Pontic Steppe</English>
+		<French>Pontic Steppe</French>
+		<German>Pontic Steppe</German>
+		<Italian>Pontic Steppe</Italian>
+		<Spanish>Pontic Steppe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_133</Tag>
+		<English>Saqsin</English>
+		<French>Saqsin</French>
+		<German>Saqsin</German>
+		<Italian>Saqsin</Italian>
+		<Spanish>Saqsin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_134</Tag>
+		<English>Eastern Zhetysu</English>
+		<French>Eastern Zhetysu</French>
+		<German>Eastern Zhetysu</German>
+		<Italian>Eastern Zhetysu</Italian>
+		<Spanish>Eastern Zhetysu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_135</Tag>
+		<English>Western Zhetysu</English>
+		<French>Western Zhetysu</French>
+		<German>Western Zhetysu</German>
+		<Italian>Western Zhetysu</Italian>
+		<Spanish>Western Zhetysu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_136</Tag>
+		<English>Lake Balkhash</English>
+		<French>Lake Balkhash</French>
+		<German>Lake Balkhash</German>
+		<Italian>Lake Balkhash</Italian>
+		<Spanish>Lake Balkhash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_137</Tag>
+		<English>Jejakabhukti</English>
+		<French>Jejakabhukti</French>
+		<German>Jejakabhukti</German>
+		<Italian>Jejakabhukti</Italian>
+		<Spanish>Jejakabhukti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_138</Tag>
+		<English>Gondwana</English>
+		<French>Gondwana</French>
+		<German>Gondwana</German>
+		<Italian>Gondwana</Italian>
+		<Spanish>Gondwana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_139</Tag>
+		<English>Telangana</English>
+		<French>Telangana</French>
+		<German>Telangana</German>
+		<Italian>Telangana</Italian>
+		<Spanish>Telangana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_140</Tag>
+		<English>Andhra</English>
+		<French>Andhra</French>
+		<German>Andhra</German>
+		<Italian>Andhra</Italian>
+		<Spanish>Andhra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_141</Tag>
+		<English>Quhistan</English>
+		<French>Quhistan</French>
+		<German>Quhistan</German>
+		<Italian>Quhistan</Italian>
+		<Spanish>Quhistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_142</Tag>
+		<English>Zichia</English>
+		<French>Zichia</French>
+		<German>Zichia</German>
+		<Italian>Zichia</Italian>
+		<Spanish>Zichia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_143</Tag>
+		<English>Ispidjab</English>
+		<French>Ispidjab</French>
+		<German>Ispidjab</German>
+		<Italian>Ispidjab</Italian>
+		<Spanish>Ispidjab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_144</Tag>
+		<English>Khazaria</English>
+		<French>Khazaria</French>
+		<German>Khazaria</German>
+		<Italian>Khazaria</Italian>
+		<Spanish>Khazaria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_145</Tag>
+		<English>Oudh</English>
+		<French>Oudh</French>
+		<German>Oudh</German>
+		<Italian>Oudh</Italian>
+		<Spanish>Oudh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_146</Tag>
+		<English>Siahkuh</English>
+		<French>Siahkuh</French>
+		<German>Siahkuh</German>
+		<Italian>Siahkuh</Italian>
+		<Spanish>Siahkuh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_147</Tag>
+		<English>Ruthenia</English>
+		<French>Ruthenia</French>
+		<German>Ruthenia</German>
+		<Italian>Ruthenia</Italian>
+		<Spanish>Ruthenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_148</Tag>
+		<English>Moldavia</English>
+		<French>Moldavia</French>
+		<German>Moldavia</German>
+		<Italian>Moldavia</Italian>
+		<Spanish>Moldavia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_149</Tag>
+		<English>Podolia</English>
+		<French>Podolia</French>
+		<German>Podolia</German>
+		<Italian>Podolia</Italian>
+		<Spanish>Podolia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_150</Tag>
+		<English>Severia</English>
+		<French>Severia</French>
+		<German>Severia</German>
+		<Italian>Severia</Italian>
+		<Spanish>Severia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_151</Tag>
+		<English>Porosia</English>
+		<French>Porosia</French>
+		<German>Porosia</German>
+		<Italian>Porosia</Italian>
+		<Spanish>Porosia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_152</Tag>
+		<English>Polesia</English>
+		<French>Polesia</French>
+		<German>Polesia</German>
+		<Italian>Polesia</Italian>
+		<Spanish>Polesia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_153</Tag>
+		<English>Volhynia</English>
+		<French>Volhynia</French>
+		<German>Volhynia</German>
+		<Italian>Volhynia</Italian>
+		<Spanish>Volhynia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_154</Tag>
+		<English>Cumania</English>
+		<French>Cumania</French>
+		<German>Cumania</German>
+		<Italian>Cumania</Italian>
+		<Spanish>Cumania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_155</Tag>
+		<English>Voronozh</English>
+		<French>Voronozh</French>
+		<German>Voronozh</German>
+		<Italian>Voronozh</Italian>
+		<Spanish>Voronozh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_156</Tag>
+		<English>Chervleny Yar</English>
+		<French>Chervleny Yar</French>
+		<German>Chervleny Yar</German>
+		<Italian>Chervleny Yar</Italian>
+		<Spanish>Chervleny Yar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_157</Tag>
+		<English>Alakol Lake</English>
+		<French>Alakol Lake</French>
+		<German>Alakol Lake</German>
+		<Italian>Alakol Lake</Italian>
+		<Spanish>Alakol Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_158</Tag>
+		<English>Yaik</English>
+		<French>Yaik</French>
+		<German>Yaik</German>
+		<Italian>Yaik</Italian>
+		<Spanish>Yaik</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_159</Tag>
+		<English>Mordovia</English>
+		<French>Mordovia</French>
+		<German>Mordovia</German>
+		<Italian>Mordovia</Italian>
+		<Spanish>Mordovia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_160</Tag>
+		<English>Bashkyrd</English>
+		<French>Bashkyrd</French>
+		<German>Bashkyrd</German>
+		<Italian>Bashkyrd</Italian>
+		<Spanish>Bashkyrd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_161</Tag>
+		<English>Misrian</English>
+		<French>Misrian</French>
+		<German>Misrian</German>
+		<Italian>Misrian</Italian>
+		<Spanish>Misrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_TOOLTIP_162</Tag>
+		<English>Bilad al-Buja</English>
+		<French>Bilad al-Buja</French>
+		<German>Bilad al-Buja</German>
+		<Italian>Bilad al-Buja</Italian>
+		<Spanish>Bilad al-Buja</Spanish>
 	</TEXT>
 	
 	<TEXT>
@@ -2991,11 +3503,11 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_111</Tag>
-		<English>Macedonian</English>
-		<French>Macedonian</French>
-		<German>Mazedonisch</German>
-		<Italian>Macedonian</Italian>
-		<Spanish>Macedonian</Spanish>
+		<English>Wallachia</English>
+		<French>Wallachia</French>
+		<German>Wallachia</German>
+		<Italian>Wallachia</Italian>
+		<Spanish>Wallachia</Spanish>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_112</Tag>
@@ -3055,19 +3567,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_119</Tag>
-		<English>Cephalonian</English>
-		<French>Cephalonian</French>
-		<German>Kefalonisch</German>
-		<Italian>Cephalonian</Italian>
-		<Spanish>Cephalonian</Spanish>
+		<English>Transylvania</English>
+		<French>Transylvania</French>
+		<German>Transylvania</German>
+		<Italian>Transylvania</Italian>
+		<Spanish>Transylvania</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_120</Tag>
-		<English>Dagestani</English>
-		<French>Dagestani</French>
-		<German>Dagestanisch</German>
-		<Italian>Dagestani</Italian>
-		<Spanish>Dagestani</Spanish>
+		<English>Hungary</English>
+		<French>Hungary</French>
+		<German>Hungary</German>
+		<Italian>Hungary</Italian>
+		<Spanish>Hungary</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_121</Tag>
@@ -3079,19 +3591,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_122</Tag>
-		<English>Lake Sarygamysh</English>
-		<French>Lake Sarygamysh</French>
-		<German>Sarykamyschsee</German>
-		<Italian>Lake Sarygamysh</Italian>
-		<Spanish>Lake Sarygamysh</Spanish>
+		<English>Galicia</English>
+		<French>Galicia</French>
+		<German>Galicia</German>
+		<Italian>Galicia</Italian>
+		<Spanish>Galicia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_123</Tag>
-		<English>Kyzylorda</English>
-		<French>Kyzylorda</French>
-		<German>Qysylorda </German>
-		<Italian>Kyzylorda</Italian>
-		<Spanish>Kyzylorda</Spanish>
+		<English>Lesser Poland</English>
+		<French>Lesser Poland</French>
+		<German>Lesser Poland </German>
+		<Italian>Lesser Poland</Italian>
+		<Spanish>Lesser Poland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_124</Tag>
@@ -3127,28 +3639,283 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_128</Tag>
-		<English>Carpathian</English>
-		<French>Carpathian</French>
-		<German>Karpatisch</German>
-		<Italian>Carpathian</Italian>
-		<Spanish>Carpathian</Spanish>
+		<English>Banat</English>
+		<French>Banat</French>
+		<German>Banat</German>
+		<Italian>Banat</Italian>
+		<Spanish>Banat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_129</Tag>
-		<English>Kalmykian</English>
-		<French>Kalmykian</French>
-		<German>Kalmykisch</German>
-		<Italian>Kalmykian</Italian>
-		<Spanish>Kalmykian</Spanish>
+		<English>Sarygamysh Lake</English>
+		<French>Sarygamysh Lake</French>
+		<German>Sarygamysh Lake</German>
+		<Italian>Sarygamysh Lake</Italian>
+		<Spanish>Sarygamysh Lake</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_ADJECTIVE_130</Tag>
-		<English>Circassian</English>
-		<French>Circassian</French>
-		<German>Tscherkessisch</German>
-		<Italian>Circassian</Italian>
-		<Spanish>Circassian</Spanish>
+		<English>Sarygamysh Lake</English>
+		<French>Sarygamysh Lake</French>
+		<German>Sarygamysh Lake</German>
+		<Italian>Sarygamysh Lake</Italian>
+		<Spanish>Sarygamysh Lake</Spanish>
 	</TEXT>
-
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_131</Tag>
+		<English>Eastern Balochistan</English>
+		<French>Eastern Balochistan</French>
+		<German>Eastern Balochistan</German>
+		<Italian>Eastern Balochistan</Italian>
+		<Spanish>Eastern Balochistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_132</Tag>
+		<English>Pontic Steppe</English>
+		<French>Pontic Steppe</French>
+		<German>Pontic Steppe</German>
+		<Italian>Pontic Steppe</Italian>
+		<Spanish>Pontic Steppe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_133</Tag>
+		<English>Saqsin</English>
+		<French>Saqsin</French>
+		<German>Saqsin</German>
+		<Italian>Saqsin</Italian>
+		<Spanish>Saqsin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_134</Tag>
+		<English>Eastern Zhetysu</English>
+		<French>Eastern Zhetysu</French>
+		<German>Eastern Zhetysu</German>
+		<Italian>Eastern Zhetysu</Italian>
+		<Spanish>Eastern Zhetysu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_135</Tag>
+		<English>Western Zhetysu</English>
+		<French>Western Zhetysu</French>
+		<German>Western Zhetysu</German>
+		<Italian>Western Zhetysu</Italian>
+		<Spanish>Western Zhetysu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_136</Tag>
+		<English>Lake Balkhash</English>
+		<French>Lake Balkhash</French>
+		<German>Lake Balkhash</German>
+		<Italian>Lake Balkhash</Italian>
+		<Spanish>Lake Balkhash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_137</Tag>
+		<English>Jejakabhukti</English>
+		<French>Jejakabhukti</French>
+		<German>Jejakabhukti</German>
+		<Italian>Jejakabhukti</Italian>
+		<Spanish>Jejakabhukti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_138</Tag>
+		<English>Gondwana</English>
+		<French>Gondwana</French>
+		<German>Gondwana</German>
+		<Italian>Gondwana</Italian>
+		<Spanish>Gondwana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_139</Tag>
+		<English>Telangana</English>
+		<French>Telangana</French>
+		<German>Telangana</German>
+		<Italian>Telangana</Italian>
+		<Spanish>Telangana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_140</Tag>
+		<English>Andhra</English>
+		<French>Andhra</French>
+		<German>Andhra</German>
+		<Italian>Andhra</Italian>
+		<Spanish>Andhra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_141</Tag>
+		<English>Quhistan</English>
+		<French>Quhistan</French>
+		<German>Quhistan</German>
+		<Italian>Quhistan</Italian>
+		<Spanish>Quhistan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_142</Tag>
+		<English>Zichia</English>
+		<French>Zichia</French>
+		<German>Zichia</German>
+		<Italian>Zichia</Italian>
+		<Spanish>Zichia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_143</Tag>
+		<English>Ispidjab</English>
+		<French>Ispidjab</French>
+		<German>Ispidjab</German>
+		<Italian>Ispidjab</Italian>
+		<Spanish>Ispidjab</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_144</Tag>
+		<English>Khazaria</English>
+		<French>Khazaria</French>
+		<German>Khazaria</German>
+		<Italian>Khazaria</Italian>
+		<Spanish>Khazaria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_145</Tag>
+		<English>Oudh</English>
+		<French>Oudh</French>
+		<German>Oudh</German>
+		<Italian>Oudh</Italian>
+		<Spanish>Oudh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_146</Tag>
+		<English>Siahkuh</English>
+		<French>Siahkuh</French>
+		<German>Siahkuh</German>
+		<Italian>Siahkuh</Italian>
+		<Spanish>Siahkuh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_147</Tag>
+		<English>Ruthenia</English>
+		<French>Ruthenia</French>
+		<German>Ruthenia</German>
+		<Italian>Ruthenia</Italian>
+		<Spanish>Ruthenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_148</Tag>
+		<English>Moldavia</English>
+		<French>Moldavia</French>
+		<German>Moldavia</German>
+		<Italian>Moldavia</Italian>
+		<Spanish>Moldavia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_149</Tag>
+		<English>Podolia</English>
+		<French>Podolia</French>
+		<German>Podolia</German>
+		<Italian>Podolia</Italian>
+		<Spanish>Podolia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_150</Tag>
+		<English>Severia</English>
+		<French>Severia</French>
+		<German>Severia</German>
+		<Italian>Severia</Italian>
+		<Spanish>Severia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_151</Tag>
+		<English>Porosia</English>
+		<French>Porosia</French>
+		<German>Porosia</German>
+		<Italian>Porosia</Italian>
+		<Spanish>Porosia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_152</Tag>
+		<English>Polesia</English>
+		<French>Polesia</French>
+		<German>Polesia</German>
+		<Italian>Polesia</Italian>
+		<Spanish>Polesia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_153</Tag>
+		<English>Volhynia</English>
+		<French>Volhynia</French>
+		<German>Volhynia</German>
+		<Italian>Volhynia</Italian>
+		<Spanish>Volhynia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_154</Tag>
+		<English>Cumania</English>
+		<French>Cumania</French>
+		<German>Cumania</German>
+		<Italian>Cumania</Italian>
+		<Spanish>Cumania</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_155</Tag>
+		<English>Voronozh</English>
+		<French>Voronozh</French>
+		<German>Voronozh</German>
+		<Italian>Voronozh</Italian>
+		<Spanish>Voronozh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_156</Tag>
+		<English>Chervleny Yar</English>
+		<French>Chervleny Yar</French>
+		<German>Chervleny Yar</German>
+		<Italian>Chervleny Yar</Italian>
+		<Spanish>Chervleny Yar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_157</Tag>
+		<English>Alakol Lake</English>
+		<French>Alakol Lake</French>
+		<German>Alakol Lake</German>
+		<Italian>Alakol Lake</Italian>
+		<Spanish>Alakol Lake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_158</Tag>
+		<English>Yaik</English>
+		<French>Yaik</French>
+		<German>Yaik</German>
+		<Italian>Yaik</Italian>
+		<Spanish>Yaik</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_159</Tag>
+		<English>Mordovia</English>
+		<French>Mordovia</French>
+		<German>Mordovia</German>
+		<Italian>Mordovia</Italian>
+		<Spanish>Mordovia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_160</Tag>
+		<English>Bashkyrd</English>
+		<French>Bashkyrd</French>
+		<German>Bashkyrd</German>
+		<Italian>Bashkyrd</Italian>
+		<Spanish>Bashkyrd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_161</Tag>
+		<English>Misrian</English>
+		<French>Misrian</French>
+		<German>Misrian</German>
+		<Italian>Misrian</Italian>
+		<Spanish>Misrian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_ADJECTIVE_162</Tag>
+		<English>Bilad al-Buja</English>
+		<French>Bilad al-Buja</French>
+		<German>Bilad al-Buja</German>
+		<Italian>Bilad al-Buja</Italian>
+		<Spanish>Bilad al-Buja</Spanish>
+	</TEXT>
 	
 </Civ4GameText>

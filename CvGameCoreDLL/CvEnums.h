@@ -623,7 +623,7 @@ enum WorldSizeTypes				// Exposed to Python
 #endif
 };
 
-// This is our current relationship with each 
+// This is our current relationship with each
 // one of our connected network peers
 enum InitStates
 {
@@ -865,7 +865,7 @@ enum FeatureTypes					// Exposed to Python
 enum BonusTypes						// Exposed to Python
 {
 	NO_BONUS = -1,
-	
+
 	// edead: start
 	BONUS_HORSE,
 	BONUS_IRON,
@@ -1022,7 +1022,7 @@ enum LeaderHeadTypes			// Exposed to Python
 enum ArtStyleTypes				// Exposed to Python
 {
 	NO_ARTSTYLE = -1,
-	
+
 	// edead: start
 	ARTSTYLE_EUROPEAN,
 	ARTSTYLE_ARABIAN,
@@ -1090,32 +1090,43 @@ enum TeamTypes					// Exposed to Python
 enum PlayerTypes				// Exposed to Python
 {
 	NO_PLAYER = -1,
-	
+
 	// edead: start
 	BYZANTIUM,
 	MAKURIA,
 	ABBASIDS,
+	KHAZARS,
 	CHAUHAN,
 	MALWA,
+	OGHUZ,
 	SAMANIDS,
+	KHANIDS,
 	ARMENIA,
+	KIEV,
+	ALANIA,	
 	YEMEN,
 	BUYIDS,
 	GUJARAT,
 	GHAZNAVIDS,
 	FATIMIDS,
+	CHALUKYA,
 	GEORGIA,
 	SINDH,
 	SELJUKS,
+	KYPCHAKS,
 	TURKS,
 	KHWAREZM,
 	ANTIOCH,
 	OUTREMER,
 	ZENGIDS,
+	KHITAI,
 	GHORIDS,
 	OMAN,
 	AYYUBIDS,
+	ILKHANATE,
+	GOLDEN,
 	MAMLUKS,
+	CHAGATAI,	
 	OTTOMANS,
 	BAHMANIDS,
 	TIMURIDS,
@@ -1175,7 +1186,7 @@ enum TaskTypes				// Exposed to Python
 #endif
 };
 
-enum BuildingClassTypes				// Exposed to Python 
+enum BuildingClassTypes				// Exposed to Python
 {
 	NO_BUILDINGCLASS = -1,
 };
@@ -1214,7 +1225,11 @@ enum BuildingTypes						// Exposed to Python
 	PROPHETS_MOSQUE,
 	IBN_BATTUTA,
 	IMAM_REZA,
-	ESFAHAN_BRIDGE
+	ESFAHAN_BRIDGE,
+	GOL_GUMBAZ,
+	MARG_OBSERVATORY,
+	BURANA,
+	SSOPHIA
 	// edead: end
 };
 
@@ -1320,7 +1335,7 @@ enum NewConceptTypes				// Exposed to Python
 
 enum CalendarTypes			// Exposed to Python
 {
-	NO_CALENDAR = -1, 
+	NO_CALENDAR = -1,
 
 	CALENDAR_DEFAULT,
 	CALENDAR_BI_YEARLY,
@@ -1709,7 +1724,7 @@ enum PromotionTypes				// Exposed to Python
 enum TechTypes						// Exposed to Python
 {
 	NO_TECH = -1,
-	
+
 	// edead: start
 	TECH_THEOLOGY,
 	TECH_ORGANIZED_ARMIES,
@@ -1796,7 +1811,7 @@ enum SpecialistTypes			// Exposed to Python
 enum ReligionTypes				// Exposed to Python
 {
 	NO_RELIGION = -1,
-	
+
 	// edead: start
 	RELIGION_JUDAISM,
 	RELIGION_ZOROASTRIANISM,
@@ -1813,7 +1828,7 @@ enum ReligionTypes				// Exposed to Python
 enum CorporationTypes				// Exposed to Python
 {
 	NO_CORPORATION = -1,
-	
+
 	// edead: start
 	CORPORATION_SUFISM,
 	CORPORATION_KARIMI,
@@ -1850,7 +1865,7 @@ enum CivicOptionTypes			// Exposed to Python
 enum CivicTypes						// Exposed to Python
 {
 	NO_CIVIC = -1,
-	
+
 	// edead: start
 	CIVIC_TRIBAL_FEDERATION,
 	CIVIC_HEREDITARY_RULE,
@@ -1995,7 +2010,7 @@ enum AnimationPathTypes	// Exposed to Python
 	ANIMATIONPATH_MELEE_FORTIFIED,
 	ANIMATIONPATH_MELEE_DIE_FADE,		//!< Used only in combat. The colateral damage die should have a fade integrated.
 	ANIMATIONPATH_MELEE_FLEE,			//!< Used only by settler children, so they don't die in combat
-	
+
 	// Ranged combat related animation paths
 	ANIMATIONPATH_RANGED_STRIKE,
 	ANIMATIONPATH_RANGED_DIE,
@@ -2004,7 +2019,7 @@ enum AnimationPathTypes	// Exposed to Python
 	ANIMATIONPATH_RANGED_RUNDIE,
 	ANIMATIONPATH_RANGED_DIE_FADE,		//!< Used only in combat. The colateral damage die should have a fade integrated.
 	ANIMATIONPATH_LEADER_COMMAND,
-	
+
 	// Air Units animation paths
 	ANIMATIONPATH_AIRFADEIN,
 	ANIMATIONPATH_AIRFADEOUT,
@@ -2147,12 +2162,12 @@ enum DiploEventTypes					// Exposed to Python
 #endif
 };
 
-enum DiploCommentTypes				// Exposed to Python 
+enum DiploCommentTypes				// Exposed to Python
 {
 	NO_DIPLOCOMMENT = -1
 };
 
-enum NetContactTypes					// Exposed to Python 
+enum NetContactTypes					// Exposed to Python
 {
 	NO_NETCONTACT = -1,
 	NETCONTACT_INITIAL,
@@ -2165,7 +2180,7 @@ enum NetContactTypes					// Exposed to Python
 #endif
 };
 
-enum ContactTypes							// Exposed to Python 
+enum ContactTypes							// Exposed to Python
 {
 	CONTACT_RELIGION_PRESSURE,
 	CONTACT_CIVIC_PRESSURE,
@@ -2185,7 +2200,7 @@ enum ContactTypes							// Exposed to Python
 	NUM_CONTACT_TYPES
 };
 
-enum MemoryTypes							// Exposed to Python 
+enum MemoryTypes							// Exposed to Python
 {
 	MEMORY_DECLARED_WAR,
 	MEMORY_DECLARED_WAR_ON_FRIEND,
@@ -2224,7 +2239,7 @@ enum MemoryTypes							// Exposed to Python
 	NUM_MEMORY_TYPES
 };
 
-enum AttitudeTypes				// Exposed to Python 
+enum AttitudeTypes				// Exposed to Python
 {
 	NO_ATTITUDE = -1,
 
@@ -2306,7 +2321,7 @@ enum FeatTypes						// Exposed to Python
 enum SaveGameTypes			// Exposed to Python
 {
 	SAVEGAME_NONE = -1,
-	
+
 	SAVEGAME_AUTO,
 	SAVEGAME_RECOVERY,
 	SAVEGAME_QUICK,
@@ -2433,7 +2448,7 @@ enum MenuScreenType
 	MENU_SCREEN_OPENING_MENU,
 	MENU_SCREEN_MOD_MENU,
 
-	MENU_SCREEN_GS_BUDDYLIST, 
+	MENU_SCREEN_GS_BUDDYLIST,
 	MENU_SCREEN_GS_CHATROOM,
 	MENU_SCREEN_GS_CHANNEL,
 	MENU_SCREEN_GS_CHOOSE_SCENARIO,
@@ -2645,7 +2660,7 @@ enum CivLoginStates
 	LOGIN_CIV_TAKEN,
 	LOGIN_CIV_HAS_ID,
 };
- 
+
 enum VersionTypes
 {
 	NO_VERSIONTYPE = -1,
@@ -2665,7 +2680,7 @@ enum VoteResultTypes
 
 enum VoteStatusTypes
 {
-	NO_VOTESTATUS = -1, 
+	NO_VOTESTATUS = -1,
 
 	VOTESTATUS_TIED = -2,
 	VOTESTATUS_UNDECIDED = -3,
@@ -2787,7 +2802,7 @@ enum GameMessageTypes				// Exposed to Python
 	GAMEMESSAGE_FILE_INFO,
 	GAMEMESSAGE_PICK_YOUR_CIV,
 	GAMEMESSAGE_CIV_CHOICE,
-	GAMEMESSAGE_CONFIRM_CIV_CLAIM, 
+	GAMEMESSAGE_CONFIRM_CIV_CLAIM,
 	GAMEMESSAGE_CLAIM_INFO,
 	GAMEMESSAGE_CIV_CHOICE_ACK,
 	GAMEMESSAGE_CIV_CHOICE_NACK,

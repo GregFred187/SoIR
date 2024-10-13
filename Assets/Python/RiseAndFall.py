@@ -651,9 +651,9 @@ class RiseAndFall:
 							iDivideCounter += 1
 							if (iDivideCounter % 2 == 1):
 								city = pCity.GetCy()
-								pCurrent = gc.getMap().plot(city.getX(), city.getY())                                        
+								pCurrent = gc.getMap().plot(city.getX(), city.getY())										
 								utils.cultureManager((city.getX(),city.getY()), 50, iSmall, iBig, False, True, True)
-								utils.flipUnitsInCityBefore((city.getX(),city.getY()), iSmall, iBig)                            
+								utils.flipUnitsInCityBefore((city.getX(),city.getY()), iSmall, iBig)							
 								self.setTempFlippingCity((city.getX(),city.getY()))
 								utils.flipCity((city.getX(),city.getY()), 0, 0, iSmall, [iBig])   #by trade because by conquest may raze the city
 								utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iSmall)
@@ -1869,7 +1869,12 @@ class RiseAndFall:
 		if iCiv == iSamanids:
 			utils.makeUnit(iDihqanArcher, iCiv, tPlot, 2)
 			utils.makeUnit(iHorseArcher, iCiv, tPlot, 1)
-			utils.makeUnit(iSwordsman, iCiv, tPlot, 1)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
+			
+		if iCiv == iKhanids:
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 2)
+			utils.makeUnit(iArcher, iCiv, tPlot, 2)
 
 		if iCiv == iBuyids:
 			utils.makeUnit(iDaylamiTribesman, iCiv, tPlot, 2)
@@ -1878,8 +1883,12 @@ class RiseAndFall:
 			utils.makeUnit(iHorseArcher, iCiv, tPlot, 1)
 			
 		if iCiv == iArmenia:
-			utils.makeUnit(iArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
+			utils.makeUnit(iArcher, iCiv, tPlot, 3)
+			utils.makeUnit(iAxeman, iCiv, tPlot, 3)
+			
+		if iCiv == iAlans:
+			utils.makeUnit(iArcher, iCiv, tPlot, 3)
+			utils.makeUnit(iHorseman, iCiv, tPlot, 3)   
 			
 		if iCiv == iMalwa:
 			utils.makeUnit(iKshatriyaArcher, iCiv, tPlot, 2)
@@ -1896,6 +1905,11 @@ class RiseAndFall:
 		if iCiv == iGujarat:
 			utils.makeUnit(iArcher, iCiv, tPlot, 2)
 			utils.makeUnit(iKshatriya, iCiv, tPlot, 3)
+			
+		if iCiv == iChalukya:
+			utils.makeUnit(iArcher, iCiv, tPlot, 3)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 3)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 3)
 			
 		if iCiv == iGeorgia:
 			utils.makeUnit(iArcher, iCiv, tPlot, 1)
@@ -1951,11 +1965,27 @@ class RiseAndFall:
 			utils.makeUnit(iMarksman, iCiv, tPlot, 2)
 			utils.makeUnit(iTawashiLancer, iCiv, tPlot, 3)
 		
+		if iCiv == iMongols:
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 6)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
+			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 4)
+		
 		if iCiv == iMamluks:
 			utils.makeUnit(iTrebuchet, iCiv, tPlot, 1)
 			utils.makeUnit(iHeavySpearman, iCiv, tPlot, 2)
 			utils.makeUnit(iMarksman, iCiv, tPlot, 3)
 			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 3)
+			
+		if iCiv == iGolden:
+			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
+			utils.makeUnit(iHeavySwordsman, iCiv, tPlot, 3)
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 4)
+			
+		if iCiv == iChagatai:
+			utils.makeUnit(iTrebuchet, iCiv, tPlot, 3)
+			utils.makeUnit(iHeavySpearman, iCiv, tPlot, 2)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 3)
 		
 		if iCiv == iOttomans:
 			utils.makeUnit(iTrebuchet, iCiv, tPlot, 1)
@@ -2011,6 +2041,12 @@ class RiseAndFall:
 			utils.makeUnit(iAbnaSpearman, iCiv, tPlot, 2)
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 2)
 			
+		if iCiv == iKhazars:
+			utils.makeUnit(iSettler, iCiv, tPlot, 4)
+			utils.makeUnit(iWorker, iCiv, tPlot, 5)
+			utils.makeUnit(iArcher, iCiv, tPlot, 6)
+			utils.makeUnit(iHorseArcher, iCiv, tPlot, 4)
+			
 		if iCiv == iChauhan:
 			utils.makeUnit(iSettler, iCiv, tPlot, 1)
 			utils.makeUnit(iArcher, iCiv, tPlot, 1)
@@ -2032,6 +2068,32 @@ class RiseAndFall:
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 1)
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 2)
 			
+		if iCiv == iKhanids:
+			utils.makeUnit(iSettler, iCiv, tPlot, 3)
+			utils.makeUnit(iHorseArcherChig, iCiv, tPlot, 3)
+			utils.makeUnit(iArcher, iCiv, tPlot, 4)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
+			if iCiv != utils.getHumanID():
+				utils.makeUnit(iArcher, iCiv, tPlot, 1)
+			gc.getPlayer(iSamanids).AI_changeAttitudeExtra(iKhanids, -4)
+			gc.getPlayer(iSeljuks).AI_changeAttitudeExtra(iKhanids, -3)
+			gc.getPlayer(iGhaznavids).AI_changeAttitudeExtra(iKhanids, -4)
+			gc.getPlayer(iGhorids).AI_changeAttitudeExtra(iKhanids, -4)
+			gc.getPlayer(iKhwarezm).AI_changeAttitudeExtra(iKhanids, -3)
+			gc.getPlayer(iGolden).AI_changeAttitudeExtra(iKhanids, -2)
+			gc.getPlayer(iKypchaks).AI_changeAttitudeExtra(iKhanids, -2)
+			gc.getPlayer(iMongols).AI_changeAttitudeExtra(iKhanids, -2)
+			gc.getPlayer(iChagatai).AI_changeAttitudeExtra(iKhanids, -2)
+			
+		if iCiv == iOghuz:
+			utils.makeUnit(iSettler, iCiv, tPlot, 4)
+			utils.makeUnit(iHorseArcher, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 6)
+			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
+			if iKhanids != utils.getHumanID() and iSamanids != utils.getHumanID():
+				utils.makeUnit(iSettler, iCiv, tPlot, 2)
+				utils.makeUnit(iArcher, iCiv, tPlot, 4)
+			
 		if iCiv == iBuyids:
 			utils.makeUnit(iSettler, iCiv, tPlot, 3)
 			utils.makeUnit(iArcher, iCiv, tPlot, 3)
@@ -2045,6 +2107,20 @@ class RiseAndFall:
 			utils.makeUnit(iArcher, iCiv, tPlot, 2)
 			utils.makeUnit(iJavelinman, iCiv, tPlot, 1)
 			utils.makeUnit(iOrthodoxMissionary, iCiv, tPlot, 2)
+			
+		if iCiv == iKiev:
+			utils.makeUnit(iSettler, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 7)
+			utils.makeUnit(iAxeman, iCiv, tPlot, 4)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
+			
+		if iCiv == iAlans:
+			utils.makeUnit(iSettler, iCiv, tPlot, 2)
+			utils.makeUnit(iArcher, iCiv, tPlot, 6)
+			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
+			utils.makeUnit(iHorseArcher, iCiv, tPlot, 3)
+			if gc.getPlayer(iCiv).getNumCities() == 0:
+				utils.makeUnit(iSettler, iCiv, tPlot, 1)
 			
 		if iCiv == iYemen:
 			utils.makeUnit(iSettler, iCiv, tPlot, 2)
@@ -2074,6 +2150,20 @@ class RiseAndFall:
 			utils.makeUnit(iArcher, iCiv, tPlot, 2)
 			utils.makeUnit(iKshatriya, iCiv, tPlot, 1)
 			utils.makeUnit(iHinduMissionary, iCiv, tPlot, 2)
+			
+		if iCiv == iChalukya:
+			utils.makeUnit(iSettler, iCiv, tPlot, 4)
+			utils.makeUnit(iArcher, iCiv, tPlot, 9)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 5)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 6)
+			utils.makeUnit(iHinduMissionary, iCiv, tPlot, 4)
+			gc.getPlayer(iMalwa).AI_changeAttitudeExtra(iChalukya, -2)
+			gc.getPlayer(iChauhan).AI_changeAttitudeExtra(iChalukya, -2)
+			gc.getPlayer(iGujarat).AI_changeAttitudeExtra(iChalukya, -2)
+			gc.getPlayer(iMughals).AI_changeAttitudeExtra(iChalukya, -3)
+			gc.getPlayer(iBahmanids).AI_changeAttitudeExtra(iChalukya, -3)
+			gc.getPlayer(iGhorids).AI_changeAttitudeExtra(iChalukya, -3)
+			gc.getPlayer(iSindh).AI_changeAttitudeExtra(iChalukya, -1)
 			
 		if iCiv == iGeorgia:
 			utils.makeUnit(iSettler, iCiv, tPlot, 2)
@@ -2152,6 +2242,14 @@ class RiseAndFall:
 			gc.getPlayer(iCrusaders).AI_changeAttitudeExtra(iAntioch, 2)
 			gc.getPlayer(iAntioch).AI_changeAttitudeExtra(iCrusaders, 2)
 			
+		if iCiv == iKhitai:
+			utils.makeUnit(iSettler, iCiv, tPlot, 1)
+			utils.makeUnit(iLancer, iCiv, tPlot, 3)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
+			utils.makeUnit(iSwordsman, iCiv, tPlot, 6)
+			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 2)
+			utils.makeUnit(iHeavySpearman, iCiv, tPlot, 3)
+			
 		if iCiv == iGhorids:
 			utils.makeUnit(iSettler, iCiv, tPlot, 2)
 			utils.makeUnit(iArcher, iCiv, tPlot, 3)
@@ -2179,8 +2277,63 @@ class RiseAndFall:
 			utils.makeUnit(iTawashiLancer, iCiv, tPlot, 3)
 			utils.makeUnit(iCatapult, iCiv, tPlot, 1)
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 2)
+
 			if gc.getPlayer(iCiv).getNumCities() == 0: 
 				utils.makeUnit(iSettler, iCiv, tPlot, 1)
+		if iCiv == iMongols:
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 8)
+			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
+			iNumUnitsInAPlot = pPlot.getNumUnits()
+			for i in range(iNumUnitsInAPlot):
+				unit = pPlot.getUnit(i)
+				unit.setHasPromotion(iCombat1, True)
+				unit.setHasPromotion(iCombat2, True)
+				unit.setHasPromotion(iFormation, True)
+				unit.setHasPromotion(iFeintAttack, True)
+				unit.setHasPromotion(iMobility, True)
+			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 8)
+			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
+			iNumUnitsInAPlot = pPlot.getNumUnits()
+			for i in range(iNumUnitsInAPlot):
+				unit = pPlot.getUnit(i)
+				unit.setHasPromotion(iCombat1, True)
+				unit.setHasPromotion(iCombat2, True)
+				unit.setHasPromotion(iMobility, True)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 9)
+			if iCiv == utils.getHumanID():
+				utils.makeUnit(iTrebuchet, iCiv, tPlot, 7)
+	
+		if iCiv == iGolden:
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 8)
+			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
+			iNumUnitsInAPlot = pPlot.getNumUnits()
+			for i in range(iNumUnitsInAPlot):
+				unit = pPlot.getUnit(i)
+				unit.setHasPromotion(iCombat1, True)
+				unit.setHasPromotion(iCombat2, True)
+				unit.setHasPromotion(iFormation, True)
+				unit.setHasPromotion(iFeintAttack, True)
+				unit.setHasPromotion(iMobility, True)
+			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 6)
+			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
+			iNumUnitsInAPlot = pPlot.getNumUnits()
+			for i in range(iNumUnitsInAPlot):
+				unit = pPlot.getUnit(i)
+				unit.setHasPromotion(iCombat1, True)
+				unit.setHasPromotion(iCombat2, True)
+				unit.setHasPromotion(iMobility, True)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 9)
+			utils.makeUnit(iHeavySpearman, iCiv, tPlot, 4)
+			utils.makeUnit(iSettler, iCiv, tPlot, 4)
+			if iCiv != utils.getHumanID():
+				utils.makeUnit(iSettler, iCiv, tPlot, 2)
+				utils.makeUnit(iMarksman, iCiv, tPlot, 4)
+			if gc.getPlayer(iCiv).getNumCities() == 0:
+				utils.makeUnit(iSettler, iCiv, tPlot, 1)
+			if iSafavids == utils.getHumanID() or iMughals == utils.getHumanID() or iPortugal == utils.getHumanID():
+				utils.makeUnit(iSettler, iCiv, tPlot, 3)
+				utils.makeUnit(iMarksman, iCiv, tPlot, 6)
+		
 		
 		if iCiv == iMamluks:
 			utils.makeUnit(iMarksman, iCiv, tPlot, 2)
@@ -2189,6 +2342,30 @@ class RiseAndFall:
 			utils.makeUnit(iMamluk, iCiv, tPlot, 2)
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 2)
 			if gc.getPlayer(iCiv).getNumCities() == 0: 
+				utils.makeUnit(iSettler, iCiv, tPlot, 1)
+				
+		if iCiv == iChagatai:
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 6)
+			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
+			iNumUnitsInAPlot = pPlot.getNumUnits()
+			for i in range(iNumUnitsInAPlot):
+				unit = pPlot.getUnit(i)
+				unit.setHasPromotion(iCombat1, True)
+				unit.setHasPromotion(iCombat2, True)
+				unit.setHasPromotion(iFormation, True)
+				unit.setHasPromotion(iFeintAttack, True)
+				unit.setHasPromotion(iMobility, True)
+			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 6)
+			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
+			iNumUnitsInAPlot = pPlot.getNumUnits()
+			for i in range(iNumUnitsInAPlot):
+				unit = pPlot.getUnit(i)
+				unit.setHasPromotion(iCombat1, True)
+				unit.setHasPromotion(iCombat2, True)
+				unit.setHasPromotion(iMobility, True)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 7)
+			utils.makeUnit(iHeavySpearman, iCiv, tPlot, 5)
+			if gc.getPlayer(iCiv).getNumCities() == 0:
 				utils.makeUnit(iSettler, iCiv, tPlot, 1)
 		
 		if iCiv == iOttomans:
