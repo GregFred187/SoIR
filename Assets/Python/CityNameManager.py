@@ -6,7 +6,7 @@ import Consts as con
 from PyHelpers import PyPlayer
 
 gc = CyGlobalContext()
-"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	"-1",	
+
 iNumPlayers = con.iNumPlayers
 
 # default names

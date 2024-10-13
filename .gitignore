@@ -1,0 +1,12 @@
+Resource/
+CvGameCoreDLL/
+Release/
+Final_Release/
+Debug/
+Assert/
+Profile/
+UpgradeLog.XML
+*.ipch 
+*.opensdf
+*.sdf
+*.suo

@@ -37,8 +37,8 @@
 #define RANDPLOT_NOT_CITY											(0x00000040)
 
 #ifdef _USRDLL
-#define MAX_CIV_PLAYERS												(35) // edead
-#define NUM_MAJOR_PLAYERS											(31) // edead: exclude minor civs
+#define MAX_CIV_PLAYERS												(46) // edead
+#define NUM_MAJOR_PLAYERS											(42) // edead: exclude minor civs
 #else
 #define MAX_CIV_PLAYERS												(CvGlobals::getInstance().getMaxCivPlayers())
 #endif
