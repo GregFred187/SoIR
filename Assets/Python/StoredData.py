@@ -27,8 +27,8 @@ class StoredData:
 				'iOldCivFlip': -1,
 				'iSpawnWar': 0, #if 1, add units and declare war. If >=2, do nothing
 				'bAlreadySwitched': False,
-				'lNumCities':			[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #total players to contain Byzantium too
-				'lLastTurnAlive':		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #total players to contain Byzantium too
+				'lNumCities':			[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #total players to contain Byzantium too
+				'lLastTurnAlive':		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #total players to contain Byzantium too
 				'lSpawnDelay':			[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #active players
 				'lFlipsDelay':			[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				'iBetrayalTurns': 0,
@@ -37,18 +37,34 @@ class StoredData:
 				'lExileData': [-1, -1, -1, -1, -1],
 				'tTempFlippingCity': -1,
 				'lCheatersCheck': [0, -1],
-				# 'lBirthTurnModifier': 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				# 'lBirthTurnModifier': 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				'lDeleteMode': [-1, -1, -1], #first is a bool, the other values are capital coordinates
 				'bCheatMode': False,
 				#------------AIWars
 				'lAttackingCivsArray': 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				'iNextTurnAIWar': -1,
 				#------------Plague
-				'lPlagueCountdown': 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #total players + barbarians
+				'lPlagueCountdown': 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ,0, 0, 0], #total players + barbarians
 				'lGenericPlagueDates': [-1, -1, -1],
 				#------------Victories
 				'lGoals': [[-1, -1, -1],
 					   [-1, -1, -1],
+					   [-1, -1, -1],                       
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],					   
+					   [-1, -1, -1],					   
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],					   
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],					   
 					   [-1, -1, -1],
 					   [-1, -1, -1],
 					   [-1, -1, -1],
@@ -57,23 +73,7 @@ class StoredData:
 					   [-1, -1, -1],
 					   [-1, -1, -1],
 					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
+					   [-1, -1, -1],					   
 					   [-1, -1, -1],
 					   [-1, -1, -1],
 					   [-1, -1, -1],
@@ -98,6 +98,18 @@ class StoredData:
 					   [-1, -1, -1],
 					   [-1, -1, -1],
 					   [-1, -1, -1],
+					   [-1, -1, -1],                       
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],					   
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],					   
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],
+					   [-1, -1, -1],					   
 					   [-1, -1, -1],
 					   [-1, -1, -1],
 					   [-1, -1, -1],
@@ -107,19 +119,7 @@ class StoredData:
 					   [-1, -1, -1],
 					   [-1, -1, -1],
 					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
-					   [-1, -1, -1],
+					   [-1, -1, -1],					   
 					   [-1, -1, -1],
 					   [-1, -1, -1],
 					   [-1, -1, -1],
@@ -134,9 +134,6 @@ class StoredData:
 					   [-1, -1, -1],
 					   [-1, -1, -1]],
 				'iRazedByMongols': 0,
-				'iRazedByBahmanids': 0,
-				'iSpawnByBahmanids': 0,
-				'iNumCrusadeCities': 0,
 				'iNumSinks': 0,
 				'iNumConversions': 0,
 				'iNumGenerals': 0,
@@ -156,18 +153,21 @@ class StoredData:
 				'lGNPnew': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				'lStabilityParameters': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #2+3+2+3+3
 				'lLastRecordedStabilityStuff': [0, 0, 0, 0, 0, 0], # total + 5 parameters
-				'iCounter': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+			   #'iCounter': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				'iCounter': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				'plotList': [],
 				'lCivStatus': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], # 0: Default, 1: Respawned
 				'lStopSpawn': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				#----------Traits/UPs
 				'iNumCrusades': 0,
 				'lHasLostCity': [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False],
-				'lLastCrusadeTurn': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			   #'lLastCrusadeTurn': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				'lLastCrusadeTurn': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],   
 				'iLatestFlipTurn': 0,
 				#----------Religions
 				'lBasePiety': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-				'lPiety': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+				#----------Possibly too high?
+				'lPiety': [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
 				'iLastHolyWarTurn': -101,
 				'iHolyWarTarget': -1,
 				'lPersecutionData': [-1, -1, -1],
@@ -175,10 +175,11 @@ class StoredData:
 				#----------Misc
 				'iSeed': 0,
 				'lRandomCivList': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41],
+				'lCivilization': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41],
 				#----------Mercenaries
 				'mercenaryData': {
 					"AvailableMercenaries" : {},
-					"HiredMercenaries" : {0:{}, 1:{}, 2:{}, 3:{}, 4:{}, 5:{}, 6:{}, 7:{}, 8:{}, 9:{}, 10:{}, 11:{}, 12:{}, 13:{}, 14:{}, 15:{}, 16:{}, 17:{}, 18:{}, 19:{}, 20:{}, 21:{}, 22:{}, 23:{}, 24:{}, 25:{}, 26:{}, 27:{}, 28:{}, 29:{}, 30:{}, 31:{}, 32:{}, 33:{}, 34:{}, 35:{}, 36:{}},
+					"HiredMercenaries" : {0:{}, 1:{}, 2:{}, 3:{}, 4:{}, 5:{}, 6:{}, 7:{}, 8:{}, 9:{}, 10:{}, 11:{}, 12:{}, 13:{}, 14:{}, 15:{}, 16:{}, 17:{}, 18:{}, 19:{}, 20:{}, 21:{}, 22:{}, 23:{}, 24:{}, 25:{}, 26:{}, 27:{}, 28:{}, 29:{}, 30:{}, 31:{}, 32:{}, 33:{}, 34:{}, 35:{}, 36:{}, 37:{}, 38:{}, 39:{}, 40:{}, 41:{}, 42:{}, 43:{}, 44:{}, 45:{}, 46:{}, 47:{}},
 					"MercenaryGroups" : {},
 					"MercenaryNames" : {},
 					"UnplacedMercenaries" : {},
@@ -404,24 +405,6 @@ class StoredData:
 	def setRazedByMongols( self, iNewValue ):
 		self.scriptDict['iRazedByMongols'] = iNewValue
 
-	def getRazedByBahmanids( self ):
-		return self.scriptDict['iRazedByBahmanids']
-
-	def setRazedByBahmanids( self, iNewValue ):
-		self.scriptDict['iRazedByBahmanids'] = iNewValue
-
-	def getSpawnByBahmanids( self ):
-		return self.scriptDict['iSpawnByBahmanids']
-
-	def setSpawnByBahmanids( self, iNewValue ):
-		self.scriptDict['iSpawnByBahmanids'] = iNewValue
-
-	def getNumCrusadeCities( self ):
-		return self.scriptDict['iNumCrusadeCities']
-
-	def setNumCrusadeCities( self, iNewValue ):
-		self.scriptDict['iNumCrusadeCities'] = iNewValue
-
 	def getWondersBuilt( self, iCiv ):
 		return self.scriptDict['lWondersBuilt'][iCiv]
 
@@ -459,6 +442,9 @@ class StoredData:
 		self.scriptDict['l2OutOf3'][iCiv] = bNewValue
 
 	# from RFCUtils.py
+
+	def getCivilization(self, iCiv):
+		return self.scriptDict['lCivilization'][iCiv]
 
 	def getLastTurnAlive( self, iCiv ):
 		return self.scriptDict['lLastTurnAlive'][iCiv]
