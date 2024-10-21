@@ -1,3 +1,13 @@
+1.2.0.0
+
+ - Added the MergedMap (Thanks to )
+ - Shaped Hugary Landscape and south-indian coast
+ - Reworke Regions
+ - Added the civs for northern map (Thanks to DrLoboto)
+ - Fixed missing unit graphics
+ - Fixed Python-Error about AI caitals
+
+
 1.1.0.0
 
  - Fixed both issues with portugal UHV 3

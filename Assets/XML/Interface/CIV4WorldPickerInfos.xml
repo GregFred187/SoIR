@@ -430,7 +430,7 @@
 			</WaterLevelGloss>
 		</WorldPickerInfo>
 		<WorldPickerInfo>
-			<MapName>Middle East and Greece 750 AD_north</MapName>
+			<MapName>Merged Map</MapName>
 			<ModelFile>Art/Interface/Screens/WorldPicker/MiddleEast.nif</ModelFile>
 			<Sizes>
 				<Size>0.1</Size> <!-- Random -->

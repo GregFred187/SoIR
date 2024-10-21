@@ -107,9 +107,9 @@
 				<StyleUnit>
 					<UnitType>UNIT_LANCER</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN2</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN2</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN2</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -131,9 +131,9 @@
 				<StyleUnit>
 					<UnitType>UNIT_HEAVY_HORSE_ARCHER</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TIMURID</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TIMURID</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TIMURID</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TURKMERC</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TURKMERC</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TURKMERC</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -160,6 +160,14 @@
 						<LateArtDefineTag>ART_DEF_UNIT_WAR_ELEPHANT_MONGOLIAN</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_MIDEAST</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_MIDEAST</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_MIDEAST</LateArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>				
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
@@ -263,9 +271,9 @@
 				<StyleUnit>
 					<UnitType>UNIT_LANCER</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN2</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN2</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN2</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -287,9 +295,9 @@
 				<StyleUnit>
 					<UnitType>UNIT_HEAVY_HORSE_ARCHER</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_MAMLUK</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_MAMLUK</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_MAMLUK</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TURKMERC</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TURKMERC</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_TURKMERC</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -4126,49 +4134,49 @@
 				<StyleUnit>
 					<UnitType>UNIT_AXEMAN</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_TURKISH</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_TURKISH</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_TURKISH</MiddleArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_AXEMAN_KYP</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_AXEMAN_KYP</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_AXEMAN_KYP</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_SWORDSMAN</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_TURKISH</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_TURKISH</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_TURKISH</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_SWORDSMAN_KIPCHAK</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_SWORDSMAN_KIPCHAK</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_SWORDSMAN_KIPCHAK</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_HEAVY_SWORDSMAN</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_FOOTMAN_SELJUK</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_FOOTMAN_SELJUK</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_FOOTMAN_SELJUK</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_FOOTMAN_KIPCHAK</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_FOOTMAN_KIPCHAK</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_FOOTMAN_KIPCHAK</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_SPEARMAN</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SPEARMAN_TURKISH</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SPEARMAN_TURKISH</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SPEARMAN_TURKISH</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_SPEARMAN_KYP</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_SPEARMAN_KYP</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_SPEARMAN_KYP</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_HEAVY_SPEARMAN</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_SPEARMAN_SELJUK</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_SPEARMAN_SELJUK</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_SPEARMAN_SELJUK</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_SPEARMAN_KIPCHAK</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_SPEARMAN_KIPCHAK</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_SPEARMAN_KIPCHAK</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_PIKEMAN</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PIKEMAN_OTTOMAN</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PIKEMAN_OTTOMAN</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PIKEMAN_OTTOMAN</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_PIKEMAN_TIMURID</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_PIKEMAN_TIMURID</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_PIKEMAN_TIMURID</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
@@ -4182,49 +4190,65 @@
 				<StyleUnit>
 					<UnitType>UNIT_ARCHER</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_TURKISH</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_TURKISH</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_TURKISH</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_KIP</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_KIP</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_ARCHER_KIP</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_MARKSMAN</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_TURKISH_3</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_TURKISH_3</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_TURKISH_3</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_KIP</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_KIP</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_KIP</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_LANCER</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_LANCER_TURKISH</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_LANCER_TURKISH</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_LANCER_TURKISH</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_LANCER_KIPCHAK</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_LANCER_KIPCHAK</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_LANCER_KIPCHAK</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_HEAVY_LANCER</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_SELJUK</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_SELJUK</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_LANCER_SELJUK</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_LANCER_KHAZ</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_LANCER_KHAZ</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_LANCER_KHAZ</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
+					<UnitType>UNIT_HORSE_ARCHER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_KIPCHAKGEN</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_KIPCHAKGEN</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HORSE_ARCHER_KIPCHAKGEN</LateArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_HEAVY_HORSE_ARCHER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_KYPKHANID</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_KYPKHANID</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_HORSE_ARCHER_KYPKHANID</LateArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_OTTOMAN</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_OTTOMAN</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_OTTOMAN</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_MIDEAST</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_MIDEAST</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEAVY_CAVALRY_MIDEAST</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_LIGHT_CAVALRY</UnitType>
 					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_CUIRASSIER_OTTOMAN</EarlyArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_CUIRASSIER_OTTOMAN</MiddleArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_CUIRASSIER_OTTOMAN</LateArtDefineTag>
+						<EarlyArtDefineTag>ART_DEF_UNIT_CUIRASSIER_PERSIAN</EarlyArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_CUIRASSIER_PERSIAN</MiddleArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_CUIRASSIER_PERSIAN</LateArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>

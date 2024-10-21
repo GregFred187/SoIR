@@ -22,15 +22,15 @@ iLime = 139
 
 # Coordinates of Rhye's catapault (should be in some inaccessible area on the edge of the map)
 iCatapultX = 124
-iCatapultY = 81
+iCatapultY = 84
 
 # Coordinates of temporary Unit flipping plot (as above)
 iFlipX = 124
-iFlipY = 79
+iFlipY = 82
 
 # Coordinates of temporary Mercenary creation plot (as above)
 iMercX = 124
-iMercY = 77
+iMercY = 80
 
 # RFC Plague
 iImmunity = 20
@@ -60,9 +60,41 @@ tTripoli = (35,46)
 tAlexandria = (21,34)
 tDongola = (21,11)
 tAksum = (37,1)
+tFam = (30,46)
+tLim = (29,46)
+tLef = (30,47)
+tDongola = (21,11)
+tAksum = (37,1)
+tSur = (33,42)
+tTarabulus = (35,46)
+tMosul = (48,49)
+tAcre = (32, 39)
+tGaza = (30, 35)
+tAnkara = (29, 60)
+tKayseri = (33, 57)
+tKonya = (18, 54)
+tHoms = (38, 47)
+tAntalya = (25, 52)
+tSivas = (38, 59)
+tHalab = (39, 49)
+tEdessa = (40, 52)
+tTheo = (43, 58)
+tHerat = (85, 44)
+tTabriz = (55, 54)
+tMarg = (55, 53)
+tSaqsin = (57, 74)
+tYar = (114, 57)
+tGoa = (106, 3)
+tUzg = (107, 63)
+tAstra = (59, 72)
+tAgra = (112, 29)
+tKutai = (50, 65)
+tPoti = (47, 65)
+tAzaq = (44, 74)
+tBalas = (110, 68)
 
 # The AI will not raze these cities
-lAINoRaze = [tConstantinople, tJerusalem, tMecca, tMedina, tNajaf, tDwarka, tAntioch, tFustat, tBaghdad, tTripoli, tAlexandria]
+lAINoRaze = [tConstantinople, tJerusalem, tMecca, tMedina, tNajaf, tDwarka, tAntioch, tFustat, tBaghdad, tTarabulus, tAlexandria, tHerat, tDelhi]
 
 # PLAYERS
 
@@ -221,6 +253,7 @@ tRespawnCapitals = (
 tNewCapitals = ( 
 	(21, 63), # Byzantines: Constantinople (restoration)
 	(-1, -1), # -
+	(50, 41), # Baghdad
 	(-1, -1), # -
 	(-1, -1), # -
 	(-1, -1), # -
@@ -452,13 +485,13 @@ tReligionSpreadPercent = (
 	(	100,  50,  10,  10, 100, 250, 100, 100 ), # BYZ
 	(	100,  20,  10,  10, 100, 250, 100, 100 ), # MAK
 	(	100, 100,  10,  10,  80,  80, 250, 160 ), # ABB
-	(	150,  20,  10,  90,  70, 100, 100,  70 ), # KAZ
+	(	200,  20,  10,  90,  70, 100, 100,  70 ), # KAZ
 	(	 50, 100, 200, 110,  10,  20, 100, 100 ), # CHA
 	(	 50, 100, 150, 125,  10,  20, 150, 160 ), # MAL
-	(	100,  75,  10, 100,  10,  90, 100,  90 ), # OGH
+	(	100,  75,  10, 100,  10,  70, 100,  90 ), # OGH
 	(	100, 150,  80, 100,  50,  80, 150, 100 ), # SAM
 	(	100, 100,  10,  10, 150, 150, 100, 100 ), # ARM
-	(	100, 100,  50, 100,  50, 100, 150, 100 ), # KHA
+	(	100, 100,  40, 100,  50, 80, 150, 100 ), # KHA
 	(	100,  50,  10,  10, 100, 200,  90,  70 ), # KIE
 	(	100,  60,  10,  10, 100, 200,  90,  70 ), # ALA
 	(	120,  80,  10,  10,  40,  50, 150, 270 ), # YEM
@@ -910,7 +943,7 @@ lEnemyCivsOnSpawn = [
 	[iAntioch, iCrusaders, iFatimids, iAyyubids], # Mamluks
 	[], # Chag	
 	[iByzantium], # Ottomans
-	[], # Bahmanids
+	[iChalukya], # Bahmanids
 	[iKhwarezm, iSamanids, iSeljuks], # Timurids
 	[], # Ak Koyunlu
 	[iSeljuks], # Safavids
@@ -1767,7 +1800,7 @@ lNormalRegions = [
 	[rEZhetysu, rIspidjab, rFarghana], # Khar
 	[rVaspurakan, rKars, rLesserArmenia], # Armenia
 	[rPodolia, rSeveria, rPorosia], # Rus
-	[], # Alans
+	[rZichia,rDag], # Alans
 	[rHadhramaut], # Yemen
 	[rYazd, rJibal, rKerman, rKurdistan, rKhuzestan], # Buyids
 	[rMaharashtra], # Gujarat
@@ -1848,7 +1881,7 @@ lRespawnNormalRegions = [
 
 # Broader regions = RFC tBroaderAreasTL/BR and AIWars +2
 lBroaderRegions = [
-	[rLycia, rCappadocia, rGalatia, rLesserArmenia, rCilicia, rLowerEgypt, rPalestine, rLebanon, rRhodes, rCyprus, rNorthernSyria, rEdessa, rSyria, rJordan, rSinai, rUpperEgypt, rLibya], # Byzantium
+	[rLycia, rCappadocia, rGalatia, rLesserArmenia, rCilicia, rLowerEgypt, rPalestine, rLebanon, rRhodes, rCyprus, rNorthernSyria, rEdessa, rSyria, rJordan, rSinai, rUpperEgypt, rLibya,rZichia], # Byzantium
 	[rAksum, rMerebMellash], # Makuria
 	[rKhuzestan, rGreaterArmenia, rShirvan, rAzerbaijan, rWesternKhorasan, rEasternKhorasan, rFars, rJibal, rLuristan, rKurdistan, rBahrain, rHejaz, rYemen, rOman, rEdessa, rLebanon], # Abbasids
 	[rNorthernCaucasus, rYaik, rSiahkuh, rScarlet, rPorosia, rVoronozh], # Khazars
@@ -1958,7 +1991,7 @@ lRevealRegions = [
 	[rGhazni, rKandahar, rWesternKhorasan, rEasternKhorasan, rSistan, rBactria], # Ghaznavids
 	[rLowerEgypt], # Fatimids
 	[rKarnataka, rTelangana, rMaharashtra], # Chal
-	[rGeorgia], # Georgia
+	[rGeorgia,rNorthernCaucasus], # Georgia
 	[rSindh, rPunjab], # Sindh
 	[rJibal, rLuristan, rKurdistan, rFars, rYazd, rWesternKhorasan, rEasternKhorasan], # Seljuks
 	[rPonticSteppe, rCaspianStep, rCaspian, rYaik, rCrimea, rNorthernCaucasus, rDag, rZichia, rCumania, rBashkyrd, rMoldavia], # Kyp
@@ -2048,7 +2081,7 @@ rSogd, rTaklaMakan, rLesserPoland]
 lBlackDeathSurvivors = [ iOttomans, iMamluks, iSafavids, iChauhan, iGujarat, iBahmanids, iMughals, iMalwa, iOman, iYemen ]
 
 # Plague is most likely to start within the lands of these civs
-lBlackDeathStarters = [ iByzantium, iAbbasids, iSeljuks, iKhwarezm ]
+lBlackDeathStarters = [ iChagatai, iGolden, iSeljuks, iKhwarezm, iMongols, iByzantium ]
 
 ### JEWS
 
