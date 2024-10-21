@@ -2181,6 +2181,14 @@ class RiseAndFall:
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 2)
 			gc.getPlayer(iZengids).AI_changeAttitudeExtra(iSeljuks, 2)
 			gc.getPlayer(iSeljuks).AI_changeAttitudeExtra(iZengids, 2)
+		
+		if iCiv == iKypchaks:
+			utils.makeUnit(iSettler, iCiv, tPlot, 6)
+			utils.makeUnit(iHorseArcher, iCiv, tPlot, 7)
+			utils.makeUnit(iArcher, iCiv, tPlot, 10)
+			utils.makeUnit(iSpearman, iCiv, tPlot, 3)
+			utils.makeUnit(iLancer, iCiv, tPlot, 5)
+			
 			
 		if iCiv == iSindh:
 			utils.makeUnit(iSettler, iCiv, tPlot, 3)

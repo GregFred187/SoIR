@@ -2832,7 +2832,7 @@
 			<fBattleDistance>0.5</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
 			<bActAsRanged>1</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 			<AudioRunSounds>
 				<AudioRunTypeLoop>LOOPSTEP_WHEELS</AudioRunTypeLoop>
 				<AudioRunTypeEnd>ENDSTEP_WHEELS</AudioRunTypeEnd>
@@ -5406,9 +5406,9 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian pikeman/mongolpikeman.nif</NIF>
+			<NIF>Art/Units/Mongol Pikeman/mongolpikeman.nif</NIF>
 			<KFM>Art/Units/Animations/Pikeman/Pikeman.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian pikeman/mongolpikeman.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/Mongol Pikeman/mongolpikeman.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -5958,9 +5958,9 @@
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Turkish Shock Cavalry/Knight.nif</NIF>
-			<KFM>Art/Units/Animations/Knight/Knight.kfm</KFM>
-			<SHADERNIF>Art/Units/Turkish Shock Cavalry/Knight.nif</SHADERNIF>
+			<NIF>Art/Units/Pre-Petrine Heavy Cavalry/PrePetrineHeavyCavalry.nif</NIF>
+			<KFM>Art/Units/Animations/Charlemagne_MountedInfantry/MountedInfantry.kfm</KFM>
+			<SHADERNIF>Art/Units/Pre-Petrine Heavy Cavalry/PrePetrineHeavyCavalry.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -6170,13 +6170,13 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_AXEMAN_MONGOLIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Warrior.dds,Art/Interface/Buttons/mem_units_atlas.dds,7,2</Button>
-			<fScale>0.44</fScale>
+			<fScale>0.45</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian Axeman/MongolAxemanfinal.nif</NIF>
+			<NIF>Art/Units/Mongol Axeman/MongolAxemanfinal.nif</NIF>
 			<KFM>Art/Units/Animations/Unique_Sumeria_Vulture/Unique_Sumerian_Vulture.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian Axeman/MongolAxemanfinal.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/Mongol Axeman/MongolAxemanfinal.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -6194,13 +6194,13 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_CROSSBOWMAN_MONGOLIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Crossbowman.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,8</Button>
-			<fScale>0.44</fScale>
+			<fScale>0.45</fScale>
 			<fInterfaceScale>1.1</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian crossbowman/MongolCrossbowfinal.nif</NIF>
+			<NIF>Art/Units/Mongol Crossbowman/MongolCrossbowfinal.nif</NIF>
 			<KFM>Art/Units/Animations/Crossbowman/Crossbowman.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian crossbowman/MongolCrossbowfinal.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/Mongol Crossbowman/MongolCrossbowfinal.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -6342,9 +6342,9 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian Heavy Footman/MongolHeavyFootmanfinal.nif</NIF>
+			<NIF>Art/Units/Mongol Heavy Footman/MongolHeavyFootmanfinal.nif</NIF>
 			<KFM>Art/Units/Animations/Charlemagne_HeavySwordsman/HeavySwordsman.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian Heavy Footman/MongolHeavyFootmanfinal.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/Mongol Heavy Footman/MongolHeavyFootmanfinal.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -6414,9 +6414,9 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian Swordsman/Swordsman_Mongol.nif</NIF>
+			<NIF>Art/Units/Mongol Swordsman/mongolswordsman.nif</NIF>
 			<KFM>Art/Units/Animations/Swordsman/Swordsman.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian Swordsman/Swordsman_Mongol_fx.nif</SHADERNIF>
+			<SHADERNIF>Art/Units/Mongol Swordsman/mongolswordsman.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -6434,7 +6434,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_LANCER_MONGOLIAN</Type>
 			<Button>,Art/Interface/Buttons/Units/Immortal.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,1</Button>
-			<fScale>0.42</fScale>
+			<fScale>0.43</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -7734,8 +7734,8 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_HEAVY_LANCER_MONGOLIAN</Type>
-			<Button>,Art/Interface/Buttons/Units/Immortal.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,1,1</Button>
-			<fScale>0.41</fScale>
+			<Button>,Art/Interface/Buttons/Units/Keshik.dds,Art/Interface/Buttons/Charlemagne_Atlas.dds,2,1</Button>
+			<fScale>0.43</fScale>
 			<fInterfaceScale>0.9</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -10243,9 +10243,9 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian Musketman/arab_musketman.nif</NIF>
-			<KFM>Art/Units/Animations/Musketman/Musketman.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian Musketman/arab_musketman.nif</SHADERNIF>
+			<NIF>Art/Units/Musketmanmong/gun.nif</NIF>
+			<KFM>Art/Units/Unique/England/Redcoat/RedCoat.kfm</KFM>
+			<SHADERNIF>Art/Units/Musketmanmong/gun_fx.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -12210,9 +12210,9 @@
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian Cannon/cannon.nif</NIF>
-			<KFM>Art/Units/Animations/Cannon/Cannon.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian Cannon/cannon.nif</SHADERNIF>
+			<NIF>Art/Units/Cannon_steppe/Cannon.nif</NIF>
+			<KFM>Art/Units/Cannon/Cannon.kfm</KFM>
+			<SHADERNIF>Art/Units/Cannon_steppe/Cannon.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/CannonShadow.nif</ShadowNIF>
 				<ShadowAttachNode/>
@@ -12614,9 +12614,9 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Mongolian Grenadier/khmgr.nif</NIF>
-			<KFM>Art/Units/Animations/Grenadier/Grenadier.kfm</KFM>
-			<SHADERNIF>Art/Units/Mongolian Grenadier/khmgr.nif</SHADERNIF>
+			<NIF>Art/Units/mongolian grenadier/khmgr.nif</NIF>
+			<KFM>Art/Units/Grenadier/Grenadier.kfm</KFM>
+			<SHADERNIF>Art/Units/mongolian grenadier/khmgr.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
