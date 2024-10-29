@@ -144,7 +144,7 @@ class Titles:
 		for iTitle in range(con.iNumTitles):
 			if pTeam.getProjectCount(iTitle):
 				if (iTitle in [con.iCaliph, con.iSharif] and iStateReligion != con.iSunni and iStateReligion != con.iShia) \
-				or (iTitle == con.iProtector and iStateReligion != con.iCatholicism and iStateReligion != iOrthodoxy) \
+				or (iTitle == con.iProtector and iStateReligion != con.iCatholicism and iStateReligion != con.iOrthodoxy) \
 				or (iTitle == con.iRaja and iStateReligion != con.iHinduism):
 					pTeam.changeProjectCount(iTitle, -1)
 					for iPlayer in range(con.iNumPlayers):

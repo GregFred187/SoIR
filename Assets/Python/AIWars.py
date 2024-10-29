@@ -124,7 +124,7 @@ class AIWars:
 			iRndnum = gc.getGame().getSorenRandNum(iMaxCivs, 'attacking civ index') 
 			
 			# Important war: Ottomans vs. Karaman
-			if utils.getYear() >= 1400 and utils.getYear < 1500:
+			if utils.getYear() >= 1400 and utils.getYear() < 1500:
 				if gc.getPlayer(con.iRum).isAlive() and gc.getPlayer(con.iOttomans).isAlive():
 					if not gc.getTeam(gc.getPlayer(con.iRum).getTeam()).isAtWar(con.iOttomans):
 						if gc.getPlayer(con.iRum) != utils.getHumanID():
@@ -218,7 +218,7 @@ class AIWars:
 			lTargetCivs[con.iAntioch] = 0
 		
 		#edead: important war
-		if utils.getYear() >= 1400 and utils.getYear < 1500:
+		if utils.getYear() >= 1400 and utils.getYear() < 1500:
 			if iCiv == con.iOttomans:
 				lTargetCivs[con.iRum] += 30
 			elif iCiv == con.iRum:

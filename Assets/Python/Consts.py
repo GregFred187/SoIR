@@ -326,7 +326,7 @@ tNoSettler = ( # 1 = civs that spawn without a settler (invasions)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG
 
 tStartingGold = (
-	750, 50,100,350,100,100,350,100,350,100,375,375,100,300,100,200,200,500,200,200,200,650,300,300,500,500,600,825,400,500,500,1050,1025,500,1050,600,600,600,500,800,1000,800,100,100,100,100,100)
+	750, 50,100, 50,100,100,100,100,100,100,100,100,100,150,100,200,200,300,200,200,200,300,300,300,500,500,600,400,400,500,500,1050,1025,500,1050,600,600,600,500,800,1000,800,100,100,100,100,100)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY  ILK  GOL MAM  CHA OTT BAH TIM AKK SAF POR  MUG IN1 IN2 IN3 IN4 BAR
 
 tResurrectionProb = ( # chance for a civ to be randomly respawned when there is a free slot
@@ -354,19 +354,19 @@ tHire = ( # Mercenaries (more = higher chance to hire a mercenary)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG
 
 tInflationPercent = (
-	120,100,100,100,100, 97, 97, 96, 94, 92, 90, 90, 89, 87, 86, 83, 83, 82, 80, 79, 77, 75, 73, 72, 70, 70, 67, 65, 64, 63, 65, 70, 69, 70, 63, 45, 44, 42, 40, 31, 30, 28)
+	120,100,100,100,100, 97, 97, 96, 94, 92, 90, 100, 89, 87, 86, 83, 83, 82, 80, 79, 77, 75, 73, 72, 70, 70, 67, 65, 64, 63, 65, 70, 69, 70, 63, 45, 44, 42, 40, 31, 30, 28)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG
 
 tGrowthPercent = (
-	200,150,175,165,175,175,160,140,145,165,155,150,140,130,135,130,140,140,135,132,125,130,135,100,140,140,115,135,120,160,130,120,120,150,110, 75, 80, 90, 90, 50,150, 80,150,150,150,150,150)
+	220,150,175,165,175,175,160,140,145,165,155,180,140,130,135,130,140,140,135,132,125,130,135,100,140,140,115,135,120,160,130,120,120,150,110, 75, 80, 90, 90, 50,150, 80,150,150,150,150,150)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tProductionPercent = (
-	200,145,140,135,135,130,130,130,130,150,140,135,130,120,125,120,120,125,115,120,120,125,135,100,110,110,105,120,100,125,105,115,110,130,100, 90, 85, 95, 85, 65, 110, 80)
+	220,145,140,135,135,130,130,130,130,150,140,170,130,120,125,120,120,125,115,120,120,125,135,100,110,110,105,120,100,125,105,115,110,130,100, 90, 85, 95, 85, 65, 110, 80)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tResearchPercent = (
-	180,160,145,150,160,150,145,125,135,130,135,130,125,140,135,120,120,130,120,130,130,135,130,112,125,125,120,135,110,145,110,130,125,160,115, 80, 80, 95, 95, 65, 85, 80)
+	200,160,145,150,160,150,145,125,135,130,135,140,125,140,135,120,120,130,120,130,130,135,130,112,125,125,120,135,110,145,110,130,125,160,115, 80, 80, 95, 95, 65, 85, 80)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tEspionagePercent = (
@@ -378,7 +378,7 @@ tGreatPeoplePercent = (
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tCulturePercent = (
-	100, 85, 90, 90, 90, 90, 90, 90, 90, 90, 90,100,100,100,105, 90,108,108,110,110,100,100,105,120,100,100,115,120,128,100,130,130,130,125,130,150,150,150,133,175,100,165, 30, 30, 30, 30, 30)
+	100, 85, 90, 90, 90, 90, 90, 90, 90, 90, 90,120,100,100,105, 90,108,108,110,110,100,100,105,120,100,100,115,120,128,100,130,130,130,125,130,150,150,150,133,175,100,165, 30, 30, 30, 30, 30)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tNumCitiesMaintenancePercent = (
@@ -390,7 +390,7 @@ tDistanceMaintenancePercent = (
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tCompactEmpireModifier = ( # higher values = more compact empire
-	 25, 40, 30, 30, 50, 50, 30, 20, 25, 50, 35, 40, 50, 30, 50, 30, 40, 50, 50, 50, 20, 20, 40, 20, 50, 50, 50, 30, 30, 20, 40, 20, 20, 40, 30, 30, 50, 20, 30, 40, 10, 40)
+	 25, 40, 30, 30, 50, 50, 30, 20, 25, 50, 35, 50, 50, 30, 50, 30, 40, 50, 50, 50, 20, 20, 40, 20, 50, 50, 50, 30, 30, 20, 40, 20, 20, 40, 30, 30, 50, 20, 30, 40, 10, 40)
 #	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP TUR KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG
 
 tMaxTakenTiles = ( # Threshold for tiles occupied by other civs when founding new cities (AI); BTS Default = 7, RFC = 9-13
@@ -939,7 +939,7 @@ lEnemyCivsOnSpawn = [
 	[], # Oman
 	[iAntioch, iCrusaders, iZengids, iFatimids], # Ayyubids
 	[iKhwarezm, iSeljuks, iKhitai, iKhanids], # Mongols
-	[iKypchaks], # Golden
+	[iKypchaks, iAlans], # Golden
 	[iAntioch, iCrusaders, iFatimids, iAyyubids], # Mamluks
 	[], # Chag	
 	[iByzantium], # Ottomans
@@ -1020,7 +1020,7 @@ lOlderNeighbours = [
 	[iByzantium, iKhazars], # Georgia
 	[], # Sindh
 	[iAbbasids, iByzantium, iSamanids, iSamanids, iBuyids, iGhaznavids, iArmenia, iKhanids, iKhazars, iOghuz, iOghuz], # Seljuks
-	[iKhazars, iKhazars, iKiev, iOghuz, iOghuz], # Kyp
+	[iKhazars, iKhazars, iKiev, iOghuz, iOghuz, iAlans], # Kyp
 	[iByzantium, iArmenia, iArmenia, iBuyids, iBuyids, iKhazars], # Rum
 	[iSeljuks, iSamanids, iSamanids, iBuyids, iBuyids, iArmenia, iArmenia, iKhanids, iOghuz, iOghuz], # Khwarezm
 	[iAbbasids, iRum, iBuyids], # Antioch
@@ -1181,7 +1181,7 @@ lStartingTechs = [
 	# Alans 14
 	[iTheology, iOrganizedArmies, iStirrup, iBarter, iHeavyPlough, iMasonry, iShipbuilding, 
 		iEvangelism, iMarksmanship, iVassalage, iCurrency, iMachinery, iBotany, 
-		iLiterature, iHorsemanship, iWaterManagement, iTextileArts, ],
+		iLiterature, iHorsemanship, iWaterManagement, ],
 	# Yemen 16
 	[iIslamTech, iTheology, iOrganizedArmies, iStirrup, iBarter, iHeavyPlough, iMasonry, iShipbuilding, 
 		iEvangelism, iMarksmanship, iVassalage, iCurrency, iBotany, iMachinery, 
@@ -1892,7 +1892,7 @@ lBroaderRegions = [
 	[rBactria, rSogd, rTaklaMakan, rKyzylKum], # Khar
 	[rAzerbaijan, rGeorgia, rEdessa, rCilicia], # Armenia
 	[rVoronozh, rScarlet], # Rus
-	[], # Alans
+	[rGeorgia], # Alans
 	[rSuqutra], # Yemen
 	[rMazandaran, rHormuz, rWesternKhorasan, rOman], # Buyids
 	[rMalwa, rRajputana, rUttarBharat], # Gujarat

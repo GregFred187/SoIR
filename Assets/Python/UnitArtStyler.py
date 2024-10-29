@@ -20,6 +20,13 @@ g_CityArtStyles = (
 
 # Unit Art Styles for a particular region (province)
 g_RegionArtStyles = {
+    con.rRuthenia           : "UNIT_ARTSTYLE_SLAVIC",
+    con.rPodolia            : "UNIT_ARTSTYLE_SLAVIC",
+    con.rSeveria            : "UNIT_ARTSTYLE_SLAVIC",
+    con.rPorosia            : "UNIT_ARTSTYLE_SLAVIC",
+    con.rPolesia            : "UNIT_ARTSTYLE_SLAVIC",
+    con.rVolhynia           : "UNIT_ARTSTYLE_SLAVIC",
+    con.rVoronozh           : "UNIT_ARTSTYLE_SLAVIC",
 	con.rGeorgia 			: "UNIT_ARTSTYLE_GEORGIAN",
 	con.rGreaterArmenia		: "UNIT_ARTSTYLE_ARMENIAN",
 	con.rKars				: "UNIT_ARTSTYLE_ARMENIAN",
@@ -38,6 +45,8 @@ g_RegionArtStyles = {
 	con.rCappadocia			: "UNIT_ARTSTYLE_BYZANTINE",
 	con.rLesserArmenia		: "UNIT_ARTSTYLE_BYZANTINE",
 	con.rTrebizond			: "UNIT_ARTSTYLE_BYZANTINE",
+    con.rBulgaria           : "UNIT_ARTSTYLE_BYZANTINE",
+    con.rCrimea             : "UNIT_ARTSTYLE_BYZANTINE",    
 	con.rHindukush			: "UNIT_ARTSTYLE_AFGHAN",
 	con.rGandhar			: "UNIT_ARTSTYLE_AFGHAN",
 	con.rSindh				: "UNIT_ARTSTYLE_SINDH",
@@ -46,8 +55,19 @@ g_RegionArtStyles = {
 	con.rNorthernSyria		: "UNIT_ARTSTYLE_SYRIAN",
 	con.rPalestine			: "UNIT_ARTSTYLE_SYRIAN",
 	con.rGujarat			: "UNIT_ARTSTYLE_GENERIC_INDIAN",
+    con.rGondwana           : "UNIT_ARTSTYLE_GENERIC_INDIAN",
+    con.rJejakabhukti       : "UNIT_ARTSTYLE_GENERIC_INDIAN",   
 	con.rMaharashtra		: "UNIT_ARTSTYLE_GENERIC_INDIAN",
 	con.rGoa				: "UNIT_ARTSTYLE_GENERIC_INDIAN",
+    con.rEZhetysu           : "UNIT_ARTSTYLE_GENERIC_TURKISH",
+    con.rWZhetysu           : "UNIT_ARTSTYLE_GENERIC_TURKISH",
+    con.rPonticSteppe       : "UNIT_ARTSTYLE_GENERIC_TURKISH",
+    con.rScarlet            : "UNIT_ARTSTYLE_GENERIC_TURKISH",  
+    con.rCaspian            : "UNIT_ARTSTYLE_GENERIC_TURKISH",
+    con.rNorthernCaucasus   : "UNIT_ARTSTYLE_GENERIC_TURKISH",
+    con.rZichia             : "UNIT_ARTSTYLE_GENERIC_TURKISH",
+    con.rCaspianStep        : "UNIT_ARTSTYLE_GENERIC_TURKISH",
+    con.rCumania            : "UNIT_ARTSTYLE_GENERIC_TURKISH",  
 }
 
 # Conditional Unit Art Styles for a particular region : (iDate, tReligions, eArtStyle)

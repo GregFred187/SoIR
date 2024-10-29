@@ -2519,6 +2519,7 @@ BeginPlot
 		CityName=Dyrrachion
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -3882,6 +3883,7 @@ BeginPlot
 		CityName=Arta
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -4361,6 +4363,7 @@ BeginPlot
 		CityName=Patrai
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -5332,6 +5335,7 @@ BeginPlot
 		CityName=Mystras
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -5387,6 +5391,7 @@ BeginPlot
 		CityName=Larissa
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -5421,6 +5426,7 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_FAIRGROUND
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -6818,6 +6824,7 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -7263,6 +7270,7 @@ BeginPlot
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -8748,6 +8756,7 @@ BeginPlot
 		CityName=Kallipolis
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -8783,6 +8792,7 @@ BeginPlot
 		CityPopulation=3
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -9221,6 +9231,7 @@ BeginPlot
 		CityPopulation=3
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -10129,6 +10140,7 @@ BeginPlot
 		CityPopulation=1
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -11260,6 +11272,7 @@ BeginPlot
 		BuildingType=BUILDING_THEODOSIAN_WALLS
 		ReligionType=RELIGION_ORTHODOXY
 		HolyCityReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -13249,6 +13262,7 @@ BeginPlot
 		CityName=Attaleia
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -13312,6 +13326,7 @@ BeginPlot
 		CityName=Dorylaion
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -14850,6 +14865,7 @@ BeginPlot
 		CityName=Amastris
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -15305,6 +15321,7 @@ BeginPlot
 		CityName=Ankyra
 		CityPopulation=2
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -17274,6 +17291,7 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -17332,6 +17350,7 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -19813,6 +19832,7 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -19846,6 +19866,7 @@ BeginPlot
 		CityName=Sampsounta
 		CityPopulation=1
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -22223,6 +22244,7 @@ BeginPlot
 		CityPopulation=2
 		BuildingType=BUILDING_WALLS
 		ReligionType=RELIGION_ORTHODOXY
+		Player0Culture=10
 	EndCity
 EndPlot
 BeginPlot
@@ -56300,13 +56322,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=115,y=1
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	PlotType=1
 EndPlot
 BeginPlot
 	x=115,y=2
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	PlotType=1
 EndPlot
 BeginPlot
 	x=115,y=3
@@ -56811,13 +56835,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=116,y=2
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	PlotType=2
 EndPlot
 BeginPlot
 	x=116,y=3
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	PlotType=2
 EndPlot
 BeginPlot
 	x=116,y=4
@@ -57316,13 +57342,14 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=117,y=3
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	PlotType=2
 EndPlot
 BeginPlot
 	x=117,y=4
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
 EndPlot
 BeginPlot
 	x=117,y=5
@@ -57822,27 +57849,31 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=118,y=4
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
 EndPlot
 BeginPlot
 	x=118,y=5
 	RiverNSDirection=2
 	isWOfRiver
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=118,y=6
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
 EndPlot
 BeginPlot
 	x=118,y=7
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=118,y=8
@@ -58346,23 +58377,27 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=119,y=6
-	TerrainType=TERRAIN_TUNDRA
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=119,y=7
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=119,y=8
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=119,y=9
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=119,y=10
@@ -58818,34 +58853,39 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=120,y=6
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=120,y=7
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=120,y=8
 	RiverNSDirection=2
 	isWOfRiver
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=120,y=9
 	RiverNSDirection=2
 	isWOfRiver
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=120,y=10
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=120,y=11
@@ -59299,23 +59339,27 @@ BeginPlot
 	x=121,y=8
 	isNOfRiver
 	RiverWEDirection=1
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=121,y=9
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=121,y=10
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=121,y=11
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=121,y=12
@@ -59775,23 +59819,27 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=122,y=9
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=122,y=10
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=122,y=11
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=122,y=12
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=122,y=13
@@ -60241,23 +60289,27 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=123,y=9
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=123,y=10
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=123,y=11
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=123,y=12
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=123,y=13
@@ -60719,8 +60771,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=124,y=12
-	TerrainType=TERRAIN_PLAINS
-	PlotType=0
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
 EndPlot
 BeginPlot
 	x=124,y=13

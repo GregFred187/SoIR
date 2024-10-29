@@ -134,6 +134,9 @@ class StoredData:
 					   [-1, -1, -1],
 					   [-1, -1, -1]],
 				'iRazedByMongols': 0,
+				'iRazedByBahmanids': 0,
+				'iSpawnByBahmanids': 0,
+				'iNumCrusadeCities': 0,
 				'iNumSinks': 0,
 				'iNumConversions': 0,
 				'iNumGenerals': 0,
@@ -404,6 +407,24 @@ class StoredData:
 
 	def setRazedByMongols( self, iNewValue ):
 		self.scriptDict['iRazedByMongols'] = iNewValue
+
+	def getRazedByBahmanids( self ):
+		return self.scriptDict['iRazedByBahmanids']
+
+	def setRazedByBahmanids( self, iNewValue ):
+		self.scriptDict['iRazedByBahmanids'] = iNewValue
+
+	def getSpawnByBahmanids( self ):
+		return self.scriptDict['iSpawnByBahmanids']
+
+	def setSpawnByBahmanids( self, iNewValue ):
+		self.scriptDict['iSpawnByBahmanids'] = iNewValue
+
+	def getNumCrusadeCities( self ):
+		return self.scriptDict['iNumCrusadeCities']
+
+	def setNumCrusadeCities( self, iNewValue ):
+		self.scriptDict['iNumCrusadeCities'] = iNewValue
 
 	def getWondersBuilt( self, iCiv ):
 		return self.scriptDict['lWondersBuilt'][iCiv]

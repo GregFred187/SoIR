@@ -123,6 +123,10 @@ class Resources:
 		if iGameTurn == getTurnForYear(1380):
 			self.createResource(93, 56, con.iGold) # Samarkand
 			self.createResource(110, 30, con.iMarble) # Agra
+			
+		if iGameTurn == getTurnForYear(1441):
+			self.createResource(32, 73, con.iFish) # Qapi
+			self.createResource(35, 74, con.iCow) # Qapi
 		
 		if iGameTurn == getTurnForYear(1450):
 			self.createResource(102, 26, con.iSalt) # Jodhpur

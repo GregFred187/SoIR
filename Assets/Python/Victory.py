@@ -47,6 +47,12 @@ iAkKoyunlu = con.iAkKoyunlu
 iSafavids = con.iSafavids
 iPortugal = con.iPortugal
 iMughals = con.iMughals
+iMongols = con.iMongols
+iKhanids = con.iKhanids
+iChagatai = con.iChagatai
+iGolden = con.iGolden
+
+pSamanids = gc.getPlayer(iSamanids)
 
 iReligiousVictory = 7
 iHistoricalVictory = 8
@@ -119,7 +125,7 @@ class Victory:
 					
 					# Chauhan UHV1: Do not allow Islam in India (excl. Sindh and Gandhar) in 1200
 					if iGameTurn == getTurnForYear(1200):
-						bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka])
+						bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka, con.rJejakabhukti, con.rGondwana, con.rTelangana, con.rOudh])
 						if bSuccess:
 							sd.setGoal(iChauhan, 0, 1)
 						else:
@@ -132,7 +138,7 @@ class Victory:
 					
 					# Chauhan UHV1: Do not allow Islam in India in 1400
 					if iGameTurn == getTurnForYear(1400):
-						bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka, con.rGandhar, con.rSindh])
+						bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka, con.rGandhar, con.rSindh, con.rJejakabhukti, con.rGondwana, con.rTelangana, con.rOudh])
 						if bSuccess:
 							sd.setGoal(iChauhan, 2, 1)
 						else:
@@ -212,6 +218,41 @@ class Victory:
 									sd.setGoal(iSamanids, 2, 1)
 						else:
 							sd.setGoal(iSamanids, 2, 0)
+			
+			elif iPlayer == iKhanids:
+				if pPlayer.isAlive():
+					
+					# iKhanids UHV1: Have islam
+					if iGameTurn == getTurnForYear(1137):
+						apCityList = PyPlayer(iKhanids).getCityList()
+						bSuccess = True
+						for pCity in apCityList:
+							if not pCity.GetCy().isHasReligion(con.iSunni):
+								bSuccess = False
+						if bSuccess:
+							sd.setGoal(iKhanids, 0, 1)
+						else:
+							sd.setGoal(iKhanids, 0, 0)
+					
+					# iKhanids UHV2: Destroy Samanids
+					if sd.getGoal(iKhanids, 1) == -1:
+						if iGameTurn >= getTurnForYear(840) and iGameTurn <= getTurnForYear(1029):
+							if not pSamanids.isAlive():
+								sd.setGoal(iKhanids, 1, 1)
+						elif iGameTurn >= getTurnForYear(1030):
+							sd.setGoal(iKhanids, 1, 0)
+					
+					# iKhanids UHV3: Control Regions					
+					if iGameTurn == getTurnForYear(1132):
+						bControl = True
+						regionList = [con.rFarghana, con.rSogd, con.rTaklaMakan]
+						for regionID in regionList:
+							if not utils.checkRegionControl(iKhanids, regionID):
+								bControl = False
+						if bControl:
+							sd.setGoal(iKhanids, 2, 1)
+						else:
+							sd.setGoal(iKhanids, 2, 0)								
 			
 			elif iPlayer == iArmenia:
 				if pPlayer.isAlive():
@@ -376,6 +417,118 @@ class Victory:
 					if sd.getGoal(iFatimids, 2) == -1:
 						if iGameTurn > getTurnForYear(1250):
 							sd.setGoal(iFatimids, 2, 0)
+
+			elif iPlayer == iMongols:
+				if pPlayer.isAlive():
+					
+					# Mongol UHV1: Control provinces in 1335
+					if iGameTurn == getTurnForYear(1335):
+						bControl = True
+						regionList = [con.rWesternKhorasan, con.rMisrian, con.rSistan, con.rEasternKhorasan, con.rLuristan, con.rKurdistan, con.rJibal, con.rMazandaran, con.rYazd, con.rKerman, con.rKhuzestan, con.rFars, con.rAzerbaijan, con.rMesopotamia, con.rAsuristan, con.rJazira, con.rDashteKavir]
+						for regionID in regionList:
+							if not utils.checkRegionControl(iMongols, regionID, True):
+								bControl = False
+						if bControl:
+							sd.setGoal(iMongols, 0, 1)
+						else:
+							sd.setGoal(iMongols, 0, 0)
+					
+					# Mongol UHV2: Control buildings in 1316					
+					if sd.getGoal(iMongols, 1) == -1:
+						if iGameTurn <= getTurnForYear(1316):
+							iNumMarkets = self.getNumBuildings(iMongols, con.iMarket)
+							iNumFairgrounds = self.getNumBuildings(iMongols, con.iFairground)
+							if iNumMarkets >= 20 and iNumFairgrounds >= 20:
+								sd.setGoal(iMongols, 1, 1)
+						else:
+							sd.setGoal(iMongols, 1, 0)
+					
+					# Mongol UHV3: Have at least 3 vassals in 1300
+					if iGameTurn == getTurnForYear(1335):
+						if self.getNumVassals(iMongols) >= 4:
+							sd.setGoal(iMongols, 2, 1)
+						else:
+							sd.setGoal(iMongols, 2, 0)
+							
+			elif iPlayer == iChagatai:
+				if pPlayer.isAlive():
+					
+					# Chagatai UHV1: Control provinces in 1360
+					if iGameTurn == getTurnForYear(1360):
+						bControl = True
+						regionList = [con.rEZhetysu, con.rWZhetysu, con.rIspidjab, con.rFarghana, con.rSogd, con.rBactria, con.rTaklaMakan, con.rKhwarezm, con.rHindukush]
+						for regionID in regionList:
+							if not utils.checkRegionControl(iChagatai, regionID, True):
+								bControl = False
+						if bControl:
+							sd.setGoal(iChagatai, 0, 1)
+						else:
+							sd.setGoal(iChagatai, 0, 0)
+					
+					# Chagatai UHV2: Capture Delhi By 1370				
+					if sd.getGoal(iChagatai, 1) == -1:
+						if iGameTurn == getTurnForYear(1370):
+							sd.setGoal(iChagatai, 1, 0)
+					
+					# Chagatai UHV3: Never lose a city to Timurids before 1450, see onCityAcquired()
+					if iGameTurn == getTurnForYear(1450):  
+						if sd.getGoal(iChagatai, 2) == -1:
+								sd.setGoal(iChagatai, 2, 1)
+
+			elif iPlayer == iGolden:
+				if pPlayer.isAlive():
+
+					# Golden UHV1: Have islam
+					if iGameTurn == getTurnForYear(1341):
+						apCityList = PyPlayer(iGolden).getCityList()
+						bSuccess = True
+						for pCity in apCityList:
+							if not pCity.GetCy().isHasReligion(con.iSunni):
+								bSuccess = False
+						if bSuccess:
+							sd.setGoal(iGolden, 0, 1)
+						else:
+							sd.setGoal(iGolden, 0, 0)
+
+					# Golden UHV2: Control provinces in 1360
+					if iGameTurn == getTurnForYear(1360):
+						bControl = True
+						regionList = [con.rShirvan, con.rAzerbaijan, con.rGeorgia, con.rGreaterArmenia, con.rKars]
+						for regionID in regionList:
+							if not utils.checkRegionControl(iGolden, regionID, True):
+								bControl = False
+						if bControl:
+							sd.setGoal(iGolden, 1, 1)
+						else:
+							sd.setGoal(iGolden, 1, 0)
+
+				# Golden UHV3: Italians
+					if sd.getGoal(iGolden, 2) == -1:
+						if iGameTurn <= getTurnForYear(1380):
+							iNumGenoa = self.getNumBuildings(iGolden, con.iGenoeseQuarter)
+							if iNumGenoa >= 4:
+								sd.setGoal(iGolden, 2, 1)
+						else:
+							sd.setGoal(iGolden, 2, 0)							
+
+							
+			elif iPlayer == iPortugal:
+				if pPlayer.isAlive():
+					
+					# Portugal UHV1: Control Resources
+					if sd.getGoal(iPortugal, 0) == -1:
+						if iGameTurn <= getTurnForYear(1600):
+							if (pPlayer.getNumAvailableBonuses(con.iGold) >= 1 and pPlayer.getNumAvailableBonuses(con.iSugar) >= 1 and pPlayer.getNumAvailableBonuses(con.iSpices) >= 1 and pPlayer.getNumAvailableBonuses(con.iIvory) >= 1 and pPlayer.getNumAvailableBonuses(con.iGems) >= 1):
+								sd.setGoal(iPortugal, 0, 1)
+						else:
+							sd.setGoal(iPortugal, 0, 0)
+					
+					# Portugal UHV3: Harbors
+					if iGameTurn == getTurnForYear(1620):
+						if self.getNumBuildings(iPortugal, con.iHarbor) >= 12:
+							sd.setGoal(iPortugal, 2, 1)
+						else:
+							sd.setGoal(iPortugal, 2, 0)
 
 			
 			elif iPlayer == iGeorgia:
@@ -965,6 +1118,20 @@ class Victory:
 					if sd.getGoal(iKhwarezm, 2) == -1:
 						if iNewOwner == con.iBarbarian and iYear < 1350:
 							sd.setGoal(iKhwarezm, 2, 0)
+
+		# CHagatai UHV3: Never lose a city to barbarians before 1350 AD
+		elif iPreviousOwner == iChagatai:
+			if gc.getPlayer(iPreviousOwner).isAlive():
+				if bConquest:
+					if sd.getGoal(iChagatai, 2) == -1:
+						if iNewOwner == con.iTimurids and iYear > 1375 and iYear < 1450:
+							sd.setGoal(iChagatai, 2, 0)							
+							
+		elif (city.getX(), city.getY()) == con.tDelhi:
+			if iYear <= 1370:
+				if iNewOwner == iChagatai:
+					if sd.getGoal(iChagatai, 1) == -1:
+						sd.setGoal(iChagatai, 1, 1)			
 
 		# Zengid UHV3: Never lose a city to barbarians until 1400 AD
 		elif iPreviousOwner == iZengids:
@@ -1620,13 +1787,13 @@ class Victory:
 		
 		elif iPlayer == iChauhan:
 			if iGoal == 0: 
-				bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka])
+				bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka, con.rJejakabhukti, con.rGondwana, con.rTelangana, con.rOudh])
 				aHelp.append(self.getIcon(bSuccess) + localText.getText("TXT_KEY_VICTORY_NO_ISLAM_IN_HINDUSTAN", ()))
 			elif iGoal == 1:
 				iCount = sd.getNumGenerals()
 				aHelp.append(self.getIcon(iCount >= 3) + localText.getText("TXT_KEY_VICTORY_GREAT_GENERALS_CREATED", (iCount, 3)))
 			elif iGoal == 2:
-				bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka, con.rGandhar, con.rSindh])
+				bSuccess = self.isFreeOfIslam([con.rDuggar, con.rPunjab, con.rGird, con.rUttarBharat, con.rRajputana, con.rMaharashtra, con.rMalwa, con.rGujarat, con.rKarnataka, con.rGandhar, con.rSindh, con.rJejakabhukti, con.rGondwana, con.rTelangana, con.rOudh])
 				aHelp.append(self.getIcon(bSuccess) + localText.getText("TXT_KEY_VICTORY_NO_ISLAM_IN_HINDUSTAN_AND_GANDHAR", ()))
 		
 		elif iPlayer == iMalwa:
@@ -1651,6 +1818,23 @@ class Victory:
 			elif iGoal == 2:
 				iCount = self.getNumProvinces(iSamanids)
 				aHelp.append(self.getIcon(iCount >= 8) + localText.getText("TXT_KEY_VICTORY_PROVINCES_CONTROLLED", (iCount, 8)))
+		
+		elif iPlayer == iKhanids:
+			if iGoal == 0: 
+				bSuccess = True
+				apCityList = PyPlayer(iKhanids).getCityList()
+				for pCity in apCityList:
+					if not pCity.GetCy().isHasReligion(con.iSunni):
+						bSuccess = False
+			elif iGoal == 1:
+				bComplete = False
+				if sd.getGoal(iKhanids, 1) == 1: bComplete = True
+				aHelp.append(self.getIcon(bComplete) + 'Samanids Destroyed')
+			elif iGoal == 2:
+				bFarghana = utils.checkRegionControl(iKhanids, con.rFarghana)
+				bSogd = utils.checkRegionControl(iKhanids, con.rSogd)
+				bTaklaMakan = utils.checkRegionControl(iKhanids, con.rTaklaMakan)
+				aHelp.append(self.getIcon(bFarghana) + utils.getRegionName(con.rFarghana) + ', ' + self.getIcon(bSogd) + utils.getRegionName(con.rSogd) + ', ' + self.getIcon(bTaklaMakan) + utils.getRegionName(con.rTaklaMakan))			
 		
 		elif iPlayer == iArmenia:
 			if iGoal == 0: 
@@ -1733,6 +1917,86 @@ class Victory:
 				aHelp.append(self.getIcon(fPercent >= 30.0) + localText.getText("TXT_KEY_VICTORY_RELIGION_SPREAD_TO", (gc.getReligionInfo(con.iShia).getTextKey(), str(fPercent), 30)))
 			elif iGoal == 2:
 				aHelp.append(self.getIcon(gc.getTeam(pPlayer.getTeam()).getProjectCount(con.iCaliph)) + gc.getProjectInfo(con.iCaliph).getText())
+		
+		elif iPlayer == iMongols:
+			if iGoal == 0:
+				bWesternKhorasan = utils.checkRegionControl(iMongols, con.rWesternKhorasan, True)
+				bKaraKum = utils.checkRegionControl(iMongols, con.rMisrian, True)
+				bSistan = utils.checkRegionControl(iMongols, con.rSistan, True)
+				bEasternKhorasan = utils.checkRegionControl(iMongols, con.rEasternKhorasan, True)
+				bLuristan = utils.checkRegionControl(iMongols, con.rLuristan, True)
+				bKurdistan = utils.checkRegionControl(iMongols, con.rKurdistan, True)
+				bJibal = utils.checkRegionControl(iMongols, con.rJibal, True)
+				bMazandaran = utils.checkRegionControl(iMongols, con.rMazandaran, True)
+				bYazd = utils.checkRegionControl(iMongols, con.rYazd, True)
+				bKerman = utils.checkRegionControl(iMongols, con.rKerman, True)
+				bKhuzestan = utils.checkRegionControl(iMongols, con.rKhuzestan, True)
+				bFars = utils.checkRegionControl(iMongols, con.rFars, True)
+				bAzerbaijan = utils.checkRegionControl(iMongols, con.rAzerbaijan, True)
+				bMesopotamia = utils.checkRegionControl(iMongols, con.rMesopotamia, True)
+				bAsuristan = utils.checkRegionControl(iMongols, con.rAsuristan, True)
+				bJazira = utils.checkRegionControl(iMongols, con.rJazira, True)
+				bDasht = utils.checkRegionControl(iMongols, con.rDashteKavir, True)
+				aHelp.append(self.getIcon(bWesternKhorasan) + utils.getRegionName(con.rWesternKhorasan) + ', ' + self.getIcon(bKaraKum) + utils.getRegionName(con.rMisrian) + ', ' + self.getIcon(bSistan) + utils.getRegionName(con.rSistan) + ', ' + self.getIcon(bEasternKhorasan) + utils.getRegionName(con.rEasternKhorasan) + ', ' + self.getIcon(bLuristan) + utils.getRegionName(con.rLuristan) + ', ')
+				aHelp.append(self.getIcon(bKurdistan) + utils.getRegionName(con.rKurdistan) + ', ' + self.getIcon(bJibal) + utils.getRegionName(con.rJibal) + ', ' + self.getIcon(bMazandaran) + utils.getRegionName(con.rMazandaran) + ', ' + self.getIcon(bYazd) + utils.getRegionName(con.rYazd) + ', ' + self.getIcon(bKerman) + utils.getRegionName(con.rKerman) + ', ')
+				aHelp.append(self.getIcon(bKhuzestan) + utils.getRegionName(con.rKhuzestan) + ', ' + self.getIcon(bFars) + utils.getRegionName(con.rFars) + ', ' + self.getIcon(bAzerbaijan) + utils.getRegionName(con.rAzerbaijan) + ', ' + self.getIcon(bMesopotamia) + utils.getRegionName(con.rMesopotamia) + ', ' + self.getIcon(bAsuristan) + utils.getRegionName(con.rAsuristan) + ', ' + self.getIcon(bJazira) + utils.getRegionName(con.rJazira) + ', ' + self.getIcon(bDasht) + utils.getRegionName(con.rDashteKavir))
+			elif iGoal == 1:
+				iNumMarkets = self.getNumBuildings(iMongols, con.iMarket)
+				iNumFairgrounds = self.getNumBuildings(iMongols, con.iFairground)
+				aHelp.append(self.getIcon(iNumMarkets >= 20) + localText.getText("TXT_KEY_VICTORY_MARKET", (iNumMarkets, 20)) + ', ' + self.getIcon(iNumFairgrounds >= 20) + localText.getText("TXT_KEY_VICTORY_FAIR", (iNumFairgrounds, 20)))
+			elif iGoal == 2:
+				iCount = self.getNumVassals(iMongols)
+				aHelp.append(self.getIcon(iCount >= 4) + localText.getText("TXT_KEY_VICTORY_VASSALS", (iCount, 4)))
+				
+		elif iPlayer == iChagatai:
+			if iGoal == 0:
+				bEZhetysu = utils.checkRegionControl(iChagatai, con.rEZhetysu, True)
+				bWZhetysu = utils.checkRegionControl(iChagatai, con.rWZhetysu, True)
+				bIspidjab = utils.checkRegionControl(iChagatai, con.rIspidjab, True)
+				bFarghana = utils.checkRegionControl(iChagatai, con.rFarghana, True)
+				bSogd = utils.checkRegionControl(iChagatai, con.rSogd, True)
+				bBactria = utils.checkRegionControl(iChagatai, con.rBactria, True)
+				bTaklaMakan = utils.checkRegionControl(iChagatai, con.rTaklaMakan, True)
+				bKhwarezm = utils.checkRegionControl(iChagatai, con.rKhwarezm, True)
+				bHindukush = utils.checkRegionControl(iChagatai, con.rHindukush, True)
+				aHelp.append(self.getIcon(bEZhetysu) + utils.getRegionName(con.rEZhetysu) + ', ' + self.getIcon(bWZhetysu) + utils.getRegionName(con.rWZhetysu) + ', ' + self.getIcon(bIspidjab) + utils.getRegionName(con.rIspidjab) + ', ' + self.getIcon(bFarghana) + utils.getRegionName(con.rFarghana) + ', ' + self.getIcon(bSogd) + utils.getRegionName(con.rSogd) + ', ')
+				aHelp.append(self.getIcon(bBactria) + utils.getRegionName(con.rBactria) + ', ' + self.getIcon(bTaklaMakan) + utils.getRegionName(con.rTaklaMakan) + ', ' + self.getIcon(bKhwarezm) + utils.getRegionName(con.rKhwarezm) + ', ' + self.getIcon(bHindukush) + utils.getRegionName(con.rHindukush))			
+			elif iGoal == 2:
+				aHelp.append(self.getIcon(sd.getGoal(iChagatai, 2) != 0) + localText.getText("TXT_KEY_VICTORY_NO_CITIES_LOST", ()))
+
+		elif iPlayer == iGolden:
+			if iGoal == 0: 
+				bSuccess = True
+				apCityList = PyPlayer(iGolden).getCityList()
+				for pCity in apCityList:
+					if not pCity.GetCy().isHasReligion(con.iSunni):
+						bSuccess = False
+			elif iGoal == 1:
+				bShirvan = utils.checkRegionControl(iGolden, con.rShirvan, True)
+				bAzerbaijan = utils.checkRegionControl(iGolden, con.rAzerbaijan, True)
+				bGeorgia = utils.checkRegionControl(iGolden, con.rGeorgia, True)
+				bGreaterArmenia = utils.checkRegionControl(iGolden, con.rGreaterArmenia, True)
+				bKars = utils.checkRegionControl(iGolden, con.rKars, True)
+				bAbkhazia = utils.checkRegionControl(iGolden, con.rAbkhazia, True)      
+				aHelp.append(self.getIcon(bShirvan) + utils.getRegionName(con.rShirvan) + ', ' + self.getIcon(bAzerbaijan) + utils.getRegionName(con.rAzerbaijan) + ', ' + self.getIcon(bGeorgia) + utils.getRegionName(con.rGeorgia) + ', ' + self.getIcon(bGreaterArmenia) + utils.getRegionName(con.rGreaterArmenia) + ', ' + self.getIcon(bKars) + utils.getRegionName(con.rKars) + ', ' + self.getIcon(bAbkhazia) + utils.getRegionName(con.rAbkhazia))	
+			elif iGoal == 2:
+				iNumGenoa = self.getNumBuildings(iGolden, con.iGenoeseQuarter)
+				aHelp.append(self.getIcon(iNumGenoa >= 4) + localText.getText("TXT_KEY_VICTORY_GENOOO", (iNumGenoa, 4)))
+			
+			
+		elif iPlayer == iPortugal:
+			if iGoal == 0:
+				bGold = pPlayer.getNumAvailableBonuses(con.iGold)
+				bSugar = pPlayer.getNumAvailableBonuses(con.iSugar)
+				bSpices = pPlayer.getNumAvailableBonuses(con.iSpices)
+				bIvory = pPlayer.getNumAvailableBonuses(con.iIvory)
+				bGems = pPlayer.getNumAvailableBonuses(con.iGems)
+				aHelp.append(self.getIcon(bGold) + 'Gold, ' + self.getIcon(bSugar) + 'Sugar, ' + self.getIcon(bSpices) + 'Spices, ' + self.getIcon(bIvory) + 'Ivory, ' + self.getIcon(bGems) + 'Gems')	
+			elif iGoal == 1:
+				aHelp.append(self.getIcon(sd.getNumSinks() >= 25) + localText.getText("TXT_KEY_VICTORY_OTTOMAN_SHIPS_SUNK", (sd.getNumSinks(), 25)))
+			elif iGoal == 2:
+				iCount = self.getNumBuildings(iPortugal, con.iHarbor)
+				aHelp.append(self.getIcon(iCount >= 12) + localText.getText("TXT_KEY_VICTORY_HARBOR", (iCount, 12)))
 		
 		elif iPlayer == iGeorgia:
 			if iGoal == 0:
