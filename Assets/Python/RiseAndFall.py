@@ -8,6 +8,8 @@ import DynamicCivs
 from Consts import *
 from StoredData import sd
 from RFCUtils import utils
+import Maps as maps
+import SorenRand as random
 
 ################
 ### Globals ###
@@ -46,6 +48,9 @@ class RiseAndFall:
 
 	def getNewCiv( self ):
 		return sd.getNewCiv()
+
+	def getCivilization(self, iCiv):
+		return sd.getCivilization(iCiv)	 
 
 	def setNewCiv( self, iNewValue ):
 		sd.setNewCiv(iNewValue)
@@ -558,15 +563,62 @@ class RiseAndFall:
 			plot = gc.getMap().plot(tJerusalem[0],tJerusalem[1])
 			if plot.getNumUnits() < 2 and iHuman != plot.getOwner():
 				utils.makeUnit(iSpearman, plot.getOwner(), tJerusalem, 1)
+		#unfuck georgia
+		if iGameTurn == getTurnForYear(1006) or iGameTurn == getTurnForYear(1007) or iGameTurn == getTurnForYear(1008):
+			iCiv = iGeorgia
+			iCiv2 = iArmenia
+			iCiv3 = iAlans
+			tCapital = tCapitals[iCiv]
+			for x in range(tCapital[0] - 1, tCapital[0] + 2):	   # from x-1 to x+1
+				for y in range(tCapital[1] - 1, tCapital[1] + 2):   # from y-1 to y+1
+					pCurrent=gc.getMap().plot(x, y)
+					if (pCurrent.getCulture(iCiv2) > 1):
+						pCurrent.setCulture(iCiv2, 0, True)
+					if (pCurrent.getCulture(iCiv3) > 1):
+						pCurrent.setCulture(iCiv3, 0, True)
+
+		if iGameTurn == getTurnForYear(1048) or iGameTurn == getTurnForYear(1049) or iGameTurn == getTurnForYear(1050):
+			iCiv = iKypchaks
+			iCiv2 = iAlans
+			iCiv3 = iKhazars
+			tCapital = tCapitals[iCiv]
+			for x in range(tCapital[0] - 1, tCapital[0] + 2):	   # from x-1 to x+1
+				for y in range(tCapital[1] - 1, tCapital[1] + 2):   # from y-1 to y+1
+					pCurrent=gc.getMap().plot(x, y)
+					if (pCurrent.getCulture(iCiv2) > 1):
+						pCurrent.setCulture(iCiv2, 0, True)
+					if (pCurrent.getCulture(iCiv3) > 1):
+						pCurrent.setCulture(iCiv3, 0, True)
+						
+		if iGameTurn == getTurnForYear(1130) or iGameTurn == getTurnForYear(1131) or iGameTurn == getTurnForYear(1132):
+			iCiv = iKhitai
+			iCiv2 = iKhanids
+			tCapital = tCapitals[iCiv]
+			for x in range(tCapital[0] - 1, tCapital[0] + 2):	   # from x-1 to x+1
+				for y in range(tCapital[1] - 1, tCapital[1] + 2):   # from y-1 to y+1
+					pCurrent=gc.getMap().plot(x, y)
+					if (pCurrent.getCulture(iCiv2) > 1):
+						pCurrent.setCulture(iCiv2, 0, True)						
+
+		if iGameTurn == getTurnForYear(1240) or iGameTurn == getTurnForYear(1241) or iGameTurn == getTurnForYear(1242):
+			iCiv = iAlans
+			for x in range(tAzaq[0] - 1, tAzaq[0] + 2):	 # from x-1 to x+1
+				for y in range(tAzaq[1] - 1, tAzaq[1] + 2): # from y-1 to y+1
+					pCurrent=gc.getMap().plot(x, y)
+					if (pCurrent.getCulture(iCiv) > 1):
+						pCurrent.setCulture(iCiv, 0, True)
 		
 		# loop through civs and check birth dates - edead
 		for iLoopCiv in range(iNumPlayers):
 			if tBirth[iLoopCiv] > iStartYear and iGameTurn >= getTurnForYear(tBirth[iLoopCiv]) - 2 and iGameTurn <= getTurnForYear(tBirth[iLoopCiv]) + 6:
 				self.initBirth(iGameTurn, tBirth[iLoopCiv], iLoopCiv)
-			# flip cities to Abbasids
+			# flip cities to Abbasids and Khazars
 			elif iLoopCiv == iAbbasids and iGameTurn == 0:
 				self.convertSurroundingCities(iLoopCiv, utils.getCorePlotList(iLoopCiv))
 				self.convertSurroundingPlotCulture(iLoopCiv, utils.getCorePlotList(iLoopCiv))
+			elif iLoopCiv == iKhazars and iGameTurn == 0:
+				self.convertSurroundingCities(iLoopCiv, utils.getCorePlotList(iLoopCiv))
+				self.convertSurroundingPlotCulture(iLoopCiv, utils.getCorePlotList(iLoopCiv))			   
 		
 		# fragment utility
 		if iGameTurn >= getTurnForYear(1140) and iGameTurn % utils.getTurns(25) == 6:
@@ -687,7 +739,7 @@ class RiseAndFall:
 
 	def collapseGeneric(self, iGameTurn):
 		
-		lNumCitiesNew = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		lNumCitiesNew = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 		for iCiv in range(iNumPlayers):
 			if not utils.canCollapse(iCiv):
 				continue
@@ -822,13 +874,33 @@ class RiseAndFall:
 			if (not gc.getPlayer(iDeadCiv).isAlive() and iGameTurn > getTurnForYear(tBirth[iDeadCiv]) + utils.getTurns(50) and iGameTurn > sd.getLastTurnAlive(iDeadCiv) + utils.getTurns(iMinTurns) and iGameTurn < getTurnForYear(tFallRespawned[iDeadCiv])):
 				if gc.getGame().getSorenRandNum(100, 'roll') >= iResurrectionProb and iDeadCiv != iForcedCiv:
 					continue
-				if iDeadCiv == iKhwarezm and (utils.getHumanID() == iTimurids or iGameTurn < getTurnForYear(1510)): # would be too annoying
+				if iDeadCiv == iKhwarezm and iGameTurn < getTurnForYear(1510): # would be too annoying
+					continue
+				if iDeadCiv == iKhanids and iGameTurn < getTurnForYear(1462):
+					continue					
+				if iDeadCiv == iGhaznavids and iGameTurn < getTurnForYear(1241):
+					continue
+				if iDeadCiv == iBuyids and iGameTurn < getTurnForYear(1286):
+					continue
+				if iDeadCiv == iSeljuks and iGameTurn < getTurnForYear(1348):
+					continue
+				if iDeadCiv == iKypchaks and iGameTurn < getTurnForYear(1436):
+					continue
+				if iDeadCiv == iAlans and iGameTurn < getTurnForYear(1425):
+					continue
+				if iDeadCiv == iKhazars and iGameTurn < getTurnForYear(1627):
+					continue
+				if iDeadCiv == iKhitai and iGameTurn < getTurnForYear(1631):
+					continue
+				if iDeadCiv == iChagatai and iGameTurn < getTurnForYear(1357):
 					continue
 				pDeadCiv = gc.getPlayer(iDeadCiv)
 				teamDeadCiv = gc.getTeam(pDeadCiv.getTeam())
 				plotList = utils.getRegionPlotList(lRespawnRegions[iDeadCiv]) # edead
 				if iDeadCiv == iCrusaders and utils.getYear() >= 1309: # add knights of rhodes
 					plotList.extend(utils.getRegionPlotList([rRhodes]))
+				if iDeadCiv == iChagatai and utils.getYear() < 1530:
+					plotList.extend(utils.getRegionPlotList([rEZhetysu, rWZhetysu]))
 				if iDeadCiv == iKhwarezm:
 					plotList.extend(utils.getRegionPlotList([rKyzylKum, rFarghana]))
 				
@@ -1014,8 +1086,32 @@ class RiseAndFall:
 					textKey = "TXT_KEY_INDEPENDENCE_TEXT_CILICIA"
 				elif iDeadCiv == iKhwarezm:
 					textKey = "TXT_KEY_INDEPENDENCE_TEXT_SHAYBANIDS"
+				elif iDeadCiv == iGhaznavids:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_KARTIDS"
+				elif iDeadCiv == iBuyids:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_MUZZ"
+				elif iDeadCiv == iMongols:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_JALAY"
+				elif iDeadCiv == iAlans:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_CIRCASSIA"
+				elif iDeadCiv == iKypchaks:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_NOGAI"
+				elif iDeadCiv == iKhitai:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_ZUNGHAR"
+				elif iDeadCiv == iKhazars:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_KALMYK"		
+				elif iDeadCiv == iSeljuks:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_KARA"
 				elif iDeadCiv == iGhorids:
 					textKey = "TXT_KEY_INDEPENDENCE_TEXT_DELHI"
+				elif iDeadCiv == iChalukya:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_SEUNA"
+				elif iDeadCiv == iChagatai:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_MOGHULS"
+				elif iDeadCiv == iGolden:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_CRIMEAN"
+				elif iDeadCiv == iKhanids:
+					textKey = "TXT_KEY_INDEPENDENCE_TEXT_KAZAK"	 
 				CyInterface().addMessage(iHuman, True, iDuration, \
 					(CyTranslator().getText(textKey, (pDeadCiv.getCivilizationAdjectiveKey(),))), "", 0, "", ColorTypes(iGreen), -1, -1, True, True)
 			
@@ -1976,17 +2072,17 @@ class RiseAndFall:
 			utils.makeUnit(iMarksman, iCiv, tPlot, 3)
 			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 3)
 			
-		if iCiv == iGolden:
-			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
-			utils.makeUnit(iHeavySwordsman, iCiv, tPlot, 3)
-			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 4)
-			
 		if iCiv == iChagatai:
 			utils.makeUnit(iTrebuchet, iCiv, tPlot, 3)
 			utils.makeUnit(iHeavySpearman, iCiv, tPlot, 2)
 			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
 			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 3)
 		
+		if iCiv == iGolden:
+			utils.makeUnit(iMarksman, iCiv, tPlot, 4)
+			utils.makeUnit(iHeavySwordsman, iCiv, tPlot, 3)
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 4)
+			
 		if iCiv == iOttomans:
 			utils.makeUnit(iTrebuchet, iCiv, tPlot, 1)
 			utils.makeUnit(iMarksman, iCiv, tPlot, 2)
@@ -2042,8 +2138,8 @@ class RiseAndFall:
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 2)
 			
 		if iCiv == iKhazars:
-			utils.makeUnit(iSettler, iCiv, tPlot, 4)
-			utils.makeUnit(iWorker, iCiv, tPlot, 5)
+			utils.makeUnit(iSettler, iCiv, tPlot, 3)
+			utils.makeUnit(iWorker, iCiv, tPlot, 3)
 			utils.makeUnit(iArcher, iCiv, tPlot, 6)
 			utils.makeUnit(iHorseArcher, iCiv, tPlot, 4)
 			
@@ -2069,30 +2165,19 @@ class RiseAndFall:
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 2)
 			
 		if iCiv == iKhanids:
-			utils.makeUnit(iSettler, iCiv, tPlot, 3)
+			utils.makeUnit(iSettler, iCiv, tPlot, 2)
 			utils.makeUnit(iHorseArcherChig, iCiv, tPlot, 3)
 			utils.makeUnit(iArcher, iCiv, tPlot, 4)
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
-			if iCiv != utils.getHumanID():
-				utils.makeUnit(iArcher, iCiv, tPlot, 1)
-			gc.getPlayer(iSamanids).AI_changeAttitudeExtra(iKhanids, -4)
-			gc.getPlayer(iSeljuks).AI_changeAttitudeExtra(iKhanids, -3)
-			gc.getPlayer(iGhaznavids).AI_changeAttitudeExtra(iKhanids, -4)
-			gc.getPlayer(iGhorids).AI_changeAttitudeExtra(iKhanids, -4)
-			gc.getPlayer(iKhwarezm).AI_changeAttitudeExtra(iKhanids, -3)
-			gc.getPlayer(iGolden).AI_changeAttitudeExtra(iKhanids, -2)
-			gc.getPlayer(iKypchaks).AI_changeAttitudeExtra(iKhanids, -2)
-			gc.getPlayer(iMongols).AI_changeAttitudeExtra(iKhanids, -2)
-			gc.getPlayer(iChagatai).AI_changeAttitudeExtra(iKhanids, -2)
 			
 		if iCiv == iOghuz:
-			utils.makeUnit(iSettler, iCiv, tPlot, 4)
+			utils.makeUnit(iSettler, iCiv, tPlot, 3)
 			utils.makeUnit(iHorseArcher, iCiv, tPlot, 4)
 			utils.makeUnit(iArcher, iCiv, tPlot, 6)
 			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
 			if iKhanids != utils.getHumanID() and iSamanids != utils.getHumanID():
-				utils.makeUnit(iSettler, iCiv, tPlot, 2)
-				utils.makeUnit(iArcher, iCiv, tPlot, 4)
+				utils.makeUnit(iSettler, iCiv, tPlot, 1)
+				utils.makeUnit(iArcher, iCiv, tPlot, 2)
 			
 		if iCiv == iBuyids:
 			utils.makeUnit(iSettler, iCiv, tPlot, 3)
@@ -2115,10 +2200,10 @@ class RiseAndFall:
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 			
 		if iCiv == iAlans:
-			utils.makeUnit(iSettler, iCiv, tPlot, 2)
-			utils.makeUnit(iArcher, iCiv, tPlot, 6)
+			utils.makeUnit(iSettler, iCiv, tPlot, 1)
+			utils.makeUnit(iArcher, iCiv, tPlot, 4)
 			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
-			utils.makeUnit(iHorseArcher, iCiv, tPlot, 3)
+			utils.makeUnit(iHorseArcher, iCiv, tPlot, 2)
 			if gc.getPlayer(iCiv).getNumCities() == 0:
 				utils.makeUnit(iSettler, iCiv, tPlot, 1)
 			
@@ -2152,18 +2237,11 @@ class RiseAndFall:
 			utils.makeUnit(iHinduMissionary, iCiv, tPlot, 2)
 			
 		if iCiv == iChalukya:
-			utils.makeUnit(iSettler, iCiv, tPlot, 4)
+			utils.makeUnit(iSettler, iCiv, tPlot, 3)
 			utils.makeUnit(iArcher, iCiv, tPlot, 9)
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 5)
 			utils.makeUnit(iSpearman, iCiv, tPlot, 6)
 			utils.makeUnit(iHinduMissionary, iCiv, tPlot, 4)
-			gc.getPlayer(iMalwa).AI_changeAttitudeExtra(iChalukya, -2)
-			gc.getPlayer(iChauhan).AI_changeAttitudeExtra(iChalukya, -2)
-			gc.getPlayer(iGujarat).AI_changeAttitudeExtra(iChalukya, -2)
-			gc.getPlayer(iMughals).AI_changeAttitudeExtra(iChalukya, -3)
-			gc.getPlayer(iBahmanids).AI_changeAttitudeExtra(iChalukya, -3)
-			gc.getPlayer(iGhorids).AI_changeAttitudeExtra(iChalukya, -3)
-			gc.getPlayer(iSindh).AI_changeAttitudeExtra(iChalukya, -1)
 			
 		if iCiv == iGeorgia:
 			utils.makeUnit(iSettler, iCiv, tPlot, 2)
@@ -2183,7 +2261,7 @@ class RiseAndFall:
 			gc.getPlayer(iSeljuks).AI_changeAttitudeExtra(iZengids, 2)
 		
 		if iCiv == iKypchaks:
-			utils.makeUnit(iSettler, iCiv, tPlot, 6)
+			utils.makeUnit(iSettler, iCiv, tPlot, 4)
 			utils.makeUnit(iHorseArcher, iCiv, tPlot, 7)
 			utils.makeUnit(iArcher, iCiv, tPlot, 10)
 			utils.makeUnit(iSpearman, iCiv, tPlot, 3)
@@ -2202,7 +2280,7 @@ class RiseAndFall:
 			gc.getPlayer(iSindh).AI_changeAttitudeExtra(iFatimids, 1)
 			
 		if iCiv == iRum:
-			utils.makeUnit(iSettler, iCiv, tPlot, 2)
+			utils.makeUnit(iSettler, iCiv, tPlot, 1)
 			utils.makeUnit(iArcher, iCiv, tPlot, 3)
 			utils.makeUnit(iGhazi, iCiv, tPlot, 1)
 			utils.makeUnit(iHorseArcher, iCiv, tPlot, 6)
@@ -2310,6 +2388,27 @@ class RiseAndFall:
 			utils.makeUnit(iMarksman, iCiv, tPlot, 9)
 			if iCiv == utils.getHumanID():
 				utils.makeUnit(iTrebuchet, iCiv, tPlot, 7)
+			gc.getPlayer(iArmenia).AI_changeAttitudeExtra(iMongols, 4)
+			gc.getPlayer(iAntioch).AI_changeAttitudeExtra(iMongols, 3)
+			gc.getPlayer(iByzantium).AI_changeAttitudeExtra(iMongols, 2)
+			gc.getPlayer(iGeorgia).AI_changeAttitudeExtra(iMongols, 2)
+			gc.getPlayer(iCrusaders).AI_changeAttitudeExtra(iMongols, 1)
+			gc.getPlayer(iKhwarezm).AI_changeAttitudeExtra(iMongols, -6)
+			gc.getPlayer(iSeljuks).AI_changeAttitudeExtra(iMongols, -6)
+			gc.getPlayer(iKypchaks).AI_changeAttitudeExtra(iMongols, -2)
+			gc.getPlayer(iAbbasids).AI_changeAttitudeExtra(iMongols, -6)
+			gc.getPlayer(iGhorids).AI_changeAttitudeExtra(iMongols, -5)
+			gc.getPlayer(iKhitai).AI_changeAttitudeExtra(iMongols, -2)
+			gc.getPlayer(iSindh).AI_changeAttitudeExtra(iMongols, -3)
+			gc.getPlayer(iOttomans).AI_changeAttitudeExtra(iMongols, -4)	
+			gc.getPlayer(iAyyubids).AI_changeAttitudeExtra(iMongols, -5)
+			gc.getPlayer(iZengids).AI_changeAttitudeExtra(iMongols, -5)
+			gc.getPlayer(iMamluks).AI_changeAttitudeExtra(iMongols, -6)
+			gc.getPlayer(iGolden).AI_changeAttitudeExtra(iByzantium, -1)
+			gc.getPlayer(iGolden).AI_changeAttitudeExtra(iMongols, -4)
+			gc.getPlayer(iTimurids).AI_changeAttitudeExtra(iMongols, -6)
+			gc.getPlayer(iKhanids).AI_changeAttitudeExtra(iMongols, -2)
+			gc.getPlayer(iChagatai).AI_changeAttitudeExtra(iMongols, -1)
 	
 		if iCiv == iGolden:
 			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 8)
@@ -2341,7 +2440,18 @@ class RiseAndFall:
 			if iSafavids == utils.getHumanID() or iMughals == utils.getHumanID() or iPortugal == utils.getHumanID():
 				utils.makeUnit(iSettler, iCiv, tPlot, 3)
 				utils.makeUnit(iMarksman, iCiv, tPlot, 6)
-		
+			gc.getPlayer(iKhanids).AI_changeAttitudeExtra(iGolden, -2)
+			gc.getPlayer(iKypchaks).AI_changeAttitudeExtra(iGolden, -3)
+			gc.getPlayer(iGhaznavids).AI_changeAttitudeExtra(iGolden, -1)
+			gc.getPlayer(iChagatai).AI_changeAttitudeExtra(iGolden, -1)
+			gc.getPlayer(iKhwarezm).AI_changeAttitudeExtra(iGolden, -3)
+			gc.getPlayer(iByzantium).AI_changeAttitudeExtra(iGolden, -1)
+			gc.getPlayer(iMongols).AI_changeAttitudeExtra(iGolden, -3)
+			gc.getPlayer(iTimurids).AI_changeAttitudeExtra(iGolden, -4)
+			gc.getPlayer(iOttomans).AI_changeAttitudeExtra(iGolden, 1)
+			gc.getPlayer(iMamluks).AI_changeAttitudeExtra(iGolden, 3)		   
+			gc.getPlayer(iGeorgia).AI_changeAttitudeExtra(iGolden, 1)
+			gc.getPlayer(iArmenia).AI_changeAttitudeExtra(iGolden, 1)
 		
 		if iCiv == iMamluks:
 			utils.makeUnit(iMarksman, iCiv, tPlot, 2)
@@ -2632,25 +2742,43 @@ class RiseAndFall:
 		elif iCiv == iArmenia and iHuman in [iByzantium, iAbbasids]:
 			textKey = "TXT_KEY_CIV_BIRTH_ARMENIA"
 		
+		elif iCiv == iKiev and iHuman in [iByzantium, iArmenia]:
+			textKey = "TXT_KEY_CIV_BIRTH_KIEV"
+			
+		elif iCiv == iAlans and iHuman in [iByzantium, iArmenia]:
+			textKey = "TXT_KEY_CIV_BIRTH_ALANIA"		
+			
+		elif iCiv == iKhanids and iHuman in [iSamanids]:
+			textKey = "TXT_KEY_CIV_BIRTH_KHANIDS"		   
+		
 		elif iCiv == iYemen and iHuman in [iAbbasids]:
 			textKey = "TXT_KEY_CIV_BIRTH_YEMEN"
 		
 		elif iCiv == iSamanids and iHuman in [iAbbasids, iSamanids, iArmenia, iYemen]:
 			textKey = "TXT_KEY_CIV_BIRTH_BUYIDS"
+			
+		elif iCiv == iBuyids and iHuman in [iAbbasids, iSamanids, iArmenia, iYemen, iByzantium]:
+			textKey = "TXT_KEY_CIV_BIRTH_BUYIDS"
 		
 		elif iCiv == iGujarat and iHuman in [iChauhan, iMalwa]:
 			textKey = "TXT_KEY_CIV_BIRTH_SOLANKI"
 		
-		elif iCiv == iGhaznavids and iHuman in [iByzantium, iAbbasids, iSamanids, iChauhan, iGujarat]:
+		elif iCiv == iChalukya and iHuman in [iChauhan, iMalwa, iGujarat]:
+			textKey = "TXT_KEY_CIV_BIRTH_CHALUKYA"
+		
+		elif iCiv == iGhaznavids and iHuman in [iByzantium, iAbbasids, iSamanids, iChauhan, iGujarat, iKhanids]:
 			textKey = "TXT_KEY_CIV_BIRTH_GHAZNAVIDS"
 		
 		elif iCiv == iFatimids and iHuman in [iByzantium, iMakuria, iAbbasids, iYemen, iArmenia]:
 			textKey = "TXT_KEY_CIV_BIRTH_FATIMIDS"
 		
+		elif iCiv == iKypchaks and iHuman in [iByzantium, iGeorgia, iArmenia, iSeljuks, iKhanids]:
+			textKey = "TXT_KEY_CIV_BIRTH_KIPCHAKS"
+		
 		elif iCiv == iGeorgia and iHuman in [iByzantium, iAbbasids, iArmenia]:
 			textKey = "TXT_KEY_CIV_BIRTH_GEORGIA"
 		
-		elif iCiv == iSeljuks and iHuman in [iByzantium, iAbbasids, iSamanids, iArmenia, iGhaznavids, iFatimids, iGeorgia]:
+		elif iCiv == iSeljuks and iHuman in [iByzantium, iAbbasids, iSamanids, iArmenia, iGhaznavids, iFatimids, iGeorgia, iKhanids]:
 			textKey = "TXT_KEY_CIV_BIRTH_SELJUKS"
 		
 		elif iCiv == iSindh and iHuman in [iAbbasids, iFatimids, iSamanids, iGhaznavids, iSeljuks, iChauhan, iGujarat]:
@@ -2680,19 +2808,31 @@ class RiseAndFall:
 		elif iCiv == iAyyubids and iHuman in [iByzantium, iMakuria, iAbbasids, iYemen, iArmenia, iGeorgia, iSeljuks, iRum, iCrusaders]:
 			textKey = "TXT_KEY_CIV_BIRTH_AYYUBIDS"
 		
-		elif iCiv == iMamluks and iHuman in [iByzantium, iMakuria, iAbbasids, iYemen, iArmenia, iGeorgia, iSeljuks, iRum, iCrusaders]:
+		elif iCiv == iMongols and iHuman in [iAbbasids, iByzantium, iArmenia, iGeorgia, iFatimids, iSeljuks, iRum, iKhwarezm, iAntioch, iCrusaders, iAyyubids, iSamanids, iGhaznavids, iGhorids, iKhanids]:
+			textKey = "TXT_KEY_INVASION_MONGOLS_KHWAREZM"
+
+		elif iCiv == iChagatai and iHuman in [iMongols, iSeljuks, iKhwarezm, iSamanids, iGhaznavids, iGhorids, iTimurids, iKhanids, iGolden]:
+			textKey = "TXT_KEY_CIV_BIRTH_CHAGATAI"
+			
+		elif iCiv == iGolden and iHuman in [iMongols, iSeljuks, iKhwarezm, iSamanids, iGhaznavids, iGhorids, iAbbasids, iGeorgia, iByzantium, iKhanids, iArmenia, iRum]:
+			textKey = "TXT_KEY_CIV_BIRTH_GOLDEN"
+		
+		elif iCiv == iMamluks and iHuman in [iByzantium, iMakuria, iAbbasids, iYemen, iArmenia, iGeorgia, iSeljuks, iRum, iCrusaders, iMongols, iGolden, iAyyubids]:
 			textKey = "TXT_KEY_CIV_BIRTH_MAMLUKS"
 		
-		elif iCiv == iOttomans and iHuman in [iByzantium, iAbbasids, iArmenia, iGeorgia, iCrusaders, iSeljuks, iRum, iTimurids, iKhwarezm, iFatimids, iAyyubids, iMamluks]:
+		elif iCiv == iOttomans and iHuman in [iByzantium, iAbbasids, iArmenia, iGeorgia, iCrusaders, iSeljuks, iRum, iTimurids, iKhwarezm, iFatimids, iAyyubids, iMamluks, iMongols, iGolden]:
 			textKey = "TXT_KEY_CIV_BIRTH_OTTOMANS"
 		
-		elif iCiv == iAkKoyunlu and iHuman in [iByzantium, iAbbasids, iArmenia, iGeorgia, iCrusaders, iSeljuks, iRum, iTimurids, iKhwarezm, iFatimids, iAyyubids, iMamluks, iOttomans]:
+		elif iCiv == iAkKoyunlu and iHuman in [iByzantium, iAbbasids, iArmenia, iGeorgia, iCrusaders, iSeljuks, iRum, iTimurids, iKhwarezm, iFatimids, iAyyubids, iMamluks, iOttomans, iMongols]:
 			textKey = "TXT_KEY_CIV_BIRTH_AKKOYUNLU"
 		
 		elif iCiv == iSafavids and iHuman not in [iMakuria, iChauhan, iGujarat]:
 			textKey = "TXT_KEY_CIV_BIRTH_SAFAVIDS"
 		
-		elif iCiv == iSafavids and iHuman in [iChauhan, iGujarat, iSindh, iGhaznavids, iGhorids, iSamanids, iKhwarezm, iTimurids, iOman, iSafavids, iSeljuks]:
+		elif iCiv == iTimurids and iHuman not in [iMakuria, iGujarat, iSindh, iMalwa]:
+			textKey = "TXT_KEY_CIV_BIRTH_TIMURIDS"
+		
+		elif iCiv == iMughals and iHuman in [iChauhan, iGujarat, iSindh, iGhaznavids, iGhorids, iSamanids, iKhwarezm, iTimurids, iOman, iSafavids, iSeljuks, iMalwa, iMongols, iPortugal]:
 			textKey = "TXT_KEY_CIV_BIRTH_MUGHALS"
 		
 		if textKey:

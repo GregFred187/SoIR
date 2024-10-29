@@ -32,7 +32,7 @@ class DynamicCivs:
 			con.iKhanids: "TXT_KEY_CIV_KHANIDS_DESC_DEFAULT",
 			con.iArmenia : "TXT_KEY_CIV_ARMENIA_DESC_DEFAULT",
 			con.iKiev : "TXT_KEY_CIV_KIEV_DESC_DEFAULT",
-            con.iAlans : "TXT_KEY_CIV_ALANS_DESC_DEFAULT",
+			con.iAlans : "TXT_KEY_CIV_ALANS_DESC_DEFAULT",
 			con.iYemen: "TXT_KEY_CIV_YEMEN_DESC_DEFAULT",
 			con.iBuyids : "TXT_KEY_CIV_BUYIDS_DESC_DEFAULT",
 			con.iGujarat : "TXT_KEY_CIV_GUJARAT_DESC_DEFAULT",
@@ -53,7 +53,7 @@ class DynamicCivs:
 			con.iOman: "TXT_KEY_CIV_OMAN_DESC_DEFAULT",
 			con.iAyyubids: "TXT_KEY_CIV_AYYUBIDS_DESC_DEFAULT",
 			con.iMongols: "TXT_KEY_CIV_MONGOLS_DESC_DEFAULT",
-            con.iGolden: "TXT_KEY_CIV_GOLDEN_DESC_DEFAULT",
+			con.iGolden: "TXT_KEY_CIV_GOLDEN_DESC_DEFAULT",
 			con.iMamluks: "TXT_KEY_CIV_MAMLUKS_DESC_DEFAULT",
 			con.iChagatai: "TXT_KEY_CIV_CHAGATAI_DESC_DEFAULT",
 			con.iOttomans : "TXT_KEY_CIV_OTTOMAN_DESC_DEFAULT",
@@ -69,10 +69,15 @@ class DynamicCivs:
 			con.iByzantium : "TXT_KEY_CIV_BYZANTIUM_DESC_VASSAL",
 			con.iMakuria : "TXT_KEY_CIV_MAKURIA_DESC_VASSAL",
 			con.iAbbasids : "TXT_KEY_CIV_ABBASIDS_DESC_VASSAL",
+			con.iKhazars : "TXT_KEY_CIV_KHAZARS_DESC_VASSAL",
 			con.iChauhan : "TXT_KEY_CIV_CHAUHAN_DESC_VASSAL",
 			con.iMalwa : "TXT_KEY_CIV_MALWA_DESC_VASSAL",
+			con.iOghuz : "TXT_KEY_CIV_OGHUZ_DESC_DEFAULT",
 			con.iSamanids : "TXT_KEY_CIV_SAMANIDS_DESC_VASSAL",
+			con.iKhanids: "TXT_KEY_CIV_KHANIDS_DESC_DEFAULT",		   
 			con.iArmenia : "TXT_KEY_CIV_ARMENIA_DESC_VASSAL",
+			con.iKiev : "TXT_KEY_CIV_KIEV_DESC_VASSAL",
+			con.iAlans : "TXT_KEY_CIV_ALANS_DESC_VASSAL",	   
 			con.iYemen: "TXT_KEY_CIV_YEMEN_DESC_VASSAL",
 			con.iBuyids : "TXT_KEY_CIV_BUYIDS_DESC_VASSAL",
 			con.iGujarat : "TXT_KEY_CIV_GUJARAT_DESC_VASSAL",
@@ -86,9 +91,15 @@ class DynamicCivs:
 			con.iAntioch: "TXT_KEY_CIV_ANTIOCH_DESC_VASSAL",
 			con.iCrusaders: "TXT_KEY_CIV_OUTREMER_DESC_VASSAL",
 			con.iZengids: "TXT_KEY_CIV_ZENGIDS_DESC_VASSAL",
+			con.iKhitai: "TXT_KEY_CIV_KHITAI_DESC_DEFAULT",		 
 			con.iGhorids: "TXT_KEY_CIV_GHORIDS_DESC_VASSAL",
 			con.iAyyubids: "TXT_KEY_CIV_AYYUBIDS_DESC_VASSAL",
+			con.iMongols: "TXT_KEY_CIV_MONGOLS_DESC_VASSAL",			
 			con.iMamluks: "TXT_KEY_CIV_MAMLUKS_DESC_VASSAL",
+			con.iChagatai: "TXT_KEY_CIV_CHAGATAI_DESC_DEFAULT",
+			con.iGolden: "TXT_KEY_CIV_GOLDEN_DESC_DEFAULT",
+			con.iKypchaks : "TXT_KEY_CIV_KYPCHAKS_DESC_DEFAULT",
+			con.iChalukya : "TXT_KEY_CIV_CHALUKYA_DESC_DEFAULT",
 			con.iOttomans : "TXT_KEY_CIV_OTTOMAN_DESC_VASSAL",
 			con.iBahmanids : "TXT_KEY_CIV_BAHMANIDS_DESC_VASSAL",
 			con.iTimurids: "TXT_KEY_CIV_TIMURIDS_DESC_VASSAL",
@@ -102,9 +113,23 @@ class DynamicCivs:
 			con.iArmenia : "TXT_KEY_CIV_CILICIA_DESC_DEFAULT",
 			con.iCrusaders : "TXT_KEY_CIV_CYPRUS_DESC_DEFAULT",
 			con.iGhorids : "TXT_KEY_CIV_DELHI_DESC_DEFAULT",
+			con.iKiev : "TXT_KEY_CIV_KIEV_DESC_RESPAWN",
 			con.iChauhan : "TXT_KEY_CIV_MEWAR_DESC_DEFAULT",
+			con.iChalukya : "TXT_KEY_CIV_SEUNA_DESC_DEFAULT",
 			con.iRum : "TXT_KEY_CIV_KARAMAN_DESC_DEFAULT",
+			con.iMongols: "TXT_KEY_CIV_JALAYIRDS_DESC_DEFAULT",
 			con.iKhwarezm : "TXT_KEY_CIV_BUKHARA_DESC_DEFAULT",
+			con.iGhaznavids : "TXT_KEY_CIV_KARTIDS_DESC_DEFAULT",
+			con.iBuyids : "TXT_KEY_CIV_MUZZ_DESC_DEFAULT",
+			con.iSeljuks : "TXT_KEY_CIV_KARA_DESC_DEFAULT",
+			con.iChagatai : "TXT_KEY_CIV_MOG_DESC_DEFAULT",
+			con.iBahmanids : "TXT_KEY_CIV_BIJ_DESC",
+			con.iGolden : "TXT_KEY_CIV_CRIMEAN_DESC_DEFAULT",
+			con.iKhanids: "TXT_KEY_CIV_KAZAK_DESC_DEFAULT",
+			con.iKhazars: "TXT_KEY_CIV_KALMYK_DESC_DEFAULT",
+			con.iAlans: "TXT_KEY_CIV_CIRCASSIA_DESC_DEFAULT",
+			con.iKypchaks: "TXT_KEY_CIV_NOGAI_DESC_DEFAULT",
+			con.iKhitai: "TXT_KEY_CIV_ZUNGHAR_DESC_DEFAULT",		
 		}
 		
 		self.sunniNames = {
@@ -140,6 +165,8 @@ class DynamicCivs:
 			con.iChauhan : "TXT_KEY_CIV_CHAUHAN_EMPIRE_DESC",
 			con.iGujarat : "TXT_KEY_CIV_SOLANKI_EMPIRE_DESC",
 			con.iMalwa : "TXT_KEY_CIV_PARAMARA_EMPIRE_DESC",
+			con.iKhanids: "TXT_KEY_CIV_KHANIDS_EMPIRE_DESC",
+			con.iChalukya : "TXT_KEY_CIV_CHALUKYAEMP_DESC_DEFAULT",		 
 			con.iBahmanids : "TXT_KEY_CIV_BAHMANID_EMPIRE_DESC",
 			con.iCrusaders : "TXT_KEY_CIV_LATIN_EMPIRE_DESC",
 			con.iGhorids : "TXT_KEY_CIV_GHORID_EMPIRE_DESC",
@@ -149,6 +176,11 @@ class DynamicCivs:
 			con.iOttomans : "TXT_KEY_CIV_OTTOMAN_DESC_DEFAULT",
 			con.iBuyids : "TXT_KEY_CIV_BUYID_EMPIRE_DESC",
 		}
+		
+		self.specialNames = {
+			con.iBahmanids : "TXT_KEY_CIV_BIJ_DESC",
+			con.iMongols : "TXT_KEY_CIV_MONGILK_DESC",  
+		}	   
 		
 
 	def setCivDesc(self, iCiv, sName, sShort="", sAdj=""):
@@ -185,6 +217,27 @@ class DynamicCivs:
 				self.setCivDesc(iPlayer, "TXT_KEY_CIV_ARMENISTAN_DESC", "TXT_KEY_CIV_ARMENISTAN_DESC")
 				return
 		
+		if iPlayer == con.iMongols and gc.getPlayer(con.iChagatai).isAlive():
+			if iPlayer == utils.getHumanID():
+				self.setCivDesc(iPlayer, "TXT_KEY_CIV_MONGILK_DESC", "TXT_KEY_CIV_MONGILK_DESC")
+			elif iPlayer != utils.getHumanID() and gc.getGame().getGameTurnYear() < 1336:
+				self.setCivDesc(iPlayer, "TXT_KEY_CIV_MONGILK_DESC", "TXT_KEY_CIV_MONGILK_DESC")
+			return
+			
+		if iPlayer == con.iKiev and gc.getGame().getGameTurnYear() > 1470:
+			if iPlayer != utils.getHumanID():
+				self.setCivDesc(iPlayer, "TXT_KEY_CIV_VOI_DESC", "TXT_KEY_CIV_KIEV_SHORT_DESC")
+			return
+			
+		if iPlayer == con.iMakuria and gc.getGame().getGameTurnYear() > 1180 and utils.checkRegionOwnedCity(con.iMakuria, con.rAlodia) and pPlayer.getNumCities() < 12:
+			if not bVassal:
+				self.setCivDesc(iPlayer, "TXT_KEY_CIV_DOTAWO_DESC", "TXT_KEY_CIV_DOTAWO_DESC")
+			return
+			
+		#if iPlayer == con.iBahmanids and gc.getGame().getGameTurnYear() > 1488 and not utils.checkRegionOwnedCity(iBahmanids, con.rTelangana) and not utils.checkRegionOwnedCity(iBahmanids, con.rMalwa):
+			#self.setCivDesc(iPlayer, "TXT_KEY_CIV_BIJ_DESC", "TXT_KEY_CIV_BIJ_DESC")
+			#return
+
 		# by respawns
 		if bRespawned and iPlayer in self.respawnedNames and iPlayer != con.iArmenia:
 			if iPlayer == con.iKhwarezm:
@@ -196,6 +249,14 @@ class DynamicCivs:
 					self.setCivDesc(iPlayer, "TXT_KEY_CIV_KOKAND_DESC_DEFAULT")
 				elif capital.plot().getRegionID() == con.rSogd:
 					self.setCivDesc(iPlayer, "TXT_KEY_CIV_BUKHARA_DESC_DEFAULT")
+			elif iPlayer == con.iChalukya:
+				if pPlayer.getNumCities() >= 8 and not bVassal:
+					self.setCivDesc(iPlayer, "TXT_KEY_CIV_SEUNAEMPIRE_DESC_DEFAULT")
+			elif iPlayer == con.iAlans:
+				if bVassal:
+					self.setCivDesc(iPlayer, "TXT_KEY_CIV_CIRCASSIA_DESC_VASSAL")
+				else:
+					self.setCivDesc(iPlayer, "TXT_KEY_CIV_CIRCASSIA_DESC_DEFAULT")
 			elif iPlayer == con.iGhorids:
 				if iReligion not in [con.iSunni, con.iShia]:
 					self.setCivDesc(iPlayer, "TXT_KEY_CIV_DELHI_KINGDOM_DESC_DEFAULT")
@@ -212,6 +273,9 @@ class DynamicCivs:
 		
 		# by vassalage
 		if bVassal and iPlayer in self.vassalNames:
+			#if iPlayer == con.iBahmanids and gc.getGame().getGameTurnYear() > 1488 and not utils.checkRegionOwnedCity(iBahmanids, con.rTelangana) and not utils.checkRegionOwnedCity(iBahmanids, con.rMalwa):
+				#szName = self.specialNames[iPlayer]
+			#else:
 			szName = self.vassalNames[iPlayer]
 		else:
 			szName = self.defaultNames[iPlayer]
@@ -299,11 +363,61 @@ class DynamicCivs:
 				pPlayer.setResearchPercent(con.tResearchPercent[con.iCrusaders])
 				pPlayer.setCulturePercent(con.tCulturePercent[con.iCrusaders])
 				pPlayer.setEspionagePercent(con.tEspionagePercent[con.iCrusaders])
+			if iPlayer == con.iGolden:
+				pPlayer.changeInflationModifier(-5)
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iOttomans])
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iOttomans])
+				pPlayer.setCulturePercent(con.tCulturePercent[con.iOttomans])
+			if iPlayer == con.iRum:
+				pPlayer.changeInflationModifier(-5)
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iChagatai])
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iMongols])
+				pPlayer.setEspionagePercent(con.tEspionagePercent[con.iGolden])
+			if iPlayer == con.iAlans:
+				pPlayer.changeInflationModifier(-10)
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iGhorids])
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iTimurids])
+				pPlayer.setCulturePercent(con.tCulturePercent[con.iGhorids])
+				pPlayer.setResearchPercent(con.tResearchPercent[con.iGolden])
+			if iPlayer == con.iKhanids:
+				pPlayer.changeInflationModifier(-20)
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iTimurids])
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iTimurids])
+				pPlayer.setCulturePercent(con.tCulturePercent[con.iTimurids])
+				pPlayer.setResearchPercent(con.tResearchPercent[con.iGolden])
+			if iPlayer == con.iKypchaks:
+				pPlayer.changeInflationModifier(-5)
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iTimurids])
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iTimurids])
+				pPlayer.setCulturePercent(con.tCulturePercent[con.iTimurids])
+				pPlayer.setResearchPercent(con.tResearchPercent[con.iGolden])		  
+			if iPlayer == con.iKhazars:
+				pPlayer.changeInflationModifier(-25)
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iTimurids])
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iOttomans])
+				pPlayer.setCulturePercent(con.tCulturePercent[con.iTimurids])
+				pPlayer.setResearchPercent(con.tResearchPercent[con.iTimurids])
+			if iPlayer == con.iKhitai:
+				pPlayer.changeInflationModifier(-10)
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iTimurids])
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iOttomans])
+				pPlayer.setCulturePercent(con.tCulturePercent[con.iTimurids])
+				pPlayer.setResearchPercent(con.tResearchPercent[con.iTimurids])
+				pPlayer.setEspionagePercent(con.tEspionagePercent[con.iChagatai])
+			if iPlayer == con.iGhorids:
+				pPlayer.changeInflationModifier(-10)
 			if iPlayer == con.iCrusaders:
 				pPlayer.changeInflationModifier(-10)
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iMongols])
 			if iPlayer == con.iKhwarezm:
 				pPlayer.changeInflationModifier(-15)
-			if iPlayer in [con.iGhorids, con.iChauhan, con.iGujarat, con.iMalwa, con.iGeorgia, con.iYemen, con.iOttomans, con.iSafavids, con.iMughals]:
+			if iPlayer == con.iSeljuks:
+				pPlayer.changeInflationModifier(-10)
+				pPlayer.setProductionPercent(con.tProductionPercent[con.iGolden])
+				pPlayer.setGrowthPercent(con.tGrowthPercent[con.iGolden])
+				pPlayer.setResearchPercent(con.tResearchPercent[con.iGolden])
+				pPlayer.setCulturePercent(con.tCulturePercent[con.iGolden])
+			if iPlayer in [con.iChauhan, con.iGujarat, con.iMalwa, con.iGeorgia, con.iYemen, con.iGhaznavids, con.iBuyids, con.iSindh]:
 				pPlayer.changeInflationModifier(-5)
 		
 		sd.setCivStatus(iPlayer, 1)
@@ -332,6 +446,39 @@ class DynamicCivs:
 				else:
 					self.setCivDesc(iPlayer, "TXT_KEY_CIV_LODI_DESC", "TXT_KEY_CIV_TUGHLAQ_LODI_DESC", "TXT_KEY_CIV_LODI_ADJECTIVE")
 					pPlayer.setName(localText.getText("TXT_KEY_LEADER_LODI", ()))
+			elif iPlayer == con.iChagatai:
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_MOGHULS"))
+				if gc.getGame().getGameTurnYear() < 1530:
+					self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_MOG_SHORT_DESC", "TXT_KEY_CIV_MOG_ADJECTIVE")
+					pPlayer.setName(localText.getText("TXT_KEY_LEADER_UWAISK", ()))
+				else:
+					self.setCivDesc(iPlayer, "TXT_KEY_CIV_YARK_DESC_DEFAULT", "TXT_KEY_CIV_MOG_SHORT_DESC", "TXT_KEY_CIV_MOG_ADJECTIVE")
+					pPlayer.setName(localText.getText("TXT_KEY_LEADER_ABDUR", ()))
+			elif iPlayer == con.iMongols:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_JALAYIR_SHORT_DESC")
+				pPlayer.setLeader(gc.getInfoTypeForString("LEADER_JALAY"))
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_JALAYIR"))
+			elif iPlayer == con.iSeljuks:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_KARA_SHORT_DESC")
+				pPlayer.setLeader(gc.getInfoTypeForString("LEADER_ISKANDER"))
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_KARA"))
+			elif iPlayer == con.iBahmanids:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_BIJ_SHORT_DESC", "TXT_KEY_CIV_BIJ_ADJECTIVE")
+				pPlayer.setName(localText.getText("TXT_KEY_LEADER_ISMADIL", ()))			
+			elif iPlayer == con.iChalukya:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_SEUNA_SHORT_DESC", "TXT_KEY_CIV_SEUNA_ADJECTIVE")
+				pPlayer.setName(localText.getText("TXT_KEY_LEADER_SIMHANA", ()))
+			elif iPlayer == con.iKiev:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_KIEV_SHORT_DESC", "TXT_KEY_CIV_KIEV_ADJECTIVE")
+				pPlayer.setName(localText.getText("TXT_KEY_LEADER_SIMEONO", ()))
+			elif iPlayer == con.iGhaznavids:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_KARTIDS_SHORT_DESC")
+				pPlayer.setLeader(gc.getInfoTypeForString("LEADER_SHAMSUD"))
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_KARTIDS"))
+			elif iPlayer == con.iBuyids:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_MUZZ_SHORT_DESC")
+				pPlayer.setLeader(gc.getInfoTypeForString("LEADER_MUBARIZ"))
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_MUZZ"))
 			elif iPlayer == con.iChauhan:
 				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_MEWAR_SHORT_DESC", "TXT_KEY_CIV_MEWAR_ADJECTIVE")
 				pPlayer.setName(localText.getText("TXT_KEY_LEADER_MAHARANA_PRATAP", ()))
@@ -340,6 +487,26 @@ class DynamicCivs:
 				pPlayer.setName(localText.getText("TXT_KEY_LEADER_KARAMAN", ()))
 				pPlayer.setFlag("Art/Interface/TeamColor/FlagDECAL_Karaman.dds")
 				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_KARAMAN"))
+			elif iPlayer == con.iKhazars:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_KALMYK_SHORT_DESC")
+				pPlayer.setName(localText.getText("TXT_KEY_LEADER_AYUKA", ()))
+				#pPlayer.setFlag("Art/Interface/TeamColor/kalmyk.dds")
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_KALMYK"))
+			elif iPlayer == con.iAlans:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_CIRCASSIA_SHORT_DESC")
+				pPlayer.setName(localText.getText("TXT_KEY_LEADER_INAL", ()))
+				pPlayer.setFlag("Art/Interface/TeamColor/circassian.dds")	   
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_CIRCASSIA"))
+			elif iPlayer == con.iKypchaks:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_NOGAI_SHORT_DESC")
+				pPlayer.setName(localText.getText("TXT_KEY_LEADER_MUSABEY", ()))
+				pPlayer.setFlag("Art/Interface/TeamColor/nogai.dds")		
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_NOGAI"))
+			elif iPlayer == con.iKhitai:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_ZUNGHAR_SHORT_DESC")
+				pPlayer.setLeader(gc.getInfoTypeForString("LEADER_ZHU"))
+				#pPlayer.setFlag("Art/Interface/TeamColor/zhungar.dds")
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_ZUNGHAR"))		  
 			elif iPlayer == con.iCrusaders:
 				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_CYPRUS_SHORT_DESC")
 				pPlayer.setLeader(gc.getInfoTypeForString("LEADER_GUY"))
@@ -349,6 +516,16 @@ class DynamicCivs:
 				pPlayer.setName(localText.getText("TXT_KEY_LEADER_SHAYBANI", ()))
 				pPlayer.setFlag("Art/Interface/TeamColor/FlagDECAL_Khiva.dds")
 				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_SHAYBANIDS"))
+			elif iPlayer == con.iGolden:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_CRIMEAN_SHORT_DESC")
+				pPlayer.setName(localText.getText("TXT_KEY_LEADER_SAHIB_GIRAY", ()))
+				pPlayer.setFlag("Art/Interface/TeamColor/Crimean.dds")	  
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_CRIMEA"))
+			elif iPlayer == con.iKhanids:
+				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer], "TXT_KEY_CIV_KAZAK_SHORT_DESC")
+				pPlayer.setLeader(gc.getInfoTypeForString("LEADER_HAQNAZAR"))
+				pPlayer.setFlag("Art/Interface/TeamColor/kazak.dds")
+				pPlayer.setCivilizationType(gc.getInfoTypeForString("CIVILIZATION_KAZAK"))
 			elif iPlayer == con.iArmenia:
 				self.setCivDesc(iPlayer, self.respawnedNames[iPlayer])
 				pPlayer.setName(localText.getText("TXT_KEY_LEADER_LEVON", ()))

@@ -12,6 +12,9 @@ from RFCUtils import utils
 gc = CyGlobalContext()
 localText = CyTranslator()
 
+iMongols = con.iMongols
+iSeljuks = con.iSeljuks
+
 
 class Religions:
 
@@ -231,28 +234,94 @@ class Religions:
 		if iGameTurn == getTurnForYear(850):
 			self.spreadReligion(utils.getRandomCityByRegion([con.rEasternKhorasan]), con.iZoroastrianism)
 			self.spreadReligion(utils.getRandomCityByRegion([con.rGujarat]), con.iZoroastrianism)
+		if iGameTurn == getTurnForYear(930):
+			self.spreadReligion(utils.getRandomCityByRegion([con.rMaharashtra, con.rGujarat]), con.iZoroastrianism)
 		if iGameTurn == getTurnForYear(935 + sd.getSeed() % 30):
 			self.spreadReligion(utils.getRandomCityByRegion([con.rLuristan, con.rKurdistan, con.rJibal]), con.iZoroastrianism)
 		if iGameTurn == getTurnForYear(990):
 			self.spreadReligion(utils.getRandomCityByRegion([con.rYazd]), con.iZoroastrianism)
 		
 		# Nestorianism
-		if iGameTurn == getTurnForYear(930 + sd.getSeed() % 40):
-			self.spreadReligion(utils.getRandomCityByRegion([con.rAsuristan, con.rKurdistan, con.rLuristan, con.rTaklaMakan]), con.iOrthodoxy)
+		if iGameTurn > getTurnForYear(750) and iGameTurn < getTurnForYear(1370):
+			if (iGameTurn % utils.getTurns(28) == 4):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rAsuristan, con.rKurdistan, con.rLuristan, con.rTaklaMakan, con.rEasternKhorasan, con.rWesternKhorasan, con.rSogd, con.rEZhetysu, con.rWZhetysu, con.rIspidjab, con.rFars, con.rAzerbaijan, con.rMesopotamia, con.rJibal]), con.iOrthodoxy)
+		
+		# Khazar Start
+		if iGameTurn == getTurnForYear(753):
+			self.spreadReligion(utils.getRandomCityByRegion([con.rCaspian]), con.iJudaism)
+			
+		# Rus
+		if iGameTurn == getTurnForYear(930 + sd.getSeed() % 20):
+			self.spreadReligion(utils.getRandomCityByRegion([con.rCaspianStep, con.rPonticSteppe, con.rMoldavia, con.rRuthenia, con.rPodolia, con.rSeveria, con.rPorosia, con.rPolesia, con.rVolhynia, con.rVoronozh, con.rScarlet, con.rNorthernCaucasus, con.rZichia]), con.iOrthodoxy)
 
-		# Religions in Egypt
+		# Italian Catholics
+		if iGameTurn > getTurnForYear(1250) and iGameTurn < getTurnForYear(1480):
+			if (iGameTurn % utils.getTurns(30) == 3):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rPonticSteppe, con.rMoldavia, con.rCrimea, con.rZichia]), con.iCatholicism)
+
+		# Religions in Egypt, Anatolia
 		if iGameTurn == getTurnForYear(con.tBirth[con.iFatimids] + sd.getSeed() % 15) + 1:
 			self.spreadReligion(utils.getRandomCityByRegion([con.rLowerEgypt]), con.iSunni)
 		if iGameTurn == getTurnForYear(con.tBirth[con.iFatimids] + sd.getSeed() % 50) + 1:
 			self.spreadReligion(utils.getRandomCityByRegion([con.rLowerEgypt, con.rPalestine, con.rUpperEgypt]), con.iOrthodoxy)
+		if iGameTurn == getTurnForYear(1077 + sd.getSeed() % 45):
+			self.spreadReligion(utils.getRandomCityByRegion([con.rCappadocia, con.rGalatia, con.rBithynia, con.rAsia, con.rLycia, con.rPaphlagonia, con.rPontus, con.rLesserArmenia, con.rTrebizond, con.rVaspurakan, con.rAzerbaijan, con.rJazira]), con.iSunni)
 			
 		# Decline of Buddhism
 		if iGameTurn == getTurnForYear(1150 + sd.getSeed() % 20) or iGameTurn == getTurnForYear(1180 + sd.getSeed() % 20):
 			self.removeReligion(utils.getRandomCityByReligion(con.iBuddhism), con.iBuddhism)
 			
+		# Mongol Buddhism
+		
+		if iGameTurn > getTurnForYear(1131) and iGameTurn < getTurnForYear(1330):
+			if (iGameTurn % utils.getTurns(24) == 4):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rEZhetysu, con.rWZhetysu, con.rTaklaMakan, con.rIspidjab, con.rKyzylKum]), con.iBuddhism)
+		
+		if iGameTurn > getTurnForYear(1236) and iGameTurn < getTurnForYear(1297) and gc.getPlayer(con.iMongols).isAlive():
+			if (iGameTurn % utils.getTurns(25) == 3):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rWesternKhorasan, con.rEasternKhorasan, con.rJibal, con.rLuristan, con.rKerman, con.rYazd, con.rAzerbaijan, con.rMazandaran, con.rDashteKavir]), con.iBuddhism)
+				
+		if iGameTurn > getTurnForYear(1250) and iGameTurn < getTurnForYear(1297) and gc.getPlayer(con.iMongols).isAlive():
+			if (iGameTurn % utils.getTurns(25) == 3):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rKhuzestan, con.rMesopotamia, con.rKurdistan]), con.iBuddhism)
+				
+		if iGameTurn > getTurnForYear(1296) and iGameTurn < getTurnForYear(1500):
+			if (iGameTurn % utils.getTurns(25) == 3):
+				self.removeReligion(utils.getRandomCityByReligion(con.iBuddhism), con.iBuddhism)
+		
+		# Regional Hinduism 
+				
+		if iGameTurn > getTurnForYear(750) and iGameTurn < getTurnForYear(1100):
+			if (iGameTurn % utils.getTurns(26) == 3):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rGondwana, con.rTelangana, con.rJejakabhukti, con.rUttarBharat, con.rOudh]), con.iHinduism)
+				
+		# Steppe Islam	  
+				
+		if iGameTurn == getTurnForYear(934 + sd.getSeed() % 20):
+			self.spreadReligion(utils.getRandomCityByRegion([con.rEZhetysu, con.rWZhetysu, con.rTaklaMakan]), con.iSunni)
+			
+		if iGameTurn == getTurnForYear(1240 + sd.getSeed() % 20):
+			self.spreadReligion(utils.getRandomCityByRegion([con.rCaspianStep, con.rCaspian, con.rNorthernCaucasus, con.rZichia, con.rPonticSteppe, con.rKhwarezm, con.rCrimea, con.rDag]), con.iSunni)
+			
+		if iGameTurn > getTurnForYear(1040) and iGameTurn < getTurnForYear(1300):
+			if (iGameTurn % utils.getTurns(25) == 4):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rCaspianStep, con.rCaspian, con.rNorthernCaucasus, con.rZichia, con.rPonticSteppe, con.rKhwarezm, con.rCrimea, con.rDag]), con.iSunni)
+			
+		if iGameTurn > getTurnForYear(950) and iGameTurn < getTurnForYear(1132):
+			if (iGameTurn % utils.getTurns(24) == 4):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rEZhetysu, con.rWZhetysu, con.rTaklaMakan, con.rFarghana, con.rIspidjab, con.rKyzylKum, con.rSogd]), con.iSunni)
+			
+		if iGameTurn > getTurnForYear(1216) and iGameTurn < getTurnForYear(1335) and gc.getPlayer(con.iMongols).isAlive() and iMongols != utils.getHumanID():
+			if (iGameTurn % utils.getTurns(22) == 3):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rJibal, con.rLuristan, con.rKurdistan, con.rWesternKhorasan, con.rEasternKhorasan, con.rKhwarezm, con.rSogd, con.rBactria, con.rKyzylKum, con.rKaraKum, con.rAzerbaijan, con.rMesopotamia, con.rDashteKavir]), con.iSunni)
+			
+		if iGameTurn > getTurnForYear(1290) and iGameTurn < getTurnForYear(1345) and iMongols != utils.getHumanID():
+			if (iGameTurn % utils.getTurns(22) == 2):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rKhuzestan, con.rMesopotamia, con.rAsuristan]), con.iSunni)
+			
 		# Islam in Afghanistan
 		if iGameTurn == getTurnForYear(1000 + sd.getSeed() % 20):
-			self.spreadReligion(utils.getRandomCityByRegion([con.rHindukush]), con.iSunni)
+			self.spreadReligion(utils.getRandomCityByRegion([con.rHindukush, con.rGandhar, con.rSistan, con.rKandahar, con.rGhazni]), con.iSunni)
 		
 		# Seljuks in Iran
 		if iGameTurn == getTurnForYear(1036):
@@ -300,6 +369,11 @@ class Religions:
 		if iGameTurn == getTurnForYear(1160):
 			self.spreadReligion(utils.getRandomCityByRegion([con.rShirvan, con.rAzerbaijan]), con.iShia)
 		
+		# Safaviyya 
+		if iGameTurn > getTurnForYear(1390) and iGameTurn < getTurnForYear(1502):
+			if (iGameTurn % utils.getTurns(25) == 4):
+				self.spreadReligion(utils.getRandomCityByRegion([con.rAzerbaijan, con.rKurdistan, con.rMazandaran, con.rJibal, con.rLuristan, con.rVaspurakan, con.rLesserArmenia]), con.iShia)   
+		
 		# Islam in India
 		if iGameTurn == getTurnForYear(1012 + sd.getSeed() % 5):
 			self.spreadReligion(utils.getRandomCityByRegion([con.rSindh, con.rPunjab]), con.iSunni)
@@ -325,6 +399,8 @@ class Religions:
 			self.spreadReligion(utils.getRandomCityByRegion([con.rSindh]), con.iSunni)
 		if iGameTurn == getTurnForYear(1350):
 			self.spreadReligion(utils.getRandomCityByRegion([con.rGujarat, con.rUttarBharat]), con.iSunni)
+		if iGameTurn == getTurnForYear(1320 + sd.getSeed() % 25):
+			self.spreadReligion(utils.getRandomCityByRegion([con.rTelangana, con.rMaharashtra, con.rKarnataka]), con.iShia)
 		
 		# Islam in Nubia
 		if iGameTurn == getTurnForYear(1250 + sd.getSeed() % 20):
@@ -466,19 +542,19 @@ class Religions:
 			iMonastery = con.iOrthodoxMonastery
 			iCathedral = con.iOrthodoxCathedral
 			iShrine = con.iOrthodoxShrine
-			lWonders = [con.iBagratiCathedral, con.iNarekavank]
+			lWonders = [con.iBagratiCathedral, con.iNarekavank, con.iStSophia]
 		elif iStateReligion == con.iSunni:
 			iTemple = con.iSunniTemple
 			iMonastery = con.iSunniMonastery
 			iCathedral = con.iSunniCathedral
 			iShrine = con.iSunniShrine
-			lWonders = [con.iDomeOfTheRock, con.iSpiralMinaret, con.iMinaretOfJam, con.iQutbMinar, con.iBlueMosque, con.iProphetsMosque]
+			lWonders = [con.iDomeOfTheRock, con.iSpiralMinaret, con.iBurana, con.iMinaretOfJam, con.iQutbMinar, con.iBlueMosque, con.iProphetsMosque]
 		elif iStateReligion == con.iShia:
 			iTemple = con.iShiaTemple
 			iMonastery = con.iShiaMonastery
 			iCathedral = con.iShiaCathedral
 			iShrine = con.iShiaShrine
-			lWonders = [con.iDomeOfTheRock, con.iAlAzhar, con.iShahMosque, con.iProphetsMosque, con.iSunniShrine, con.iImamRezaShrine]
+			lWonders = [con.iDomeOfTheRock, con.iAlAzhar, con.iShahMosque, con.iProphetsMosque, con.iSunniShrine, con.iGolGumbaz, con.iImamRezaShrine]
 		elif iStateReligion == con.iHinduism:
 			iTemple = con.iHinduTemple
 			iMonastery = con.iHinduMonastery
@@ -593,6 +669,7 @@ class Religions:
 			elif iBuilding == con.iOrthodoxMonastery: self.changePiety(iPlayer, iMonasteryPiety)
 			elif iBuilding == con.iOrthodoxCathedral: self.changePiety(iPlayer, iCathedralPiety)
 			elif iBuilding == con.iBagratiCathedral: self.changePiety(iPlayer, iWonderPiety)
+			elif iBuilding == con.iStSophia: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iNarekavank: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iBrothel: self.changePiety(iPlayer, iBrothelPiety)
 		elif iStateReligion == con.iSunni:
@@ -601,6 +678,7 @@ class Religions:
 			elif iBuilding == con.iSunniCathedral: self.changePiety(iPlayer, iCathedralPiety)
 			elif iBuilding == con.iSufiShrine: self.changePiety(iPlayer, iMonasteryPiety)
 			elif iBuilding == con.iSpiralMinaret: self.changePiety(iPlayer, iWonderPiety)
+			elif iBuilding == con.iBurana: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iMinaretOfJam: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iQutbMinar: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iBlueMosque: self.changePiety(iPlayer, iWonderPiety)
@@ -615,6 +693,7 @@ class Religions:
 			elif iBuilding == con.iAlAzhar: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iShahMosque: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iMevlanasTomb: self.changePiety(iPlayer, iWonderPiety)
+			elif iBuilding == con.iGolGumbaz: self.changePiety(iPlayer, iWonderPiety)		   
 			elif iBuilding == con.iImamRezaShrine: self.changePiety(iPlayer, iWonderPiety)
 			elif iBuilding == con.iInn: self.changePiety(iPlayer, iInnPiety)
 			elif iBuilding == con.iBrothel: self.changePiety(iPlayer, iBrothelPiety)

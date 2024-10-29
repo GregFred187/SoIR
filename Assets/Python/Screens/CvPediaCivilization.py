@@ -186,6 +186,50 @@ class CvPediaCivilization:
 				lCoreRegions = con.lRespawnRegions[con.iKhwarezm]
 				lNormalRegions = con.lRespawnNormalRegions[con.iKhwarezm]
 				lBroaderRegions = con.lRespawnBroaderRegions[con.iKhwarezm]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_MUZZ"):
+				lCoreRegions = con.lRespawnRegions[con.iBuyids]
+				lNormalRegions = con.lRespawnNormalRegions[con.iBuyids]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iBuyids]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_KARA"):
+				lCoreRegions = con.lRespawnRegions[con.iSeljuks]
+				lNormalRegions = con.lRespawnNormalRegions[con.iSeljuks]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iSeljuks]			
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_KARTIDS"):
+				lCoreRegions = con.lRespawnRegions[con.iGhaznavids]
+				lNormalRegions = con.lRespawnNormalRegions[con.iGhaznavids]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iGhaznavids]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_KAZAK"):
+				lCoreRegions = con.lRespawnRegions[con.iKhanids]
+				lNormalRegions = con.lRespawnNormalRegions[con.iKhanids]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iKhanids]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_CRIMEA"):
+				lCoreRegions = con.lRespawnRegions[con.iGolden]
+				lNormalRegions = con.lRespawnNormalRegions[con.iGolden]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iGolden]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_JALAYIR"):
+				lCoreRegions = con.lRespawnRegions[con.iMongols]
+				lNormalRegions = con.lRespawnNormalRegions[con.iMongols]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iAlans]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_KALMYK"):
+				lCoreRegions = con.lRespawnRegions[con.iKhazars]
+				lNormalRegions = con.lRespawnNormalRegions[con.iKhazars]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iKhazars]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_CIRCASSIA"):
+				lCoreRegions = con.lRespawnRegions[con.iAlans]
+				lNormalRegions = con.lRespawnNormalRegions[con.iAlans]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iAlans]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_ZUNGHAR"):
+				lCoreRegions = con.lRespawnRegions[con.iKhitai]
+				lNormalRegions = con.lRespawnNormalRegions[con.iKhitai]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iKhitai]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_NOGAI"):
+				lCoreRegions = con.lRespawnRegions[con.iKypchaks]
+				lNormalRegions = con.lRespawnNormalRegions[con.iKypchaks]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iKypchaks]
+			elif self.iCivilization == gc.getInfoTypeForString("CIVILIZATION_MOGHULS"):
+				lCoreRegions = con.lRespawnRegions[con.iChagatai]
+				lNormalRegions = con.lRespawnNormalRegions[con.iChagatai]
+				lBroaderRegions = con.lRespawnBroaderRegions[con.iChagatai]
 			else:
 				lCoreRegions = con.lCoreRegions[self.iCivilization]
 				lNormalRegions = con.lNormalRegions[self.iCivilization]
