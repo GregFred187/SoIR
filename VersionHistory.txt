@@ -6,6 +6,8 @@
  - Added the civs for northern map (Thanks to DrLoboto)
  - Fixed missing unit graphics
  - Fixed Python-Error about AI caitals
+ - Fixed SettlerMaps
+ - Merged Barbs and RiseAndFall
 
 
 1.1.0.0

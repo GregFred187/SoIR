@@ -310,7 +310,7 @@ tDifference = ( # for not allowing new civ popup if too close
 #	BYZ  MAK  ABB  KAZ  CHA  MAL  OGH  SAM  KHA  ARM  KIE  ALA  YEM  BUY  GUJ  GHA  FAT  WES  GEO  SIN  SEL  KYP  TUR  KHW  ANT  JER  ZEN  KHI  GHO  OMA  AYY  ILK  GOL  MAM  CHA  OTT  BAH  TIM  AKK  SAF  POR  MUG
 
 tRespawn = ( # one-off historical respawn
-   1261,   0,1157, 1630,  0,1392,   0,   0,1465,1080,1471,1428,   0,   0,1380,   0,   0,1187,1314,1339,   0,1439,1250,1511,   0,1192,   0,1634,1206,1624,   0,1344,1441,1382,1360,1413,   0,   0,   0,   0,   0,   0)
+   1261,   0,1157, 1630,  0,1392,   0,   0,1465,1080,1471,1428,   0,1289,1380,1244,   0,1187,1314,1339,1351,1439,1250,1512,   0,1192,   0,1634,1206,1624,   0,1344,1441,1382,1360,1413,   0,   0,   0,   0,   0,   0)
 #	BYZ  MAK  ABB  KAZ  CHA  MAL  OGH  SAM  KHA  ARM  KIE  ALA  YEM  BUY  GUJ  GHA  FAT  WES  GEO  SIN  SEL  KYP  TUR  KHW  ANT  JER  ZEN  KHI  GHO  OMA  AYY  ILK  GOL  MAM  CHA  OTT  BAH  TIM  AKK  SAF  POR  MUG
 
 tFall = ( # a bit of determinism: no resurrection & stability penalty (if negative) beyond this point
@@ -318,7 +318,7 @@ tFall = ( # a bit of determinism: no resurrection & stability penalty (if negati
 #	BYZ  MAK  ABB  KAZ  CHA  MAL  OGH  SAM  KHA  ARM  KIE  ALA  YEM  BUY  GUJ  GHA  FAT  WES  GEO  SIN  SEL  KYP  TUR  KHW  ANT  JER  ZEN  KHI GHO  OMA  AYY  ILK  GOL  MAM  CHA  OTT  BAH  TIM  AKK  SAF  POR  MUG
 
 tFallRespawned = ( # slight changes for respawned civs
-   1330,1317,1258,2000,2000,1562,1055, 999,2000,2000,2000,2000,2000,1055,1573,1187,1171,1317,1460,1524,1194,1628,1487,2000,1268,1489,1250,2000,1526,2000,1341,1432,2000,1517,2000,2000,1527,1526,1508,2000,2000,2000)
+   1330,1317,1258,2000,2000,1562,1055, 999,2000,2000,2000,2000,2000,1393,1573,1396,1171,1317,1460,1524,1468,1628,1487,2000,1268,1489,1250,2000,1526,2000,1341,1432,2000,1517,2000,2000,1686,1526,1508,2000,2000,2000)
 #	BYZ  MAK  ABB  KAZ  CHA  MAL  OGH  SAM  KHA  ARM  KIE  ALA  YEM  BUY  GUJ  GHA  FAT  WES  GEO  SIN  SEL  KYP  TUR  KHW  ANT  JER  ZEN  KHI  GHO  OMA  AYY  ILK  GOL  MAM  CHA  OTT  BAH  TIM  AKK  SAF  POR  MUG
 
 tNoSettler = ( # 1 = civs that spawn without a settler (invasions)
@@ -358,15 +358,15 @@ tInflationPercent = (
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG
 
 tGrowthPercent = (
-	220,150,175,165,175,175,160,140,145,165,155,180,140,130,135,130,140,140,135,132,125,130,135,100,140,140,115,135,120,160,130,120,120,150,110, 75, 80, 90, 90, 50,150, 80,150,150,150,150,150)
+	220,150,175,175,185,185,165,140,155,165,145,180,140,130,135,130,140,140,135,132,125,135,130,100,140,140,115,135,120,160,130,110,110,150,110, 75, 80, 90, 90, 50,150, 80,150,150,150,150,150)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tProductionPercent = (
-	220,145,140,135,135,130,130,130,130,150,140,170,130,120,125,120,120,125,115,120,120,125,135,100,110,110,105,120,100,125,105,115,110,130,100, 90, 85, 95, 85, 65, 110, 80)
+	240,145,140,135,140,140,140,130,145,150,160,175,130,120,125,120,120,125,110,120,120,130,135,100,115,115,105,120,100,125,105,115,110,130,100, 90, 85, 95, 85, 65, 110, 80)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tResearchPercent = (
-	200,160,145,150,160,150,145,125,135,130,135,140,125,140,135,120,120,130,120,130,130,135,130,112,125,125,120,135,110,145,110,130,125,160,115, 80, 80, 95, 95, 65, 85, 80)
+	200,160,145,150,160,150,145,125,135,130,160,145,125,140,135,120,120,130,120,130,130,135,130,112,125,125,120,135,110,145,110,130,125,160,115, 80, 80, 95, 95, 65, 85, 80)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tEspionagePercent = (
@@ -1743,7 +1743,7 @@ lCoreRegions = [
 ]
 
 lRespawnRegions = [
-	[rThrace, rAsia], # Byzantium
+	[rThrace, rAsia, rTrebizond], # Byzantium
 	[rMakuria], # Makuria
 	[rMesopotamia], # Abbasids ***** (Smaller core)
 	[rBashkyrd, rMordovia], # Khazars
@@ -1756,14 +1756,14 @@ lRespawnRegions = [
 	[rRuthenia, rPolesia, rVolhynia], # Rus
 	[rZichia, rNorthernCaucasus], # Alans
 	[rYemen], # Yemen
-	[rFars, rLuristan], # Buyids
+	[rFars, rYazd, rKerman], # Buyids
 	[rGujarat], # Gujarat
-	[rGhazni, rKandahar], # Ghaznavids
+	[rHindukush, rSistan], # Ghaznavids
 	[rLowerEgypt], # Fatimids
 	[rKarnataka, rTelangana], # Chal
 	[rGeorgia], # Georgia
 	[rSindh], # Sindh
-	[rJibal, rLuristan, rKurdistan, rWesternKhorasan, rEasternKhorasan], # Seljuks
+	[rKurdistan, rAsuristan, rVaspurakan], # Seljuks
 	[rYaik, rBashkyrd], # Kyp
 	[rCappadocia], # Rum ***** (Karaman)
 	[rKhwarezm, rSogd], # Khwarezm
@@ -1771,7 +1771,7 @@ lRespawnRegions = [
 	[rCyprus], # Crusaders ***** (Cyprus)
 	[rAsuristan, rJazira], # Zengids
 	[rEZhetysu], # Khi
-	[rUttarBharat, rPunjab, rDuggar], # Ghorids ***** (Delhi Sultanate)
+	[rUttarBharat, rPunjab, rDuggar, rOudh], # Ghorids ***** (Delhi Sultanate)
 	[rOman, rHormuz, rMahra], # Oman
 	[rLowerEgypt, rSinai, rJordan, rSyria], # Ayyubids
 	[rMesopotamia, rKhuzestan], # Mongols
