@@ -475,6 +475,77 @@ class RiseAndFall:
 				if gc.getGame().getSorenRandNum(100, 'Chance for Karaman spawn') < iKaramanChance:
 					self.resurrection(iGameTurn, iRum, 0) # Karamanids
 		
+		if iGameTurn > getTurnForYear(1512) and iGameTurn < getTurnForYear(1516):
+			if iTimurids != utils.getHumanID() or iMongols != utils.getHumanID():
+				if not gc.getPlayer(iKhwarezm).isAlive():
+					self.resurrection(iGameTurn, iKhwarezm, 0)
+					
+		if iGameTurn > getTurnForYear(1512) and iGameTurn < getTurnForYear(1516):
+			if iTimurids == utils.getHumanID() and sd.getStability(iTimurids) < 0:
+				if not gc.getPlayer(iKhwarezm).isAlive():
+					self.resurrection(iGameTurn, iKhwarezm, 0)
+
+		if iGameTurn > getTurnForYear(1512) and iGameTurn < getTurnForYear(1516):
+			if iMongols == utils.getHumanID() and sd.getStability(iMongols) < 0:
+				if not gc.getPlayer(iKhwarezm).isAlive():
+					self.resurrection(iGameTurn, iKhwarezm, 0)
+					
+		if iGameTurn > getTurnForYear(1359) and iGameTurn < getTurnForYear(1363):
+			if iMongols != utils.getHumanID():
+				if not gc.getPlayer(iChagatai).isAlive():
+					self.resurrection(iGameTurn, iChagatai, 0)
+					
+		if iGameTurn > getTurnForYear(1359) and iGameTurn < getTurnForYear(1363):
+			if iMongols == utils.getHumanID() and sd.getStability(iMongols) < 0:
+				if not gc.getPlayer(iChagatai).isAlive():
+					self.resurrection(iGameTurn, iChagatai, 0)
+				
+		if iGameTurn > getTurnForYear(1243) and iGameTurn < getTurnForYear(1247):
+			if iGhorids != utils.getHumanID():
+				if not gc.getPlayer(iGhaznavids).isAlive():
+					self.resurrection(iGameTurn, iGhaznavids, 0)
+					
+		if iGameTurn > getTurnForYear(1243) and iGameTurn < getTurnForYear(1247):
+			if iGhorids == utils.getHumanID() and sd.getStability(iGhorids) < 0:
+				if not gc.getPlayer(iGhaznavids).isAlive():
+					self.resurrection(iGameTurn, iGhaznavids, 0)				
+					
+		if iGameTurn > getTurnForYear(1288) and iGameTurn < getTurnForYear(1292):
+			if not gc.getPlayer(iBuyids).isAlive():
+				self.resurrection(iGameTurn, iBuyids, 0)
+				
+		if iGameTurn > getTurnForYear(1343) and iGameTurn < getTurnForYear(1347):
+			if not gc.getPlayer(iMongols).isAlive():
+				self.resurrection(iGameTurn, iMongols, 0)
+				
+		if iGameTurn > getTurnForYear(1438) and iGameTurn < getTurnForYear(1442):
+			if not gc.getPlayer(iKypchaks).isAlive():
+				self.resurrection(iGameTurn, iKypchaks, 0)
+				
+		if iGameTurn > getTurnForYear(1629) and iGameTurn < getTurnForYear(1633):
+			if not gc.getPlayer(iKhazars).isAlive():
+				self.resurrection(iGameTurn, iKhazars, 0)
+
+		if iGameTurn > getTurnForYear(1633) and iGameTurn < getTurnForYear(1637):
+			if not gc.getPlayer(iKhitai).isAlive():
+				self.resurrection(iGameTurn, iKhitai, 0)		  
+
+		if iGameTurn > getTurnForYear(1427) and iGameTurn < getTurnForYear(1431):
+			if not gc.getPlayer(iAlans).isAlive():
+				self.resurrection(iGameTurn, iAlans, 0)				
+					
+		if iGameTurn > getTurnForYear(1440) and iGameTurn < getTurnForYear(1444):
+			if not gc.getPlayer(iGolden).isAlive():
+				self.resurrection(iGameTurn, iGolden, 0)
+					
+		if iGameTurn > getTurnForYear(1464) and iGameTurn < getTurnForYear(1468):
+			if not gc.getPlayer(iKhanids).isAlive():
+				self.resurrection(iGameTurn, iKhanids, 0)			   
+				
+		if iGameTurn > getTurnForYear(1350) and iGameTurn < getTurnForYear(1354):
+			if not gc.getPlayer(iSeljuks).isAlive():
+				self.resurrection(iGameTurn, iSeljuks, 0)		   
+		
 		# realistic Ottoman start - secede Gallipoli
 		if iGameTurn == getTurnForYear(tBirth[iOttomans]) - utils.getTurns(3):
 			if iHuman not in [iByzantium, iRum, iOttomans]:
@@ -612,7 +683,7 @@ class RiseAndFall:
 		for iLoopCiv in range(iNumPlayers):
 			if tBirth[iLoopCiv] > iStartYear and iGameTurn >= getTurnForYear(tBirth[iLoopCiv]) - 2 and iGameTurn <= getTurnForYear(tBirth[iLoopCiv]) + 6:
 				self.initBirth(iGameTurn, tBirth[iLoopCiv], iLoopCiv)
-			# flip cities to Abbasids and Khazars
+			# flip cities to Abbasids
 			elif iLoopCiv == iAbbasids and iGameTurn == 0:
 				self.convertSurroundingCities(iLoopCiv, utils.getCorePlotList(iLoopCiv))
 				self.convertSurroundingPlotCulture(iLoopCiv, utils.getCorePlotList(iLoopCiv))
@@ -849,10 +920,20 @@ class RiseAndFall:
 		else:
 			iRndnum = gc.getGame().getSorenRandNum(iNumPlayers, 'starting count')
 		if iForcedCiv == iByzantium: 
-			iMinNumCities = 1
+			iMinNumCities = 4
+		elif iForcedCiv in [iGhaznavids, iBuyids]:
+			iMinNumCities = 4
+			iMaxNumCities = 8
+		elif iForcedCiv == iSeljuks:
+			iMinNumCities = 4
+			iMaxNumCities = 9
+		elif iForcedCiv in [iKhwarezm, iKhanids, iGhorids, iAkKoyunlu]:
+			iMinNumCities = 4
 		elif iForcedCiv == iCrusaders:
 			iMinNumCities = 1
 			iMaxNumCities = 2
+		elif iForcedCiv in [iAlans, iKhazars, iKypchaks]:
+			iMinNumCities = 2
 		elif iForcedCiv == iArmenia:
 			iMinNumCities = 2
 			iMaxNumCities = 3
@@ -1116,12 +1197,14 @@ class RiseAndFall:
 					(CyTranslator().getText(textKey, (pDeadCiv.getCivilizationAdjectiveKey(),))), "", 0, "", ColorTypes(iGreen), -1, -1, True, True)
 			
 			utils.setBaseStabilityLastTurn(iDeadCiv, 0)
-			utils.setStability(iDeadCiv, 10) #the new civs start as slightly stable
-			if iDeadCiv == iKhwarezm:
+			utils.setStability(iDeadCiv, 20) #the new civs start as slightly stable
+			if iDeadCiv in [iGhaznavids, iCrusaders, iBuyids, iAlans, iKypchaks, iMongols]:
 				utils.setStability(iDeadCiv, 25) # Uzbeks have issues for some reason
+			if iDeadCiv in [iGhorids, iSeljuks, iKhanids, iGolden, iKhwarezm, iKhitai, iKhazars]:
+				utils.setStability(iDeadCiv, 30)
 			utils.setPlagueCountdown(iDeadCiv, -10)
 			utils.clearPlague(iDeadCiv)
-			if iDeadCiv in [iArmenia, iGhorids, iCrusaders, iRum, iAbbasids, iKhwarezm]:
+			if iDeadCiv in [iArmenia, iAlans, iGhorids, iKhanids, iCrusaders, iRum, iKypchaks, iAbbasids, iKhwarezm, iGhaznavids, iBuyids, iSeljuks, iMongols, iGolden, iChagatai]:
 				self.convertBackCulture(iDeadCiv, True)
 			else:
 				self.convertBackCulture(iDeadCiv)
@@ -1215,8 +1298,8 @@ class RiseAndFall:
 				if pRhodes and not pRhodes.isNone() and pRhodes.getOwner() == iCrusaders:
 					if not pRhodes.isHasReligion(iCatholicism):
 						pRhodes.setHasReligion(iCatholicism, True, True, True)
-					if not pRhodes.isHasCorporation(iHospitallers):
-						pRhodes.setHasCorporation(iHospitallers, True, True, True)
+					if not pRhodes.isHasCorporation(con.iHospitallers):
+						pRhodes.setHasCorporation(con.iHospitallers, True, True, True)
 					pRhodes.setNumRealBuilding(iAqueduct, 1)
 					pRhodes.setNumRealBuilding(iHospital, 1)
 					pRhodes.setNumRealBuilding(iWalls, 1)
@@ -1387,11 +1470,11 @@ class RiseAndFall:
 										print ("bDeleteEverything 2")
 										break
 										break
-					if iCiv in [iAntioch, iCrusaders, iZengids]:
+					if iCiv in [iAntioch, iCrusaders, iZengids, iMongols, iGeorgia, iKypchaks, iKhitai]:
 						bDeleteEverything = False # military spawn, spare Antioch/Jerusalem/Mosul
 					print ("bDeleteEverything", bDeleteEverything)
 					if (not gc.getMap().plot(tCapital[0], tCapital[1]).isOwned()):
-						if iCiv in [iCrusaders, iGhorids, iSafavids, iMughals, iRum, iOttomans, iTimurids]: #dangerous starts
+						if iCiv in [iCrusaders, iGhorids, iSafavids, iMughals, iRum, iOttomans, iTimurids, iGeorgia, iKypchaks, iPortugal, iKhitai]: #dangerous starts
 							self.setDeleteMode(0, iCiv)
 						self.birthInFreeRegion(iCiv, tCapital, utils.getCorePlotList(iCiv))
 					elif (bDeleteEverything):
@@ -1442,7 +1525,12 @@ class RiseAndFall:
 			for x in range(tCapital[0] - 2, tCapital[0] + 3):		# from x-2 to x+2
 				for y in range(tCapital[1] - 2, tCapital[1] + 3):	# from y-2 to y+2
 					pCurrent=gc.getMap().plot(x, y)
-					pCurrent.setCulture(iCiv, 300, True)
+					if iCiv == iPortugal:
+						pCurrent.setCulture(iCiv, 350, True)
+					elif iCiv == iGeorgia:
+						pCurrent.setCulture(iCiv, 400, True)
+					else:
+						pCurrent.setCulture(iCiv, 300, True)
 			for x in range(tCapital[0] - 1, tCapital[0] + 2):		# from x-1 to x+1
 				for y in range(tCapital[1] - 1, tCapital[1] + 2):	# from y-1 to y+1
 					pCurrent=gc.getMap().plot(x, y)
@@ -2787,7 +2875,7 @@ class RiseAndFall:
 		elif iCiv == iRum and iHuman in [iByzantium, iAbbasids, iSamanids, iArmenia, iGhaznavids, iFatimids, iGeorgia, iSeljuks]:
 			textKey = "TXT_KEY_CIV_BIRTH_RUM"
 		
-		elif iCiv == iKhwarezm and iHuman in [iByzantium, iAbbasids, iSamanids, iGhaznavids, iSeljuks]:
+		elif iCiv == iKhwarezm and iHuman in [iByzantium, iAbbasids, iSamanids, iGhaznavids, iSeljuks, iKhanids]:
 			textKey = "TXT_KEY_CIV_BIRTH_KHWAREZM"
 		
 		elif iCiv == iAntioch and iHuman in [iByzantium, iAbbasids, iArmenia, iGeorgia, iSeljuks, iRum, iFatimids]:
@@ -2798,6 +2886,9 @@ class RiseAndFall:
 		
 		elif iCiv == iZengids and iHuman in [iByzantium, iAbbasids, iYemen, iArmenia, iGeorgia, iSeljuks, iRum, iCrusaders, iFatimids]:
 			textKey = "TXT_KEY_CIV_BIRTH_ZENGIDS"
+		
+		elif iCiv == iKhitai and iHuman in [iKhanids, iSamanids, iKhwarezm, iGhaznavids, iSeljuks]:
+			textKey = "TXT_KEY_CIV_BIRTH_KHITAI"
 		
 		elif iCiv == iGhorids and iHuman in [iAbbasids, iSeljuks, iKhwarezm, iGhaznavids, iChauhan, iGujarat, iSindh]:
 			textKey = "TXT_KEY_CIV_BIRTH_GHORIDS"
