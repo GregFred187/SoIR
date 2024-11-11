@@ -515,7 +515,7 @@ class RiseAndFall:
 				self.resurrection(iGameTurn, iBuyids, 0)
 				
 		if iGameTurn > getTurnForYear(1343) and iGameTurn < getTurnForYear(1347):
-			if not gc.getPlayer(iMongols).isAlive():
+			if not gc.getPlayer(iMongols).isAlive() and not gc.getPlayer(iAbbasids).isAlive():
 				self.resurrection(iGameTurn, iMongols, 0)
 				
 		if iGameTurn > getTurnForYear(1438) and iGameTurn < getTurnForYear(1442):
@@ -2383,12 +2383,12 @@ class RiseAndFall:
 			
 		if iCiv == iKhwarezm:
 			utils.makeUnit(iSettler, iCiv, tPlot, 3)
-			utils.makeUnit(iArcher, iCiv, tPlot, 3)
-			utils.makeUnit(iHorseArcher, iCiv, tPlot, 4)
-			utils.makeUnit(iKhwarezmianLancer, iCiv, tPlot, 2)
+			utils.makeUnit(iArcher, iCiv, tPlot, 5)
+			utils.makeUnit(iHorseArcher, iCiv, tPlot, 6)
+			utils.makeUnit(iKhwarezmianLancer, iCiv, tPlot, 4)
 			utils.makeUnit(iSunniMissionary, iCiv, tPlot, 3)
-			utils.makeUnit(iCatapult, iCiv, tPlot, 1)
-			utils.makeUnit(iCaravan, iCiv, tPlot, 1, UnitAITypes.UNITAI_EXPLORE)
+			utils.makeUnit(iCatapult, iCiv, tPlot, 3)
+			utils.makeUnit(iCaravan, iCiv, tPlot, 2, UnitAITypes.UNITAI_EXPLORE)
 			if iCiv != utils.getHumanID() and iHandicap:
 				utils.makeUnit(iKhwarezmianLancer, iCiv, tPlot, iHandicap)
 				utils.makeUnit(iHorseArcher, iCiv, tPlot, iHandicap)
@@ -2454,8 +2454,9 @@ class RiseAndFall:
 
 			if gc.getPlayer(iCiv).getNumCities() == 0: 
 				utils.makeUnit(iSettler, iCiv, tPlot, 1)
+
 		if iCiv == iMongols:
-			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 8)
+			utils.makeUnit(iMongolHorseArcher, iCiv, tPlot, 4)
 			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
 			iNumUnitsInAPlot = pPlot.getNumUnits()
 			for i in range(iNumUnitsInAPlot):
@@ -2465,7 +2466,7 @@ class RiseAndFall:
 				unit.setHasPromotion(iFormation, True)
 				unit.setHasPromotion(iFeintAttack, True)
 				unit.setHasPromotion(iMobility, True)
-			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 8)
+			utils.makeUnit(iHeavyLancer, iCiv, tPlot, 4)
 			pPlot = gc.getMap().plot(tPlot[0],tPlot[1])
 			iNumUnitsInAPlot = pPlot.getNumUnits()
 			for i in range(iNumUnitsInAPlot):
@@ -2473,9 +2474,9 @@ class RiseAndFall:
 				unit.setHasPromotion(iCombat1, True)
 				unit.setHasPromotion(iCombat2, True)
 				unit.setHasPromotion(iMobility, True)
-			utils.makeUnit(iMarksman, iCiv, tPlot, 9)
+			utils.makeUnit(iMarksman, iCiv, tPlot, 6)
 			if iCiv == utils.getHumanID():
-				utils.makeUnit(iTrebuchet, iCiv, tPlot, 7)
+				utils.makeUnit(iTrebuchet, iCiv, tPlot, 4)
 			gc.getPlayer(iArmenia).AI_changeAttitudeExtra(iMongols, 4)
 			gc.getPlayer(iAntioch).AI_changeAttitudeExtra(iMongols, 3)
 			gc.getPlayer(iByzantium).AI_changeAttitudeExtra(iMongols, 2)

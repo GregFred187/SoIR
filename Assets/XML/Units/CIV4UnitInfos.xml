@@ -24361,7 +24361,7 @@
 			<iLeaderExperience>0</iLeaderExperience>
 			<Help>TXT_KEY_UNIT_MONGOL_HORSE_ARCHER_HELP</Help>
 			<bAlwaysFullXP>1</bAlwaysFullXP>
-			<iAutoPillageProb>20</iAutoPillageProb>
+			<iAutoPillageProb>0</iAutoPillageProb>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_HEAVY_HORSE_ARCHER</Class>

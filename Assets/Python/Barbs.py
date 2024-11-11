@@ -657,11 +657,11 @@ class Barbs:
 
 		# Mongols invade Central Asia
 		if iGameTurn == getTurnForYear(1216):
-			self.spawnUnits(iMongols, (114,60),(122,55), con.iMongolHorseArcher, self.getInvasionForce(4, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Tarim
-			self.spawnUnits(iMongols, (114,60),(122,55), con.iMongolHorseArcher, self.getInvasionForce(4, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Tarim
-			self.spawnUnits(iMongols, (113,75),(121,70), con.iMongolHorseArcher, self.getInvasionForce(4, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Zhetsyu
-			self.spawnUnits(iMongols, (113,75),(121,70), con.iMongolHorseArcher, self.getInvasionForce(4, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Zhetsyu
-			self.spawnUnits(iMongols, (115,75),(121,71), con.iMongolHorseArcher, self.getInvasionForce(4, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Zhetsyu
+			self.spawnUnits(iMongols, (114,60),(122,55), con.iMongolHorseArcher, self.getInvasionForce(2, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Tarim
+			self.spawnUnits(iMongols, (114,60),(122,55), con.iMongolHorseArcher, self.getInvasionForce(2, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Tarim
+			self.spawnUnits(iMongols, (113,75),(121,70), con.iMongolHorseArcher, self.getInvasionForce(2, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Zhetsyu
+			self.spawnUnits(iMongols, (113,75),(121,70), con.iMongolHorseArcher, self.getInvasionForce(2, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Zhetsyu
+			self.spawnUnits(iMongols, (115,75),(121,71), con.iMongolHorseArcher, self.getInvasionForce(2, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Zhetsyu
 
 		# Mongols invade Khwarezm
 		if iGameTurn == getTurnForYear(1218)-1:
@@ -684,10 +684,10 @@ class Barbs:
 			self.spawnUnits(iMongols, (81,68),(93,56), con.iMongolHorseArcher, self.getInvasionForce(2, con.iKhwarezm), iGameTurn, 1, 0, utils.outerInvasion)
 			
 		if iGameTurn == getTurnForYear(1217) and iMongols != utils.getHumanID():
-			self.spawnUnits(iMongols, (94,61),(105,52), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iMongols, (97,72),(109,70), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iMongols, (88,64),(104,60), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iMongols, (94,74),(107,63), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iMongols, (94,61),(105,52), con.iMongolHorseArcher, self.getInvasionForce(1, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iMongols, (97,72),(109,70), con.iMongolHorseArcher, self.getInvasionForce(1, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iMongols, (88,64),(104,60), con.iMongolHorseArcher, self.getInvasionForce(1, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iMongols, (94,74),(107,63), con.iMongolHorseArcher, self.getInvasionForce(1, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
 			if iKhwarezm != utils.getHumanID():
 				self.spawnUnits(iMongols, (83,68),(96,60), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
 		
@@ -703,9 +703,9 @@ class Barbs:
 				pUnit.setHasPromotion(con.iFeintAttack, True)
 				pUnit.setHasPromotion(con.iFormation, True)
 				pUnit.setHasPromotion(con.iMobility, True)
-			self.spawnUnits(iMongols, (82,72),(106,67), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])			 
-			self.spawnUnits(iMongols, (87,76),(108,69), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Otrar
-			self.spawnUnits(iMongols, (86,75),(99,70), con.iMongolHorseArcher, self.getInvasionForce(3, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Otrar		 
+			self.spawnUnits(iMongols, (82,72),(106,67), con.iMongolHorseArcher, self.getInvasionForce(1, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])			 
+			self.spawnUnits(iMongols, (87,76),(108,69), con.iMongolHorseArcher, self.getInvasionForce(1, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Otrar
+			self.spawnUnits(iMongols, (86,75),(99,70), con.iMongolHorseArcher, self.getInvasionForce(1, con.iKhwarezm) + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility]) # Otrar		 
 				
 		if iGameTurn == getTurnForYear(1218):
 			sd.setStability(iMongols, sd.getStability(iMongols)+15)
@@ -714,7 +714,7 @@ class Barbs:
 		if iGameTurn == getTurnForYear(1220):
 			self.invasionAlert("TXT_KEY_INVASION_MONGOLS_CAUCASUS", [con.iAbbasids, con.iByzantium, con.iArmenia, con.iGeorgia, con.iFatimids, con.iSeljuks, con.iRum, con.iKhwarezm, con.iAntioch, con.iCrusaders, con.iAyyubids, con.iMongols])
 		if iGameTurn == getTurnForYear(1220)+1:
-			pUnit = self.spawnUnits(iMongols, (48,73),(56,69), con.iMongolHorseArcher, 1, iGameTurn, 1, 0, utils.innerInvasion)
+			pUnit = self.spawnUnits(iBarbarian, (48,73),(56,69), con.iMongolHorseArcher, 1, iGameTurn, 1, 0, utils.innerInvasion)
 			if pUnit:
 				self.makeLeader(pUnit, localText.getText("TXT_KEY_BARB_JEBE",()), con.iGreatGeneral6)
 				pUnit.setHasPromotion(con.iCombat1, True)
@@ -726,13 +726,13 @@ class Barbs:
 				pUnit.setHasPromotion(con.iFormation, True)
 				pUnit.setHasPromotion(con.iEncirclement, True)
 				pUnit.setHasPromotion(con.iMobility, True)
-			self.spawnUnits(iMongols, (48,73),(56,69), con.iMongolHorseArcher, 2 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iMongols, (48,73),(56,69), con.iMongolHorseArcher, 2 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iMongols, (51,70),(62,62), con.iMongolHorseArcher, 2 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])			   
+			self.spawnUnits(iBarbarian, (48,73),(56,69), con.iMongolHorseArcher, 2 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iBarbarian, (48,73),(56,69), con.iMongolHorseArcher, 2 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iBarbarian, (51,70),(62,62), con.iMongolHorseArcher, 2 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])			   
 			sd.setStability(iMongols, sd.getStability(iMongols)+10)
 		if iGameTurn == getTurnForYear(1220)+2:
-			self.spawnUnits(iMongols, (38,79),(50,75), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
-			self.spawnUnits(iMongols, (38,79),(50,75), con.iMongolHorseArcher, 2 + iRand2, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])		
+			self.spawnUnits(iBarbarian, (38,79),(50,75), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
+			self.spawnUnits(iBarbarian, (38,79),(50,75), con.iMongolHorseArcher, 2 + iRand2, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])		
 
 		# Mongols invade India
 		if iGameTurn == getTurnForYear(1221):
@@ -761,10 +761,10 @@ class Barbs:
 			func = utils.outerInvasion
 			if utils.getHumanID() not in [con.iGhorids, con.iGhaznavids, con.iChauhan]:
 				func = utils.innerInvasion
-			if not self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, func): # Duggar & Punjab
-				self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Duggar & Punjab
-			if not self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, func): # Duggar & Punjab
-				self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Duggar & Punjab
+			if not self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, func): # Duggar & Punjab
+				self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Duggar & Punjab
+			if not self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, func): # Duggar & Punjab
+				self.spawnUnits(iMongols, (103,44),(106,40), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Duggar & Punjab
 			
 		# Mongols invade Eastern and Northern Iran
 		if iGameTurn == getTurnForYear(1225):
@@ -775,11 +775,11 @@ class Barbs:
 				pUnit.setHasPromotion(con.iFlanking1, True)
 				pUnit.setHasPromotion(con.iFlanking2, True)
 				pUnit.setHasPromotion(con.iFeintAttack, True)
-			self.spawnUnits(iMongols, (71,52),(84,43), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Greater Khorasan
-			self.spawnUnits(iMongols, (71,52),(84,43), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Greater Khorasan
+			self.spawnUnits(iMongols, (71,52),(84,43), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Greater Khorasan
+			self.spawnUnits(iMongols, (71,52),(84,43), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Greater Khorasan
 		elif iGameTurn == getTurnForYear(1225)+2:
-			self.spawnUnits(iMongols, (58,55),(70,45), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # North Iran
-			self.spawnUnits(iMongols, (58,55),(70,45), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # North Iran
+			self.spawnUnits(iMongols, (58,55),(70,45), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # North Iran
+			self.spawnUnits(iMongols, (58,55),(70,45), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # North Iran
 
 		# Mongols invade India
 		if iGameTurn == getTurnForYear(1234) and gc.getPlayer(con.iGhorids).isAlive() and iMongols != utils.getHumanID():
@@ -805,119 +805,119 @@ class Barbs:
 		if iGameTurn == getTurnForYear(1236)-1:
 			self.invasionAlert("TXT_KEY_INVASION_MONGOLS_CAUCASUS_2", [con.iAbbasids, con.iByzantium, con.iArmenia, con.iGeorgia, con.iFatimids, con.iSeljuks, con.iRum, con.iKhwarezm, con.iAntioch, con.iCrusaders, con.iAyyubids])
 		if iGameTurn == getTurnForYear(1236):
-			self.spawnUnits(iMongols, (46,69),(63,56), con.iMongolHorseArcher, 6 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion)
-			self.spawnUnits(iMongols, (46,69),(63,56), con.iMongolHorseArcher, 6 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion)
+			self.spawnUnits(iBarbarian, (46,69),(63,56), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion)
+			self.spawnUnits(iBarbarian, (46,69),(63,56), con.iMongolHorseArcher, 3 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion)
 			
 		# More Mongol raids into Caucasus
 		if iGameTurn >= getTurnForYear(1240) and iGameTurn <= getTurnForYear(1330):
-			self.spawnUnits(iMongols, (46,69),(63,56), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 10, 4, utils.outerInvasion)
+			self.spawnUnits(iBarbarian, (46,69),(63,56), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 10, 4, utils.outerInvasion)
 			
 		# Mongols invade Steppe/Golden
 
 		if iGameTurn == getTurnForYear(1236):
-			self.spawnUnits(iMongols, (43,82),(54,75), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
-			self.spawnUnits(iMongols, (43,82),(54,75), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
+			self.spawnUnits(iMongols, (43,82),(54,75), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
+			self.spawnUnits(iMongols, (43,82),(54,75), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
 		if iGameTurn == getTurnForYear(1237):
-			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
-			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])			
-			self.spawnUnits(iMongols, (34,85),(38,80), con.iMongolHorseArcher, 3 + iRand2, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
-			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 3 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		
+			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
+			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])			
+			self.spawnUnits(iMongols, (34,85),(38,80), con.iMongolHorseArcher, 1 + iRand2, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
+			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iMongols, (35,85),(39,75), con.iMongolHorseArcher, 1 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		
 		if iGameTurn == getTurnForYear(1238):
 			if gc.getPlayer(con.iKiev).getNumCities() > 9:
-				self.spawnUnits(iMongols, (38,85),(23,76), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
-				self.spawnUnits(iMongols, (36,85),(20,80), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
-			self.spawnUnits(iMongols, (31,85),(35,80), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])				
-			self.spawnUnits(iMongols, (33,85),(38,76), con.iMongolHorseArcher, 3 + iRand1, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])			  
+				self.spawnUnits(iMongols, (38,85),(23,76), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
+				self.spawnUnits(iMongols, (36,85),(20,80), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])
+			self.spawnUnits(iMongols, (31,85),(35,80), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])				
+			self.spawnUnits(iMongols, (33,85),(38,76), con.iMongolHorseArcher, 1 + iRand1, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iMobility, con.iFeintAttack])			  
 		if iGameTurn == getTurnForYear(1243):
-			self.spawnUnits(iGolden, (45,80),(50,72), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (45,80),(50,72), con.iMongolHorseArcher, 3 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (43,80),(50,72), con.iMongolHorseArcher, 3 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (45,80),(50,72), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (45,80),(50,72), con.iMongolHorseArcher, 1 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (43,80),(50,72), con.iMongolHorseArcher, 1 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+10)
 		if iGameTurn == getTurnForYear(1244):
-			self.spawnUnits(iGolden, (45,80),(50,72), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (37,80),(45,77), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (45,80),(50,72), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (37,80),(45,77), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
 		if iGameTurn == getTurnForYear(1245) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (37,80),(30,77), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (37,80),(45,77), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (37,80),(30,77), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (37,80),(45,77), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+10)
 		if iGameTurn == getTurnForYear(1246) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (31,78),(39,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (31,78),(39,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
 		if iGameTurn == getTurnForYear(1248) and gc.getPlayer(con.iKypchaks).isAlive() and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (31,78),(39,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (31,78),(39,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
 		if iGameTurn == getTurnForYear(1250) and gc.getPlayer(con.iKypchaks).isAlive() and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,77),(38,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,77),(38,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 		if iGameTurn == getTurnForYear(1248):
 			sd.setStability(iGolden, sd.getStability(iGolden)+8)
 		if iGameTurn == getTurnForYear(1252):
 			sd.setStability(iGolden, sd.getStability(iGolden)+5)
 			
 		if iGameTurn == getTurnForYear(1264) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iByzantium) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+5)
 			
 		if iGameTurn == getTurnForYear(1264) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iKiev) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+5)	
 			
 		if iGameTurn == getTurnForYear(1273) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iByzantium) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+3)
 			
 		if iGameTurn == getTurnForYear(1280) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iKiev) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+3)
 
 		if iGameTurn == getTurnForYear(1292) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iKiev) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+3)
 			
 		if iGameTurn == getTurnForYear(1292) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iByzantium) and iGolden != utils.getHumanID() and iByzantium != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])		   
 			sd.setStability(iGolden, sd.getStability(iGolden)+3)
 			
 		if iGameTurn == getTurnForYear(1319) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iByzantium) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
 			
 		if iGameTurn == getTurnForYear(1336) and gc.getTeam(gc.getPlayer(iGolden).getTeam()).isAtWar(iByzantium) and iGolden != utils.getHumanID():
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
-			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 3 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.outerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
+			self.spawnUnits(iGolden, (30,79),(41,75), con.iMongolHorseArcher, 1 + iRand1 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion, UnitAITypes.UNITAI_ATTACK, "", [con.iCombat1, con.iCombat2, con.iFormation, con.iFeintAttack, con.iMobility])
 		
 		# Mongols invade Anatolia
 		if iGameTurn == getTurnForYear(1241)-1:
 			self.invasionAlert("TXT_KEY_INVASION_MONGOLS_ANATOLIA", [con.iAbbasids, con.iByzantium, con.iArmenia, con.iGeorgia, con.iFatimids, con.iSeljuks, con.iRum, con.iKhwarezm, con.iAntioch, con.iCrusaders, con.iAyyubids])
 		elif iGameTurn == getTurnForYear(1241):
-			self.spawnUnits(iMongols, (40,60),(42,57), con.iMongolHorseArcher, 4 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Lesser Armenia
-			self.spawnUnits(iMongols, (40,60),(42,57), con.iMongolHorseArcher, 4 + iRand3 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Lesser Armenia
+			self.spawnUnits(iBarbarian, (40,60),(42,57), con.iMongolHorseArcher, 2 + iRand2 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Lesser Armenia
+			self.spawnUnits(iBarbarian, (40,60),(42,57), con.iMongolHorseArcher, 2 + iRand3 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Lesser Armenia
 		elif iGameTurn == getTurnForYear(1241)+1:
-			self.spawnUnits(iMongols, (33,61),(36,59), con.iMongolHorseArcher, self.getInvasionForce(4, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
-			self.spawnUnits(iMongols, (33,61),(36,59), con.iMongolHorseArcher, self.getInvasionForce(4, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
+			self.spawnUnits(iBarbarian, (33,61),(36,59), con.iMongolHorseArcher, self.getInvasionForce(2, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
+			self.spawnUnits(iBarbarian, (33,61),(36,59), con.iMongolHorseArcher, self.getInvasionForce(2, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
 		elif iGameTurn == getTurnForYear(1241)+2:
-			self.spawnUnits(iMongols, (31,63),(33,58), con.iMongolHorseArcher, self.getInvasionForce(4, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
-			self.spawnUnits(iMongols, (31,63),(33,58), con.iMongolHorseArcher, self.getInvasionForce(4, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
+			self.spawnUnits(iBarbarian, (31,63),(33,58), con.iMongolHorseArcher, self.getInvasionForce(2, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
+			self.spawnUnits(iBarbarian, (31,63),(33,58), con.iMongolHorseArcher, self.getInvasionForce(2, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Eastern
 		elif iGameTurn == getTurnForYear(1241)+3:
-			self.spawnUnits(iMongols, (27,58),(31,56), con.iMongolHorseArcher, self.getInvasionForce(4, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Central
-			self.spawnUnits(iMongols, (27,58),(31,56), con.iMongolHorseArcher, self.getInvasionForce(4, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Central
+			self.spawnUnits(iBarbarian, (27,58),(31,56), con.iMongolHorseArcher, self.getInvasionForce(2, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Central
+			self.spawnUnits(iBarbarian, (27,58),(31,56), con.iMongolHorseArcher, self.getInvasionForce(2, con.iRum), iGameTurn, 1, 0, utils.innerInvasion) # Central
 		
 		# Mongols invade Iran and Mesopotamia
 		if iGameTurn == getTurnForYear(1250):
-			self.spawnUnits(iMongols, (68,40),(76,32), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Kerman
-			self.spawnUnits(iMongols, (68,40),(76,32), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Kerman
+			self.spawnUnits(iMongols, (68,40),(76,32), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Kerman
+			self.spawnUnits(iMongols, (68,40),(76,32), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Kerman
 		elif iGameTurn == getTurnForYear(1250)+1:
-			self.spawnUnits(iMongols, (60,48),(67,38), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Central Iran
-			self.spawnUnits(iMongols, (60,48),(67,38), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Central Iran
+			self.spawnUnits(iMongols, (60,48),(67,38), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Central Iran
+			self.spawnUnits(iMongols, (60,48),(67,38), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Central Iran
 		elif iGameTurn == getTurnForYear(1250)+2:
-			self.spawnUnits(iMongols, (55,52),(63,41), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Western Iran
-			self.spawnUnits(iMongols, (55,52),(63,41), con.iMongolHorseArcher, self.getInvasionForce(6, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Western Iran
+			self.spawnUnits(iMongols, (55,52),(63,41), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Western Iran
+			self.spawnUnits(iMongols, (55,52),(63,41), con.iMongolHorseArcher, self.getInvasionForce(3, con.iSeljuks), iGameTurn, 1, 0, utils.outerInvasion) # Western Iran
 			self.invasionAlert("TXT_KEY_INVASION_MONGOLS_MESOPOTAMIA", [con.iAbbasids, con.iByzantium, con.iArmenia, con.iGeorgia, con.iFatimids, con.iSeljuks, con.iRum, con.iKhwarezm, con.iAntioch, con.iCrusaders, con.iAyyubids])
 		elif iGameTurn == getTurnForYear(1250)+3:
 			pUnit = self.spawnUnits(iMongols, (52,44),(53,41), con.iMongolHorseArcher, 1, iGameTurn, 1, 0, utils.innerInvasion)
@@ -929,9 +929,9 @@ class Barbs:
 				pUnit.setHasPromotion(con.iFeintAttack, True)
 				pUnit.setHasPromotion(con.iEncirclement, True)
 				self.makeLeader(pUnit, localText.getText("TXT_KEY_BARB_HULAGU_KHAN",()), con.iGreatGeneral5)
-			self.spawnUnits(iMongols, (51,49),(53,45), con.iMongolHorseArcher, self.getInvasionForce(6, con.iAbbasids) + iRand1, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
-			self.spawnUnits(iMongols, (52,44),(53,41), con.iMongolHorseArcher, self.getInvasionForce(6, con.iAbbasids) + iRand2, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
-			self.spawnUnits(iMongols, (56,39),(58,36), con.iMongolHorseArcher, self.getInvasionForce(6, con.iAbbasids) + iRand3, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
+			self.spawnUnits(iMongols, (51,49),(53,45), con.iMongolHorseArcher, self.getInvasionForce(3, con.iAbbasids) + iRand1, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
+			self.spawnUnits(iMongols, (52,44),(53,41), con.iMongolHorseArcher, self.getInvasionForce(3, con.iAbbasids) + iRand2, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
+			self.spawnUnits(iMongols, (56,39),(58,36), con.iMongolHorseArcher, self.getInvasionForce(3, con.iAbbasids) + iRand3, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
 			self.spawnUnits(iMongols, (52,40),(52,36), con.iMongolHorseArcher, 2 + iRand3 + iHandicap, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
 		elif iGameTurn == getTurnForYear(1250)+4:
 			self.spawnUnits(iMongols, (51,49),(53,45), con.iMongolHorseArcher, 2 + iRand1, iGameTurn, 1, 0, utils.innerInvasion) # Mesopotamia
