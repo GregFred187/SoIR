@@ -362,7 +362,7 @@ tGrowthPercent = (
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tProductionPercent = (
-	240,145,140,135,140,140,140,130,145,150,160,175,130,120,125,120,120,125,110,120,120,130,135,100,115,115,105,120,100,125,105,115,110,130,100, 90, 85, 95, 85, 65, 110, 80)
+	240,145,140,135,140,140,140,130,145,150,160,175,130,120,125,120,120,125,110,120,120,130,135,90,115,115,105,120,100,125,105,115,110,130,100, 90, 85, 95, 85, 65, 110, 80)
 # 	BYZ MAK ABB KAZ CHA MAL OGH SAM KHA ARM KIE ALA YEM BUY GUJ GHA FAT WES GEO SIN SEL KYP RUM KHW ANT JER ZEN KHI GHO OMA AYY ILK GOL MAM CHA OTT BAH TIM AKK SAF POR MUG IN1 IN2 IN3 IN4 BAR
 
 tResearchPercent = (
@@ -485,13 +485,13 @@ tReligionSpreadPercent = (
 	(	100,  50,  10,  10, 100, 250, 100, 100 ), # BYZ
 	(	100,  20,  10,  10, 100, 250, 100, 100 ), # MAK
 	(	100, 100,  10,  10,  80,  80, 250, 160 ), # ABB
-	(	200,  20,  10,  90,  70, 100, 100,  70 ), # KAZ
+	(	250,  20,  10,  90,  70, 70, 100,  70 ), # KAZ
 	(	 50, 100, 200, 110,  10,  20, 100, 100 ), # CHA
 	(	 50, 100, 150, 125,  10,  20, 150, 160 ), # MAL
-	(	100,  75,  10, 100,  10,  70, 100,  90 ), # OGH
+	(	100,  75,  10, 100,  10,  20, 100,  90 ), # OGH
 	(	100, 150,  80, 100,  50,  80, 150, 100 ), # SAM
 	(	100, 100,  10,  10, 150, 150, 100, 100 ), # ARM
-	(	100, 100,  40, 100,  50, 80, 150, 100 ), # KHA
+	(	100, 100,  40, 100,  50, 20, 150, 100 ), # KHA
 	(	100,  50,  10,  10, 100, 200,  90,  70 ), # KIE
 	(	100,  60,  10,  10, 100, 200,  90,  70 ), # ALA
 	(	120,  80,  10,  10,  40,  50, 150, 270 ), # YEM
@@ -1729,7 +1729,7 @@ lCoreRegions = [
 	[rGandhar, rHindukush], # Ghorids
 	[rOman, rHormuz, rMahra], # Oman
 	[rLowerEgypt, rSinai, rJordan, rSyria], # Ayyubids
-	[rWesternKhorasan], # Mongols
+	[rTaklaMakan], # Mongols
 	[rCaspianStep, rCaspian, rYaik, rSiahkuh, rCumania, rBashkyrd, rKaraKum], # Golden
 	[rLowerEgypt, rUpperEgypt, rSinai], # Mamluks
 	[rEZhetysu, rWZhetysu, rTaklaMakan], # Chagatai
@@ -1820,7 +1820,7 @@ lNormalRegions = [
 	[rPunjab, rGhazni, rKandahar], # Ghorids
 	[rMakran, rBahrain], # Oman
 	[rUpperEgypt, rPalestine, rLebanon, rNorthernSyria, rHejaz, rLibya], # Ayyubids
-	[rFarghana, rEasternKhorasan, rKhwarezm, rSogd, rBactria, rLuristan, rJibal, rKurdistan, rMesopotamia, rAzerbaijan, rMisrian, rYazd, rWZhetysu, rIspidjab], # Mongols
+	[rFarghana, rEasternKhorasan, rKhwarezm, rSogd, rBactria, rLuristan, rJibal, rKurdistan, rMesopotamia, rAzerbaijan, rMisrian, rYazd, rWZhetysu, rIspidjab, rGandhar, rWesternKhorasan], # Mongols
 	[rPonticSteppe, rKhwarezm, rCrimea, rDag, rZichia, rMoldavia, rNorthernCaucasus, rMordovia], # Golden
 	[rPalestine, rJordan, rSyria], # Mamluks
 	[rIspidjab, rFarghana, rSogd], # Chag
